@@ -1,0 +1,118 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner2
+-------------------------------------------------------------------------------
+Tests run: 48, Failures: 8, Errors: 0, Skipped: 9, Time elapsed: 1,079.339 sec <<< FAILURE!
+And I verify created "Cat_Chef_Server" in chef server table(| Cat_Chef_Server | mycatqa | https://api.opscode.com/organizations/cattest | UAT_RL1 |)  Time elapsed: 0.006 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.rl.qa.views.ChefServerSetupViews.verifyChefServerName(ChefServerSetupViews.java:118)
+	at com.rl.qa.steps.ChefServerSetupSteps.iVerifyCreatedInChefServerTable(ChefServerSetupSteps.java:125)
+	at ?.And I verify created "Cat_Chef_Server" in chef server table(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:29)
+
+| Cat_Chef_Server | mycatqa | https://api.opscode.com/organizations/cattest | UAT_RL1 |  Time elapsed: 0.006 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at com.rl.qa.views.ChefServerSetupViews.verifyChefServerName(ChefServerSetupViews.java:118)
+	at com.rl.qa.steps.ChefServerSetupSteps.iVerifyCreatedInChefServerTable(ChefServerSetupSteps.java:125)
+	at ?.And I verify created "Cat_Chef_Server" in chef server table(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:29)
+
+And I enter  chef environment in "chefenvname" Edit box(| UAT_RL1 | Cat_Chef_Server |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: String index out of range: 240
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.rl.qa.views.CreateEditDelEnvViews.enterRandomEnvName(CreateEditDelEnvViews.java:100)
+	at com.rl.qa.steps.CreateEditDelEnvSteps.iEnterChefEnvironmentInEditBox(CreateEditDelEnvSteps.java:48)
+	at ?.And I enter  chef environment in "chefenvname" Edit box(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:40)
+
+| UAT_RL1 | Cat_Chef_Server |  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: String index out of range: 240
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.rl.qa.views.CreateEditDelEnvViews.enterRandomEnvName(CreateEditDelEnvViews.java:100)
+	at com.rl.qa.steps.CreateEditDelEnvSteps.iEnterChefEnvironmentInEditBox(CreateEditDelEnvSteps.java:48)
+	at ?.And I enter  chef environment in "chefenvname" Edit box(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:40)
+
+And I select the "Cat_Chef_Server" and click on corresponding "Delete" Button(| Cat_Chef_Server |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=055ec6c3e6514a7e826a07fd7ed5a1d2, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 055ec6c3e6514a7e826a07fd7ed5a1d2
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.rl.qa.views.ChefServerSetupViews.chefServerEditButton(ChefServerSetupViews.java:98)
+	at com.rl.qa.steps.ChefServerSetupSteps.iSelectTheAndClickOnCorrespondingButton(ChefServerSetupSteps.java:51)
+	at ?.And I select the "Cat_Chef_Server" and click on corresponding "Delete" Button(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:70)
+
+| Cat_Chef_Server |  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=055ec6c3e6514a7e826a07fd7ed5a1d2, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 055ec6c3e6514a7e826a07fd7ed5a1d2
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.rl.qa.views.ChefServerSetupViews.chefServerEditButton(ChefServerSetupViews.java:98)
+	at com.rl.qa.steps.ChefServerSetupSteps.iSelectTheAndClickOnCorrespondingButton(ChefServerSetupSteps.java:51)
+	at ?.And I select the "Cat_Chef_Server" and click on corresponding "Delete" Button(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:70)
+
+And I select the "Cat_Chef_Server" and click on corresponding "Delete" Button(| Cat_Chef_Server |)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=055ec6c3e6514a7e826a07fd7ed5a1d2, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 055ec6c3e6514a7e826a07fd7ed5a1d2
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.rl.qa.views.ChefServerSetupViews.chefServerEditButton(ChefServerSetupViews.java:98)
+	at com.rl.qa.steps.ChefServerSetupSteps.iSelectTheAndClickOnCorrespondingButton(ChefServerSetupSteps.java:51)
+	at ?.And I select the "Cat_Chef_Server" and click on corresponding "Delete" Button(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:80)
+
+| Cat_Chef_Server |  Time elapsed: 0.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=055ec6c3e6514a7e826a07fd7ed5a1d2, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 055ec6c3e6514a7e826a07fd7ed5a1d2
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at com.rl.qa.views.ChefServerSetupViews.chefServerEditButton(ChefServerSetupViews.java:98)
+	at com.rl.qa.steps.ChefServerSetupSteps.iSelectTheAndClickOnCorrespondingButton(ChefServerSetupSteps.java:51)
+	at ?.And I select the "Cat_Chef_Server" and click on corresponding "Delete" Button(src/test/resources/catalyst/settings/orgsetup/CreateEditDelEnvByCreatingNewEnv.feature:80)
+

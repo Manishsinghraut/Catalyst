@@ -1,0 +1,1687 @@
+2016-09-06 17:57:53 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 17:58:04 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 17:58:04 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 17:58:05 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 17:58:05 INFO  Logger:139 - Workzone is displayed
+2016-09-06 17:58:09 INFO  Logger:993 - Clicking element ''paritallinktext=SETTINGS'
+2016-09-06 17:58:15 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 17:58:17 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 17:58:30 INFO  Logger:1175 - Typing text 'UAT_RL3' into text field ''id=orgname'
+2016-09-06 17:58:31 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 17:58:33 INFO  Logger:1700 - Extracted element value 'UAT_RL3' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL3']'
+2016-09-06 17:58:33 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 17:58:46 INFO  Logger:1175 - Typing text 'UAT_RL4' into text field ''id=orgname'
+2016-09-06 17:58:46 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 17:58:50 INFO  Logger:1700 - Extracted element value 'UAT_RL4' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL4']'
+2016-09-06 17:58:50 INFO  Logger:993 - Clicking element ''linktext=Business Groups'
+2016-09-06 17:58:53 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 17:59:05 INFO  Logger:1175 - Typing text 'Cell' into text field ''id=productgroupname'
+2016-09-06 17:59:07 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 17:59:08 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 17:59:09 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 17:59:11 INFO  Logger:1700 - Extracted element value 'Cell' ''xpath=.//*[@id='envtable']//*[text()='Cell']'
+2016-09-06 17:59:11 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 17:59:23 INFO  Logger:1175 - Typing text 'Cell_Dev' into text field ''id=productgroupname'
+2016-09-06 17:59:25 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 17:59:26 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL4']'
+2016-09-06 17:59:27 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 17:59:29 INFO  Logger:1700 - Extracted element value 'Cell_Dev' ''xpath=.//*[@id='envtable']//*[text()='Cell_Dev']'
+2016-09-06 17:59:29 INFO  Logger:993 - Clicking element ''linktext=Projects'
+2016-09-06 17:59:31 INFO  Logger:993 - Clicking element ''id=newProj'
+2016-09-06 17:59:43 INFO  Logger:1175 - Typing text 'Catalyst' into text field ''id=projectname'
+2016-09-06 17:59:54 INFO  Logger:1175 - Typing text 'Catalyst_UAT_RL' into text field ''id=description'
+2016-09-06 17:59:55 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 17:59:58 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 17:59:58 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:00:00 INFO  Logger:1700 - Extracted element value 'Catalyst' ''xpath=.//*[@id='envtable']//*[text()='Catalyst']'
+2016-09-06 18:00:01 INFO  Logger:993 - Clicking element ''id=newProj'
+2016-09-06 18:00:12 INFO  Logger:1175 - Typing text 'Catalyst1' into text field ''id=projectname'
+2016-09-06 18:00:23 INFO  Logger:1175 - Typing text 'Catalyst_UAT' into text field ''id=description'
+2016-09-06 18:00:24 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:00:26 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL4']'
+2016-09-06 18:00:27 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:00:29 INFO  Logger:1700 - Extracted element value 'Catalyst1' ''xpath=.//*[@id='envtable']//*[text()='Catalyst1']'
+2016-09-06 18:00:29 INFO  Logger:993 - Clicking element ''paritallinktext=Users Setup'
+2016-09-06 18:00:30 INFO  Logger:993 - Clicking element ''paritallinktext=Teams'
+2016-09-06 18:00:32 INFO  Logger:993 - Clicking element ''id=newTeam'
+2016-09-06 18:00:43 INFO  Logger:1175 - Typing text 'UAT_Team' into text field ''id=teamname'
+2016-09-06 18:00:53 INFO  Logger:1175 - Typing text 'UAT  Automation Team' into text field ''id=description'
+2016-09-06 18:00:55 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:00:58 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:00:58 INFO  Logger:993 - Clicking element ''xpath=//input[@value='superadmin']/following-sibling::i'
+2016-09-06 18:00:59 INFO  Logger:993 - Clicking element ''xpath=//input[@value='Catalyst']/following-sibling::i'
+2016-09-06 18:00:59 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:01:39 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_Team']"}
+Command duration or timeout: 40.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.
+2016-09-06 18:01:49 INFO  Logger:1842 - Attribute of the element 'paginate_button next' ''id=envtable_next'
+2016-09-06 18:01:50 INFO  Logger:993 - Clicking element ''id=envtable_next'
+2016-09-06 18:01:50 INFO  Logger:1700 - Extracted element value 'UAT_Team' ''xpath=.//*[@id='envtable']//*[text()='UAT_Team']'
+2016-09-06 18:01:50 INFO  Logger:1700 - Extracted element value 'UAT_RL3' ''xpath=.//*[@id='envtable']//td[text()='UAT_Team']/../td[text()='UAT_RL3']'
+2016-09-06 18:01:50 INFO  Logger:1797 - Element enabled
+2016-09-06 18:01:50 INFO  CreateEditDelDesignerSteps:355 - Delete is Enabled
+2016-09-06 18:01:50 INFO  Logger:1797 - Element enabled
+2016-09-06 18:01:50 INFO  CreateEditDelDesignerSteps:355 - Edit is Enabled
+2016-09-06 18:01:51 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:51 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:01:53 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:53 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:01:54 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:54 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:01:55 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:55 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:01:56 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:56 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:01:57 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:57 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:01:58 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:58 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:01:59 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:01:59 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:02:39 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:02:40 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37b082c2-f5ea-4d08-a633-ab9faa362c96
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Edit']}
+2016-09-06 18:02:41 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.08 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:41 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:02:42 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.14 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:42 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:02:43 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.13 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:43 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:02:44 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:44 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:02:45 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:45 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:02:47 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:47 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:02:48 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:48 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:02:49 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:02:49 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:29 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.13 seconds
+For documentation on this error, please visit: http:
+2016-09-06 18:03:29 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37b082c2-f5ea-4d08-a633-ab9faa362c96
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']}
+2016-09-06 18:03:30 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:30 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:31 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:31 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:32 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:32 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:34 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:34 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:35 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:35 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:36 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:36 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:37 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:37 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:03:38 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:03:38 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:04:18 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.05 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:04:18 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37b082c2-f5ea-4d08-a633-ab9faa362c96
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']}
+2016-09-06 18:04:19 INFO  Logger:993 - Clicking element ''linktext=Business Groups'
+2016-09-06 18:04:21 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='Cell']/following-sibling::td//*[@title='Delete']'
+2016-09-06 18:04:23 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 18:04:24 INFO  Logger:97 - Error :Element is not clickable at point (1163.316650390625, 270.1666717529297). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="bootbox modal fade bootbox-alert in" tabindex="-1" role="dialog"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37b082c2-f5ea-4d08-a633-ab9faa362c96
+2016-09-06 18:04:26 INFO  Logger:30 - Error :Element is not clickable at point (105.56666564941406, 134.6999969482422). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="bootbox modal fade bootbox-alert in" tabindex="-1" role="dialog"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37b082c2-f5ea-4d08-a633-ab9faa362c96
+2016-09-06 18:04:29 INFO  Logger:63 - Error :Element is not clickable at point (1316.5333251953125, 35). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="bootbox modal fade bootbox-alert in" tabindex="-1" role="dialog"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37b082c2-f5ea-4d08-a633-ab9faa362c96
+2016-09-06 18:09:01 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 18:09:11 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 18:09:12 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 18:09:13 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 18:09:13 INFO  Logger:139 - Workzone is displayed
+2016-09-06 18:09:15 INFO  Logger:993 - Clicking element ''paritallinktext=SETTINGS'
+2016-09-06 18:09:19 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 18:09:21 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:09:32 INFO  Logger:1175 - Typing text 'UAT_RL3' into text field ''id=orgname'
+2016-09-06 18:09:33 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:09:35 INFO  Logger:1700 - Extracted element value 'UAT_RL3' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL3']'
+2016-09-06 18:09:36 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:09:47 INFO  Logger:1175 - Typing text 'UAT_RL4' into text field ''id=orgname'
+2016-09-06 18:09:48 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:09:50 INFO  Logger:1700 - Extracted element value 'UAT_RL4' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL4']'
+2016-09-06 18:09:51 INFO  Logger:993 - Clicking element ''linktext=Business Groups'
+2016-09-06 18:09:52 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 18:10:05 INFO  Logger:1175 - Typing text 'Cell' into text field ''id=productgroupname'
+2016-09-06 18:10:07 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:10:09 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:10:09 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:10:11 INFO  Logger:1700 - Extracted element value 'Cell' ''xpath=.//*[@id='envtable']//*[text()='Cell']'
+2016-09-06 18:10:12 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 18:10:23 INFO  Logger:1175 - Typing text 'Cell_Dev' into text field ''id=productgroupname'
+2016-09-06 18:10:25 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:10:26 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL4']'
+2016-09-06 18:10:27 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:10:29 INFO  Logger:1700 - Extracted element value 'Cell_Dev' ''xpath=.//*[@id='envtable']//*[text()='Cell_Dev']'
+2016-09-06 18:10:30 INFO  Logger:993 - Clicking element ''linktext=Projects'
+2016-09-06 18:10:31 INFO  Logger:993 - Clicking element ''id=newProj'
+2016-09-06 18:10:43 INFO  Logger:1175 - Typing text 'Catalyst' into text field ''id=projectname'
+2016-09-06 18:10:54 INFO  Logger:1175 - Typing text 'Catalyst_UAT_RL' into text field ''id=description'
+2016-09-06 18:10:55 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:10:58 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:10:58 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:11:00 INFO  Logger:1700 - Extracted element value 'Catalyst' ''xpath=.//*[@id='envtable']//*[text()='Catalyst']'
+2016-09-06 18:11:01 INFO  Logger:993 - Clicking element ''id=newProj'
+2016-09-06 18:11:12 INFO  Logger:1175 - Typing text 'Catalyst1' into text field ''id=projectname'
+2016-09-06 18:11:23 INFO  Logger:1175 - Typing text 'Catalyst_UAT' into text field ''id=description'
+2016-09-06 18:11:24 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:11:27 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL4']'
+2016-09-06 18:11:27 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:11:29 INFO  Logger:1700 - Extracted element value 'Catalyst1' ''xpath=.//*[@id='envtable']//*[text()='Catalyst1']'
+2016-09-06 18:11:30 INFO  Logger:993 - Clicking element ''paritallinktext=Users Setup'
+2016-09-06 18:11:30 INFO  Logger:993 - Clicking element ''paritallinktext=Teams'
+2016-09-06 18:11:32 INFO  Logger:993 - Clicking element ''id=newTeam'
+2016-09-06 18:11:43 INFO  Logger:1175 - Typing text 'UAT_Team' into text field ''id=teamname'
+2016-09-06 18:11:54 INFO  Logger:1175 - Typing text 'UAT  Automation Team' into text field ''id=description'
+2016-09-06 18:11:56 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:11:59 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:11:59 INFO  Logger:993 - Clicking element ''xpath=//input[@value='superadmin']/following-sibling::i'
+2016-09-06 18:12:00 INFO  Logger:993 - Clicking element ''xpath=//input[@value='Catalyst']/following-sibling::i'
+2016-09-06 18:12:00 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:12:40 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_Team']"}
+Command duration or timeout: 40.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.
+2016-09-06 18:12:50 INFO  Logger:1842 - Attribute of the element 'paginate_button next' ''id=envtable_next'
+2016-09-06 18:12:51 INFO  Logger:993 - Clicking element ''id=envtable_next'
+2016-09-06 18:13:31 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_Team']"}
+Command duration or timeout: 40.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.
+2016-09-06 18:13:41 INFO  Logger:1842 - Attribute of the element 'paginate_button next disabled' ''id=envtable_next'
+2016-09-06 18:14:21 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/../td[text()='UAT_RL3']"}
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/ex
+2016-09-06 18:14:31 INFO  Logger:1842 - Attribute of the element 'paginate_button next disabled' ''id=envtable_next'
+2016-09-06 18:14:32 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.02 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:14:32 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']counter :5
+2016-09-06 18:14:33 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:14:33 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']counter :5
+2016-09-06 18:14:34 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.02 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:14:34 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']counter :5
+2016-09-06 18:14:35 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:14:35 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']counter :5
+2016-09-06 18:14:36 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:14:36 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']counter :5
+2016-09-06 18:14:38 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.14 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:14:38 ERROR Logger:2515 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Delete']
+2016-09-06 18:14:38 ERROR Logger:1799 - Current page does not contain element
+2016-09-06 18:14:38 INFO  Logger:361 - Error :null
+2016-09-06 18:14:39 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.13 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:39 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:14:40 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:40 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:14:41 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.14 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:41 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:14:42 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:42 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:14:43 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.02 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:43 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:14:44 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.13 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:44 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:14:45 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.02 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:45 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:14:47 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:14:47 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:15:27 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 40.13 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:15:27 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 40.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cebff10-8e2c-4b11-9131-7c17da5796a9
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']}
+2016-09-06 18:15:27 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']'
+2016-09-06 18:15:29 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 18:16:10 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_Team1']"}
+Command duration or timeout: 40.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element
+2016-09-06 18:16:11 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:11 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:12 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:12 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:13 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.15 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:13 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:14 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:14 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:15 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:15 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:16 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:16 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:18 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:18 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:19 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://
+2016-09-06 18:16:19 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:16:59 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.06 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:16:59 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cebff10-8e2c-4b11-9131-7c17da5796a9
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']}
+2016-09-06 18:17:00 INFO  Logger:993 - Clicking element ''linktext=Business Groups'
+2016-09-06 18:17:02 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='Cell']/following-sibling::td//*[@title='Delete']'
+2016-09-06 18:17:03 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 18:17:04 INFO  Logger:97 - Error :Element is not clickable at point (1163.316650390625, 270.1666717529297). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="bootbox modal fade bootbox-alert in" tabindex="-1" role="dialog"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cebff10-8e2c-4b11-9131-7c17da5796a9
+2016-09-06 18:17:07 INFO  Logger:30 - Error :Element is not clickable at point (105.56666564941406, 134.6999969482422). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="bootbox modal fade bootbox-alert in" tabindex="-1" role="dialog"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cebff10-8e2c-4b11-9131-7c17da5796a9
+2016-09-06 18:17:09 INFO  Logger:63 - Error :Element is not clickable at point (1316.5333251953125, 35). Other element would receive the click: <div aria-hidden="false" style="display: block;" class="bootbox modal fade bootbox-alert in" tabindex="-1" role="dialog"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cebff10-8e2c-4b11-9131-7c17da5796a9
+2016-09-06 18:21:05 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 18:21:15 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 18:21:16 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 18:21:17 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 18:21:17 INFO  Logger:139 - Workzone is displayed
+2016-09-06 18:21:20 INFO  Logger:993 - Clicking element ''paritallinktext=SETTINGS'
+2016-09-06 18:21:24 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 18:21:26 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:23:00 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 18:23:11 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 18:23:11 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 18:23:12 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 18:23:12 INFO  Logger:139 - Workzone is displayed
+2016-09-06 18:23:18 INFO  Logger:993 - Clicking element ''paritallinktext=SETTINGS'
+2016-09-06 18:23:22 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 18:23:24 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:23:36 INFO  Logger:1175 - Typing text 'UAT_RL3' into text field ''id=orgname'
+2016-09-06 18:23:36 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:23:39 INFO  Logger:1700 - Extracted element value 'UAT_RL3' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL3']'
+2016-09-06 18:23:39 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:23:51 INFO  Logger:1175 - Typing text 'UAT_RL4' into text field ''id=orgname'
+2016-09-06 18:23:51 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:23:54 INFO  Logger:1700 - Extracted element value 'UAT_RL4' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL4']'
+2016-09-06 18:23:54 INFO  Logger:993 - Clicking element ''linktext=Business Groups'
+2016-09-06 18:23:56 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 18:24:07 INFO  Logger:1175 - Typing text 'Cell' into text field ''id=productgroupname'
+2016-09-06 18:24:09 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:24:11 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:24:11 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:24:13 INFO  Logger:1700 - Extracted element value 'Cell' ''xpath=.//*[@id='envtable']//*[text()='Cell']'
+2016-09-06 18:24:14 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 18:24:25 INFO  Logger:1175 - Typing text 'Cell_Dev' into text field ''id=productgroupname'
+2016-09-06 18:24:27 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:24:28 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL4']'
+2016-09-06 18:24:29 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:24:31 INFO  Logger:1700 - Extracted element value 'Cell_Dev' ''xpath=.//*[@id='envtable']//*[text()='Cell_Dev']'
+2016-09-06 18:24:31 INFO  Logger:993 - Clicking element ''linktext=Projects'
+2016-09-06 18:24:33 INFO  Logger:993 - Clicking element ''id=newProj'
+2016-09-06 18:24:45 INFO  Logger:1175 - Typing text 'Catalyst' into text field ''id=projectname'
+2016-09-06 18:24:55 INFO  Logger:1175 - Typing text 'Catalyst_UAT_RL' into text field ''id=description'
+2016-09-06 18:24:57 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:24:59 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:25:00 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:25:01 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Catalyst']"}
+Command duration or timeout: 1.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.h
+2016-09-06 18:25:01 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Catalyst']counter :5
+2016-09-06 18:25:02 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Catalyst']"}
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.h
+2016-09-06 18:25:02 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Catalyst']counter :5
+2016-09-06 18:25:03 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Catalyst']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.h
+2016-09-06 18:25:03 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Catalyst']counter :5
+2016-09-06 18:25:04 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Catalyst']"}
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.h
+2016-09-06 18:25:04 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Catalyst']counter :5
+2016-09-06 18:25:05 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Catalyst']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.h
+2016-09-06 18:25:05 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Catalyst']counter :5
+2016-09-06 18:25:45 ERROR Logger:1705 - Current page does not contain element  ''xpath=.//*[@id='envtable']//*[text()='Catalyst']'
+2016-09-06 18:25:46 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:46 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:25:47 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:47 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:25:48 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:48 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:25:49 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:49 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:25:51 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:51 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:25:52 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:52 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:25:53 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:53 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:25:54 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"newProj"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', rev
+2016-09-06 18:25:54 ERROR Logger:2482 - Webelement does not exist : id : newProjcounter :8
+2016-09-06 18:50:36 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 18:50:47 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 18:50:47 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 18:50:48 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 18:50:48 INFO  Logger:139 - Workzone is displayed
+2016-09-06 18:50:51 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 18:50:54 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 18:50:56 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:51:08 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 18:51:09 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:51:10 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+Command duration or timeout: 1.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.ht
+2016-09-06 18:51:10 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 18:51:11 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.ht
+2016-09-06 18:51:11 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 18:51:12 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.ht
+2016-09-06 18:51:12 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 18:51:14 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 18:51:16 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 18:51:21 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 18:51:24 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 18:51:35 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 18:51:45 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 18:51:56 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 18:51:57 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:51:59 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 18:52:05 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:52:06 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 18:52:06 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 18:52:08 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 18:52:08 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 18:52:09 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 18:52:09 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 18:52:10 INFO  Logger:1700 - Extracted element value 'Cat_Chef_Server' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']'
+2016-09-06 18:52:11 INFO  Logger:1700 - Extracted element value 'mycatqa' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']/../td[text()='mycatqa']'
+2016-09-06 18:52:11 INFO  Logger:1700 - Extracted element value 'https://api.opscode.com/organizations/cattest' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']/../td[text()='https://api.opscode.com/organizations/cattest']'
+2016-09-06 18:52:11 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']/../td[text()='UAT_RL1']'
+2016-09-06 18:52:11 INFO  Logger:1797 - Element enabled
+2016-09-06 18:52:11 INFO  CreateEditDelDesignerSteps:355 - Import Nodes is Enabled
+2016-09-06 18:52:11 INFO  Logger:1797 - Element enabled
+2016-09-06 18:52:11 INFO  CreateEditDelDesignerSteps:355 - Edit is Enabled
+2016-09-06 18:52:11 INFO  Logger:1797 - Element enabled
+2016-09-06 18:52:11 INFO  CreateEditDelDesignerSteps:355 - Chef Factory is Enabled
+2016-09-06 18:52:11 INFO  Logger:1797 - Element enabled
+2016-09-06 18:52:11 INFO  CreateEditDelDesignerSteps:355 - DataBag is Enabled
+2016-09-06 18:52:12 INFO  Logger:1797 - Element enabled
+2016-09-06 18:52:12 INFO  CreateEditDelDesignerSteps:355 - Import Nodes is Enabled
+2016-09-06 18:52:12 INFO  Logger:1797 - Element enabled
+2016-09-06 18:52:12 INFO  CreateEditDelDesignerSteps:355 - Delete is Enabled
+2016-09-06 18:53:38 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 18:53:50 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 18:53:50 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 18:53:51 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 18:53:51 INFO  Logger:139 - Workzone is displayed
+2016-09-06 18:53:58 INFO  Logger:993 - Clicking element ''paritallinktext=SETTINGS'
+2016-09-06 18:54:02 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 18:54:04 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:54:15 INFO  Logger:1175 - Typing text 'UAT_RL3' into text field ''id=orgname'
+2016-09-06 18:54:16 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:54:19 INFO  Logger:1700 - Extracted element value 'UAT_RL3' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL3']'
+2016-09-06 18:54:19 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 18:54:31 INFO  Logger:1175 - Typing text 'UAT_RL4' into text field ''id=orgname'
+2016-09-06 18:54:32 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:54:34 INFO  Logger:1700 - Extracted element value 'UAT_RL4' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL4']'
+2016-09-06 18:54:34 INFO  Logger:993 - Clicking element ''linktext=Business Groups'
+2016-09-06 18:54:36 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 18:54:48 INFO  Logger:1175 - Typing text 'Cell' into text field ''id=productgroupname'
+2016-09-06 18:54:49 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:54:51 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:54:51 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:54:52 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cell']"}
+Command duration or timeout: 1.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+
+2016-09-06 18:54:52 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cell']counter :5
+2016-09-06 18:54:54 INFO  Logger:1700 - Extracted element value 'Cell' ''xpath=.//*[@id='envtable']//*[text()='Cell']'
+2016-09-06 18:54:54 INFO  Logger:993 - Clicking element ''id=newProd'
+2016-09-06 18:55:06 INFO  Logger:1175 - Typing text 'Cell_Dev' into text field ''id=productgroupname'
+2016-09-06 18:55:07 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:55:09 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL4']'
+2016-09-06 18:55:09 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:55:11 INFO  Logger:1700 - Extracted element value 'Cell_Dev' ''xpath=.//*[@id='envtable']//*[text()='Cell_Dev']'
+2016-09-06 18:55:12 INFO  Logger:993 - Clicking element ''linktext=Projects'
+2016-09-06 18:55:13 INFO  Logger:993 - Clicking element ''id=newProj'
+2016-09-06 18:55:25 INFO  Logger:1175 - Typing text 'Catalyst' into text field ''id=projectname'
+2016-09-06 18:55:36 INFO  Logger:1175 - Typing text 'Catalyst_UAT_RL' into text field ''id=description'
+2016-09-06 18:55:38 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:55:40 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:55:41 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:55:43 INFO  Logger:1700 - Extracted element value 'Catalyst' ''xpath=.//*[@id='envtable']//*[text()='Catalyst']'
+2016-09-06 18:55:43 INFO  Logger:993 - Clicking element ''id=newProj'
+2016-09-06 18:55:55 INFO  Logger:1175 - Typing text 'Catalyst1' into text field ''id=projectname'
+2016-09-06 18:56:05 INFO  Logger:1175 - Typing text 'Catalyst_UAT' into text field ''id=description'
+2016-09-06 18:56:07 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:56:09 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL4']'
+2016-09-06 18:56:10 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:56:12 INFO  Logger:1700 - Extracted element value 'Catalyst1' ''xpath=.//*[@id='envtable']//*[text()='Catalyst1']'
+2016-09-06 18:56:12 INFO  Logger:993 - Clicking element ''paritallinktext=Users Setup'
+2016-09-06 18:56:13 INFO  Logger:993 - Clicking element ''paritallinktext=Teams'
+2016-09-06 18:56:15 INFO  Logger:993 - Clicking element ''id=newTeam'
+2016-09-06 18:56:26 INFO  Logger:1175 - Typing text 'UAT_Team' into text field ''id=teamname'
+2016-09-06 18:56:37 INFO  Logger:1175 - Typing text 'UAT  Automation Team' into text field ''id=description'
+2016-09-06 18:56:38 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 18:56:41 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL3']'
+2016-09-06 18:56:42 INFO  Logger:993 - Clicking element ''xpath=//input[@value='superadmin']/following-sibling::i'
+2016-09-06 18:56:42 INFO  Logger:993 - Clicking element ''xpath=//input[@value='Catalyst']/following-sibling::i'
+2016-09-06 18:56:43 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 18:57:23 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_Team']"}
+Command duration or timeout: 40.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.
+2016-09-06 18:58:03 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"envtable_next"}
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.
+2016-09-06 18:58:03 INFO  Logger:40 - Error :Unable to locate element: {"method":"id","selector":"envtable_next"}
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a26c5878-0e57-4675-8bac-1039b1831deb
+*** Element info: {Using=id, value=envtable_next}
+2016-09-06 18:58:04 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:04 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:05 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.08 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:05 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:06 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:06 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:07 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.08 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:07 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:09 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:09 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:10 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.04 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:10 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:11 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:11 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:12 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://se
+2016-09-06 18:58:12 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']counter :8
+2016-09-06 18:58:52 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 40.08 seconds
+For documentation on this error, please visit: http://s
+2016-09-06 18:58:52 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']"}
+Command duration or timeout: 40.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a26c5878-0e57-4675-8bac-1039b1831deb
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='UAT_Team']/following-sibling::td//*[@title='Edit']}
+2016-09-06 18:58:53 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:58:53 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:58:54 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:58:54 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:58:55 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:58:55 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:58:56 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.12 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:58:56 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:58:58 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:58:58 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:58:59 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:58:59 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:59:00 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:59:00 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:59:01 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http:/
+2016-09-06 18:59:01 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 18:59:41 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http:
+2016-09-06 18:59:41 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']"}
+Command duration or timeout: 40.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a26c5878-0e57-4675-8bac-1039b1831deb
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='UAT_Team1']/following-sibling::td//*[@title='Delete']}
+2016-09-06 18:59:42 INFO  Logger:993 - Clicking element ''linktext=Projects'
+2016-09-06 18:59:44 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='Catalyst']/following-sibling::td//*[@title='Delete']'
+2016-09-06 18:59:46 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 18:59:47 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='Catalyst1']/following-sibling::td//*[@title='Delete']'
+2016-09-06 18:59:49 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 18:59:49 INFO  Logger:993 - Clicking element ''linktext=Business Groups'
+2016-09-06 18:59:51 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='Cell']/following-sibling::td//*[@title='Delete']'
+2016-09-06 18:59:56 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 18:59:56 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='Cell_Dev']/following-sibling::td//*[@title='Delete']'
+2016-09-06 18:59:58 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 19:00:01 INFO  Logger:993 - Clicking element ''linktext=Organizations'
+2016-09-06 19:00:04 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='UAT_RL3']/following-sibling::td//*[@title='Delete']'
+2016-09-06 19:00:06 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 19:00:06 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='UAT_RL4']/following-sibling::td//*[@title='Delete']'
+2016-09-06 19:00:08 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 19:00:11 INFO  Logger:993 - Clicking element ''id=logout'
+2016-09-06 19:00:13 INFO  Logger:993 - Clicking element ''xpath=//button[text()=' Yes']'
+2016-09-06 19:00:14 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"login-form"}
+Command duration or timeout: 1.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:00:14 ERROR Logger:2464 - Webelement does not exist : id : login-formcounter :8
+2016-09-06 19:00:15 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"id","selector":"login-form"}
+Command duration or timeout: 1.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:00:15 ERROR Logger:2464 - Webelement does not exist : id : login-formcounter :8
+2016-09-06 19:00:17 INFO  Logger:1700 - Extracted element value 'Login
+Username
+Password
+Evaluation & trial agreement terms & conditions
+Login' ''id=login-form'
+2016-09-06 19:22:55 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 19:23:05 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 19:23:06 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 19:23:07 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 19:23:07 INFO  Logger:139 - Workzone is displayed
+2016-09-06 19:23:10 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 19:23:13 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 19:23:15 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 19:23:27 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 19:23:27 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:23:30 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 19:23:32 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 19:23:37 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:23:39 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 19:23:51 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 19:24:01 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 19:24:12 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 19:24:14 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:24:15 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 19:24:21 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:24:23 INFO  Logger:1700 - Extracted element value 'Cat_Chef_Server' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']'
+2016-09-06 19:24:23 INFO  Logger:1700 - Extracted element value 'mycatqa' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']/../td[text()='mycatqa']'
+2016-09-06 19:24:23 INFO  Logger:1700 - Extracted element value 'https://api.opscode.com/organizations/cattest' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']/../td[text()='https://api.opscode.com/organizations/cattest']'
+2016-09-06 19:24:23 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']/../td[text()='UAT_RL1']'
+2016-09-06 19:24:23 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:23 INFO  CreateEditDelDesignerSteps:355 - Import Nodes is Enabled
+2016-09-06 19:24:24 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:24 INFO  CreateEditDelDesignerSteps:355 - Edit is Enabled
+2016-09-06 19:24:24 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:24 INFO  CreateEditDelDesignerSteps:355 - Chef Factory is Enabled
+2016-09-06 19:24:24 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:24 INFO  CreateEditDelDesignerSteps:355 - DataBag is Enabled
+2016-09-06 19:24:24 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:24 INFO  CreateEditDelDesignerSteps:355 - Import Nodes is Enabled
+2016-09-06 19:24:24 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:24 INFO  CreateEditDelDesignerSteps:355 - Delete is Enabled
+2016-09-06 19:24:25 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Edit']'
+2016-09-06 19:24:36 INFO  Logger:909 - Cleared text ''id=configname'
+2016-09-06 19:24:47 INFO  Logger:1175 - Typing text 'CAT_SERVER' into text field ''id=configname'
+2016-09-06 19:24:47 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:24:49 INFO  Logger:1700 - Extracted element value 'CAT_SERVER' ''xpath=.//*[@id='envtable']//*[text()='CAT_SERVER']'
+2016-09-06 19:24:50 INFO  Logger:1700 - Extracted element value 'mycatqa' ''xpath=.//*[@id='envtable']//*[text()='CAT_SERVER']/../td[text()='mycatqa']'
+2016-09-06 19:24:50 INFO  Logger:1700 - Extracted element value 'https://api.opscode.com/organizations/cattest' ''xpath=.//*[@id='envtable']//*[text()='CAT_SERVER']/../td[text()='https://api.opscode.com/organizations/cattest']'
+2016-09-06 19:24:50 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='CAT_SERVER']/../td[text()='UAT_RL1']'
+2016-09-06 19:24:50 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:50 INFO  CreateEditDelDesignerSteps:355 - Import Nodes is Enabled
+2016-09-06 19:24:50 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:50 INFO  CreateEditDelDesignerSteps:355 - Edit is Enabled
+2016-09-06 19:24:50 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:50 INFO  CreateEditDelDesignerSteps:355 - Chef Factory is Enabled
+2016-09-06 19:24:51 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:51 INFO  CreateEditDelDesignerSteps:355 - DataBag is Enabled
+2016-09-06 19:24:51 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:51 INFO  CreateEditDelDesignerSteps:355 - Import Nodes is Enabled
+2016-09-06 19:24:51 INFO  Logger:1797 - Element enabled
+2016-09-06 19:24:51 INFO  CreateEditDelDesignerSteps:355 - Delete is Enabled
+2016-09-06 19:24:51 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']//td[text()='CAT_SERVER']/following-sibling::td//*[@title='Import Nodes']'
+2016-09-06 19:24:56 ERROR Logger:1483 - Error Message :rror communicating with the remote browser. It may have died.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'W
+2016-09-06 19:24:58 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='CAT_SERVER']/following-sibling::td//*[@title='Chef Factory']counter :8
+2016-09-06 19:25:01 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='CAT_SERVER']/following-sibling::td//*[@title='DataBag']counter :8
+2016-09-06 19:25:04 ERROR Logger:2482 - Webelement does not exist : linktext : Chef Servercounter :8
+2016-09-06 19:25:07 ERROR Logger:2482 - Webelement does not exist : linktext : Organizationscounter :8
+2016-09-06 19:25:12 ERROR Logger:2482 - Webelement does not exist : id : logoutcounter :8
+2016-09-06 19:26:12 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 19:26:23 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 19:26:23 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 19:26:24 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 19:26:24 INFO  Logger:139 - Workzone is displayed
+2016-09-06 19:26:27 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 19:26:31 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 19:26:33 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 19:26:44 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 19:26:45 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:26:46 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.ht
+2016-09-06 19:26:46 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:26:47 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+Command duration or timeout: 1.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.ht
+2016-09-06 19:26:47 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:26:49 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 19:26:51 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 19:26:56 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:26:58 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 19:27:10 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 19:27:20 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 19:27:30 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 19:27:32 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:27:34 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 19:27:40 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:27:41 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 19:27:41 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:27:42 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 19:27:42 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:27:43 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 19:27:43 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:27:45 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 19:27:45 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:27:46 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+Command duration or timeout: 1.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_el
+2016-09-06 19:27:46 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:28:26 ERROR Logger:1705 - Current page does not contain element  ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']'
+2016-09-06 19:35:04 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 19:35:16 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 19:35:20 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 19:35:23 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 19:35:23 INFO  Logger:139 - Workzone is displayed
+2016-09-06 19:35:29 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 19:35:36 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 19:35:42 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 19:35:55 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 19:35:59 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:36:02 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 19:36:10 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 19:36:20 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:36:28 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 19:36:41 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 19:36:53 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 19:37:06 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 19:37:14 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:37:19 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 19:37:30 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:37:31 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:37:31 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:37:33 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:37:33 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:37:35 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:37:35 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:37:36 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:37:36 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:37:38 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:37:38 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:38:19 ERROR Logger:1705 - Current page does not contain element  ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']'
+2016-09-06 19:38:25 INFO  Logger:993 - Clicking element ''linktext=Environments'
+2016-09-06 19:38:30 INFO  Logger:993 - Clicking element ''id=newENV'
+2016-09-06 19:38:37 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:38:43 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 19:38:45 INFO  Logger:309 - Performed double click on element : 'xpath=(//a[text()='Add'])[1]'
+2016-09-06 19:40:03 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 19:40:14 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 19:40:19 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 19:40:23 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 19:40:23 INFO  Logger:139 - Workzone is displayed
+2016-09-06 19:40:29 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 19:40:36 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 19:40:42 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 19:40:55 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 19:40:59 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:41:02 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 19:41:10 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 19:41:21 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:41:29 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 19:41:42 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 19:41:55 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 19:42:08 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 19:42:15 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:42:21 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 19:42:31 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:42:33 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:42:33 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:42:35 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:42:35 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:42:37 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:42:37 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:42:39 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:42:39 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:42:40 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:42:40 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:43:21 ERROR Logger:1705 - Current page does not contain element  ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']'
+2016-09-06 19:43:28 INFO  Logger:993 - Clicking element ''linktext=Environments'
+2016-09-06 19:43:34 INFO  Logger:993 - Clicking element ''id=newENV'
+2016-09-06 19:43:41 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:43:46 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 19:43:48 INFO  Logger:309 - Performed double click on element : 'xpath=(//a[text()='Add'])[1]'
+2016-09-06 19:48:47 ERROR Logger:1178 - Current page does not contain element ''id=chefenvname'
+2016-09-06 19:48:50 INFO  Logger:99 - Error :String index out of range: 240
+2016-09-06 19:48:52 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:48:52 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:48:53 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:48:53 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:48:55 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 19:48:55 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:48:55 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:48:57 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:48:57 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:48:59 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:48:59 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:49:00 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:49:00 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:49:02 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:49:02 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:49:04 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:49:04 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:49:06 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 19:49:10 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 19:49:14 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 19:49:14 INFO  Logger:139 - Workzone is displayed
+2016-09-06 19:49:20 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 19:49:27 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 19:49:33 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 19:49:44 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:49:45 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=c71de0ca3cab4bcfa6b3f9d931d148dc, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c71de0ca3cab4bcfa6b3f9d931d148dc
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 19:49:46 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 19:49:50 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:49:52 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:49:52 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:49:53 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:49:54 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:49:54 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:49:56 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:49:56 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:49:57 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:49:57 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:49:57 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:49:57 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:49:58 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:49:58 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:49:59 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:49:59 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:50:00 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:50:00 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:50:01 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:50:01 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:50:02 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:50:02 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:50:03 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:50:03 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:50:04 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:50:04 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:50:05 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision
+2016-09-06 19:50:05 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='UAT_RL1']counter :8
+2016-09-06 19:50:06 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:50:06 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:50:07 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:50:07 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:50:09 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:50:09 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:50:45 ERROR Logger:1705 - Current page does not contain element  ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 19:50:50 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:50:50 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=c71de0ca3cab4bcfa6b3f9d931d148dc, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c71de0ca3cab4bcfa6b3f9d931d148dc
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 19:50:54 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 19:50:56 INFO  Logger:993 - Clicking element ''linktext=Organizations'
+2016-09-06 19:51:02 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button'
+2016-09-06 19:51:04 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:51:08 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 19:51:12 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 19:51:15 INFO  Logger:993 - Clicking element ''id=logout'
+2016-09-06 19:51:23 INFO  Logger:993 - Clicking element ''xpath=//button[text()=' Yes']'
+2016-09-06 19:51:25 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 19:51:26 INFO  Logger:1700 - Extracted element value 'Login
+Username
+Password
+Evaluation & trial agreement terms & conditions
+Login' ''id=login-form'
+2016-09-06 19:51:38 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 19:51:51 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 19:51:58 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:52:39 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":"//select/option[@value='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8
+2016-09-06 19:52:40 INFO  Logger:67 - Error :Unable to locate element: {"method":"xpath","selector":"//select/option[@value='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.36 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=cecb49bb54b049da9616ff841f8b5670, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cecb49bb54b049da9616ff841f8b5670
+*** Element info: {Using=xpath, value=//select/option[@value='UAT_RL1']}
+2016-09-06 19:52:47 INFO  Logger:32 - Error :Element is not clickable at point (104.56666564941406, 212.60000610351562). Other element would receive the click: <div style="" class="select2-drop-mask" id="select2-drop-mask"></div> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX89401071
+Command duration or timeout: 382 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=cecb49bb54b049da9616ff841f8b5670, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cecb49bb54b049da9616ff841f8b5670
+2016-09-06 19:52:49 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:52:49 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:52:50 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:52:50 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:52:52 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:52:52 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:52:54 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:52:54 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:52:56 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:52:56 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:52:58 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:52:58 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:52:59 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:52:59 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:53:01 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:53:01 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:53:42 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:53:43 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.28 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=cecb49bb54b049da9616ff841f8b5670, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cecb49bb54b049da9616ff841f8b5670
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 19:53:51 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:53:55 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:53:55 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:53:57 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:53:57 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:53:58 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:53:58 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:00 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:00 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:02 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:02 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:03 ERROR Logger:1178 - Current page does not contain element ''id=chefenvname'
+2016-09-06 19:54:04 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:04 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:06 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:06 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:06 INFO  Logger:99 - Error :String index out of range: 240
+2016-09-06 19:54:13 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:13 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:13 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:13 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:14 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:14 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:16 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:16 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:18 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:18 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:20 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:20 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:22 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:22 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:23 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:23 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:25 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:25 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:54:53 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:54:54 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.36 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=cecb49bb54b049da9616ff841f8b5670, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cecb49bb54b049da9616ff841f8b5670
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 19:55:00 INFO  Logger:993 - Clicking element ''linktext=Organizations'
+2016-09-06 19:55:02 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:02 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:03 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 19:55:04 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:04 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:05 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:05 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:06 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:07 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.33 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=a4de458b86f344bd96038b62ad2aaaa6, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4de458b86f344bd96038b62ad2aaaa6
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 19:55:07 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:07 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:09 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:09 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:11 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:11 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:13 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:13 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:14 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:14 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 19:55:15 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 19:55:15 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:55:19 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:19 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:19 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 19:55:20 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:20 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:22 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:22 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:23 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 19:55:23 INFO  Logger:139 - Workzone is displayed
+2016-09-06 19:55:24 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:24 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:26 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:26 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:28 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:28 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:29 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 19:55:29 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:29 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:31 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:55:31 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:55:36 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 19:55:42 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 19:55:55 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 19:55:55 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 19:55:56 INFO  Logger:108 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.32 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=cecb49bb54b049da9616ff841f8b5670, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cecb49bb54b049da9616ff841f8b5670
+*** Element info: {Using=xpath, value=.//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button}
+2016-09-06 19:56:00 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:56:02 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 19:56:04 INFO  Logger:993 - Clicking element ''id=logout'
+2016-09-06 19:56:11 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 19:56:12 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:56:12 INFO  Logger:993 - Clicking element ''xpath=//button[text()=' Yes']'
+2016-09-06 19:56:13 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=a4de458b86f344bd96038b62ad2aaaa6, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4de458b86f344bd96038b62ad2aaaa6
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 19:56:15 INFO  Logger:1700 - Extracted element value 'Login
+Username
+Password
+Evaluation & trial agreement terms & conditions
+Login' ''id=login-form'
+2016-09-06 19:56:19 INFO  Logger:993 - Clicking element ''linktext=Organizations'
+2016-09-06 19:56:21 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 19:56:25 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button'
+2016-09-06 19:56:29 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 19:56:31 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 19:56:40 INFO  Logger:993 - Clicking element ''id=logout'
+2016-09-06 19:56:42 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 19:56:48 INFO  Logger:993 - Clicking element ''xpath=//button[text()=' Yes']'
+2016-09-06 19:56:51 INFO  Logger:1700 - Extracted element value 'Login
+Username
+Password
+Evaluation & trial agreement terms & conditions
+Login' ''id=login-form'
+2016-09-06 19:56:55 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 19:57:09 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 19:57:16 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:57:22 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 19:57:33 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 19:57:34 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:57:34 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:57:36 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:57:36 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:57:38 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:57:38 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:57:40 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:57:40 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:57:41 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 19:57:41 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 19:58:22 ERROR Logger:1705 - Current page does not contain element  ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']'
+2016-09-06 19:58:29 INFO  Logger:993 - Clicking element ''linktext=Environments'
+2016-09-06 19:58:35 INFO  Logger:993 - Clicking element ''id=newENV'
+2016-09-06 19:58:43 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 19:59:24 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":"//select/option[@value='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8
+2016-09-06 19:59:26 INFO  Logger:67 - Error :Unable to locate element: {"method":"xpath","selector":"//select/option[@value='UAT_RL1']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.37 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=8edaf46f7d51469a9592acbfab5c7479, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8edaf46f7d51469a9592acbfab5c7479
+*** Element info: {Using=xpath, value=//select/option[@value='UAT_RL1']}
+2016-09-06 19:59:28 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:28 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:59:29 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:29 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:59:31 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:31 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:59:33 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:33 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:59:35 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:35 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:59:36 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:36 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:59:38 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:38 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 19:59:40 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 19:59:40 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:00:21 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:00:22 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.33 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=8edaf46f7d51469a9592acbfab5c7479, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8edaf46f7d51469a9592acbfab5c7479
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 20:01:48 ERROR Logger:1483 - Error Message :imed out after 50 seconds waiting for visibility of [[RemoteWebDriver: firefox on LINUX (8edaf46f7d51469a9592acbfab5c7479)] -> link text: Chef Server]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', tim
+2016-09-06 20:01:49 INFO  Logger:30 - Error :Timed out after 50 seconds waiting for visibility of [[RemoteWebDriver: firefox on LINUX (8edaf46f7d51469a9592acbfab5c7479)] -> link text: Chef Server]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+2016-09-06 20:01:55 INFO  Logger:993 - Clicking element ''linktext=Organizations'
+2016-09-06 20:01:57 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:01:57 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:01:59 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:01:59 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:02:00 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:02:00 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:02:02 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:02:02 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:02:04 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:02:04 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:02:06 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:02:06 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:02:07 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:02:07 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:02:09 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:02:09 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/buttoncounter :8
+2016-09-06 20:02:50 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info
+2016-09-06 20:02:51 INFO  Logger:108 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=8edaf46f7d51469a9592acbfab5c7479, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8edaf46f7d51469a9592acbfab5c7479
+*** Element info: {Using=xpath, value=.//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button}
+2016-09-06 20:02:59 INFO  Logger:993 - Clicking element ''id=logout'
+2016-09-06 20:03:07 INFO  Logger:993 - Clicking element ''xpath=//button[text()=' Yes']'
+2016-09-06 20:03:10 INFO  Logger:1700 - Extracted element value 'Login
+Username
+Password
+Evaluation & trial agreement terms & conditions
+Login' ''id=login-form'
+2016-09-06 20:08:01 INFO  Logger:1175 - Typing text 'superadmin' into text field ''xpath=//section[label[text()='Username']]/label[@class='loginform_input']/input'
+2016-09-06 20:08:13 INFO  Logger:1175 - Typing text 'superadmin@123' into text field ''xpath=//section[label[text()='Password']]/label[@class='loginform_input']/input'
+2016-09-06 20:08:17 INFO  Logger:993 - Clicking element ''id=loginBtn'
+2016-09-06 20:08:20 INFO  Logger:1700 - Extracted element value 'WORKZONE' ''id=workzone'
+2016-09-06 20:08:20 INFO  Logger:139 - Workzone is displayed
+2016-09-06 20:08:26 INFO  Logger:993 - Clicking element ''linktext=SETTINGS'
+2016-09-06 20:08:33 INFO  Logger:993 - Clicking element ''linktext=ORGANIZATIONS'
+2016-09-06 20:08:39 INFO  Logger:993 - Clicking element ''id=newOrg'
+2016-09-06 20:08:52 INFO  Logger:1175 - Typing text 'UAT_RL1' into text field ''id=orgname'
+2016-09-06 20:08:57 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 20:08:59 INFO  Logger:1700 - Extracted element value 'UAT_RL1' ''xpath=.//*[@id='envtable']//*[text()='UAT_RL1']'
+2016-09-06 20:09:08 INFO  Logger:993 - Clicking element ''linktext=Config Setup'
+2016-09-06 20:09:18 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 20:09:26 INFO  Logger:993 - Clicking element ''id=newConfig'
+2016-09-06 20:09:39 INFO  Logger:1175 - Typing text 'Cat_Chef_Server' into text field ''id=configname'
+2016-09-06 20:09:52 INFO  Logger:1175 - Typing text 'mycatqa' into text field ''id=loginname'
+2016-09-06 20:10:05 INFO  Logger:1175 - Typing text 'https://api.opscode.com/organizations/cattest' into text field ''id=url'
+2016-09-06 20:10:13 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 20:10:18 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 20:10:29 INFO  Logger:993 - Clicking element ''xpath=//button[@class='btn btn-primary btn-mini']'
+2016-09-06 20:10:30 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 20:10:30 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 20:10:32 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 20:10:32 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 20:10:34 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 20:10:34 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 20:10:36 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 20:10:36 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 20:10:38 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//*[text()='Cat_Chef_Server']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', 
+2016-09-06 20:10:38 ERROR Logger:2464 - Webelement does not exist : xpath : .//*[@id='envtable']//*[text()='Cat_Chef_Server']counter :5
+2016-09-06 20:11:18 ERROR Logger:1705 - Current page does not contain element  ''xpath=.//*[@id='envtable']//*[text()='Cat_Chef_Server']'
+2016-09-06 20:11:25 INFO  Logger:993 - Clicking element ''linktext=Environments'
+2016-09-06 20:11:31 INFO  Logger:993 - Clicking element ''id=newENV'
+2016-09-06 20:11:38 INFO  Logger:993 - Clicking element ''xpath=//label[contains(text(),'Organization')]/following-sibling::div'
+2016-09-06 20:11:44 INFO  Logger:993 - Clicking element ''xpath=//select/option[@value='UAT_RL1']'
+2016-09-06 20:11:46 INFO  Logger:309 - Performed double click on element : 'xpath=(//a[text()='Add'])[1]'
+2016-09-06 20:21:55 ERROR Logger:1178 - Current page does not contain element ''id=chefenvname'
+2016-09-06 20:21:58 INFO  Logger:99 - Error :String index out of range: 240
+2016-09-06 20:21:59 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:21:59 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:01 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:01 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:03 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:03 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:05 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:05 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:06 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:06 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:08 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:08 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:10 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:10 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:12 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:12 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:22:52 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:22:54 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=055ec6c3e6514a7e826a07fd7ed5a1d2, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 055ec6c3e6514a7e826a07fd7ed5a1d2
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 20:23:02 INFO  Logger:993 - Clicking element ''linktext=Chef Server'
+2016-09-06 20:23:06 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:06 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:07 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:07 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:09 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:09 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:11 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:11 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:13 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:13 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:15 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:15 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:17 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:17 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:18 ERROR Logger:1440 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:23:18 ERROR Logger:2482 - Webelement does not exist : xpath : .//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']counter :8
+2016-09-06 20:23:59 ERROR Logger:1483 - Error Message :nable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_e
+2016-09-06 20:24:00 INFO  Logger:97 - Error :Unable to locate element: {"method":"xpath","selector":".//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'chef', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-83-generic', java.version: '1.8.0_74'
+Driver info: driver.version: unknown
+Command duration or timeout: 40.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RLE0372', ip: '192.168.152.153', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, hasMetadata=true, databaseEnabled=true, handlesAlerts=true, version=45.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=055ec6c3e6514a7e826a07fd7ed5a1d2, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 055ec6c3e6514a7e826a07fd7ed5a1d2
+*** Element info: {Using=xpath, value=.//*[@id='envtable']//td[text()='Cat_Chef_Server']/following-sibling::td//*[@title='Delete']}
+2016-09-06 20:24:06 INFO  Logger:993 - Clicking element ''linktext=Organizations'
+2016-09-06 20:24:12 INFO  Logger:993 - Clicking element ''xpath=.//*[@id='envtable']/tbody/tr/td[text()='UAT_RL1']/../td[4]/div/button'
+2016-09-06 20:24:18 INFO  Logger:993 - Clicking element ''xpath=//button[text()='OK']'
+2016-09-06 20:24:26 INFO  Logger:993 - Clicking element ''id=logout'
+2016-09-06 20:24:34 INFO  Logger:993 - Clicking element ''xpath=//button[text()=' Yes']'
+2016-09-06 20:24:37 INFO  Logger:1700 - Extracted element value 'Login
+Username
+Password
+Evaluation & trial agreement terms & conditions
+Login' ''id=login-form'
