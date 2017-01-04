@@ -1,0 +1,372 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12338378132,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As Super Admin I Create the Designer User",
+        "description": "",
+        "id": "as-superadmin-i-create-designer-user;as-super-admin-i-create-the-designer-user",
+        "after": [
+          {
+            "result": {
+              "duration": 2251728,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.embedscreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58146631975,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Login to catalyst using \"Login User\" access credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login User",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.I_Login_to_catalyst_using_access_credentials(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4086046764,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see the catalyst \"workzone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "workzone",
+                  "offset": 20
+                }
+              ],
+              "location": "CreateEditDelOrgSteps.iSeeTheCatalyst(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14116971577,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the \"SETTINGS\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SETTINGS",
+                  "offset": 16
+                }
+              ],
+              "location": "CFTSteps.I_click_on_the_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14080726366,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I move the cursor on \"Menu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Menu",
+                  "offset": 22
+                }
+              ],
+              "location": "CreateEditDelOrgSteps.iMoveTheCursorOn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2974508890,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the \"User Configuration\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User Configuration",
+                  "offset": 16
+                }
+              ],
+              "location": "CFTSteps.I_click_on_the_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3157350359,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the \"Users\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Users",
+                  "offset": 16
+                }
+              ],
+              "location": "CFTSteps.I_click_on_the_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7168997761,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Click on New Button of Users page",
+            "match": {
+              "location": "CreateEditDelDesignerSteps.iClickOnNewButtonOfUsersPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24849648673,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Enter the \"Designer\" User Login Name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Designer",
+                  "offset": 13
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iEnterTheUserLoginName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19644451268,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Enter the \"Email address\" of the User",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address",
+                  "offset": 13
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iEnterTheOfTheUser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10192896858,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Enter the \"Password\" of the User field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 13
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iEnterTheOfTheUserField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10245834407,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Enter the \"Confirm Password\" of User field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm Password",
+                  "offset": 13
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iEnterTheOfUserField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850447554,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Select the Role as \"DesignerRole\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DesignerRole",
+                  "offset": 22
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iSelectTheRoleAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3714742511,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Assign the Teams for the User with respect to \"Organization\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Organization",
+                  "offset": 49
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iAssignTheTeamsForTheUserWithRespectTo(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3701315895,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Click on Save Button of User creation page",
+            "match": {
+              "location": "CreateEditDelDesignerSteps.iClickOnSaveButtonOfUserCreationPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9093449753,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat com.rl.qa.views.CreateEditDelDesignerViews.verifyDesignerUserCreation(CreateEditDelDesignerViews.java:213)\r\n\tat com.rl.qa.steps.CreateEditDelDesignerSteps.iVerifyTheUserIsCreated(CreateEditDelDesignerSteps.java:160)\r\n\tat ✽.Then I Verify the \"Designer\" User is created(src/test/resources/settings/userssetup/CreateEditDelDesigner.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "I Verify the \"Designer\" User is created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Designer",
+                  "offset": 14
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iVerifyTheUserIsCreated(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I Verify the \"Designer\" User with this \"Email address\" is created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Designer",
+                  "offset": 14
+                },
+                {
+                  "val": "Email address",
+                  "offset": 40
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iVerifyTheUserWithThisIsCreated(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I Verify the \"Designer\" User with this \"DesignerRole\" created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Designer",
+                  "offset": 14
+                },
+                {
+                  "val": "DesignerRole",
+                  "offset": 40
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iVerifyTheUserWithThisCreated(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I Verify the \"Designer\" User with this \"Organization\" is available",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Designer",
+                  "offset": 14
+                },
+                {
+                  "val": "Organization",
+                  "offset": 40
+                }
+              ],
+              "location": "CreateEditDelDesignerSteps.iVerifyTheUserWithThisIsAvailable(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As SuperAdmin I Create Designer User",
+    "description": "",
+    "id": "as-superadmin-i-create-designer-user",
+    "keyword": "Feature",
+    "uri": "src/test/resources/settings/userssetup/CreateEditDelDesigner.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Designer"
+      }
+    ]
+  }
+]
