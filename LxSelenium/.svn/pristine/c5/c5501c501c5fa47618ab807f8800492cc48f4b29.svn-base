@@ -1,5 +1,0 @@
-var ActionEnabled = false;
-var total = '${Issue.math_TotalAmount_0}';
-if (total >= 50000 && "${Issue.IsCritical}" == "Yes")
-{ ActionEnabled = true;
-}
