@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <StateProvinceCountries>
+            <StateProvinceCountry clientID="client-2493">
+                <Country>United States</Country>
+                <State>WA</State>
+                <StateProvince>WA</StateProvince>
+            </StateProvinceCountry>
+        </StateProvinceCountries>
+        <Employers>
+            <Employer clientID="Empl_107IndianSchool">
+                <City>Rosewood</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>City Planner</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>107th &amp; Indian School, LLC</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>WA</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <Phone>999-555-1212</Phone>
+                <PostalCode>99999</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>100 Main</StreetAddress1>
+            </Employer>
+        </Employers>
+        <Programs>
+	            <Program clientID="Program_Lucernex" modified="2010-03-09">
+	                <City>TestCity</City>
+	                <FiscalYearEnd>2001-05-20</FiscalYearEnd>
+	                <IStateProvinceCountryID>
+	                    <Country>Canada</Country>
+	                    <State>YT</State>
+	                </IStateProvinceCountryID>
+	                <PostalCode>28006</PostalCode>
+	                <ProgramName>Lucernex</ProgramName>
+	                <ProgramType>Portfolio</ProgramType>
+	                <RevenuePerWeek>55000</RevenuePerWeek>
+	                <StreetAddress1>100 Main</StreetAddress1>
+	            </Program>
+        </Programs>
+        <Locations>
+            <Location clientID="client-75075">
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <LocationName>DELETE ME</LocationName>
+                <ProgramID>Lucernex</ProgramID>
+                <ProjectEntityID clientID="client-311421">DELETE ME</ProjectEntityID>
+                <WorkFlow clientID="client-132506">
+                    <WorkFlowStep clientID="client-220022">
+                        <DaysUntilAlertApprovers>3</DaysUntilAlertApprovers>
+                        <DaysUntilAlertAssignees>3</DaysUntilAlertAssignees>
+                        <DaysUntilWarnApprovers>2</DaysUntilWarnApprovers>
+                        <DaysUntilWarnAssignees>2</DaysUntilWarnAssignees>
+                        <DueDateApprovers>2015-02-26</DueDateApprovers>
+                        <DueDateAssignees>2015-02-25</DueDateAssignees>
+                        <EMailAlertApprovers>true</EMailAlertApprovers>
+                        <EMailAlertAssignees>true</EMailAlertAssignees>
+                        <EMailMessage>Email notification for Step 1.</EMailMessage>
+                        <EnableForDashboard>true</EnableForDashboard>
+                        <EnableForEMail>true</EnableForEMail>
+                        <IsReadOnly>false</IsReadOnly>
+                        <PageLayoutApproversID clientID="client-6434">General Form</PageLayoutApproversID>
+                        <PageLayoutAssigneesID clientID="client-6434">General Form</PageLayoutAssigneesID>
+                        <ProjectEntityID clientID="client-311421">DELETE ME</ProjectEntityID>
+                    </WorkFlowStep>
+                </WorkFlow>
+                <Workflow_Form clientID="client-302043">
+                    <CodeIssueTypeID clientID="client-4026">Workflow Form</CodeIssueTypeID>
+                    <ImportedCreatedDate>2015-02-25T03:13:57</ImportedCreatedDate>
+                    <InitiatedByMemberID clientID="client-17129">Saloni Kadakia</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <LastPageLayoutID clientID="client-6434">General Form</LastPageLayoutID>
+                    <ProjectEntityID clientID="client-311421">DELETE ME</ProjectEntityID>
+                    <math_AplusB_7>0.0</math_AplusB_7>
+                    <math_BudgetMathTotal_16>0.0</math_BudgetMathTotal_16>
+                    <math_CurrancyTotal_18>0.0</math_CurrancyTotal_18>
+                    <math_InverstmentFactor_15>0.0</math_InverstmentFactor_15>
+                    <math_Land_new_13>0.0</math_Land_new_13>
+                    <math_Number_Total_17>0.0</math_Number_Total_17>
+                    <math_PercentTotal_19>0.0</math_PercentTotal_19>
+                    <math_SoftCosts_new_14>0.0</math_SoftCosts_new_14>
+                    <math_TaxAmount_9>0.0</math_TaxAmount_9>
+                    <math_TotalwithTax_10>0.0</math_TotalwithTax_10>
+                </Workflow_Form>
+                <_1_Kickoff_workflow clientID="client-302042">
+                    <CodeIssueTypeID clientID="sql101_IWMS_Production_SAN_20121115_093114328_4173">01 Kickoff workflow</CodeIssueTypeID>
+                    <ImportedCreatedDate>2015-02-25T03:13:55</ImportedCreatedDate>
+                    <InitiatedByMemberID clientID="client-17129">Saloni Kadakia</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <LastPageLayoutID clientID="client-9011">Kickoff Email Workflow</LastPageLayoutID>
+                    <ProjectEntityID clientID="client-311421">DELETE ME</ProjectEntityID>
+                    <Subject>02/25/2015</Subject>
+                </_1_Kickoff_workflow>
+            </Location>
+        </Locations>
+        <Contracts>
+            <Contract clientID="client-115310">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>12345te</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Partial PR Schedule with Credit</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2015-02-15</ExecuteDate>
+                <LocationID clientID="client-75075">DELETE ME</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2011-05-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <PossessionEndDate>2011-05-31</PossessionEndDate>
+                <ProgramID clientID="client-2987">Global</ProgramID>
+                <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                <ContractTerm clientID="client-459267">
+                    <ClientNumber>01</ClientNumber>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeTermStatusID>Active</CodeTermStatusID>
+                    <CodeTermTypeID>Original</CodeTermTypeID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <Description>Original Term</Description>
+                    <IncludeTermForAccruals>true</IncludeTermForAccruals>
+                    <PaymentBeginDate>2015-02-13</PaymentBeginDate>
+                    <PaymentEndDate>2015-02-28</PaymentEndDate>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <RentableArea>1000.00000</RentableArea>
+                </ContractTerm>
+                <ContractTerm clientID="client-459268">
+                    <ClientNumber>02</ClientNumber>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeTermStatusID>Available</CodeTermStatusID>
+                    <CodeTermTypeID>Renewal</CodeTermTypeID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <Description>First Renewal</Description>
+                    <IncludeTermForAccruals>false</IncludeTermForAccruals>
+                    <PaymentBeginDate>2015-03-01</PaymentBeginDate>
+                    <PaymentEndDate>2016-02-28</PaymentEndDate>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <RentableArea>1000.00000</RentableArea>
+                </ContractTerm>
+                <ContractTerm clientID="client-459269">
+                    <ClientNumber>03</ClientNumber>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeTermStatusID>Available</CodeTermStatusID>
+                    <CodeTermTypeID>Renewal</CodeTermTypeID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <Description>Second Renewal</Description>
+                    <IncludeTermForAccruals>false</IncludeTermForAccruals>
+                    <PaymentBeginDate>2016-02-29</PaymentBeginDate>
+                    <PaymentEndDate>2017-02-28</PaymentEndDate>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <RentableArea>1000.00000</RentableArea>
+                </ContractTerm>
+                <ExpenseSetup clientID="client-623680">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-128">Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <ExpenseVendorAllocation clientID="client-756977">
+                        <BeginDate>2010-01-01</BeginDate>
+                        <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                        <EndDate>2020-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623680">Expense Setup Record, ID=623680</ExpenseSetupID>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                        <VendorID clientID="Empl_107IndianSchool">107th &amp; Indian School, LLC</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <KeyDate clientID="client-1047392">
+                    <ActionComplete>false</ActionComplete>
+                    <BeginDate>2015-02-13</BeginDate>
+                    <CodeKeyDateGroupID>Lease</CodeKeyDateGroupID>
+                    <CodeKeyDateTypeID clientID="client-80">Option</CodeKeyDateTypeID>
+                    <CodeNoticePeriodUnitID>Months</CodeNoticePeriodUnitID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <ContractTermID clientID="client-459267">Contract Term Record, ID=459267</ContractTermID>
+                    <Description>Original Term</Description>
+                    <EndDate>2015-02-28</EndDate>
+                    <NoticeEndDate>2014-11-12</NoticeEndDate>
+                    <NoticePeriod>3</NoticePeriod>
+                    <NoticeReceivedFlag>false</NoticeReceivedFlag>
+                    <NoticeSentFlag>false</NoticeSentFlag>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <TicklerDate>2014-05-16</TicklerDate>
+                </KeyDate>
+                <KeyDate clientID="client-1047393">
+                    <ActionComplete>false</ActionComplete>
+                    <BeginDate>2015-03-01</BeginDate>
+                    <CodeKeyDateGroupID>Lease</CodeKeyDateGroupID>
+                    <CodeKeyDateTypeID clientID="client-80">Option</CodeKeyDateTypeID>
+                    <CodeNoticePeriodUnitID>Months</CodeNoticePeriodUnitID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <ContractTermID clientID="client-459268">Contract Term Record, ID=459268</ContractTermID>
+                    <Description>First Renewal</Description>
+                    <EndDate>2016-02-28</EndDate>
+                    <NoticeEndDate>2014-11-30</NoticeEndDate>
+                    <NoticePeriod>3</NoticePeriod>
+                    <NoticeReceivedFlag>false</NoticeReceivedFlag>
+                    <NoticeSentFlag>false</NoticeSentFlag>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <TicklerDate>2014-06-03</TicklerDate>
+                </KeyDate>
+                <KeyDate clientID="client-1047394">
+                    <ActionComplete>false</ActionComplete>
+                    <BeginDate>2016-02-29</BeginDate>
+                    <CodeKeyDateGroupID>Lease</CodeKeyDateGroupID>
+                    <CodeKeyDateTypeID clientID="client-80">Option</CodeKeyDateTypeID>
+                    <CodeNoticePeriodUnitID>Months</CodeNoticePeriodUnitID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <ContractTermID clientID="client-459269">Contract Term Record, ID=459269</ContractTermID>
+                    <Description>Second Renewal</Description>
+                    <EndDate>2017-02-28</EndDate>
+                    <NoticeEndDate>2015-11-28</NoticeEndDate>
+                    <NoticePeriod>3</NoticePeriod>
+                    <NoticeReceivedFlag>false</NoticeReceivedFlag>
+                    <NoticeSentFlag>false</NoticeSentFlag>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <TicklerDate>2015-06-01</TicklerDate>
+                </KeyDate>
+                <PaymentTransaction clientID="client-25619962">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-128">Percentage Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2011-04-12</DueDate>
+                    <EffectiveDate>2011-04-12</EffectiveDate>
+                    <EffectiveEndDate>2020-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>8000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2011-04-11</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID clientID="Empl_107IndianSchool">107th &amp; Indian School, LLC</VendorID>
+                </PaymentTransaction>
+                <PercentageRent clientID="client-120606">
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2011-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-128">Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Period Gross-up</CodePercentageRentTypeID>
+                    <CodeSalesGroupID clientID="client-20">Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2011-05-31</EndDate>
+                    <IsPartialTerm>true</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <RentYearStartMonth>January</RentYearStartMonth>
+                </PercentageRent>
+                <PercentageRentBreakpoint clientID="client-170498">
+                    <BeginDate>2011-01-01</BeginDate>
+                    <BreakpointAmount1>100000.00000</BreakpointAmount1>
+                    <BreakpointRate1>10.00000</BreakpointRate1>
+                    <CodeSalesGroupID clientID="client-20">Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <EndDate>2011-05-31</EndDate>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <Sales clientID="client-8366864">
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID clientID="client-20">Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <GrossSalesAmount>150000.00000</GrossSalesAmount>
+                    <NetSalesAmount>15000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-8366863">
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID clientID="client-20">Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <GrossSalesAmount>10000.00000</GrossSalesAmount>
+                    <NetSalesAmount>10000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-8366862">
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID clientID="client-20">Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <GrossSalesAmount>15000.00000</GrossSalesAmount>
+                    <NetSalesAmount>15000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-8366861">
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID clientID="client-20">Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <GrossSalesAmount>10000.00000</GrossSalesAmount>
+                    <NetSalesAmount>10000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-8366865">
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID clientID="client-20">Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+                    <GrossSalesAmount>150000.00000</GrossSalesAmount>
+                    <NetSalesAmount>150000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+            </Contract>
+        </Contracts>
+        <Location clientID="client-75075">
+	                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+	                <CodeMarketAreaID>Central</CodeMarketAreaID>
+	                <LocationName>DELETE ME</LocationName>
+	                <ProgramID>Lucernex</ProgramID>
+	                <ProjectEntityID clientID="client-311421">DELETE ME</ProjectEntityID>
+	                <ExpenseVendorAllocation clientID="client-756977">
+	                    <BeginDate>2010-01-01</BeginDate>
+	                    <ContractID clientID="client-115310">Partial PR Schedule with Credit</ContractID>
+	                    <EndDate>2020-12-31</EndDate>
+	                    <ExpenseSetupID clientID="client-623680">Expense Setup Record, ID=623680</ExpenseSetupID>
+	                    <PaymentPercentage>100.00000</PaymentPercentage>
+	                    <ProjectEntityID clientID="client-510157">Partial PR Schedule with Credit</ProjectEntityID>
+	                    <VendorID clientID="Empl_107IndianSchool">107th &amp; Indian School, LLC</VendorID>
+                </ExpenseVendorAllocation>
+                </Location>
+    </Firm>
+</LxERP>

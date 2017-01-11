@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-2243">
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                <TemplateName>Single Predecessor Relationship</TemplateName>
+                <MapClientSchedule clientID="client-516832">
+                    <LastReviewedDate>2015-07-29T13:55:29</LastReviewedDate>
+                    <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                    <Task clientID="client-901081">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                        <TaskName>Cancel Project</TaskName>
+                        <Task clientID="client-901083">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>For all other tasks that have NOT already been completed, please mark them Canceled to ensure key dates/milestones display properly.</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-901081">Cancel Project</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Cancelled Project</TaskName>
+                        </Task>
+                        <Task clientID="client-901082">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-03</OriginalStartDate>
+                            <ParentTaskID clientID="client-901081">Cancel Project</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-03</ProjectedStartDate>
+                            <TaskName>On Hold</TaskName>
+                            <TaskPredecessor clientID="client-566066">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-901083">Cancelled Project</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-901082">On Hold</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task clientID="client-890417">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                        <TaskName>Pre Construction</TaskName>
+                        <Task clientID="client-890418">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-05</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-05</OriginalStartDate>
+                            <ParentTaskID clientID="client-890417">Pre Construction</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-05</ProjectedStartDate>
+                            <TaskName>Request File Review</TaskName>
+                        </Task>
+                        <Task clientID="client-896747">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-05</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-890417">Pre Construction</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-06</ProjectedStartDate>
+                            <TaskName>Survey Facility</TaskName>
+                            <TaskPredecessor clientID="client-566069">
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-890418">Request File Review</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-896747">Survey Facility</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-976000">
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-07</OriginalStartDate>
+                            <ParentTaskID clientID="client-890417">Pre Construction</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-07</ProjectedStartDate>
+                            <TaskName>Upload Master Drawings</TaskName>
+                            <TaskPredecessor clientID="client-566068">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-896747">Survey Facility</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-976000">Upload Master Drawings</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-890419">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-10</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-10</OriginalStartDate>
+                            <ParentTaskID clientID="client-890417">Pre Construction</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-10</ProjectedStartDate>
+                            <TaskName>Complete File Review</TaskName>
+                            <TaskPredecessor clientID="client-423116">
+                                <ActualLeadLagDays>5</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>5</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-890418">Request File Review</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>5</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-890419">Complete File Review</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-890420">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-15</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-15</OriginalStartDate>
+                            <ParentTaskID clientID="client-890417">Pre Construction</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-15</ProjectedStartDate>
+                            <TaskName>Submit Package to LL for Approval</TaskName>
+                            <TaskPredecessor clientID="client-423117">
+                                <ActualLeadLagDays>5</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>5</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-890419">Complete File Review</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>5</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-890420">Submit Package to LL for Approval</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-910380">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-26</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-28</OriginalStartDate>
+                            <ParentTaskID clientID="client-890417">Pre Construction</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-28</ProjectedStartDate>
+                            <TaskName>Bid Due Date</TaskName>
+                            <TaskPredecessor clientID="client-426018">
+                                <ActualLeadLagDays>20</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>21</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-896747">Survey Facility</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>21</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-910380">Bid Due Date</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-896748">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-26</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-27</OriginalStartDate>
+                            <ParentTaskID clientID="client-890417">Pre Construction</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-27</ProjectedStartDate>
+                            <TaskName>Confirm with Operations start date/time</TaskName>
+                            <TaskPredecessor clientID="client-423855">
+                                <ActualLeadLagDays>21</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>21</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-896747">Survey Facility</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>21</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-896748">Confirm with Operations start date/time</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task clientID="client-890425">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                        <TaskName>Construction Schedule</TaskName>
+                        <Task clientID="client-890428">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-890425">Construction Schedule</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-10</ProjectedStartDate>
+                            <TaskName>Project Complete</TaskName>
+                        </Task>
+                        <Task clientID="client-976457">
+                            <ActualDuration>14</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>14</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-03</OriginalStartDate>
+                            <ParentTaskID clientID="client-890425">Construction Schedule</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>14</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-11</ProjectedStartDate>
+                            <TaskName>Punchlist Complete</TaskName>
+                            <TaskPredecessor clientID="client-566210">
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-890428">Project Complete</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-976457">Punchlist Complete</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-910381">
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-04</OriginalStartDate>
+                            <ParentTaskID clientID="client-890425">Construction Schedule</ParentTaskID>
+                            <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-12</ProjectedStartDate>
+                            <TaskName>Update Facility Attributes</TaskName>
+                            <TaskPredecessor clientID="client-426019">
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-890428">Project Complete</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567607">Single Predecessor Relationship</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-910381">Update Facility Attributes</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

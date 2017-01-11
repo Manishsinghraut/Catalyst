@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+         <BudgetColumnTypes>
+            <BudgetColumnType>
+ 		<BudgetColumnTypeID>10161</BudgetColumnTypeID>
+                <AllowMultiSelect>true</AllowMultiSelect>
+                <AllowOneInstance>false</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>GC1</BudgetColumnTypeName>
+                <CodeStatusDefaultID>Default Status</CodeStatusDefaultID>
+                <CodeStatusDefaultNameForCreate>Default Status</CodeStatusDefaultNameForCreate>
+                <CodeStatusSelectedID>Default Status</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Default Status</CodeStatusSelectedNameForCreate>
+                <IsBidTemplate>false</IsBidTemplate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+            </BudgetColumnType>
+        </BudgetColumnTypes>
+    </Firm>
+</LxERP>

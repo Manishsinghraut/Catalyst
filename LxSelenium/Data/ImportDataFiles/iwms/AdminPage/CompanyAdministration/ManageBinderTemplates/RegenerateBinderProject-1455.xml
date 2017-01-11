@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project clientID="client-94532">
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-21</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020</LocationID>
+                <ProgramID>Portfolio 00020</ProgramID>
+                <ProjectEntityID clientID="client-768403bh">RegenerateBinder</ProjectEntityID>
+                <ProjectName>RegenerateBinder</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-35277">PR020</RegionID>
+                <RegionLvl1>PR020</RegionLvl1>
+                <LinkMemberProjectEntity clientID="client-14163079">
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-33982">Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                </Project>
+        </Projects>
+    </Firm>
+</LxERP>

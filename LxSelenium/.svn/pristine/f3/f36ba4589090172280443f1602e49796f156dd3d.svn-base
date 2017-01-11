@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Portfolio9745-B</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                      <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-33461">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-4917">Portfolio9745-B</ProgramID>
+                        <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                        <RegionName>Prr2</RegionName>
+                        <LinkRegionManager clientID="client-99643">
+                            <IsManager>false</IsManager>
+                            <MemberID clientID="client-31681">Delete Access Access</MemberID>
+                            <ProgramID clientID="client-4917">Portfolio9745-B</ProgramID>
+                            <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region clientID="client-33462">
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID clientID="client-33461">Prr2</ParentRegionID>
+                            <ProgramID clientID="client-4917">Portfolio9745-B</ProgramID>
+                            <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                            <RegionName>Prr2 sub</RegionName>
+                            <LinkRegionMarket clientID="client-7792">
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region clientID="client-33459">
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-4917">Portfolio9745-B</ProgramID>
+                        <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                        <RegionName>PRR1</RegionName>
+                        <Region clientID="client-33460">
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID clientID="client-33459">PRR1</ParentRegionID>
+                            <ProgramID clientID="client-4917">Portfolio9745-B</ProgramID>
+                            <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                            <RegionName>PRR2sub</RegionName>
+                            <LinkRegionManager clientID="client-99642">
+                                <IsManager>false</IsManager>
+                                <MemberID clientID="client-31681">Delete Access Access</MemberID>
+                                <ProgramID clientID="client-4917">Portfolio9745-B</ProgramID>
+                                <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket clientID="client-7791">
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID clientID="client-762984ret">Portfolio9745-B</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

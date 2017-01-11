@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-16</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020</LocationID>
+                <ProgramID>Portfolio 00020</ProgramID>
+                <ProjectEntityID clientID="client-dadqp">UploadNewVersion</ProjectEntityID>
+                <ProjectName>UploadNewVersion</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PR020</RegionID>
+                <RegionLvl1>PR020</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

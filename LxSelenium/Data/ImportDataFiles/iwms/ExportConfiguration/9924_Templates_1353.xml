@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetTemplates>
+            <BudgetTemplate>
+                <IsValidForAssetContract>false</IsValidForAssetContract>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-sfwuitgyafcbnsf8uwty9ewfs">9924 Budget Template</ProjectEntityID>
+                <TemplateName>9924 Budget Template</TemplateName>
+            </BudgetTemplate>
+        </BudgetTemplates>
+        <FolderTemplates>
+            <FolderTemplate>
+                <IsValidForAssetContract>true</IsValidForAssetContract>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-kgokf294856wnbvncxmghfjdkjfugugjgfjossgwk">9924 Folder Template</ProjectEntityID>
+                <TemplateName>9924 Folder Template</TemplateName>
+            </FolderTemplate>
+        </FolderTemplates>
+        <TaskTemplates>
+            <TaskTemplate>
+                <IsValidForAssetContract>true</IsValidForAssetContract>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-6758493675382ghfjdko0">9924 Schedule Template</ProjectEntityID>
+                <TemplateName>9924 Schedule Template</TemplateName>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-09-06T13:05:34</LastReviewedDate>
+                    <ProjectEntityID clientID="client-otksmbmasjkjjdddfllll">9924 Schedule Template</ProjectEntityID>
+                    <WorkHolidays>true</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

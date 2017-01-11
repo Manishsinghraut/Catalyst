@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project clientID="client-92293">
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ExpectedEndDate>2016-09-27</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID clientID="client-170972">Location Sprint 17</LocationID>
+                <PostalCode>75093</PostalCode>
+                <ProgramID clientID="client-6314">Portfolio Sprint 17</ProgramID>
+                <ProjectEntityID clientID="client-678556">Project 13548a</ProjectEntityID>
+                <ProjectName>Project 13548a</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-35611">PRa</RegionID>
+                <RegionLvl1>PRa</RegionLvl1>
+				<BudgetTemplateID>Budget Template 13548</BudgetTemplateID>
+                <BudgetColumn clientID="client-83505">
+                    <BudgetColumnTypeID clientID="client-1669">aaBudget Type 13548</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-7857">Submitted</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-09-27T14:03:27</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-1185316">
+                        <BudgetLineItemID clientID="client-17128">ddlineitem</BudgetLineItemID>
+                        <ItemValue>100.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185317">
+                        <BudgetLineItemID clientID="client-17127">cclineitem</BudgetLineItemID>
+                        <ItemValue>50.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185318">
+                        <BudgetLineItemID clientID="client-17124">2</BudgetLineItemID>
+                        <ItemValue>10.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185319">
+                        <BudgetLineItemID clientID="client-17123">1</BudgetLineItemID>
+                        <ItemValue>150.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-83506">
+                    <BudgetColumnTypeID clientID="client-1670">bbBudget Type 13548</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-7858">Submitted</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-09-27T14:04:14</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-1185320">
+                        <BudgetLineItemID clientID="client-17128">ddlineitem</BudgetLineItemID>
+                        <ItemValue>15.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185321">
+                        <BudgetLineItemID clientID="client-17127">cclineitem</BudgetLineItemID>
+                        <ItemValue>30.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185322">
+                        <BudgetLineItemID clientID="client-17123">1</BudgetLineItemID>
+                        <ItemValue>45.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185323">
+                        <BudgetLineItemID clientID="client-17124">2</BudgetLineItemID>
+                        <ItemValue>40.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-83507">
+                    <BudgetColumnTypeID clientID="client-1671">ccBudget Type 13548</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-7859">Submitted</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-09-27T14:04:38</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-1185324">
+                        <BudgetLineItemID clientID="client-17128">ddlineitem</BudgetLineItemID>
+                        <ItemValue>60.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185325">
+                        <BudgetLineItemID clientID="client-17127">cclineitem</BudgetLineItemID>
+                        <ItemValue>70.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185326">
+                        <BudgetLineItemID clientID="client-17124">2</BudgetLineItemID>
+                        <ItemValue>80.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1185327">
+                        <BudgetLineItemID clientID="client-17123">1</BudgetLineItemID>
+                        <ItemValue>90.00000</ItemValue>
+                        <ProjectEntityID>678556</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <MapClientSchedule clientID="client-626267">
+                    <LastReviewedDate>2016-09-27T14:02:52</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

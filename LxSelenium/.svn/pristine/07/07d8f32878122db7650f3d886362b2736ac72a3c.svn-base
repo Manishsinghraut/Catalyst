@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-B2.158">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20160901_115354344_39714</mes:ClientID>
+                <mes:PageLayoutName>Testing 13445</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:ParentPageLayoutID ClientID="20">Summary</mes:ParentPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Project</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-B2.158</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20160901_115354372_1432559</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20160901_115354344_39714">Testing 13445</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL153/SQL_TEST_TestB_20160727_20160901_115354090_78472">MultiValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.158</mes:FirmID>
+                            <mes:DisplayLabel>Multi Value</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_452</mes:ClientID>
+                <mes:ReportGroupDataName>Summary Information</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>ERP_453</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_452">Summary Information</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>General Summary Information</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:Description/>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20160901_115354090_78472</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_453">General Summary Information</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Multi Value</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B2.158</mes:FirmID>
+                                    <mes:CodeSQLTableID>ProjectEntity</mes:CodeSQLTableID>
+                                    <mes:CustomCodeTableID ClientID="SQL153/SQL_TEST_TestB_20160727_20160913_132055033_4370">Multi Value</mes:CustomCodeTableID>
+                                    <mes:AccessorName>MultiValue</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>319</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+	           <Locations>
+            <Location>
+                <ClientEntityID>KDLocation</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>KDLocation</LocationName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-asow2kk2">KDLocation</ProjectEntityID>
+				                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+            </Location>
+        </Locations>    
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>KeyDatesContract</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2016-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>KeyDatesContract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID>KDLocation</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2016-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2016-01-01</PossessionBeginDate>
+                <PossessionEndDate>2020-12-31</PossessionEndDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-2A2LM92B">KeyDatesContract</ProjectEntityID>
+                <RentableArea>0.00</RentableArea>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

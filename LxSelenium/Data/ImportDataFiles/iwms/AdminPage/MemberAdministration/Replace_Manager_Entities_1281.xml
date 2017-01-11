@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <PotentialProjects>
+            <PotentialProject>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-11</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>CT</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <PotentialProjectName>Replace Manager Site</PotentialProjectName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-Site-116">Replace Manager Site</ProjectEntityID>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID>Manager 1 Testing 1261</MemberID>
+                </LinkMemberProjectEntity>
+            </PotentialProject>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-11</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>CA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Lucernex-Project</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-Project-112">Replace Manager Project</ProjectEntityID>
+                <ProjectName>Replace Manager Project</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID>Manager 1 Testing 1261</MemberID>
+                </LinkMemberProjectEntity>
+            </Project>
+        </Projects>            
+        </PotentialProjects>
+    </Firm>
+</LxERP>

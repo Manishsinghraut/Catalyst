@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program clientID="client-3925">
+                <ProgramID>3925</ProgramID>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Portfolio for Collapsible Option</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-598917">Portfolio for Collapsible Option</ProjectEntityID>
+                <LinkMemberProjectEntity clientID="client-9078738">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID clientID="client-25926">Delete Access Access</MemberID>
+                    <ProjectEntityID>598917</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule clientID="client-547876">
+                    <LastReviewedDate>2015-11-04T02:27:46</LastReviewedDate>
+                    <ProjectEntityID>598917</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-26696">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-3925">Portfolio for Collapsible Option</ProgramID>
+                        <ProjectEntityID clientID="client-598917">Portfolio for Collapsible Option</ProjectEntityID>
+                        <RegionName>Central</RegionName>
+                        <LinkRegionManager clientID="client-63058">
+                            <IsManager>true</IsManager>
+                            <MemberID clientID="client-25926">Delete Access Access</MemberID>
+                            <ProgramID clientID="client-3925">Portfolio for Collapsible Option</ProgramID>
+                            <ProjectEntityID clientID="client-598917">Portfolio for Collapsible Option</ProjectEntityID>
+                        </LinkRegionManager>
+                        <LinkRegionMarket clientID="client-6529">
+                            <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ProjectEntityID clientID="client-598917">Portfolio for Collapsible Option</ProjectEntityID>
+                            <LinkRegionManager clientID="client-63059">
+                                <IsManager>false</IsManager>
+                                <MemberID clientID="client-25925">Lx Administrator</MemberID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProgramID clientID="client-3925">Portfolio for Collapsible Option</ProgramID>
+                                <ProjectEntityID clientID="client-598917">Portfolio for Collapsible Option</ProjectEntityID>
+                                <RegionID clientID="client-26696">Central</RegionID>
+                            </LinkRegionManager>
+                        </LinkRegionMarket>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

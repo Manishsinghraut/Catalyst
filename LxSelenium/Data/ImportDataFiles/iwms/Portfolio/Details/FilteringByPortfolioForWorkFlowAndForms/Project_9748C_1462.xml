@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-16</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Project-9748C Location</LocationID>
+                <ProgramID>Portfolio_9748_C</ProgramID>
+                <ProjectEntityID clientID="client-PJ5283">Project-9748C</ProjectEntityID>
+                <ProjectName>Project-9748C</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-34290">Central</RegionID>
+                <RegionLvl1>Central</RegionLvl1>
+                <SiteSurvey>
+                    <BuildingSignage>false</BuildingSignage>
+                    <CanopyLighting>false</CanopyLighting>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <FireSprinkler>false</FireSprinkler>
+                    <HandicapAccessible>false</HandicapAccessible>
+                    <IsBuildingPlanAvail>false</IsBuildingPlanAvail>
+                    <IsCLECAvail>false</IsCLECAvail>
+                    <IsConstructionCriteriaAvail>false</IsConstructionCriteriaAvail>
+                    <IsCurrentlyOccupied>false</IsCurrentlyOccupied>
+                    <IsLODAvail>false</IsLODAvail>
+                    <IsLandlordWorkDescriptionAvail>false</IsLandlordWorkDescriptionAvail>
+                    <IsRoofAccessAvail>false</IsRoofAccessAvail>
+                    <IsSignCriteriaAvail>false</IsSignCriteriaAvail>
+                    <MonumentSignage>false</MonumentSignage>
+                    <ParkingLotLighting>false</ParkingLotLighting>
+                    <PylonSignage>false</PylonSignage>
+                    <RecommendToREC>false</RecommendToREC>
+                    <TrafficSignalAccess>false</TrafficSignalAccess>
+                </SiteSurvey>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

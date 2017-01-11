@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>101</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-21</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020-AUTOMATION-1435</LocationID>
+                <ProgramID>Portfolio 00020-AUTOMATION-1435</ProgramID>
+                <ProjectName>Testing-53</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PR020 Sub 020</RegionID>
+                <RegionLvl1>PR020 Sub 020</RegionLvl1>
+              </Project>
+        </Projects>
+    </Firm>
+</LxERP>

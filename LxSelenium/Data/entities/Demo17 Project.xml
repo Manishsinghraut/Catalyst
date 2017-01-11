@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<LxERP>
+	<Firm>
+        <Programs>
+            <Program clientID="client-7777">
+                <City>Sitka</City>
+                <FiscalYearEnd>2009-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <PostalCode>10017</PostalCode>
+                <ProgramName>MegaRetail</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <RevenuePerWeek>28000</RevenuePerWeek>
+                <StreetAddress1>270 Park Ave</StreetAddress1>
+                <StreetAddress2>Suite 2340</StreetAddress2>
+                <TaskCreationMethod>J</TaskCreationMethod>
+            </Program>
+        </Programs>
+        <Locations>
+            <Location clientID="client-12345">
+                <City>Sitka</City>
+                <ClientEntityID>#987654</ClientEntityID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <LocationName>AK 777 [Project-Location]</LocationName>
+                <PostalCode>20404</PostalCode>
+                <ProgramID clientID="client-7777">MegaRetail</ProgramID>
+                <ProjectEntityID clientID="client-654321">AK 777 [Project-Location]</ProjectEntityID>
+                <StreetAddress1>721 West Golf Road</StreetAddress1>
+            </Location>
+        </Locations>
+        <Projects>
+            <Project clientID="client-32597">
+                <City>Wicton</City>
+                <CodeBuildingAreaUnitID>SqFt</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Wash DC Metro</CodeMarketAreaID>
+                <CodeMarketTypeID>Metro</CodeMarketTypeID>
+                <CodeProjectTypeID>Inline</CodeProjectTypeID>
+                <ExpectedEndDate>2005-02-02</ExpectedEndDate>
+                <GrossArea>2546.00000</GrossArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>DC</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID clientID="client-12345">AK 777 [Project-Location]</LocationID>
+                <PostalCode>69912</PostalCode>
+                <ProgramID clientID="client-7777">MegaRetail</ProgramID>
+                <ProjectEntityID clientID="client-12733">Demo Project 17</ProjectEntityID>
+                <ProjectName>Demo Project 17</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-5466">Central Central-South</RegionID>
+                <RegionLvl1>Central</RegionLvl1>
+                <RentableArea>2400.00000</RentableArea>
+                <StreetAddress1>28985 Street of the Golden Lantern, Suite B-112</StreetAddress1>
+                <UsableArea>2000.00000</UsableArea>
+            </Project>
+        </Projects>
+	</Firm>
+</LxERP>	

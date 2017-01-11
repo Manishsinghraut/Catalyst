@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+
+                <TemplateName>TaskAssigneScheduleTemplate</TemplateName>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-04T16:40:38</LastReviewedDate>
+
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+
+                        <TaskName>Assignee Group</TaskName>
+                        <Task>
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID>Assignee Group</ParentTaskID>
+
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Assignee Task A</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-03</OriginalStartDate>
+                            <ParentTaskID>Assignee Group</ParentTaskID>
+
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-03</ProjectedStartDate>
+                            <TaskName>Assignee Task B</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

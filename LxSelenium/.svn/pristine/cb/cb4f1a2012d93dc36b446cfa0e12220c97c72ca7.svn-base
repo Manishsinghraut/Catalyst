@@ -1,0 +1,42 @@
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="add-task-template">
+                <TemplateName>add-task</TemplateName>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-04-23T12:12:42</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                    <Task clientID="add-task-template-construction-task">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <TaskName>2. Construction</TaskName>
+                        <Task clientID="add-task-template-new-task">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2015-04-23</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2015-04-23</OriginalStartDate>
+                            <ParentTaskID>2. Construction</ParentTaskID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>New Task</TaskName>
+                            <TaskPredecessor clientID="add-task-template-foundation-predecessor">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTemplateTaskName>Foundation Task</PredecessorTemplateTaskName>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>New Task</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

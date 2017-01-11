@@ -1,0 +1,22 @@
+<div class='frmNote'>
+    Execution time: 2 seconds<br /><br /></div>
+<table class='pretty'>
+    <caption>Import Summary</caption>
+    <tr><th>Object Type</th><th>Failures</th><th>Warnings</th><th>Creates</th><th>Updates</th><th>Deletes</th></tr>
+    <tr><td>BudgetColumnType</td><td>0</td><td>0</td><td>0
+    </td><td>9
+    </td><td>0
+    </td></tr>
+    <tr><td>CodeUserClass</td><td>0</td><td>0</td><td>0
+    </td><td>21
+    </td><td>0
+    </td></tr>
+    <tr><td>UserClassSecurity</td><td>1</td><td>6</td><td>0
+    </td><td>41
+    </td><td>0
+    </td></tr>
+    <tr><td><b>Totals</b></td><td><b>1</b></td><td><b>6</b></td><td><b>0
+    </b></td><td><b>71
+    </b></td><td><b>0
+    </b></td></tr>
+</table>

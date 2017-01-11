@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>ContractA-15825</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>ContractA-15825</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>00018 Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID>00018 Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-2s5ww52a55g">ContractA-15825</ProjectEntityID>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>true</ApplyTax1Flag>
+                    <ApplyTax2Flag>true</ApplyTax2Flag>
+                    <ApplyTax3Flag>true</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Base Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IncludeInPlanForecast>false</IncludeInPlanForecast>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>144000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <FirstPaymentAmount>12000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>12000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>12000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>681808</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+            </Contract>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>ContractB-15825</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>ContractB-15825</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>00018 Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID>00018 Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-Sk29jbbi2j">ContractB-15825</ProjectEntityID>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IncludeInPlanForecast>false</IncludeInPlanForecast>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>144000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <FirstPaymentAmount>12000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>12000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>12000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>681808</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+            </Contract>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>ContractC-15825</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>ContractC-15825</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>00018 Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID>00018 Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-9w55zkwbh7">ContractC-15825</ProjectEntityID>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>true</ApplyTax1Flag>
+                    <ApplyTax2Flag>true</ApplyTax2Flag>
+                    <ApplyTax3Flag>true</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Water</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IncludeInPlanForecast>false</IncludeInPlanForecast>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>144000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <FirstPaymentAmount>12000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>12000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>12000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>681808</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+            </Contract>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>ContractD-15825</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>ContractD-15825</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>00018 Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID>00018 Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-9hhz9vkwkj9">ContractD-15825</ProjectEntityID>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Building Maintenance	</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IncludeInPlanForecast>false</IncludeInPlanForecast>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>144000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <FirstPaymentAmount>12000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>12000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>12000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>681808</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

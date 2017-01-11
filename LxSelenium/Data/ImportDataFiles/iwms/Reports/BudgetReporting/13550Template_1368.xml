@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetTemplates>
+            <BudgetTemplate clientID="client-1182">
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+                <ProjectEntityID clientID="client-729234">13550 Template</ProjectEntityID>
+                <TemplateName>13550 Template</TemplateName>
+                <BudgetLineItem clientID="client-14612">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>Fabrication</BudgetLineItemName>
+                    <CategoryCode>CAT-AB-01</CategoryCode>
+                    <CodeCSIID>0170 - Maintenance of Wall Finishes</CodeCSIID>
+                    <Description>Fabricate</Description>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>001</LineItemCode>
+                    <OverrunPercent>100.00000</OverrunPercent>
+                    <ProjectEntityID clientID="client-729234">13550 Template</ProjectEntityID>
+                    <BudgetLineItem clientID="client-14615">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Runners</BudgetLineItemName>
+                        <CategoryCode>sCAT-AB-004</CategoryCode>
+                        <CodeCSIID>0170 - Maintenance of Decorative Metal</CodeCSIID>
+                        <DefaultAmount>800.00000</DefaultAmount>
+                        <Description>Runner sections</Description>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>0004</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-14612">001</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-729234">13550 Template</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-14614">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>I channels casting</BudgetLineItemName>
+                        <CategoryCode>sCAT-AB-003</CategoryCode>
+                        <CodeCSIID>0150 - Maintenance of Metal Fabrications</CodeCSIID>
+                        <DefaultAmount>300.00000</DefaultAmount>
+                        <Description>I Channels</Description>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>0003</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-14612">001</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-14615">0004</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-729234">13550 Template</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-14613">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Metal Joist</BudgetLineItemName>
+                        <CategoryCode>sCAT-AB-002</CategoryCode>
+                        <CodeCSIID>0132 - Operation and Maintenance of Sliding Glass</CodeCSIID>
+                        <DefaultAmount>200.00000</DefaultAmount>
+                        <Description>Joist</Description>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>0002</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-14612">001</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-14614">0003</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-729234">13550 Template</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+            </BudgetTemplate>
+        </BudgetTemplates>
+    </Firm>
+</LxERP>

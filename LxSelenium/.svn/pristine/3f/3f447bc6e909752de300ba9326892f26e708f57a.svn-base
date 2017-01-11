@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>101</CodeMarketAreaID>
+                <ExpectedEndDate>2016-09-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location Sprint 17</LocationID>
+                <ProgramID>Portfolio Sprint 17</ProgramID>
+                <ProjectEntityID clientID="client-676434ret">13627 Project</ProjectEntityID>
+                <ProjectName>13627 Project</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PRa</RegionID>
+                <RegionLvl1>PRa</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                <_3627_Form clientID="client-478658">
+                    <CodeIssueTypeID clientID="client-7611">13627 Form</CodeIssueTypeID>
+                    <Currencya>0.00</Currencya>
+                    <Currencyb>0.00</Currencyb>
+                    <ImportedCreatedDate>2016-09-22T09:54:08</ImportedCreatedDate>
+                    <InitiatedByMemberID clientID="client-35641">Delete Access Access</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <LastPageLayoutID clientID="client-42414">13627 Form</LastPageLayoutID>
+                    <ProjectEntityID>676434ret</ProjectEntityID>
+                    <math_AddCurrencies_1>0.0</math_AddCurrencies_1>
+                    <math_SubtractCurrency_2>0.0</math_SubtractCurrency_2>
+                </_3627_Form>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

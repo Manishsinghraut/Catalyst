@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-89">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_TmpTest10_20150612_042040008_25852</mes:ClientID>
+                <mes:PageLayoutName>Manage Forms sub layout</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{}</mes:URL>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:ClientListRGDID ClientID="SQL152_TmpTest10_20150612_042039899_4949">Manage Forms Sub Layout</mes:ClientListRGDID>
+                    <mes:FirmID>Selenium-89</mes:FirmID>
+                    <mes:EntitySelectionFilter>131072</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040052_1126528</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040008_25852">Manage Forms sub layout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039949_64675">Name</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>33</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040109_1126529</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040008_25852">Manage Forms sub layout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039963_64676">ID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:DisplayLabel>ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_TmpTest10_20150612_042040150_25851</mes:ClientID>
+                <mes:PageLayoutName>Selenium Manage Forms</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:Description>Selenium Manage Forms</mes:Description>
+                    <mes:JSONConfigText>{"useHTMLEmail":"","MinPopupWindowWidth":"","EmailBody":"","hasCustomEmail":"false","EmailTitle":""}</mes:JSONConfigText>
+                    <mes:AllowUserCreate>true</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="SQL152_TmpTest10_20150612_042039518_5635">Selenium Manage Forms</mes:CodeIssueTypeID>
+                    <mes:FirmID>Selenium-89</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040165_1126523</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040150_25851">Selenium Manage Forms</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039773_64671">InitiatedByMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:DisplayLabel>Creator</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040181_1126524</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040150_25851">Selenium Manage Forms</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039804_64672">CreatedDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:DisplayLabel>Created Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040196_1126525</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040150_25851">Selenium Manage Forms</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039819_64670">Subject</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:DisplayLabel>Title</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040211_1126526</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040150_25851">Selenium Manage Forms</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039871_64673">Body</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040225_1126527</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040150_25851">Selenium Manage Forms</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039885_64674">Photos</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:DisplayLabel>Photos</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042040259_1126530</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TmpTest10_20150612_042040150_25851">Selenium Manage Forms</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TmpTest10_20150612_042039918_64677">CL</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="SQL152_TmpTest10_20150612_042040008_25852">Manage Forms sub layout</mes:SubPageLayoutID>
+                            <mes:FieldContext>64677</mes:FieldContext>
+                            <mes:DisplayLabel>CL</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_61</mes:ClientID>
+                <mes:ReportGroupDataName>Forms</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042039735_4948</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_61">Forms</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Selenium Manage Forms</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:CodeIssueTypeID ClientID="SQL152_TmpTest10_20150612_042039518_5635">Selenium Manage Forms</mes:CodeIssueTypeID>
+                            <mes:Description>Using in add forms to entity</mes:Description>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039773_64671</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039735_4948">Selenium Manage Forms</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Creator</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>InitiatedByMemberID</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>200</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039804_64672</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039735_4948">Selenium Manage Forms</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Created Date</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>CreatedDate</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>22</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039819_64670</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039735_4948">Selenium Manage Forms</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Title</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Subject</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039871_64673</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039735_4948">Selenium Manage Forms</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Description</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Body</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039885_64674</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039735_4948">Selenium Manage Forms</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Photos</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Photos</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>662</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039918_64677</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039735_4948">Selenium Manage Forms</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>CL</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:ClientListRGDID ClientID="SQL152_TmpTest10_20150612_042039899_4949">Manage Forms Sub Layout</mes:ClientListRGDID>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>323</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_898</mes:ClientID>
+                <mes:ReportGroupDataName>Custom Lists</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>SQL152_TmpTest10_20150612_042039899_4949</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_898">Custom Lists</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Manage Forms Sub Layout</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-89</mes:FirmID>
+                            <mes:CLRExtensionCodeSQLTableID>ClientListRow</mes:CLRExtensionCodeSQLTableID>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039949_64675</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039899_4949">Manage Forms Sub Layout</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Name</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TmpTest10_20150612_042039963_64676</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_TmpTest10_20150612_042039899_4949">Manage Forms Sub Layout</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>ID</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-89</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms>
+            <mes:Form>
+                <mes:ClientID>SQL152_TmpTest10_20150612_042039518_5635</mes:ClientID>
+                <mes:ShortName>Selenium Manage Forms</mes:ShortName>
+                <mes:ActualLongName>Using in add forms to entity</mes:ActualLongName>
+                <mes:IsWorkFlow>false</mes:IsWorkFlow>
+                <mes:AutoClose>false</mes:AutoClose>
+                <mes:AllowReply>true</mes:AllowReply>
+                <mes:DerivedCodeSQLTableID>Issue</mes:DerivedCodeSQLTableID>
+                <mes:IsSequencePerFirm>false</mes:IsSequencePerFirm>
+                <mes:IsValidForCapProgram>false</mes:IsValidForCapProgram>
+                <mes:IsValidForPortfolio>false</mes:IsValidForPortfolio>
+                <mes:IsValidForPrototype>false</mes:IsValidForPrototype>
+                <mes:IsValidForPotentialProject>false</mes:IsValidForPotentialProject>
+                <mes:IsValidForOpenProject>true</mes:IsValidForOpenProject>
+                <mes:IsValidForCapProject>false</mes:IsValidForCapProject>
+                <mes:IsValidForFacility>false</mes:IsValidForFacility>
+                <mes:IsValidForLocation>false</mes:IsValidForLocation>
+                <mes:IsValidForParcel>false</mes:IsValidForParcel>
+                <mes:IsValidForContract>false</mes:IsValidForContract>
+            </mes:Form>
+        </mes:Forms>
+    </mes:Firm>
+</mes:LxERP>

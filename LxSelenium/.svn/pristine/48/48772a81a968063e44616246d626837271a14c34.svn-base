@@ -1,0 +1,108 @@
+IWMS UI Automated Functional Tests
+
+
+    This project contains the implementation of automated functional tests of the
+IWMS WebUI. It implements what is called BDD (Behavioural Driven Development) via
+{{{http://cukes.info}Cucumber}}. For the web browser DOM automation it uses Selenium
+{{{http://docs.seleniumhq.org/projects/webdriver/}WebDriver}}.
+
+* Essential Moving Parts
+
+    The key to understanding Cucumber based testing is that Cucumber <<.feature>> is in
+charge of the execution flow. A hello world style Cucumber example can be seen in this file:
+
+    LxSelenium/src/test/resources/iwms/Login.feature
+
+    This Cucumber file is the hello world test that you can use to understand how to use
+BDD in your testing efforts. So you want to execute the Login.feature test via IntellJ's
+context menu <<Run 'Feature: Login'>>. In the IntelliJ Project navigation area right
+mouse on the Login.feature file and choose the <<Run 'Feature: Login'>> context menu
+item. This will execute the test case.
+
+* User Classes
+
+    This project implements the notion of an user class for sake of IWMS security testing.
+A given user class will have a specific set of permitted IWMS actions and data visibility.
+Each user class has a ${UserClass}.properties file that provides the credentials for
+that user class. The password field of those .properties files is encrypted (we don't
+want no stink'n plaintext passwords laying around in text files, do we). To encrypt a
+plaintext string (that is suitable for use as the password in one of these property files)
+execute the <<main()>> method of the <<TripleDesCipher>> class passing it the plaintext
+string you want to encrypt as a command line argument. Copy the encrypted string to the
+appropriate ${UserClass}.properties file.
+
+* Maven Profiles
+
+    Maven offers the notion of a build profile which can adapt the build artifacts to variations
+in environments. In the case of IWMS tests we have two environments: dev and bamboo. The dev
+environment is intended to represent the developer's machine. The bamboo environment is intended
+for use by the Bamboo automated build. At the moment the only real difference is the IWMS url as
+specified in the Cucumber .feature files:
+
+    Given I navigate to IWMS at "${iwms.url}"
+
+    The above line of Gerkin was lifted from Login.feature and you will note the "${iwms.url}"
+property. During a maven build this property will be replaced by a similarly named property as
+specified by the property file selected by maven from the LxSelenium/profiles directory.
+
+* IWMS Widgets
+
+    The IWMS web-ui implementation leverages a set of UI widgets which means the browser
+DOM elements follow a pattern and this module includes a set of Java classes that reflect
+the widget patterns seen in the DOM. The significance (to the author of Cucumber tests) is
+they don't have to write low level Selenium selectors to interact with many parts of the IWMS
+UI, instead they can use these LxSelenium widget classes and operate at an abstraction
+above the raw browser DOM.
+
+    As an example, the IWMS UI has a set of administrator pages that are accessible via links
+that are surfaced when the user clicks the <<Admin>> button in the IWMS toolbar (along top of
+IWMS window, right justified). For illustration sake, suppose you wish to automate testing of
+the <<<Manage Members/Contacts>>> feature (see the ManageMembers.feature file). If in the
+Admin backend you click on the <<Manage Members/Contacts>> link you will see a UI grid of
+members as known to IWMS. This UI grid is a common fixture in most of the other Admin manage
+links as as such this codebase offers the <<AdminGridView>> class that make that DOM pattern
+a high level component that you can leverage in your test when interacting with those UI grid
+widgets that follow the Admin grid pattern. Use of the AdminGridView class relieves you of the
+burden of finding DOM elements via low level Selenium calls and instead you call the static
+Java methods of the AdminGridView class. This widget class (that is what we will call these
+classes that follow widget patterns in the DOM) provides a lot of meta data about the data
+being managed by the UI grid (record-type, column-headers, row-count, pagination, etc). As
+an example, if you wanted to know the type of record in the UI grid you would call this
+static method: AdminGridView.getRecordType() which in our Manage Members grid would be "Person".
+
+    The javadocs for LxSelenium are published via Bamboo {{{http://bamboo301.lucernex.com:8085/browse/QA-LXSEL/latest/artifact/JOB1/Site-Docs/index.html}here}}.
+There are several key classes called out in the table below with a short description of their purpose.
+
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+|| Class/Package                                         || Purpose                                                                |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.pages.admin                            | Contain Selenium DOM selectors used by classes in com.lucernex.qa.views |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.utils.BrowserDriver                    | Provides WebDriver instance for a configured browser (Firefox, etc)     |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.utils.CucumberContext                  | A thread local used in managing Gerkin Scenario test context            |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.utils.Spreadsheet                      | Read/write access to IWMS compatible spreadsheets (uses ExcelHelper)    |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.utils.TripleDesCipher                  | Used to encrypt passwords for use in credentials properties files       |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.HomeView                         | Represents the IWMS home page (landing page after authentication)       |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.LoginView                        | Provides interaction with the pair of IWMS authentication pages         |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.admin.AdminGridView              | Generic representation of Admin grid widget                             |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.admin.AdminPageView              | Represents the page of links shown after clicking the Admin button      |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.admin.AdminPageView              | Represents the UI tabs shown after clicking a link in the Admin page    |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.admin.ImportDataTabsView         | Represents the set of tabs on the Import Data admin page                |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.admin.ImportDataPageView         | Represents the Import Data tab and provides interaction with it         |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.admin.SpreadsheetsPageView       | Represents the Spreadsheets tab and provided interaction with it        |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.components.LxModalWindow         | Represents a Lucernex modal form in a generalized manner                |
+*--------------------------------------------------------+-------------------------------------------------------------------------+
+| com.lucernex.qa.views.components.ConfirmationPopupView | Represents a Lucernex confirmation modal window                         |
+*--------------------------------------------------------+-------------------------------------------------------------------------+

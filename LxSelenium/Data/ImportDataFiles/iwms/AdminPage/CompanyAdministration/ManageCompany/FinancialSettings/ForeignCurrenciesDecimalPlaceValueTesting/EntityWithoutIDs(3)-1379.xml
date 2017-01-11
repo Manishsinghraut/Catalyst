@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-09-26</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location Sprint 17</LocationID>
+                <ProgramID>Portfolio Sprint 17</ProgramID>
+              <ProjectEntityID>Testing 13626 Project Entity</ProjectEntityID>
+                <ProjectName>Testing 13626 Project Entity</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PRa</RegionID>
+                <RegionLvl1>PRa</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                <SiteSurvey>
+                    <BuildingSignage>false</BuildingSignage>
+                    <CanopyLighting>false</CanopyLighting>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <FireSprinkler>false</FireSprinkler>
+                    <HandicapAccessible>false</HandicapAccessible>
+                    <IsBuildingPlanAvail>false</IsBuildingPlanAvail>
+                    <IsCLECAvail>false</IsCLECAvail>
+                    <IsConstructionCriteriaAvail>false</IsConstructionCriteriaAvail>
+                    <IsCurrentlyOccupied>false</IsCurrentlyOccupied>
+                    <IsLODAvail>false</IsLODAvail>
+                    <IsLandlordWorkDescriptionAvail>false</IsLandlordWorkDescriptionAvail>
+                    <IsRoofAccessAvail>false</IsRoofAccessAvail>
+                    <IsSignCriteriaAvail>false</IsSignCriteriaAvail>
+                    <MonumentSignage>false</MonumentSignage>
+                    <ParkingLotLighting>false</ParkingLotLighting>
+                    <PylonSignage>false</PylonSignage>
+                    <RecommendToREC>false</RecommendToREC>
+                    <TrafficSignalAccess>false</TrafficSignalAccess>
+                </SiteSurvey>
+                <CL_TestingCurrency>
+                    <CodeSQLTableID>Project</CodeSQLTableID>
+                    <CurrencyA1>100.00</CurrencyA1>
+                    <CurrencyB2>200.00</CurrencyB2>       
+                </CL_TestingCurrency>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

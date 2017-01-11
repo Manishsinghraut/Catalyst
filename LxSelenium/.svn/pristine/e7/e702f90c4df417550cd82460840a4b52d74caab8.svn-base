@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Facilities>
+            <Facility clientID="client-191373">
+                <City>Plano</City>
+                <ClientEntityID>121`2</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityName>Master Facility</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectDescription>Project Test</ProjectDescription>
+                <ProjectEntityID clientID="client-604172">Master Facility</ProjectEntityID>
+                <RegionID clientID="client-28901">Central Dallas(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <UseLocationAddress>true</UseLocationAddress>
+                <MapClientSchedule clientID="client-552801">
+                    <LastReviewedDate>2015-12-21T14:16:30</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>

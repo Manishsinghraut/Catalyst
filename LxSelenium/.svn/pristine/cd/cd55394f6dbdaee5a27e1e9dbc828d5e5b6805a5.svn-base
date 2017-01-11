@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>11344 Contract</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>11344 Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID>00018 Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-6483">00018 Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-679734TRYYTRYYTRYY">11344 Contract</ProjectEntityID>
+                <RentableArea>670000.00000</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IncludeInPlanForecast>false</IncludeInPlanForecast>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>670000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>-1080000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>-90000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>-90000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>-90000.00000</PaymentAmount>
+                        <PaymentRate>-1.61000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>679734TRYYTRYYTRYY</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Base Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Annually</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IncludeInPlanForecast>false</IncludeInPlanForecast>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>670000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>-8000000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>-8000000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>-8000000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>-8000000.00000</PaymentAmount>
+                        <PaymentRate>-11.94000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>679734TRYYTRYYTRYY</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>679734TRYYTRYYTRYY</ProjectEntityID>
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project clientID="GC-90072">
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeConstructionTypeID>Wood</CodeConstructionTypeID>
+                <CodeDealTypeID>Rental</CodeDealTypeID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeMarketTypeID>Retail Mall</CodeMarketTypeID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ComplexID>Stonebriar</ComplexID>
+                <ExpectedEndDate>2015-01-05</ExpectedEndDate>
+                <Frontage>10000.00</Frontage>
+                <GrossArea>6522.00000</GrossArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <JurisdictionID>Collin</JurisdictionID>
+                <LocationID>Lucernex-Project</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectDescription>This is GC Bidding - Bid Package Workflow test case</ProjectDescription>
+                <ProjectName>GCBidding</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-17652">Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central</RegionLvl1>
+                <RentableArea>50000.00000</RentableArea>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <UsableArea>20000.00000</UsableArea>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

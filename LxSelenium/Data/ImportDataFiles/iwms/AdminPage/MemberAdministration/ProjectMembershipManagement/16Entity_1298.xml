@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <PotentialProjects>
+            <PotentialProject>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>FL</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <PotentialProjectName>Site OMMP -19</PotentialProjectName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-asd661164">Site OMMP -19</ProjectEntityID>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </PotentialProject>
+            <PotentialProject>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>FL</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <PotentialProjectName>Site OMMP -20</PotentialProjectName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-asdre661164zz">Site OMMP -19</ProjectEntityID>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </PotentialProject>
+        </PotentialProjects>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-a661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 1</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-b661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 2</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-c661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 3</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-d661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 4</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-e661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 5</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-f661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 6</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-g661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 7</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-h661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 8</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-i661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 9</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-j661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 10</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-j661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 11</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-k661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 12</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-l661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 13</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-22</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-m661163zz">Project OMMP 1</ProjectEntityID>
+                <ProjectName>Project OMMP 14</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Member4a Testing 15650</MemberID>
+                </LinkMemberProjectEntity>
+
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

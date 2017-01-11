@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-09-02</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location Sprint 16</LocationID>
+                <ProgramID>Portfolio Sprint 16</ProgramID>
+                <ProjectEntityID clientID="client-668324ree">8980 Budget Values</ProjectEntityID>
+                <ProjectName>8980 Budget Values</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-32484">Central Market</RegionID>
+                <RegionLvl1>Central Market</RegionLvl1>
+				<BudgetTemplateID clientID="SeleniumBudgetTemplate">Selenium-Budget</BudgetTemplateID>
+                <BudgetColumn>
+                    <BudgetColumnTypeID>Budget Values</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID>Awarded</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-09-02T09:02:18</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>1.2</BudgetLineItemID>
+                        <ItemValue>4000.00000</ItemValue>
+                        <ProjectEntityID>668324ree</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+               </Project>
+        </Projects>
+    </Firm>
+</LxERP>

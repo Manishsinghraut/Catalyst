@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>CurrencyPortfolio-15685</ProgramName>
+				<CodeCurrencyTypeID>JPY</CodeCurrencyTypeID>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-p0m1n4d7">CurrencyPortfolio-15685</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+            </Program>
+        </Programs>
+		           <Locations>
+            <Location>
+                <ClientEntityID>CurrencyLocation-15685</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>CurrencyLocation-15685</LocationName>
+                <ProgramID>CurrencyPortfolio-15685</ProgramID>
+                <ProjectEntityID clientID="client-01h3sklw67">CurrencyLocation-15685</ProjectEntityID>
+            </Location>
+        </Locations>
+	        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>CurrencyContract-15685</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>CurrencyContract-15685</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>CurrencyLocation-15685</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID>CurrencyPortfolio-15685</ProgramID>
+                <ProjectEntityID clientID="client-m2jud83vc">CurrencyContract-15685</ProjectEntityID>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

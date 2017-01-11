@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract clientID="client-127431">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>PT without vendor contract</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>PT without vendor contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="client-149817">9818 Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ParcelID clientID="client-31535">PT-008</ParcelID>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <ProgramID clientID="client-3817">Global</ProgramID>
+                <ProjectEntityID clientID="client-592491">PT without vendor contract</ProjectEntityID>
+                <RentableArea>0.00</RentableArea>
+                <MapClientSchedule clientID="client-541557">
+                    <LastReviewedDate>2015-12-22T16:29:00</LastReviewedDate>
+                    <ProjectEntityID>592491</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

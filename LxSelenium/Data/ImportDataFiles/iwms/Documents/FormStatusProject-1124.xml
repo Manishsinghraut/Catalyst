@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+           <Locations>
+            <Location>
+                <ClientEntityID>87w</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>87w</LocationName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-r3ss3s">87w</ProjectEntityID>
+				                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+
+            </Location>
+        </Locations>       
+	   <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-06-01</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>87w</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-sk39kj">FormStatusProject</ProjectEntityID>
+                <ProjectName>FormStatusProject</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen))</RegionID>
+                <RegionLvl1>Central(Central region - preOpen))</RegionLvl1>
+                          <Folder>
+                     <FolderName>PhotoGroup</FolderName>
+                    <IsFolderDownloadableByMember>true</IsFolderDownloadableByMember>
+                    <IsFolderReadableByMember>true</IsFolderReadableByMember>
+                    <IsFolderUploadOnlyByMember>false</IsFolderUploadOnlyByMember>
+                    <IsFolderUploadableByMember>true</IsFolderUploadableByMember>
+                </Folder>
+			 <Currency>
+                    <A>5.00</A>
+                    <B>2.00</B>
+                    <CodeIssueTypeID>Currency</CodeIssueTypeID>
+                    <CreatedDate>2016-06-01T15:17:57</CreatedDate>
+                    <ImportedCreatedDate>2016-06-01T15:17:57</ImportedCreatedDate>
+                    <InitiatedByMemberID>Muhammad Sameer</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <IssueID>453399</IssueID>
+                    <LastPageLayoutID>Currency_PL</LastPageLayoutID>
+                    <ProjectEntityID>sk39kj</ProjectEntityID>
+                    <Subject>06/01/2016</Subject>
+                    <math_Total1_0>7.0</math_Total1_0>
+                </Currency>
+                <Form_for_Schedule_Template>
+                    <Body>This open form is for testing purposes.</Body>
+                    <CodeIssueTypeID clientID="SQL152_Test_10_20150805_143049232_5256">Form for Schedule Template</CodeIssueTypeID>
+                    <CreatedDate>2016-06-01T15:12:00</CreatedDate>
+                    <ImportedCreatedDate>2016-06-01T15:12:00</ImportedCreatedDate>
+                    <InitiatedByMemberID>Muhammad Sameer</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <IssueID>453393</IssueID>
+                    <LastPageLayoutID clientID="SQL152_Test_10_20150805_143049615_27355">Form for ST</LastPageLayoutID>
+                    <Name>Open form</Name>
+                    <ProjectEntityID>sk39kj</ProjectEntityID>
+                    <Subject>06/01/2016</Subject>
+                </Form_for_Schedule_Template>
+                <Form_for_Schedule_Template>
+                    <Body>This closed form is for testing purposes.</Body>
+                    <CodeIssueTypeID clientID="SQL152_Test_10_20150805_143049232_5256">Form for Schedule Template</CodeIssueTypeID>
+                    <CreatedDate>2016-06-01T15:12:31</CreatedDate>
+                    <ImportedCreatedDate>2016-06-01T15:12:31</ImportedCreatedDate>
+                    <InitiatedByMemberID>Muhammad Sameer</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <IssueID>453394</IssueID>
+                    <LastPageLayoutID clientID="SQL152_Test_10_20150805_143049615_27355">Form for ST</LastPageLayoutID>
+                    <Name>Closed form</Name>
+                    <ProjectEntityID>sk39kj</ProjectEntityID>
+                    <Subject>06/01/2016</Subject>
+                </Form_for_Schedule_Template>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

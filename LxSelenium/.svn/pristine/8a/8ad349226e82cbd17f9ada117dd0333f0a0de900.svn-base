@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <ProgramName>Portfolio 00020-AUTOMATION-1451</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+               
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>Portfolio 00020-AUTOMATION-1451</ProgramID>
+                       
+                        <RegionName>PR020</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access Access</MemberID>
+                            <ProgramID>Portfolio 00020-AUTOMATION-1451</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <Region>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>PR020</ParentRegionID>
+                            <ProgramID>Portfolio 00020-AUTOMATION-1451</ProgramID>
+                           
+                            <RegionName>Sub 020</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access Access</MemberID>
+                                <ProgramID>Portfolio 00020-AUTOMATION-1451</ProgramID>
+                               
+                            </LinkRegionManager>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                               
+                                <LinkRegionManager>
+                                    <IsManager>false</IsManager>
+                                    <MemberID>Delete Access Access</MemberID>
+                                    <OperatingStatus>P</OperatingStatus>
+                                    <ProgramID>Portfolio 00020-AUTOMATION-1451</ProgramID>
+                                   
+                                    <RegionID>PR020 Sub 020</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+		  <Locations>
+            <Location>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>Location 00020-AUTOMATION-1451</LocationName>
+                <ProgramID>Portfolio 00020-AUTOMATION-1451</ProgramID>
+              </Location>
+        </Locations>
+		   <!--     <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-14</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020-AUTOMATION-1451</LocationID>
+                <ProgramID>Portfolio 00020-AUTOMATION-1451</ProgramID>
+                <ProjectName>DocumentNameProject-619</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PR020</RegionID>
+                <RegionLvl1>PR020</RegionLvl1>
+            </Project>
+        </Projects>-->
+    </Firm>
+</LxERP>

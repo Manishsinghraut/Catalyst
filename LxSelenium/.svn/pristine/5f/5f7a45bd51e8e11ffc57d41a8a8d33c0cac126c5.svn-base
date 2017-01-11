@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <CodeTables>
+           <CodeUserClass>
+                <ActualLongName>Michael Scott</ActualLongName>
+                <IsFinancialAccessAllowed>false</IsFinancialAccessAllowed>
+                <IsManageLeaseAllowed>false</IsManageLeaseAllowed>
+                <IsManageProcessTimelineAllowed>false</IsManageProcessTimelineAllowed>
+                <ShortName>Michael Scott</ShortName>
+            </CodeUserClass>
+        </CodeTables>
+       <UserClassSecuritys>
+			<UserClassSecurity clientID="client-589610">
+                <CodeUserClassID clientID="client-4816">Broker</CodeUserClassID>
+                <PageLayoutID clientID="214">Work Flow</PageLayoutID>
+                <SecurityLevelByteValue>Delete</SecurityLevelByteValue>
+            </UserClassSecurity>
+        </UserClassSecuritys>
+           </Firm>
+       </LxERP>

@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP><Firm>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5873</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Administration</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5874</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Dashboard Items</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5875</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Facility</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5876</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Forms</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5877</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>My Links</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5878</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Portfolio</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5879</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Project</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5880</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Prototype</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5881</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Reports</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5882</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Site</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5883</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Budget</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5884</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Company Items</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5885</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Demographics Criteria</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5886</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Documents</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5887</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Equipment/Assets</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5888</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Forms</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5889</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Pro Forma Lease</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5890</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Milestones</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5891</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Program Summary Information</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5892</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Purchase Management</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5893</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>RE Planner</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5894</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Schedule</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5895</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Site Survey</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5896</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Statics</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>5897</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Summary Information</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>17655</UserClassSecurityID>
+        <CodeUserClassID></CodeUserClassID>
+        <CodeUserClassID>Administrator</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Create a Report</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>17659</UserClassSecurityID>
+        <CodeUserClassID></CodeUserClassID>
+        <CodeUserClassID>Administrator</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Dashboard</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18213</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Program</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18214</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Location</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18215</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Parcel</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18216</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Capital Project</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18217</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18220</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Create a Report</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18221</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Sub-pages</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18222</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>List Layouts</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18471</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Approve Contract Payments</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>18472</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Manage Contracts</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21034</UserClassSecurityID>
+        <CodeUserClassID></CodeUserClassID>
+        <CodeUserClassID>Administrator</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21035</UserClassSecurityID>
+        <CodeUserClassID></CodeUserClassID>
+        <CodeUserClassID>Administrator</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Contract</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Contract</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21037</UserClassSecurityID>
+        <CodeUserClassID></CodeUserClassID>
+        <CodeUserClassID>Administrator</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Receive Lease Alerts</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Receive Lease Alerts</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21038</UserClassSecurityID>
+        <CodeUserClassID></CodeUserClassID>
+        <CodeUserClassID>Administrator</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Contract To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Contract To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21039</UserClassSecurityID>
+        <CodeUserClassID></CodeUserClassID>
+        <CodeUserClassID>Administrator</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Contract To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Contract To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21040</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Create a Report</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21041</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Dashboard</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21042</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21043</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Contract</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Contract</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21045</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Receive Lease Alerts</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Receive Lease Alerts</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21046</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Contract To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Contract To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21047</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Contract To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Contract To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21048</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Allow Locked Status for Budgets</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Allow Locked Status for Budgets</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21049</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Allow Selected Status for Budgets</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Allow Selected Status for Budgets</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21050</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Allow Unlocked Status for Budgets</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Allow Unlocked Status for Budgets</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21051</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Allow Unselected Status for Budgets</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Allow Unselected Status for Budgets</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21052</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Allow WebDAV Access</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Allow WebDAV Access</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21053</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Condition Bids</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Condition Bids</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21054</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Convert Site To Project</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Convert Site To Project</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21055</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Capital Program</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Capital Program</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21056</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Capital Project</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Capital Project</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21057</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Capital Project For Facility</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Capital Project For Facility</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21058</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Contract</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Contract</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21059</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Facility</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Facility</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21060</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Facility From Project</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Facility From Project</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21061</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Location</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Location</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21062</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Opening Project</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Opening Project</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21063</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Parcel</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Parcel</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21064</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Portfolio</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Portfolio</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21065</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Prototype</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Prototype</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21066</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Public Reports</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Public Reports</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21067</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Related Work Order</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Related Work Order</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21068</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Create Site</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Create Site</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21069</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Capital Projects for Program Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Capital Projects for Program Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21070</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Contracts for Portfolio Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Contracts for Portfolio Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21071</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Facilities for Portfolio Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Facilities for Portfolio Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21072</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Locations for Portfolio Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Locations for Portfolio Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21073</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Opening Projects for Portfolio Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Opening Projects for Portfolio Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21074</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Parcels for Portfolio Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Parcels for Portfolio Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21075</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Prototypes for Portfolio Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Prototypes for Portfolio Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21076</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Default access to Sites for Portfolio Members</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Default access to Sites for Portfolio Members</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21077</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Delete Budget</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Delete Budget</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21078</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Manage All Schedule Items</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Manage All Schedule Items</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21079</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Manage All Schedule Items if Manager</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Manage All Schedule Items if Manager</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21080</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Manage RE Plan</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Manage RE Plan</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21081</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Receive Equipment Alerts</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Receive Equipment Alerts</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21082</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Receive Lease Alerts</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Receive Lease Alerts</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21083</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Capital Program To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Capital Program To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21084</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Capital Program To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Capital Program To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21085</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Capital Project To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Capital Project To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21086</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Capital Project To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Capital Project To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21087</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Contract To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Contract To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21088</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Contract To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Contract To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21089</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Facility To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Facility To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21090</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Facility To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Facility To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21091</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Location To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Location To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21092</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Location To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Location To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21093</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Opening Project To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Opening Project To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21094</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Opening Project To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Opening Project To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21095</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Parcel To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Parcel To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21096</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Parcel To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Parcel To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21097</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Portfolio To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Portfolio To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21098</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Portfolio To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Portfolio To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21099</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Prototype To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Prototype To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21100</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Prototype To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Prototype To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21101</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Site To Dead</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Site To Dead</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21102</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Set Site To Inactive</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Set Site To Inactive</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21103</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>Task Association</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>Task Association</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21104</UserClassSecurityID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <CodeUserClassID>Default Security</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID>View Portfolio Documents</CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID>View Portfolio Documents</CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21224</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Contract</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21225</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Contacts</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21226</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Covenants</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21227</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract General Information</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21228</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Payment Forecast</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21229</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Wizard</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21230</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Wizard Step 2</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21231</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Wizard Step 3</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21232</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Wizard Step 4</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21233</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Contract Wizard Step 5</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21234</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Project Setup Wizard</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21235</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Portfolio</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21236</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Program</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21237</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Prototype</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21238</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Site</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21239</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Project</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21240</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Location</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21241</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Parcel</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21242</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Facility</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21243</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Capital Project</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21245</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Sub-pages</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21246</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>List Layouts</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21247</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Client Drop Downs</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21248</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Custom Code Fields</ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21249</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Manage Contracts</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21250</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Manage Contract Type Code</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21251</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Manage Contract Group Code</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21252</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Manage User-Defined Drop Downs</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21253</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID>ShortName</ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>21254</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID>Manage Security</PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID></ReportGroupDataID>
+    </UserClassSecurity>
+    <ProjectEntity>
+    </ProjectEntity>
+    <UserClassSecurity>
+        <UserClassSecurityID>23197</UserClassSecurityID>
+        <CodeUserClassID>Lease Administrator</CodeUserClassID>
+        <CodeUserClassID>Lease Admin</CodeUserClassID>
+        <BudgetColumnTypeID></BudgetColumnTypeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <CodeSecurityPrivilegeID></CodeSecurityPrivilegeID>
+        <PageLayoutID></PageLayoutID>
+        <ReportGroupAvailableFieldID></ReportGroupAvailableFieldID>
+        <ReportGroupDataID>Summary Page Buttons</ReportGroupDataID>
+    </UserClassSecurity>
+</Firm></LxERP>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-08-09</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID clientID="client-168521">000056</LocationID>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-663340">15290 Project</ProjectEntityID>
+                <ProjectName>15290 Project</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-24152wed">Central (Central region - preOpen) Frisco(Pre-Open)</RegionID>
+                <RegionLvl1>Central (Central region - preOpen) Frisco(Pre-Open)</RegionLvl1>
+				<Folder>
+                    <FolderName>SeleniumTestRootFolder1</FolderName>
+                    <IsFolderDownloadableByMember>true</IsFolderDownloadableByMember>
+                    <IsFolderReadableByMember>true</IsFolderReadableByMember>
+                    <IsFolderUploadOnlyByMember>false</IsFolderUploadOnlyByMember>
+                    <IsFolderUploadableByMember>true</IsFolderUploadableByMember>
+                    <ModifiedByID>Delete Access Access</ModifiedByID>
+                    <ModifiedDate>2016-08-05T14:12:19</ModifiedDate>
+                    <SubFolderPath>/SeleniumTestRootFolder1</SubFolderPath>
+                </Folder>
+					<BudgetTemplateID>Selenium-Budget</BudgetTemplateID>
+                <BudgetColumn clientID="client-82472">
+                    <BudgetColumnTypeID clientID="SQL153_TestB_20160727_20160809_111644623_840">PreConstruction</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-6845">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-08-09T10:59:32</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-1183972">
+                        <BudgetLineItemID clientID="client-10899">1.2</BudgetLineItemID>
+                        <ItemValue>200.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183973">
+                        <BudgetLineItemID clientID="client-10900">1.1</BudgetLineItemID>
+                        <ItemValue>300.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183974">
+                        <BudgetLineItemID clientID="client-10897">1.0</BudgetLineItemID>
+                        <ItemValue>0.00</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183975">
+                        <BudgetLineItemID clientID="client-10901">2.2</BudgetLineItemID>
+                        <ItemValue>400.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183976">
+                        <BudgetLineItemID clientID="client-10902">2.1</BudgetLineItemID>
+                        <ItemValue>300.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-82473">
+                    <BudgetColumnTypeID clientID="SQL153_TestB_20160727_20160809_111644774_839">PreCuring</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-6844">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-08-09T11:00:24</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-1183977">
+                        <BudgetLineItemID clientID="client-10899">1.2</BudgetLineItemID>
+                        <ItemValue>120.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183978">
+                        <BudgetLineItemID clientID="client-10900">1.1</BudgetLineItemID>
+                        <ItemValue>220.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183979">
+                        <BudgetLineItemID clientID="client-10901">2.2</BudgetLineItemID>
+                        <ItemValue>320.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183980">
+                        <BudgetLineItemID clientID="client-10902">2.1</BudgetLineItemID>
+                        <ItemValue>420.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-82474">
+                    <BudgetColumnTypeID clientID="SQL153_TestB_20160727_20160809_111644799_838">PreLevelling</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-6843">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-08-09T11:00:56</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-1183981">
+                        <BudgetLineItemID clientID="client-10899">1.2</BudgetLineItemID>
+                        <Description>Carpets ordered From CCL LLC</Description>
+                        <ItemValue>111.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183982">
+                        <BudgetLineItemID clientID="client-10900">1.1</BudgetLineItemID>
+                        <ItemValue>222.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-1183983">
+                        <BudgetLineItemID clientID="client-10897">1.0</BudgetLineItemID>
+                        <ItemValue>345.00000</ItemValue>
+                        <ProjectEntityID>663340</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <MapClientSchedule clientID="client-611707">
+                    <LastReviewedDate>2016-08-09T10:59:08</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <SiteSurvey clientID="client-99576">
+                    <BuildingSignage>false</BuildingSignage>
+                    <CanopyLighting>false</CanopyLighting>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <FireSprinkler>false</FireSprinkler>
+                    <HandicapAccessible>false</HandicapAccessible>
+                    <IsBuildingPlanAvail>false</IsBuildingPlanAvail>
+                    <IsCLECAvail>false</IsCLECAvail>
+                    <IsConstructionCriteriaAvail>false</IsConstructionCriteriaAvail>
+                    <IsCurrentlyOccupied>false</IsCurrentlyOccupied>
+                    <IsLODAvail>false</IsLODAvail>
+                    <IsLandlordWorkDescriptionAvail>false</IsLandlordWorkDescriptionAvail>
+                    <IsRoofAccessAvail>false</IsRoofAccessAvail>
+                    <IsSignCriteriaAvail>false</IsSignCriteriaAvail>
+                    <MonumentSignage>false</MonumentSignage>
+                    <ParkingLotLighting>false</ParkingLotLighting>
+                    <PylonSignage>false</PylonSignage>
+                    <RecommendToREC>false</RecommendToREC>
+                    <TrafficSignalAccess>false</TrafficSignalAccess>
+                </SiteSurvey>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

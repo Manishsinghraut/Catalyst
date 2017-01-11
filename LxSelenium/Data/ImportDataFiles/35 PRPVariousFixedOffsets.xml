@@ -1,0 +1,2047 @@
+<?xml version="1.0"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location clientID="PRPFixedOffset_Location">
+                <LocationName>PRPFixedOffset Location</LocationName>
+                <City>Coppell</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                <CodeLocationCategoryID>Leased</CodeLocationCategoryID>
+                <CodeLocationGroupID>Retail</CodeLocationGroupID>
+                <CodeLocationStatusID>Active</CodeLocationStatusID>
+                <CodeLocationTypeID>Regional Center</CodeLocationTypeID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <GrossLeaseArea>250000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75019</PostalCode>
+                <ProgramID clientID="client-2599">Retail (Demo)</ProgramID>
+                <StreetAddress1>724 Dove Circle</StreetAddress1>
+                <ThirdPartyWarehouse>Dallas Distribution Center
+                </ThirdPartyWarehouse>
+                <ThirdPartyWarehouseArea>100000.00000</ThirdPartyWarehouseArea>
+            </Location>
+        </Locations>
+        <Contracts>
+            <Contract clientID="PRPVariousFixedOffsets">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>Regression 1</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractCategoryID>Leased</CodeContractCategoryID>
+                <CodeContractGroupID>Lease</CodeContractGroupID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CodeContractTypeID clientID="client-86">Option</CodeContractTypeID>
+                <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>PRPVariousFixedOffsets</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2010-01-01</ExecuteDate>
+                <LocationID clientID="PRPFixedOffset_Location">PRPFixedOffset Location</LocationID>
+                <MonthToMonth>true</MonthToMonth>
+                <Notes>This is the first test for Contracts in 9223</Notes>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2015-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProRataShareRate>50.00000</ProRataShareRate>
+                <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                <RentableArea>5000.00000</RentableArea>
+                <CoTenancy clientID="client-16890">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CoTenancyAmount>1000.00000</CoTenancyAmount>
+                    <CoTenancyArea>6000.00000</CoTenancyArea>
+                    <CoTenancyName>B Test Co-Tenancy</CoTenancyName>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCoTenancyGroupID>Fixed</CodeCoTenancyGroupID>
+                    <CodeCoTenancyTypeID>Renter</CodeCoTenancyTypeID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EffectiveDate>2014-11-20</EffectiveDate>
+                    <EndDate>2015-12-31</EndDate>
+                    <HasRightToTerminate>true</HasRightToTerminate>
+                    <Notes>This is a Test</Notes>
+                    <OccupancyPercentage>4.00000</OccupancyPercentage>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemodelDate>2014-11-29</RemodelDate>
+                    <RentAccount>23abc</RentAccount>
+                    <RentReductionAmount>20.00000</RentReductionAmount>
+                    <RentReductionPercent>2.00000</RentReductionPercent>
+                    <Section>c</Section>
+                </CoTenancy>
+                <CoTenancy clientID="client-16891">
+                    <BeginDate>2010-01-12</BeginDate>
+                    <CoTenancyAmount>1000000.00000</CoTenancyAmount>
+                    <CoTenancyArea>5000.00000</CoTenancyArea>
+                    <CoTenancyName>C Test Co-Tenancy</CoTenancyName>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCoTenancyGroupID>A Test</CodeCoTenancyGroupID>
+                    <CodeCoTenancyTypeID>Owner</CodeCoTenancyTypeID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EffectiveDate>2014-10-22</EffectiveDate>
+                    <EndDate>2015-12-22</EndDate>
+                    <HasRightToTerminate>false</HasRightToTerminate>
+                    <Notes>This is a second test</Notes>
+                    <OccupancyPercentage>3.00000</OccupancyPercentage>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemodelDate>2014-10-07</RemodelDate>
+                    <RentAccount>abcde123</RentAccount>
+                    <RentReductionAmount>200.00000</RentReductionAmount>
+                    <RentReductionPercent>2.00000</RentReductionPercent>
+                    <Section>D</Section>
+                </CoTenancy>
+                <ContractAmendment clientID="client-20330">
+                    <AmendmentNumber>101010</AmendmentNumber>
+                    <BaseAmountChange>1000.00000</BaseAmountChange>
+                    <CodeAmendmentGroupID>Lease</CodeAmendmentGroupID>
+                    <CodeAmendmentTypeID clientID="client-147">Rent Commencement</CodeAmendmentTypeID>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeContractUseID>Living</CodeContractUseID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <Description>This is a Test</Description>
+                    <EffectiveDate>2014-10-23</EffectiveDate>
+                    <Notes>This is a Test</Notes>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </ContractAmendment>
+                <ContractAmendment clientID="client-20333">
+                    <AmendmentNumber>202020</AmendmentNumber>
+                    <BaseAmountChange>200.00000</BaseAmountChange>
+                    <CodeAmendmentGroupID>Lease</CodeAmendmentGroupID>
+                    <CodeAmendmentTypeID clientID="LeaseDemo1_client-38">Extension</CodeAmendmentTypeID>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeContractUseID>apartment</CodeContractUseID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <Description>Thsi is a Test</Description>
+                    <EffectiveDate>2014-10-23</EffectiveDate>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RentableAreaChange>5000.00000</RentableAreaChange>
+                </ContractAmendment>
+                <ContractTerm clientID="client-402870">
+                    <ClientNumber>8</ClientNumber>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <IncludeTermForAccruals>false</IncludeTermForAccruals>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RentableArea>5000.00000</RentableArea>
+                </ContractTerm>
+                <ContractTerm clientID="client-402667">
+                    <ClientNumber>99999</ClientNumber>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeTermStatusID>Active</CodeTermStatusID>
+                    <CodeTermTypeID>Original</CodeTermTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <IncludeTermForAccruals>true</IncludeTermForAccruals>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RentableArea>5000.00000</RentableArea>
+                </ContractTerm>
+                <ExpenseSetup clientID="client-504831">
+                    <ApplyTaxFlag>true</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-7714">Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <PaymentDueDay>-2</PaymentDueDay>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RemitMessage>Monthly Rent</RemitMessage>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-2600131">
+                        <AnnualAmount>18000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+                        <Description>Monthly Rent</Description>
+                        <EndDate>2015-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504831">Expense Setup Record, ID=110133</ExpenseSetupID>
+                        <FirstPaymentAmount>1500.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1500.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1500.00000</PaymentAmount>
+                        <PaymentRate>3.60000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="client-504832">
+                    <AmendmentID clientID="client-20330">101010</AmendmentID>
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-18908">Internet</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <Description>Test</Description>
+                    <HoldFlag>true</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <PaymentDueDay>0</PaymentDueDay>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <ReadyForPaymentFlag>true</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-2600128">
+                        <AnnualAmount>2400.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504832">Expense Setup Record, ID=110134</ExpenseSetupID>
+                        <FirstPaymentAmount>200.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>200.00000</LastPaymentAmount>
+                        <OptionRentFlag>true</OptionRentFlag>
+                        <PaymentAmount>200.00000</PaymentAmount>
+                        <PaymentRate>0.48000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="client-504833">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-885">CAM-Interior</CodeExpenseTypeID>
+                    <CodeFrequencyID>Annually</CodeFrequencyID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <PaymentDueDay>5</PaymentDueDay>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>true</ReconcilableExpense>
+                    <RemitMessage>Annual expense setup</RemitMessage>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-2600133">
+                        <AnnualAmount>1000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <Description>Annual expense setup</Description>
+                        <EndDate>2010-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                        <FirstPaymentAmount>1000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1000.00000</PaymentAmount>
+                        <PaymentRate>0.20000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                        <TaxAmount1>7.00000</TaxAmount1>
+                        <TaxAmount2>7.00000</TaxAmount2>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-2600134">
+                        <AnnualAmount>2000.00000</AnnualAmount>
+                        <BeginDate>2011-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <Description>Annual expense setup</Description>
+                        <EndDate>2011-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                        <FirstPaymentAmount>2000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2000.00000</PaymentAmount>
+                        <PaymentRate>0.40000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-2600135">
+                        <AnnualAmount>3000.00000</AnnualAmount>
+                        <BeginDate>2012-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <Description>Annual expense setup</Description>
+                        <EndDate>2012-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                        <FirstPaymentAmount>3000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>3000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>3000.00000</PaymentAmount>
+                        <PaymentRate>0.60000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-2600136">
+                        <AnnualAmount>4000.00000</AnnualAmount>
+                        <BeginDate>2013-01-01</BeginDate>
+                        <CodeApprovalStatusID>Denied</CodeApprovalStatusID>
+                        <Description>Annual expense setup</Description>
+                        <EndDate>2013-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                        <FirstPaymentAmount>4000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>4000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>4000.00000</PaymentAmount>
+                        <PaymentRate>0.80000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-2600137">
+                        <AnnualAmount>5000.00000</AnnualAmount>
+                        <BeginDate>2014-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <Description>Annual expense setup</Description>
+                        <EndDate>2014-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                        <FirstPaymentAmount>5000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>5000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>5000.00000</PaymentAmount>
+                        <PaymentRate>1.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-2600138">
+                        <AnnualAmount>6000.00000</AnnualAmount>
+                        <BeginDate>2015-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <Description>Annual expense setup</Description>
+                        <EndDate>2015-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                        <FirstPaymentAmount>6000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>6000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>6000.00000</PaymentAmount>
+                        <PaymentRate>1.20000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-2600132">
+                        <AnnualAmount>8000.00000</AnnualAmount>
+                        <BeginDate>2016-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2018-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                        <FirstPaymentAmount>8000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>8000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>8000.00000</PaymentAmount>
+                        <PaymentRate>1.60000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                        <TaxAmount1>8.10000</TaxAmount1>
+                        <TaxAmount2>10.00000</TaxAmount2>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="client-504834">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-734">Marketing</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <PaymentDueDay>0</PaymentDueDay>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseAllocation clientID="client-152220">
+                        <AllocationPercentage>10.00000</AllocationPercentage>
+                        <BeginDate>2015-01-01</BeginDate>
+                        <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                        <EndDate>2018-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504834">Expense Setup Record, ID=110136</ExpenseSetupID>
+                        <OrganizationID clientID="client-7138">0108</OrganizationID>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    </ExpenseAllocation>
+                    <ExpenseAllocation clientID="client-152221">
+                        <AllocationPercentage>90.00000</AllocationPercentage>
+                        <BeginDate>2015-01-01</BeginDate>
+                        <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                        <EndDate>2018-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504834">Expense Setup Record, ID=110136</ExpenseSetupID>
+                        <OrganizationID clientID="client-8641">Distribution</OrganizationID>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    </ExpenseAllocation>
+                    <ExpenseSchedule clientID="client-2600130">
+                        <AnnualAmount>2400.00000</AnnualAmount>
+                        <BeginDate>2015-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2018-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-504834">Expense Setup Record, ID=110136</ExpenseSetupID>
+                        <FirstPaymentAmount>200.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>200.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>200.00000</PaymentAmount>
+                        <PaymentRate>0.48000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="client-504854">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-14722">Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <Description>Percent Rent Schedule</Description>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProRataShareRate>50.00000</ProRataShareRate>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                </ExpenseSetup>
+                <Insurance clientID="client-34450">
+                    <AgentAlsoNamedInsuredFlag>false</AgentAlsoNamedInsuredFlag>
+                    <AmendmentID clientID="client-20333">202020</AmendmentID>
+                    <BeginDate>2009-12-30</BeginDate>
+                    <CertificateReceivedDate>2014-11-20</CertificateReceivedDate>
+                    <CertificateRequestDate>2014-11-29</CertificateRequestDate>
+                    <CertificateRequiredFlag>true</CertificateRequiredFlag>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeInsuranceCategoryID>Health Ins</CodeInsuranceCategoryID>
+                    <CodeInsuranceGroupID>Lx Group</CodeInsuranceGroupID>
+                    <CodeInsuranceTypeID>D</CodeInsuranceTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CoverageAmount>100000.00000</CoverageAmount>
+                    <EndDate>2009-12-28</EndDate>
+                    <LandlordAlsoNamedInsuredFlag>false</LandlordAlsoNamedInsuredFlag>
+                    <Notes>This is an insurance test</Notes>
+                    <PolicyNumber>@679910111213114*</PolicyNumber>
+                    <PolicyRequiredFlag>false</PolicyRequiredFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <Section>A</Section>
+                    <SelfInsuredFlag>false</SelfInsuredFlag>
+                    <SingleOccuranceAmount>5000.00000</SingleOccuranceAmount>
+                </Insurance>
+                <Insurance clientID="client-34451">
+                    <AgentAlsoNamedInsuredFlag>true</AgentAlsoNamedInsuredFlag>
+                    <AmendmentID clientID="client-20330">101010</AmendmentID>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CertificateReceivedDate>2014-10-24</CertificateReceivedDate>
+                    <CertificateRequestDate>2014-10-24</CertificateRequestDate>
+                    <CertificateRequiredFlag>true</CertificateRequiredFlag>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeInsuranceCategoryID>Dental</CodeInsuranceCategoryID>
+                    <CodeInsuranceGroupID>Test</CodeInsuranceGroupID>
+                    <CodeInsuranceTypeID>C</CodeInsuranceTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CoverageAmount>800000.00000</CoverageAmount>
+                    <EndDate>2015-12-31</EndDate>
+                    <LandlordAlsoNamedInsuredFlag>true</LandlordAlsoNamedInsuredFlag>
+                    <Notes>This is a Test</Notes>
+                    <PolicyNumber>189189</PolicyNumber>
+                    <PolicyRequiredFlag>true</PolicyRequiredFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <Section>g</Section>
+                    <SelfInsuredFlag>true</SelfInsuredFlag>
+                    <SingleOccuranceAmount>10000.00000</SingleOccuranceAmount>
+                </Insurance>
+                <Insurance clientID="client-34453">
+                    <AgentAlsoNamedInsuredFlag>false</AgentAlsoNamedInsuredFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CertificateRequiredFlag>false</CertificateRequiredFlag>
+                    <CodeInsuranceCategoryID>btest</CodeInsuranceCategoryID>
+                    <CodeInsuranceTypeID>B</CodeInsuranceTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EndDate>2015-12-31</EndDate>
+                    <LandlordAlsoNamedInsuredFlag>false</LandlordAlsoNamedInsuredFlag>
+                    <PolicyRequiredFlag>false</PolicyRequiredFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SelfInsuredFlag>false</SelfInsuredFlag>
+                </Insurance>
+                <Insurance clientID="client-34454">
+                    <AgentAlsoNamedInsuredFlag>false</AgentAlsoNamedInsuredFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CertificateRequiredFlag>false</CertificateRequiredFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EndDate>2015-12-31</EndDate>
+                    <LandlordAlsoNamedInsuredFlag>false</LandlordAlsoNamedInsuredFlag>
+                    <PolicyRequiredFlag>false</PolicyRequiredFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SelfInsuredFlag>false</SelfInsuredFlag>
+                </Insurance>
+                <KeyDate clientID="client-864530">
+                    <ActionComplete>false</ActionComplete>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeActionPeriodUnitID>Months</CodeActionPeriodUnitID>
+                    <CodeKeyDateActionID>Active</CodeKeyDateActionID>
+                    <CodeKeyDateGroupID>Lease</CodeKeyDateGroupID>
+                    <CodeKeyDateTypeID clientID="client-404">Lease Term</CodeKeyDateTypeID>
+                    <CodeNoticePeriodUnitID>Months</CodeNoticePeriodUnitID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <ContractTermID clientID="client-402667">Contract Term Record, ID=19645</ContractTermID>
+                    <Description>Test Lease Term 4</Description>
+                    <EndDate>2020-12-31</EndDate>
+                    <Notes>test3</Notes>
+                    <NoticeBeginDate>2020-09-30</NoticeBeginDate>
+                    <NoticeEndDate>2009-09-30</NoticeEndDate>
+                    <NoticePeriod>3</NoticePeriod>
+                    <NoticeReceivedFlag>false</NoticeReceivedFlag>
+                    <NoticeSentFlag>false</NoticeSentFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <TicklerDate>2020-09-30</TicklerDate>
+                </KeyDate>
+                <KeyDate clientID="client-864533">
+                    <ActionComplete>false</ActionComplete>
+                    <ActionDate>2014-10-23</ActionDate>
+                    <ActionPeriod>3</ActionPeriod>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeActionPeriodUnitID>Months</CodeActionPeriodUnitID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodeKeyDateActionID>Active</CodeKeyDateActionID>
+                    <CodeKeyDateGroupID>General</CodeKeyDateGroupID>
+                    <CodeKeyDateTypeID clientID="LeaseDemo4_client-40">Tickler</CodeKeyDateTypeID>
+                    <CodeNoticePeriodUnitID>Months</CodeNoticePeriodUnitID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <Description>test</Description>
+                    <EndDate>2020-12-31</EndDate>
+                    <Notes>This is  Test</Notes>
+                    <NoticeBeginDate>2020-09-30</NoticeBeginDate>
+                    <NoticeEndDate>2009-09-30</NoticeEndDate>
+                    <NoticePeriod>3</NoticePeriod>
+                    <NoticeReceivedFlag>false</NoticeReceivedFlag>
+                    <NoticeSentFlag>false</NoticeSentFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <TicklerDate>2009-06-30</TicklerDate>
+                </KeyDate>
+                <KeyDate clientID="client-864534">
+                    <ActionComplete>false</ActionComplete>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeKeyDateGroupID>Lease</CodeKeyDateGroupID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EndDate>2020-12-31</EndDate>
+                    <NoticeBeginDate>2010-01-01</NoticeBeginDate>
+                    <NoticeEndDate>2020-12-31</NoticeEndDate>
+                    <NoticeReceivedFlag>false</NoticeReceivedFlag>
+                    <NoticeSentFlag>false</NoticeSentFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </KeyDate>
+                <KeyDate clientID="client-864737">
+                    <ActionComplete>false</ActionComplete>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <ContractTermID clientID="client-402870">Contract Term Record, ID=19644</ContractTermID>
+                    <EndDate>2015-12-31</EndDate>
+                    <NoticeEndDate>2015-12-31</NoticeEndDate>
+                    <NoticeReceivedFlag>false</NoticeReceivedFlag>
+                    <NoticeSentFlag>false</NoticeSentFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </KeyDate>
+                <PaymentReceipt clientID="client-25">
+                    <BankAccountNumber>125468</BankAccountNumber>
+                    <BankRoutingNumber>001254</BankRoutingNumber>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeReceiptTypeID>Cash</CodeReceiptTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EffectiveDate>2010-01-01</EffectiveDate>
+                    <PeriodMonth>1</PeriodMonth>
+                    <PeriodYear>2010</PeriodYear>
+                    <PostingDate>2010-01-01</PostingDate>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <ReceiptDate>2010-01-01</ReceiptDate>
+                    <ReceiptNumber>1111124</ReceiptNumber>
+                    <ReceivedAmount>5689.29000</ReceivedAmount>
+                </PaymentReceipt>
+                <PaymentTransaction clientID="client-21947396">
+                    <BankAccountNumber>25474</BankAccountNumber>
+                    <BankRoutingNumber>154855</BankRoutingNumber>
+                    <CheckAmount>1747.50000</CheckAmount>
+                    <CheckDate>2014-10-22</CheckDate>
+                    <CheckNumber>111111</CheckNumber>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-7714">Rent</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2010-01-01</DueDate>
+                    <EffectiveDate>2010-01-01</EffectiveDate>
+                    <EffectiveEndDate>2010-01-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504831">Expense Setup Record, ID=110133</ExpenseSetupID>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InternalRefNumber>25144</InternalRefNumber>
+                    <InvoiceAmount>1500.00000</InvoiceAmount>
+                    <IsReceivable>true</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2010-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemitMessage>Monthly Rent</RemitMessage>
+                    <SourceEntityTable>RNT20141022-061317</SourceEntityTable>
+                    <TaxAmount1>123.75000</TaxAmount1>
+                    <TaxAmount2>123.75000</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947402">
+                    <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-7714">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2010-02-01</DueDate>
+                    <EffectiveDate>2010-02-01</EffectiveDate>
+                    <EffectiveEndDate>2010-02-28</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504831">Expense Setup Record, ID=110133</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>1500.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2010-02-02</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemitMessage>Monthly Rent</RemitMessage>
+                    <SourceEntityTable>RNT20141023-114058</SourceEntityTable>
+                    <TaxAmount1>123.75000</TaxAmount1>
+                    <TaxAmount2>123.75000</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947403">
+                    <BankAccountNumber>54268</BankAccountNumber>
+                    <BankRoutingNumber>12548596</BankRoutingNumber>
+                    <CheckAmount>300.00000</CheckAmount>
+                    <CheckDate>2014-10-23</CheckDate>
+                    <CheckNumber>888795</CheckNumber>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-18908">Internet</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Test</Description>
+                    <DueDate>2010-02-28</DueDate>
+                    <EffectiveDate>2010-02-01</EffectiveDate>
+                    <EffectiveEndDate>2010-02-28</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504832">Expense Setup Record, ID=110134</ExpenseSetupID>
+                    <FreightAmount>200.00000</FreightAmount>
+                    <HoldFlag>true</HoldFlag>
+                    <InternalRefNumber>784595</InternalRefNumber>
+                    <InvoiceAmount>100.00000</InvoiceAmount>
+                    <InvoiceDate>2014-10-23</InvoiceDate>
+                    <InvoiceNumber>111111</InvoiceNumber>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2010-02-02</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemitMessage>This is a test</RemitMessage>
+                    <SourceEntityTable>RNT20141023-114058</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947404">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-18908">Internet</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Test</Description>
+                    <DueDate>2010-02-28</DueDate>
+                    <EffectiveDate>2010-02-01</EffectiveDate>
+                    <EffectiveEndDate>2010-02-28</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504832">Expense Setup Record, ID=110134</ExpenseSetupID>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>true</HoldFlag>
+                    <InvoiceAmount>100.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2010-02-02</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SourceEntityTable>RNT20141023-114058</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947405">
+                    <BankAccountNumber>111425</BankAccountNumber>
+                    <BankRoutingNumber>154851</BankRoutingNumber>
+                    <CheckAmount>708.00000</CheckAmount>
+                    <CheckDate>2011-01-01</CheckDate>
+                    <CheckNumber>1000012547</CheckNumber>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-78">Parking</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Test</Description>
+                    <DueDate>2011-01-31</DueDate>
+                    <EffectiveDate>2011-01-01</EffectiveDate>
+                    <EffectiveEndDate>2020-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InternalRefNumber>11452</InternalRefNumber>
+                    <InvoiceAmount>652.00000</InvoiceAmount>
+                    <InvoiceDate>2011-01-01</InvoiceDate>
+                    <InvoiceNumber>1111154</InvoiceNumber>
+                    <IsReceivable>true</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <OrganizationID clientID="client-7138">0108</OrganizationID>
+                    <PostingDate>2011-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemitMessage>Test</RemitMessage>
+                    <TaxAmount1>56.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorRefNumber>1234444</VendorRefNumber>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947416">
+                    <BankAccountNumber>1111114</BankAccountNumber>
+                    <BankRoutingNumber>1111112</BankRoutingNumber>
+                    <CheckAmount>1749.00000</CheckAmount>
+                    <CheckDate>2012-01-31</CheckDate>
+                    <CheckNumber>1111115</CheckNumber>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-7714">Rent</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>true</CreditFlag>
+                    <Description>This is a test for the copy</Description>
+                    <DueDate>2011-12-30</DueDate>
+                    <EffectiveDate>2012-01-01</EffectiveDate>
+                    <EffectiveEndDate>2012-01-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504831">Expense Setup Record, ID=110133</ExpenseSetupID>
+                    <FreightAmount>1.00000</FreightAmount>
+                    <HoldFlag>true</HoldFlag>
+                    <InternalRefNumber>1111113</InternalRefNumber>
+                    <InvoiceAmount>1500.00000</InvoiceAmount>
+                    <InvoiceDate>2012-01-01</InvoiceDate>
+                    <InvoiceNumber>1111111</InvoiceNumber>
+                    <IsReceivable>true</IsReceivable>
+                    <MiscAmount>0.50000</MiscAmount>
+                    <Notes>This is another note for the copy</Notes>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <OrganizationID clientID="client-7138">0108</OrganizationID>
+                    <PostingDate>2012-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>true</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemitMessage>Monthly Rent</RemitMessage>
+                    <SourceEntityTable>RNT20141024-020317</SourceEntityTable>
+                    <TaxAmount1>123.75000</TaxAmount1>
+                    <TaxAmount2>123.75000</TaxAmount2>
+                    <VendorRefNumber>1111116</VendorRefNumber>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947419">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-885">CAM-Interior</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2012-01-05</DueDate>
+                    <EffectiveDate>2012-01-01</EffectiveDate>
+                    <EffectiveEndDate>2012-12-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504833">Expense Setup Record, ID=110135</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>3000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2012-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RemitMessage>Annual expense setup</RemitMessage>
+                    <SourceEntityTable>RNT20141024-020317</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947417">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-18908">Internet</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Test</Description>
+                    <DueDate>2012-01-31</DueDate>
+                    <EffectiveDate>2012-01-01</EffectiveDate>
+                    <EffectiveEndDate>2012-01-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504832">Expense Setup Record, ID=110134</ExpenseSetupID>
+                    <HoldFlag>true</HoldFlag>
+                    <InvoiceAmount>100.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2012-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SourceEntityTable>RNT20141024-020317</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947418">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-18908">Internet</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Test</Description>
+                    <DueDate>2012-01-31</DueDate>
+                    <EffectiveDate>2012-01-01</EffectiveDate>
+                    <EffectiveEndDate>2012-01-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504832">Expense Setup Record, ID=110134</ExpenseSetupID>
+                    <HoldFlag>true</HoldFlag>
+                    <InvoiceAmount>100.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2012-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SourceEntityTable>RNT20141024-020317</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947581">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-14722">Percentage Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Percent Rent Schedule</Description>
+                    <DueDate>2014-10-24</DueDate>
+                    <EffectiveDate>2012-08-31</EffectiveDate>
+                    <EffectiveEndDate>2012-08-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504854">Expense Setup Record, ID=110137</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>12000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PercentageRentID clientID="client-93698">Percentage Rent, ID=101432</PercentageRentID>
+                    <PostingDate>2014-10-24</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SourceEntityTable>PCP1414206031202</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947414">
+                    <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-18908">Internet</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Test</Description>
+                    <DueDate>2014-01-01</DueDate>
+                    <EffectiveDate>2014-01-01</EffectiveDate>
+                    <EffectiveEndDate>2014-01-01</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>500.00000</InvoiceAmount>
+                    <InvoiceDate>2014-01-01</InvoiceDate>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>true</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947415">
+                    <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-18908">Internet</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2014-01-01</DueDate>
+                    <EffectiveDate>2014-01-01</EffectiveDate>
+                    <EffectiveEndDate>2014-01-01</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>500.00000</InvoiceAmount>
+                    <InvoiceDate>2014-01-01</InvoiceDate>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947580">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-7714">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2014-09-01</DueDate>
+                    <EffectiveDate>2014-09-01</EffectiveDate>
+                    <EffectiveEndDate>2014-09-01</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504831">Expense Setup Record, ID=110133</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>1500.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-09-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-21947579">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-7714">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CreditFlag>true</CreditFlag>
+                    <DueDate>2014-10-24</DueDate>
+                    <EffectiveDate>2014-10-24</EffectiveDate>
+                    <EffectiveEndDate>2014-10-24</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-504831">Expense Setup Record, ID=110133</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>1500.00000</InvoiceAmount>
+                    <IsReceivable>true</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <OrganizationID clientID="client-7138">0108</OrganizationID>
+                    <PostingDate>2014-10-24</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <TaxAmount1>123.75000</TaxAmount1>
+                    <TaxAmount2>123.75000</TaxAmount2>
+                </PaymentTransaction>
+                <PercentageRent clientID="client-93698">
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CapAmount>15000.00000</CapAmount>
+                    <CodeBillingFrequencyID>Monthly</CodeBillingFrequencyID>
+                    <CodeCapFrequencyID>Monthly</CodeCapFrequencyID>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-14722">Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Annual Gross-up</CodePercentageRentTypeID>
+                    <CodeReportingFrequencyID>Monthly</CodeReportingFrequencyID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <Description>Complicated PR</Description>
+                    <EndDate>2015-12-31</EndDate>
+                    <FloorAmount>1000.00000</FloorAmount>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <PeriodPaymentDueDays>12</PeriodPaymentDueDays>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </PercentageRent>
+                <PercentageRentBreakpoint clientID="client-64074">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointAmount1>120000.00000</BreakpointAmount1>
+                    <BreakpointAmount2>240000.00000</BreakpointAmount2>
+                    <BreakpointAmount3>360000.00000</BreakpointAmount3>
+                    <BreakpointRate1>9.00000</BreakpointRate1>
+                    <BreakpointRate2>7.70000</BreakpointRate2>
+                    <BreakpointRate3>4.00000</BreakpointRate3>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <Description>#1</Description>
+                    <EndDate>2010-05-31</EndDate>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <Responsibility clientID="client-735161">
+                    <AmendmentID clientID="client-20333">202020</AmendmentID>
+                    <CapPercent>5.00000</CapPercent>
+                    <CodeAssetCategoryID clientID="client-514">Electrical</CodeAssetCategoryID>
+                    <CodeExecutionResponsibilityID>Insurance Co</CodeExecutionResponsibilityID>
+                    <CodeFinancialResponsibilityID>Insurance Co</CodeFinancialResponsibilityID>
+                    <CodeMaintenanceResponsibilityID>Tenant</CodeMaintenanceResponsibilityID>
+                    <CodePassThroughTypeID>Certfied</CodePassThroughTypeID>
+                    <CodeResponseTimeID>1 Week</CodeResponseTimeID>
+                    <CodeResponsibilityGroupID>New Test</CodeResponsibilityGroupID>
+                    <CodeResponsibilityTypeID clientID="client-1291">New Type</CodeResponsibilityTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <ContractResponsibilityAmount>200.00000</ContractResponsibilityAmount>
+                    <EffectiveDate>2014-10-24</EffectiveDate>
+                    <EndDate>2015-12-31</EndDate>
+                    <IncludedInRentFlag>false</IncludedInRentFlag>
+                    <Notes>This is a test to add an item</Notes>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <Section>a</Section>
+                    <ServiceLevel>service 1</ServiceLevel>
+                </Responsibility>
+                <Responsibility clientID="client-735162">
+                    <AmendmentID clientID="client-20333">202020</AmendmentID>
+                    <CapAmount>5000.00000</CapAmount>
+                    <CodeAssetCategoryID clientID="client-970">Equipment</CodeAssetCategoryID>
+                    <CodeExecutionResponsibilityID>Tenant</CodeExecutionResponsibilityID>
+                    <CodeFinancialResponsibilityID>Other</CodeFinancialResponsibilityID>
+                    <CodeMaintenanceResponsibilityID>Landlord</CodeMaintenanceResponsibilityID>
+                    <CodePassThroughTypeID>Test</CodePassThroughTypeID>
+                    <CodeResponseTimeID>2 Business Days</CodeResponseTimeID>
+                    <CodeResponsibilityGroupID>STest</CodeResponsibilityGroupID>
+                    <CodeResponsibilityTypeID clientID="client-1290">S Type</CodeResponsibilityTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <ContractResponsibilityAmount>3000.00000</ContractResponsibilityAmount>
+                    <EffectiveDate>2014-10-24</EffectiveDate>
+                    <EndDate>2015-12-31</EndDate>
+                    <IncludedInRentFlag>true</IncludedInRentFlag>
+                    <Notes>Test</Notes>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <ServiceLevel>a</ServiceLevel>
+                </Responsibility>
+                <Responsibility clientID="client-735163">
+                    <AmendmentID clientID="client-20333">202020</AmendmentID>
+                    <CapPercent>5.00000</CapPercent>
+                    <CodeAssetCategoryID clientID="client-807">AEC Services</CodeAssetCategoryID>
+                    <CodeExecutionResponsibilityID>Insurance Co</CodeExecutionResponsibilityID>
+                    <CodeFinancialResponsibilityID>Insurance Co</CodeFinancialResponsibilityID>
+                    <CodeMaintenanceResponsibilityID>Landlord</CodeMaintenanceResponsibilityID>
+                    <CodePassThroughTypeID>Certfied</CodePassThroughTypeID>
+                    <CodeResponseTimeID>3 Business Days</CodeResponseTimeID>
+                    <CodeResponsibilityGroupID>llll</CodeResponsibilityGroupID>
+                    <CodeResponsibilityTypeID clientID="client-1126">lllll</CodeResponsibilityTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <ContractResponsibilityAmount>3000.00000</ContractResponsibilityAmount>
+                    <EffectiveDate>2014-10-25</EffectiveDate>
+                    <EndDate>2016-01-29</EndDate>
+                    <IncludedInRentFlag>true</IncludedInRentFlag>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <Section>b</Section>
+                    <ServiceLevel>a</ServiceLevel>
+                </Responsibility>
+                <Sales clientID="client-6406717">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406716">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406715">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406714">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>30000.00000</GrossSalesAmount>
+                    <NetSalesAmount>30000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406713">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406712">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406711">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406710">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>50000.00000</GrossSalesAmount>
+                    <NetSalesAmount>50000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406709">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406708">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406707">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406706">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>200000.00000</GrossSalesAmount>
+                    <NetSalesAmount>200000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406705">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406704">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406703">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>50000.00000</GrossSalesAmount>
+                    <NetSalesAmount>50000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406702">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406701">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406700">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406699">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>200000.00000</GrossSalesAmount>
+                    <NetSalesAmount>200000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406698">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406697">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406696">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406695">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>30000.00000</GrossSalesAmount>
+                    <NetSalesAmount>30000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406694">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406693">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406692">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406691">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406690">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>30000.00000</GrossSalesAmount>
+                    <NetSalesAmount>30000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406689">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406688">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406687">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406686">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>50000.00000</GrossSalesAmount>
+                    <NetSalesAmount>50000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406685">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406684">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406683">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406682">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>200000.00000</GrossSalesAmount>
+                    <NetSalesAmount>200000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2013</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406681">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406680">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406679">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406678">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>30000.00000</GrossSalesAmount>
+                    <NetSalesAmount>30000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406677">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406676">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406675">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406674">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>50000.00000</GrossSalesAmount>
+                    <NetSalesAmount>50000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406673">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406672">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406671">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406670">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>200000.00000</GrossSalesAmount>
+                    <NetSalesAmount>200000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406669">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406668">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406667">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406666">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>30000.00000</GrossSalesAmount>
+                    <NetSalesAmount>30000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406665">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406664">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406663">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406662">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>50000.00000</GrossSalesAmount>
+                    <NetSalesAmount>50000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406661">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406660">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406659">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406658">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>200000.00000</GrossSalesAmount>
+                    <NetSalesAmount>200000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406657">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406656">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406655">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406654">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>30000.00000</GrossSalesAmount>
+                    <NetSalesAmount>30000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406653">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406652">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406651">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406650">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>50000.00000</GrossSalesAmount>
+                    <NetSalesAmount>50000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406649">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406648">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406647">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-6406646">
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1">Retail Sales</CodeSalesTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <GrossSalesAmount>200000.00000</GrossSalesAmount>
+                    <NetSalesAmount>200000.00000</NetSalesAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2010</SalesYear>
+                </Sales>
+                <Sales clientID="client-2253702">
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </Sales>
+                <Sales clientID="client-2253703">
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </Sales>
+                <SecurityDeposit clientID="client-10280">
+                    <AccountNumber>124552</AccountNumber>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeGuaranteeTypeID>Cash</CodeGuaranteeTypeID>
+                    <CodePayBackCurrencyTypeID>Euro</CodePayBackCurrencyTypeID>
+                    <CodeSecurityDepositGroupID>Original</CodeSecurityDepositGroupID>
+                    <CodeSecurityDepositStatusID>Active</CodeSecurityDepositStatusID>
+                    <CodeSecurityDepositTypeID>Security Deposit</CodeSecurityDepositTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <DepositAmount>8000.00000</DepositAmount>
+                    <EndDate>2015-12-31</EndDate>
+                    <InterestBearingFlag>true</InterestBearingFlag>
+                    <InterestRate>5.00000</InterestRate>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RequiredFlag>true</RequiredFlag>
+                    <SeparateAccountFlag>true</SeparateAccountFlag>
+                </SecurityDeposit>
+                <SecurityDeposit clientID="client-10281">
+                    <AccountNumber>17948</AccountNumber>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeGuaranteeTypeID>Cash</CodeGuaranteeTypeID>
+                    <CodePayBackCurrencyTypeID>Euro</CodePayBackCurrencyTypeID>
+                    <CodeSecurityDepositGroupID>Original</CodeSecurityDepositGroupID>
+                    <CodeSecurityDepositStatusID>Active</CodeSecurityDepositStatusID>
+                    <CodeSecurityDepositTypeID>Security Deposit</CodeSecurityDepositTypeID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <DepositAmount>4000.00000</DepositAmount>
+                    <EndDate>2015-12-31</EndDate>
+                    <InterestBearingFlag>false</InterestBearingFlag>
+                    <InterestRate>8.00000</InterestRate>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                    <RequiredFlag>false</RequiredFlag>
+                    <SeparateAccountFlag>false</SeparateAccountFlag>
+                </SecurityDeposit>
+                <VariableRentOffset clientID="client-44226">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeOffsetGroupID>Group A</CodeOffsetGroupID>
+                    <CodeOffsetTypeID>Type A</CodeOffsetTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EndDate>2010-12-31</EndDate>
+                    <FixedOffsetAmount>100.00000</FixedOffsetAmount>
+                    <Notes>Annual total for this offset should be 600</Notes>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </VariableRentOffset>
+                <VariableRentOffset clientID="client-19489">
+                    <BeginDate>2011-05-01</BeginDate>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeOffsetGroupID>Group A</CodeOffsetGroupID>
+                    <CodeOffsetTypeID>Type A</CodeOffsetTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EndDate>2011-08-31</EndDate>
+                    <FixedOffsetAmount>100.00000</FixedOffsetAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </VariableRentOffset>
+                <VariableRentOffset clientID="client-19490">
+                    <BeginDate>2012-12-01</BeginDate>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeOffsetGroupID>Group A</CodeOffsetGroupID>
+                    <CodeOffsetTypeID>Type A</CodeOffsetTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EndDate>2013-02-28</EndDate>
+                    <FixedOffsetAmount>100.00000</FixedOffsetAmount>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </VariableRentOffset>
+                <VariableRentOffset clientID="PRPFOffsetclient-19493">
+                    <BeginDate>2013-03-01</BeginDate>
+                    <CodeCurrencyTypeID>Euro</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <CodeOffsetGroupID>Group A</CodeOffsetGroupID>
+                    <CodeOffsetTypeID>Type A</CodeOffsetTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <ContractID clientID="client-96557">Cielo Vista</ContractID>
+                    <EndDate>2014-12-31</EndDate>
+                    <ProjectEntityID clientID="client-221399">Cielo Vista</ProjectEntityID>
+                </VariableRentOffset>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

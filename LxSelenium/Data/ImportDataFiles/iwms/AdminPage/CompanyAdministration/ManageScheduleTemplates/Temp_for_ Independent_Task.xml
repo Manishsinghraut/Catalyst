@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-3559">
+                <Description>Using in Autom-604 ticket</Description>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+                <ProjectEntityID clientID="client-567174">Add Independent Task</ProjectEntityID>
+                <TemplateName>Add Independent Task</TemplateName>
+                <MapClientSchedule clientID="client-516341">
+                    <LastReviewedDate>2015-07-08T04:40:00</LastReviewedDate>
+                    <ProjectEntityID clientID="client-567174">Add Independent Task</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1556609">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-567174">Add Independent Task</ProjectEntityID>
+                        <TaskName>Group</TaskName>
+                        <Task clientID="client-1556610">
+                            <ActualDuration>4</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>4</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1556609">Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-567174">Add Independent Task</ProjectEntityID>
+                            <ProjectedDuration>4</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Add another task above this</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

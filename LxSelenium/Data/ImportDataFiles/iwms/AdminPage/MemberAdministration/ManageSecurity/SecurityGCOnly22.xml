@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <CodeTables>
+           <CodeUserClass>
+                <ActualLongName>Construction Manager</ActualLongName>
+                <IsFinancialAccessAllowed>false</IsFinancialAccessAllowed>
+                <IsManageLeaseAllowed>false</IsManageLeaseAllowed>
+                <IsManageProcessTimelineAllowed>false</IsManageProcessTimelineAllowed>
+                <ShortName>Construction Manager</ShortName>
+            </CodeUserClass>
+            <CodeUserClass>
+                <IsFinancialAccessAllowed>false</IsFinancialAccessAllowed>
+                <IsManageLeaseAllowed>false</IsManageLeaseAllowed>
+                <IsManageProcessTimelineAllowed>false</IsManageProcessTimelineAllowed>
+                <ShortName>General Contractor</ShortName>
+            </CodeUserClass>
+           <CodeUserClass>
+                <ActualLongName>No Access</ActualLongName>
+                <IsFinancialAccessAllowed>false</IsFinancialAccessAllowed>
+                <IsManageLeaseAllowed>false</IsManageLeaseAllowed>
+                <IsManageProcessTimelineAllowed>false</IsManageProcessTimelineAllowed>
+                <ShortName>No Access</ShortName>
+            </CodeUserClass>
+        </CodeTables>
+        <BudgetColumnTypes>
+	            <BudgetColumnType clientID="GCBID_2">
+	                <AllowMultiSelect>true</AllowMultiSelect>
+	                <AllowOneInstance>false</AllowOneInstance>
+	                <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+	                <BudgetColumnTypeName>GC2</BudgetColumnTypeName>
+	                <CodeStatusDefaultID clientID="client-746">Default Status</CodeStatusDefaultID>
+	                <CodeStatusSelectedID clientID="client-746">Default Status</CodeStatusSelectedID>
+	                <IsForBidLeveling>false</IsForBidLeveling>
+	                <IsForBidding>true</IsForBidding>
+	                <IsValidForCapProgram>false</IsValidForCapProgram>
+	                <IsValidForCapProject>false</IsValidForCapProject>
+	                <IsValidForContract>false</IsValidForContract>
+	                <IsValidForFacility>true</IsValidForFacility>
+	                <IsValidForLocation>false</IsValidForLocation>
+	                <IsValidForOpenProject>true</IsValidForOpenProject>
+	                <IsValidForParcel>false</IsValidForParcel>
+	                <IsValidForPortfolio>true</IsValidForPortfolio>
+	                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+	                <IsValidForPrototype>true</IsValidForPrototype>
+	            </BudgetColumnType><BudgetColumnType clientID="client-371">
+	            <AllowMultiSelect>true</AllowMultiSelect>
+	            <AllowOneInstance>false</AllowOneInstance>
+	            <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+	            <BudgetColumnTypeName>GC3</BudgetColumnTypeName>
+	            <CodeStatusDefaultID clientID="client-750">Default Status</CodeStatusDefaultID>
+	            <CodeStatusSelectedID clientID="client-750">Default Status</CodeStatusSelectedID>
+	            <IsForBidLeveling>false</IsForBidLeveling>
+	            <IsForBidding>true</IsForBidding>
+	            <IsValidForCapProgram>false</IsValidForCapProgram>
+	            <IsValidForCapProject>false</IsValidForCapProject>
+	            <IsValidForContract>false</IsValidForContract>
+	            <IsValidForFacility>true</IsValidForFacility>
+	            <IsValidForLocation>false</IsValidForLocation>
+	            <IsValidForOpenProject>true</IsValidForOpenProject>
+	            <IsValidForParcel>false</IsValidForParcel>
+	            <IsValidForPortfolio>true</IsValidForPortfolio>
+	            <IsValidForPotentialProject>true</IsValidForPotentialProject>
+	            <IsValidForPrototype>true</IsValidForPrototype>
+	        </BudgetColumnType><BudgetColumnType clientID="GCCondition_1">
+	            <AllowMultiSelect>false</AllowMultiSelect>
+	            <AllowOneInstance>false</AllowOneInstance>
+	            <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+	            <BudgetColumnTypeName>Bid Conditioning</BudgetColumnTypeName>
+	            <CodeStatusDefaultID clientID="GCCondition_Default">Conditioned</CodeStatusDefaultID>
+	            <CodeStatusDefaultID clientID="GCCondition_Rejected">Rejected</CodeStatusDefaultID>
+	            <CodeStatusSelectedID clientID="GCCondition_Awarded">Conditioning Awarded</CodeStatusSelectedID>
+	            <IsForBidLeveling>true</IsForBidLeveling>
+	            <IsForBidding>false</IsForBidding>
+	            <IsValidForCapProgram>true</IsValidForCapProgram>
+	            <IsValidForCapProject>true</IsValidForCapProject>
+	            <IsValidForContract>false</IsValidForContract>
+	            <IsValidForFacility>true</IsValidForFacility>
+	            <IsValidForLocation>true</IsValidForLocation>
+	            <IsValidForOpenProject>true</IsValidForOpenProject>
+	            <IsValidForParcel>false</IsValidForParcel>
+	            <IsValidForPortfolio>true</IsValidForPortfolio>
+	            <IsValidForPotentialProject>true</IsValidForPotentialProject>
+	            <IsValidForPrototype>true</IsValidForPrototype>
+	        </BudgetColumnType><BudgetColumnType clientID="GCBID_1">
+	            <AllowMultiSelect>true</AllowMultiSelect>
+	            <AllowOneInstance>false</AllowOneInstance>
+	            <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+	            <BudgetColumnTypeName>GC1</BudgetColumnTypeName>
+	            <CodeStatusDefaultID clientID="GC1_Default">Default Status</CodeStatusDefaultID>
+	            <CodeStatusSelectedID clientID="GC1_Default">Default Status</CodeStatusSelectedID>
+	            <IsForBidLeveling>false</IsForBidLeveling>
+	            <IsForBidding>true</IsForBidding>
+	            <IsValidForCapProgram>true</IsValidForCapProgram>
+	            <IsValidForCapProject>true</IsValidForCapProject>
+	            <IsValidForContract>false</IsValidForContract>
+	            <IsValidForFacility>true</IsValidForFacility>
+	            <IsValidForLocation>true</IsValidForLocation>
+	            <IsValidForOpenProject>true</IsValidForOpenProject>
+	            <IsValidForParcel>true</IsValidForParcel>
+	            <IsValidForPortfolio>true</IsValidForPortfolio>
+	            <IsValidForPotentialProject>true</IsValidForPotentialProject>
+	            <IsValidForPrototype>true</IsValidForPrototype>
+	        </BudgetColumnType>
+        </BudgetColumnTypes>
+       <UserClassSecuritys>
+                  <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <ReportGroupDataID clientID="ERP_452">Summary Information</ReportGroupDataID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <BudgetColumnTypeID clientID="GCCondition_1">Bid Conditioning</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>            >
+                       <BudgetColumnTypeID clientID="GCBID_1">GC1</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <BudgetColumnTypeID clientID="GCBID_2">GC2</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <BudgetColumnTypeID clientID="client-371">GC3</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeSecurityPrivilegeID>Condition Bids</CodeSecurityPrivilegeID>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <PageLayoutID clientID="117">Create a Report</PageLayoutID>
+                       <SecurityLevelByteValue>Delete</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+                       <PageLayoutID clientID="16">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <BudgetColumnTypeID clientID="GCCondition_1">Bid Conditioning</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <BudgetColumnTypeID clientID="GCBID_1">GC1</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <BudgetColumnTypeID clientID="GCBID_2">GC2</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <BudgetColumnTypeID clientID="client-371">GC3</BudgetColumnTypeID>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="162">Budget</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165607214_4648">Budget Creation</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20120710_104719982_4835">GC Upload Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144549494_3742">Budget</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165607444_4651">Budget Creation</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20120710_104720758_4837">GC Upload Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="34">Budget</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165607656_4657">Budget Creation</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20120626_104058154_4842">GC Upload Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="57">Budget</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165607847_4660">Budget Creation</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20120710_104721300_4843">GC Upload Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3153~1253762288578">Budget</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165607988_4663">Budget Creation</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20120710_104721542_4846">GC Upload Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="84">Budget</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165608180_4669">Budget Creation</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20120710_104721777_4850">GC Upload Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="117">Create a Report</PageLayoutID>
+                       <SecurityLevelByteValue>Delete</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144558314_3756">Budget</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165608301_4672">Budget Creation</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql151_Dev_Trunk_20120710_104721960_4851">GC Upload Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3138~1253762283515">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144550105_3739">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3139~1253762285484">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3140~1253762287656">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3155~1253762289390">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3198~1253762290640">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3145~1253762292937">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144557391_3752">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3141~1253762296484">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="116">Reports</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupDataID clientID="ERP_490">Budget</ReportGroupDataID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupDataID clientID="MORTVM_Dev_Trunk_20120406_130616083_0">Budget Column</ReportGroupDataID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupAvailableFieldID clientID="MORTVM_Dev_Trunk_20120406_130616102_1">Description</ReportGroupAvailableFieldID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupDataID clientID="ERP_1185">Budget Item Value</ReportGroupDataID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupDataID clientID="ERP_1330">Budget Types</ReportGroupDataID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+            		<BudgetColumnTypeID clientID="GCBID_1">GC1</BudgetColumnTypeID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+            	      <BudgetColumnTypeID clientID="GCBID_2">GC2</BudgetColumnTypeID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+            		<BudgetColumnTypeID clientID="client-371">GC3</BudgetColumnTypeID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="3">Summary</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="25">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144549612_3746">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144549698_3745">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="110">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="217">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="31">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="213">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="164">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="214">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3091~1253762288156">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3148~1253762288234">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3207~1253762289859">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3206~1253762289937">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="81">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="215">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144557813_3761">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144557913_3760">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3118~1253762293562">Work Flow</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="lxdfwseml001~BBTestRM~3119~1253762293640">Documents</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupDataID clientID="ERP_464">Schedule</ReportGroupDataID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupDataID clientID="MORTVM_Dev_Trunk_20140918_184606791_1">Bidder</ReportGroupDataID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupDataID clientID="ERP_895">Workflow</ReportGroupDataID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <ReportGroupAvailableFieldID clientID="ERP_992">NotifieeMemberIDList</ReportGroupAvailableFieldID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="16">Forms</PageLayoutID>
+                       <SecurityLevelByteValue>No Access</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="xpsquad_DEVRM10_20140925_140851630_5830">All Bid Package Fields</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="MORTVM_Dev_Trunk_20140928_004757463_5699">All Bidder Fields</PageLayoutID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql101_IWMS_Production_SAN_20111108_145400499_4083">Bid Invite</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeSecurityPrivilegeID>Allow Selected Status for Budgets</CodeSecurityPrivilegeID>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeSecurityPrivilegeID>View Portfolio/Program Documents</CodeSecurityPrivilegeID>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <SecurityLevelByteValue>View</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity>
+                       <CodeUserClassID clientID="client-5216">General Contractor</CodeUserClassID>
+                       <PageLayoutID clientID="sql101_IWMS_Production_SAN_20111108_145401554_4045">Submit Bid</PageLayoutID>
+                       <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+                   </UserClassSecurity>
+                   <UserClassSecurity clientID="client-342470">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="2">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342471">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144549086_3737">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342472">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="11">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342473">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="19">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342474">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="lxdfwseml001~BBTestRM~3084~1253762287812">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342475">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="lxdfwseml001~BBTestRM~3086~1253762289546">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342476">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="78">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342477">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="bobnotebook/SQLEXPRESS_Trunk_20100315_144557542_3751">Details</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-342478">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="116">Reports</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354304">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="164">Forms</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354305">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="214">Work Flow</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354306">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="sql151_Dev_Trunk_20111031_165607847_4660">Budget Creation</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354307">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="sql151_Dev_Trunk_20120710_104721300_4843">GC Upload Bid</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354308">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="57">Budget</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354309">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <ReportGroupDataID clientID="ERP_490">Budget</ReportGroupDataID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354310">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <ReportGroupAvailableFieldID clientID="MORTVM_Dev_Trunk_20120406_130616102_1">Description</ReportGroupAvailableFieldID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354311">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="xpsquad_DEVRM10_20140925_140851630_5830">All Bid Package Fields</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354312">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="MORTVM_Dev_Trunk_20140928_004757463_5699">All Bidder Fields</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354313">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="sql101_IWMS_Production_SAN_20111108_145400499_4083">Bid Invite</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354314">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <PageLayoutID clientID="sql101_IWMS_Production_SAN_20111108_145401554_4045">Submit Bid</PageLayoutID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354315">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <ReportGroupDataID clientID="MORTVM_Dev_Trunk_20120406_130616083_0">Budget Column</ReportGroupDataID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354316">
+		                   <CodeSecurityPrivilegeID>Allow Selected Status for Budgets</CodeSecurityPrivilegeID>
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354317">
+		                   <CodeSecurityPrivilegeID>View Portfolio/Program Documents</CodeSecurityPrivilegeID>
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354318">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <ReportGroupDataID clientID="ERP_1185">Budget Item Value</ReportGroupDataID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354319">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+		                   <ReportGroupDataID clientID="ERP_1330">Budget Types</ReportGroupDataID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354320">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+            			   <BudgetColumnTypeID clientID="GCBID_1">GC1</BudgetColumnTypeID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354321">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+            			  <BudgetColumnTypeID clientID="GCBID_2">GC2</BudgetColumnTypeID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+		               </UserClassSecurity>
+		               <UserClassSecurity clientID="client-354322">
+		                   <CodeUserClassID clientID="client-5108">Construction Manager</CodeUserClassID>
+            			   <BudgetColumnTypeID clientID="client-371">GC3</BudgetColumnTypeID>
+		                   <SecurityLevelByteValue>Edit</SecurityLevelByteValue>
+            			</UserClassSecurity>
+               </UserClassSecuritys>
+           </Firm>
+       </LxERP>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetColumnTypes>
+            <BudgetColumnType>
+                <BudgetColumnTypeID>1071</BudgetColumnTypeID>
+                <AllowMultiSelect>false</AllowMultiSelect>
+                <AllowOneInstance>true</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>false</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>InvoicedRST</BudgetColumnTypeName>
+                <CodeStatusSelectedID>Default Status</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Default Status</CodeStatusSelectedNameForCreate>
+                <IsBidTemplate>false</IsBidTemplate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+            </BudgetColumnType>
+        </BudgetColumnTypes>
+    </Firm>
+</LxERP>

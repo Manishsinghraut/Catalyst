@@ -1,0 +1,98 @@
+@all
+Feature: To ensure that users can add line items (Jira Ref. AUTOMATION-526)
+
+  Scenario Outline: Import xml
+    Given I Login to IWMS using "<Login User>" access credentials
+    Then I check previous user login "<Login full username>" and continue if user "<Login User>" same or logout and login if not
+    When I used data files from "Data/ImportDataFiles/iwms/AdminPage/CompanyAdministration/ManageCustomLists/"
+    And I import following file name:
+      | Add_line_items.xml |
+
+  Examples:
+    | Login User   | Login full username  |
+    | DeleteAccess | Delete Access Access |
+
+  Scenario Outline: Add line items
+    Given I Login to IWMS using "<Login User>" access credentials
+    Then I check previous user login "<Login full username>" and continue if user "<Login User>" same or logout and login if not
+    And I navigate to entity type "<Item>"
+    When I navigate to entity type "<Item>" named "<Entity Name>"
+    And I click on the "<Third Level Tab>" tab
+    Then I verify I am at Form tab
+#    And I click " Add Form... " form button
+    And I click " Add Form... " button
+    And I switch to default frame
+    And I select form type "<Page layout>" in modal window
+    And I click on the "OK" button
+    And I set following fields value on editable page
+      | name          | value   |
+      | Issue_Subject | <Title> |
+
+    And I click '+ Add' button to add line items
+    And I enter "<Row Name1>" label name
+    And I click "Update" button
+
+    And I click '+ Add' button to add line items
+    And I enter "<Row Name2>" label name
+    And I click "Update" button
+    And I click 'Add' button to add line items
+    And I wait for the Loading text to disappear
+
+  Examples:
+    | Row Name1 | Row Name2 | Title     | Page layout    | Login User   | Login full username  | Item    | Third Level Tab | Entity Name      |
+    | add line1 | add line2 | Title Add | Add line items | DeleteAccess | Delete Access Access | Project | Forms           | Lucernex-Project |
+
+  Scenario Outline: Verify line items
+    Given I Login to IWMS using "<Login User>" access credentials
+    Then I check previous user login "<Login full username>" and continue if user "<Login User>" same or logout and login if not
+    And I navigate to entity type "<Item>"
+    When I navigate to entity type "<Item>" named "<Entity Name>"
+    And I click on the "<Third Level Tab>" tab
+    Then I verify I am at Form tab
+#    And I expand all form lists
+    And I click " Expand All " button
+#    And I switch to visible frame
+    And I click "<View>" link for form "<Title>"
+    And I switch to default frame
+    And I verify row from grid "^customListGrid" having unique value "<Row Name1>" under column header "Label Name" in modal window
+      | name       | value       |
+      | Label Name | <Row Name1> |
+
+    And I verify row from grid "^customListGrid" having unique value "<Row Name2>" under column header "Label Name" in modal window
+      | name       | value       |
+      | Label Name | <Row Name2> |
+    And I click "Close" button
+
+  Examples:
+    | Page layout    | Row Name1 | Row Name2 | Title     | Login User   | Login full username  | Item    | Third Level Tab | Entity Name      |
+    | Add line items | add line1 | add line2 | Title Add | DeleteAccess | Delete Access Access | Project | Forms           | Lucernex-Project |
+
+
+  Scenario Outline: Cancel adding line items and ensure line item not present
+    Given I Login to IWMS using "<Login User>" access credentials
+    Then I check previous user login "<Login full username>" and continue if user "<Login User>" same or logout and login if not
+    And I navigate to entity type "<Item>"
+    When I navigate to entity type "<Item>" named "<Entity Name>"
+    And I click on the "<Third Level Tab>" tab
+    Then I verify I am at Form tab
+#    And I expand all form lists
+    And I click " Expand All " button
+#    And I switch to visible frame
+    And I click "<Check Out>" link for form "<Title>"
+    And I switch to default frame
+    And I click '+ Add' button to add line items
+    And I enter "<Row Name3>" label name
+    And I click "Cancel" button
+    And I click on the "Update & Check in" button
+    Then I verify I am at Form tab
+#    And I expand all form lists
+    And I click " Expand All " button
+#    And I switch to visible frame
+    And I click "<View>" link for form "<Title>"
+    And I switch to default frame
+    Then I verify row from grid "^customListGrid" having unique value "Row Name3" not present in modal window
+    And I click "Close" button
+
+  Examples:
+    | Row Name3 | Title     | Login User   | Login full username  | Item    | Third Level Tab | Entity Name      |
+    | add line3 | Title Add | DeleteAccess | Delete Access Access | Project | Forms           | Lucernex-Project |

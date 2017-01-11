@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Facilities>
+            <Facility>
+                <City>Denton</City>
+                <ClientEntityID>Successor Facility823</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>Successor Facility</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Imported Location</LocationID>
+                <ManagerIDList>
+                    <ManagerID>25158</ManagerID>
+                </ManagerIDList>
+                <PostalCode>75034</PostalCode>
+                <ProgramID>Lucernex</ProgramID>
+                <ProjectEntityID>Successor Facility</ProjectEntityID>
+                <RegionID>Central Dallas(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <StreetAddress1>2343 Best Place Drive</StreetAddress1>
+                <UseLocationAddress>true</UseLocationAddress>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID>Lx Administrator</MemberID>
+                    <ProjectEntityID>598963</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Lx Messenger</MemberID>
+                    <ProjectEntityID>598963</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-11-04T13:13:33</LastReviewedDate>
+                    <ProjectEntityID>598963</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>

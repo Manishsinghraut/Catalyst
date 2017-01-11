@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Lucernex Management">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044205_4757</mes:ClientID>
+                <mes:PageLayoutName>CPAR - Creation</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>|false|||</mes:URL>
+                    <mes:AllowUserCreate>true</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="sql101_IWMS_Production_SAN_20111208_163043860_3873">Corrective and Preventative Action</mes:CodeIssueTypeID>
+                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044234_682809</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>Corrective/Preventive Action Request</mes:StaticText>
+                            <mes:DisplayLabel>Corrective/Preventive Action Request</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>544</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044254_682810</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043969_27408">Subject</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Title</mes:DisplayLabel>
+                            <mes:DisplayOption1>1032</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044263_682811</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043975_27412">Customer</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Customer</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044270_682812</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043981_27413">CreatedDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Created Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044282_682813</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043986_27411">InitiatedByMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Creator</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044290_682815</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044297_682816</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043992_27424">Preventive Action</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Preventive Action</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044307_682817</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044020_27423">Corrective Action</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Corrective Action</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044314_682818</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044322_682819</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044060_27409">Body</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Detailed Problem Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>7</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044330_682820</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>17</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044338_682821</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044067_27426">Priority</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Priority</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044346_682822</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044074_27425">Source</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Source</mes:DisplayLabel>
+                            <mes:DisplayOption1>1032</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044353_682823</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>18</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044390_687752</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044089_27859">PONumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>CPAR Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>335545344</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044401_688129</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20151019_20160122_124118286_32881">SequenceNumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:FieldContext>334</mes:FieldContext>
+                            <mes:DisplayLabel>Form Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435464</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124119550_799375</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>SOURCE:   Please use one of these:  Customer Complaint, Internal Audit, External Audit, Internal</mes:StaticText>
+                            <mes:DisplayLabel>SOURCE:   Please use one of these:  Customer Complaint, Internal Audit, External Audit, Internal</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120093_943107</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">CPAR - Creation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL102_IWMS_Production_SAN_20141007_061155717_50317">Related JIRA Case Number</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Related JIRA Case Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044410_5398</mes:ClientID>
+                <mes:PageLayoutName>CPAR Implementation</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>|false|||</mes:URL>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="sql101_IWMS_Production_SAN_20111208_163043860_3873">Corrective and Preventative Action</mes:CodeIssueTypeID>
+                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044418_682837</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044095_27418">Permanent Plan Implementation</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Permanent Plan Implementation</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>18</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>10</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044426_682838</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>17</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044432_682839</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044100_27417">Short Term Plan Implementation (optional)</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Short Term Plan Implementation (optional)</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>6</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044439_682840</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>31</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044446_682841</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043981_27413">CreatedDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Created Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>29</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044453_682842</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043986_27411">InitiatedByMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>CPAR Creator</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>29</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"limitBy_CodeJobTitleID":"","limitBy_CodeJobFunctionID":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044462_682844</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>28</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044476_682846</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>30</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044484_687753</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044089_27859">PONumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:FieldContext>27859</mes:FieldContext>
+                            <mes:DisplayLabel>CPAR Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044494_688256</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043969_27408">Subject</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Title</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044502_688257</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CPAR IMPLEMENTATION</mes:StaticText>
+                            <mes:DisplayLabel>CPAR IMPLEMENTATION</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435488</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044509_688258</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044109_27416">Permanent Plan</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Permanent Plan</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044517_688259</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044116_27415">Short Term Containment Plan (Optional)</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Short Term Containment Plan (Optional)</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044524_688260</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CPAR INVESTIGATION</mes:StaticText>
+                            <mes:DisplayLabel>CPAR INVESTIGATION</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435488</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044532_688261</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044060_27409">Body</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Detailed Problem Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120224_799373</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044122_27261">WorkFlowAdhocMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>&lt;font color="red">IMPLEMENTATION ASSIGNEE&lt;/font></mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"limitBy_CodeJobTitleID":"","limitBy_CodeJobFunctionID":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120244_943108</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044410_5398">CPAR Implementation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL102_IWMS_Production_SAN_20141007_061155717_50317">Related JIRA Case Number</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Related JIRA Case Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044549_5301</mes:ClientID>
+                <mes:PageLayoutName>CPAR Investigation</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>|false|||</mes:URL>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="sql101_IWMS_Production_SAN_20111208_163043860_3873">Corrective and Preventative Action</mes:CodeIssueTypeID>
+                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044557_681414</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044122_27261">WorkFlowAdhocMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Ad Hoc WF Assignee</mes:DisplayLabel>
+                            <mes:DisplayOption1>264</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>32</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"limitBy_CodeJobTitleID":"","limitBy_CodeJobFunctionID":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044565_682825</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CPAR Investigation</mes:StaticText>
+                            <mes:DisplayLabel>CPAR Investigation</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>544</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>5</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044583_682826</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>&lt;font color="red">IMPLEMENTATION ASSIGNEE&lt;/font></mes:StaticText>
+                            <mes:DisplayLabel>&lt;font color="red">IMPLEMENTATION ASSIGNEE&lt;/font></mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870960</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>31</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044600_682827</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>30</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044608_682828</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>33</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044615_682829</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044109_27416">Permanent Plan</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Permanent Plan</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>25</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>5</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044622_682830</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>34</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044629_682831</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043969_27408">Subject</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Title</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044635_682832</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044141_27414">Finding/Root Cause</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Finding/Root Cause</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>14</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>5</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044642_682833</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044116_27415">Short Term Containment Plan (Optional)</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Short Term Containment Plan (Optional)</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>20</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>5</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044650_682834</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044656_682835</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>19</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044663_686400</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>INVESTIGATION</mes:StaticText>
+                            <mes:DisplayLabel>INVESTIGATION</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435488</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>5</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044676_686401</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043986_27411">InitiatedByMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Creator</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"limitBy_CodeJobTitleID":"","limitBy_CodeJobFunctionID":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044684_686402</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043992_27424">Preventive Action</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Preventive Action</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044690_686403</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044020_27423">Corrective Action</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Corrective Action</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044698_686405</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043975_27412">Customer</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Customer</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044704_686406</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043981_27413">CreatedDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Created Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044712_686407</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044060_27409">Body</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>5</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044734_686408</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CASE DETAILS</mes:StaticText>
+                            <mes:DisplayLabel>CASE DETAILS</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435488</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044740_687754</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044089_27859">PONumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>CPAR Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120416_799376</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044074_27425">Source</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Source</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120436_799377</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>SOURCE:   Please use one of these:  Customer Complaint, Internal Audit, External Audit, Internal</mes:StaticText>
+                            <mes:DisplayLabel>SOURCE:   Please use one of these:  Customer Complaint, Internal Audit, External Audit, Internal</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120737_943109</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044549_5301">CPAR Investigation</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL102_IWMS_Production_SAN_20141007_061155717_50317">Related JIRA Case Number</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Related JIRA Case Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>6</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044751_5399</mes:ClientID>
+                <mes:PageLayoutName>CPAR Verification</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>|false|||</mes:URL>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="sql101_IWMS_Production_SAN_20111208_163043860_3873">Corrective and Preventative Action</mes:CodeIssueTypeID>
+                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044759_682847</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CPAR VERIFICATION</mes:StaticText>
+                            <mes:DisplayLabel>CPAR VERIFICATION</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>544</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044766_682848</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044149_27421">Results of Action Taken</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Results of Action Taken</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>6</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044775_682849</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044156_27422">Action Effective</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Action Effective</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>12</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044781_682850</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044798_682852</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>14</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044806_682853</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044814_687755</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044089_27859">PONumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>CPAR Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120942_799360</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043969_27408">Subject</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Title</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124120962_799361</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CPAR INVESTIGATION</mes:StaticText>
+                            <mes:DisplayLabel>CPAR INVESTIGATION</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435488</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122175_799362</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CPAR VERIFICATION OF IMPLEMENTATION</mes:StaticText>
+                            <mes:DisplayLabel>CPAR VERIFICATION OF IMPLEMENTATION</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435488</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122194_799363</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044100_27417">Short Term Plan Implementation (optional)</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Short Term Plan Implementation (optional)</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>21</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122214_799364</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044116_27415">Short Term Containment Plan (Optional)</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Short Term Containment Plan (Optional)</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>17</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122233_799365</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044060_27409">Body</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122253_799366</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>25</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122271_799367</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043986_27411">InitiatedByMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Creator</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>24</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"limitBy_CodeJobTitleID":"","limitBy_CodeJobFunctionID":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122291_799368</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:StaticText>CPAR IMPLEMENTATION</mes:StaticText>
+                            <mes:DisplayLabel>CPAR IMPLEMENTATION</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435488</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>19</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122311_799369</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044095_27418">Permanent Plan Implementation</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Permanent Plan Implementation</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>22</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122329_799370</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>23</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122349_799371</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044109_27416">Permanent Plan</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Permanent Plan</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>18</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122371_799372</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163043981_27413">CreatedDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Created Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435456</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>24</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122390_799374</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20111208_163044122_27261">WorkFlowAdhocMemberID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>&lt;font color=</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436488</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>20</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"limitBy_CodeJobTitleID":"","limitBy_CodeJobFunctionID":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20160122_124122408_943110</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql101_IWMS_Production_SAN_20111208_163044751_5399">CPAR Verification</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL102_IWMS_Production_SAN_20141007_061155717_50317">Related JIRA Case Number</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:DisplayLabel>Related JIRA Case Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>268436480</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_61</mes:ClientID>
+                <mes:ReportGroupDataName>Forms</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163043929_1815</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_61">Forms</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Corrective and Preventative Action</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Lucernex Management</mes:FirmID>
+                            <mes:CodeIssueTypeID ClientID="sql101_IWMS_Production_SAN_20111208_163043860_3873">Corrective and Preventative Action</mes:CodeIssueTypeID>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163043969_27408</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Title</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Subject</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163043975_27412</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Customer</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163043981_27413</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Created Date</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>CreatedDate</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>4</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163043986_27411</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Creator</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>InitiatedByMemberID</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>200</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163043992_27424</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Preventive Action</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>10</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044020_27423</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Corrective Action</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>10</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044060_27409</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Description</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Body</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044067_27426</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Priority</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:CustomCodeTableID ClientID="SQL152_Test_10_20151019_20160122_124116469_710">5 Level Scale</mes:CustomCodeTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>319</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044074_27425</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Source</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044089_27859</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>CPAR Number</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>PONumber</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20151019_20160122_124118286_32881</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Number</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>SequenceNumber</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>true</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL102_IWMS_Production_SAN_20141007_061155717_50317</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Related JIRA Case Number</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044095_27418</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Permanent Plan Implementation</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044100_27417</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Short Term Plan Implementation (optional)</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044109_27416</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Permanent Plan</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044116_27415</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Short Term Containment Plan (Optional)</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044122_27261</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Ad Hoc WF Assignee</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>WorkFlowAdhocMemberID</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>202</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044141_27414</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Finding/Root Cause</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044149_27421</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Results of Action Taken</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163044156_27422</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql101_IWMS_Production_SAN_20111208_163043929_1815">Corrective and Preventative Action</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Action Effective</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Lucernex Management</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>14</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms>
+            <mes:Form>
+                <mes:ClientID>sql101_IWMS_Production_SAN_20111208_163043860_3873</mes:ClientID>
+                <mes:ShortName>Corrective and Preventative Action</mes:ShortName>
+                <mes:IsWorkFlow>true</mes:IsWorkFlow>
+                <mes:AutoClose>false</mes:AutoClose>
+                <mes:AllowReply>false</mes:AllowReply>
+                <mes:DerivedCodeSQLTableID>Issue</mes:DerivedCodeSQLTableID>
+                <mes:IsSequencePerFirm>false</mes:IsSequencePerFirm>
+                <mes:IsValidForCapProgram>false</mes:IsValidForCapProgram>
+                <mes:IsValidForPortfolio>false</mes:IsValidForPortfolio>
+                <mes:IsValidForPrototype>false</mes:IsValidForPrototype>
+                <mes:IsValidForPotentialProject>false</mes:IsValidForPotentialProject>
+                <mes:IsValidForOpenProject>true</mes:IsValidForOpenProject>
+                <mes:IsValidForCapProject>false</mes:IsValidForCapProject>
+                <mes:IsValidForFacility>false</mes:IsValidForFacility>
+                <mes:IsValidForLocation>false</mes:IsValidForLocation>
+                <mes:IsValidForParcel>false</mes:IsValidForParcel>
+                <mes:IsValidForContract>false</mes:IsValidForContract>
+            </mes:Form>
+        </mes:Forms>
+    </mes:Firm>
+</mes:LxERP>

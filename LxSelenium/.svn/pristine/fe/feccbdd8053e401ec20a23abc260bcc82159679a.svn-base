@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID>TaskStatusTemplate-877</ProjectEntityID>
+                <TemplateName>TaskStatusTemplate-877</TemplateName>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-04T12:44:07</LastReviewedDate>
+                    <ProjectEntityID>TaskStatusTemplate-877</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>TaskStatusTemplate-877</ProjectEntityID>
+                        <TaskName>CTStatus Group</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID>CTStatus Group</ParentTaskID>
+                            <ProjectEntityID>TaskStatusTemplate-877</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>CT Status Task A</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-04</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-04</OriginalStartDate>
+                            <ParentTaskID>CTStatus Group</ParentTaskID>
+                            <ProjectEntityID>TaskStatusTemplate-877</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-04</ProjectedStartDate>
+                            <TaskName>CT Status Task B</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID>CT Status Task A</PredecessorTaskID>
+                                <ProjectEntityID>TaskStatusTemplate-877</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>CT Status Task B</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-04</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-04</OriginalStartDate>
+                            <ParentTaskID>CTStatus Group</ParentTaskID>
+                            <ProjectEntityID>TaskStatusTemplate-877</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-04</ProjectedStartDate>
+                            <TaskName>CT Status Task C</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

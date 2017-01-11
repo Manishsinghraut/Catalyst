@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-T.160">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160418_20160510_104531957_35453</mes:ClientID>
+                <mes:PageLayoutName>Line Item Display Page</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowEdit>false</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>A</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>BudgetColumnType</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-T.160</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160510_104532002_1351369</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160510_104531957_35453">Line Item Display Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160510_104531915_75240">CodeColumn1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.160</mes:FirmID>
+                            <mes:DisplayLabel>Code Column 1</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160510_104532075_1351372</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160510_104531957_35453">Line Item Display Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="localhost_Dev_Trunk_20121010_115733889_4">LineItemCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.160</mes:FirmID>
+                            <mes:DisplayLabel>Line Item Code</mes:DisplayLabel>
+                            <mes:DisplayOption1>41</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_490</mes:ClientID>
+                <mes:ReportGroupDataName>Budget</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>ERP_1330</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_490">Budget</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Budget Types</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:Description/>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>false</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160510_104531915_75240</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Code Column 1</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-T.160</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160510_104531673_1018">Code Column 1</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>CodeColumn1</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

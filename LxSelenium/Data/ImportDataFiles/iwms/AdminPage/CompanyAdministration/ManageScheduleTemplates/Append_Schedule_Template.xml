@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-3383">
+                <Description>Append Schedule Template</Description>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>false</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+                <Notes>Append Schedule Template</Notes>
+                <ProjectEntityID clientID="client-566624">Append Schedule Template</ProjectEntityID>
+                <TemplateName>Append Schedule Template</TemplateName>
+                <MapClientSchedule clientID="client-515812">
+                    <LastReviewedDate>2015-07-01T05:00:35</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566624">Append Schedule Template</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1555758">
+                        <Description>Append Group 1</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566624">Append Schedule Template</ProjectEntityID>
+                        <TaskName>Append Group 1</TaskName>
+                        <Task clientID="client-1555759">
+                            <Description>Append Group 11</Description>
+                            <IsTaskGroup>true</IsTaskGroup>
+                            <OnCriticalPath>false</OnCriticalPath>
+                            <ParentTaskID clientID="client-1555758">Append Group 1</ParentTaskID>
+                            <ProjectEntityID clientID="client-566624">Append Schedule Template</ProjectEntityID>
+                            <TaskName>Append Group 11</TaskName>
+                            <Task clientID="client-1555760">
+                                <ActualDuration>4</ActualDuration>
+                                <ActualResourceUnits>0</ActualResourceUnits>
+                                <ActualStartDate>1970-01-02</ActualStartDate>
+                                <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                                <Description>Append Task 1</Description>
+                                <IsTaskGroup>false</IsTaskGroup>
+                                <OriginalDuration>4</OriginalDuration>
+                                <OriginalResourceUnits>0</OriginalResourceUnits>
+                                <OriginalStartDate>1970-01-02</OriginalStartDate>
+                                <ParentTaskID clientID="client-1555759">Append Group 11</ParentTaskID>
+                                <ProjectEntityID clientID="client-566624">Append Schedule Template</ProjectEntityID>
+                                <ProjectedDuration>4</ProjectedDuration>
+                                <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                                <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                                <TaskName>Append Task 1</TaskName>
+                            </Task>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <City>Plano</City>
+                <Description>Used for Automation test Cases</Description>
+                <FiscalYearEnd>2015-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>For Org Chart Feature</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+               
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <DevelopmentPlan>
+                    <DevelopmentPlanName>lx_devPlan_3623</DevelopmentPlanName>
+                    <ProgramID>For Org Chart Feature</ProgramID>
+                   
+                </DevelopmentPlan>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access</MemberID>
+                   
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>Edit Access</MemberID>
+                   
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>No Access</MemberID>
+                   
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>Lx Administrator</MemberID>
+                   
+                </LinkMemberProjectEntity>
+
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <Description>Org-Chart-Display-1</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>For Org Chart Feature</ProgramID>
+                       
+                        <RegionName>Org-Chart-Display-1</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <LinkRegionMarket>
+                            <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                           
+                        </LinkRegionMarket>
+                    </Region>
+                    <Region>
+                        <Description>Org-Chart-Display-2</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>For Org Chart Feature</ProgramID>
+                       
+                        <RegionName>Org-Chart-Display-2</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <Region>
+                            <Description>Selenium Sub Region</Description>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>Org-Chart-Display-2(Org-Chart-Display-2)
+                            </ParentRegionID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                            <RegionName>Selenium Sub Region</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>true</IsManager>
+                                <MemberID>Lx Administrator</MemberID>
+                                <ProgramID>For Org Chart Feature</ProgramID>
+                               
+                            </LinkRegionManager>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access</MemberID>
+                                <ProgramID>For Org Chart Feature</ProgramID>
+                               
+                            </LinkRegionManager>
+                        </Region>
+                    </Region>
+                </OrgChart>
+				
+				 <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <Description>Org-Chart-Display-1</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>For Org Chart Feature</ProgramID>
+                       
+                        <RegionName>Org-Chart-Display-1</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <LinkRegionMarket>
+                            <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                           
+                        </LinkRegionMarket>
+                    </Region>
+                    <Region>
+                        <Description>Org-Chart-Display-2</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>For Org Chart Feature</ProgramID>
+                       
+                        <RegionName>Org-Chart-Display-2</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access</MemberID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                        </LinkRegionManager>
+                        <Region>
+                            <Description>Selenium Sub Region</Description>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Org-Chart-Display-2(Org-Chart-Display-2)
+                            </ParentRegionID>
+                            <ProgramID>For Org Chart Feature</ProgramID>
+                           
+                            <RegionName>Selenium Sub Region</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>true</IsManager>
+                                <MemberID>Lx Administrator</MemberID>
+                                <ProgramID>For Org Chart Feature</ProgramID>
+                               
+                            </LinkRegionManager>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access</MemberID>
+                                <ProgramID>For Org Chart Feature</ProgramID>
+                               
+                            </LinkRegionManager>
+                        </Region>
+                    </Region>
+                </OrgChart>
+
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

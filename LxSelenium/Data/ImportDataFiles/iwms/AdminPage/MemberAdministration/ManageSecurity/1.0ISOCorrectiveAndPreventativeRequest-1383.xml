@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <WorkFlowTemplates>
+            <WorkFlowTemplate clientID="client-1349">
+                <DefaultWFCodePriorityID>3 - Normal</DefaultWFCodePriorityID>
+                <LimitByEntity>false</LimitByEntity>
+                <NotifyAllApproversComplete>false</NotifyAllApproversComplete>
+                <NotifyAllAssigneesComplete>false</NotifyAllAssigneesComplete>
+                <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                <PageLayoutID clientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">Corrective and Preventative Action~CPAR - Creation</PageLayoutID>
+                <StatusChangeType>1</StatusChangeType>
+                <WorkFlowTemplateName>1.0 ISO Corrective and Preventative Request</WorkFlowTemplateName>
+                <WorkFlowTemplateStep clientID="client-6783">
+                    <ApproverType>4</ApproverType>
+                    <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                    <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                    <DaysUntilAlertApprovers>15</DaysUntilAlertApprovers>
+                    <DaysUntilWarnApprovers>10</DaysUntilWarnApprovers>
+                    <DurationDaysApprovers>5</DurationDaysApprovers>
+                    <EMailAlertApprovers>false</EMailAlertApprovers>
+                    <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                    <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                    <PageLayoutApproversID clientID="sql101_IWMS_Production_SAN_20111208_163044205_4757">Corrective and Preventative Action~CPAR - Creation</PageLayoutApproversID>
+                    <SetTaskCanceled>false</SetTaskCanceled>
+                    <SetTaskInProcess>true</SetTaskInProcess>
+                    <StepNumber>1</StepNumber>
+                    <WorkFlowTemplateStepName>CPAR Review</WorkFlowTemplateStepName>
+                    <WorkFlowTemplateStepAction clientID="client-180048">
+                        <CloseWorkFlow>false</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>false</IsApprovalAction>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>false</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Close - Does Not Require Corrective/Preventative Action</WorkFlowTemplateStepActionName>
+                    </WorkFlowTemplateStepAction>
+                </WorkFlowTemplateStep>
+            </WorkFlowTemplate>
+        </WorkFlowTemplates>
+    </Firm>
+</LxERP>

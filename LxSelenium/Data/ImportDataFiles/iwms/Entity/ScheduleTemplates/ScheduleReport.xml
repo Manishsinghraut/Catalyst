@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-6.4">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20151019_20151204_152918872_30822</mes:ClientID>
+                <mes:PageLayoutName>Schedule Report</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{"SecEntityInclude":0,"AllowInPlaceEdit":false}</mes:URL>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>S</mes:OutputType>
+                    <mes:PageLayoutType>R</mes:PageLayoutType>
+                    <mes:FirmID>Selenium-6.4</mes:FirmID>
+                    <mes:EntitySelectionFilter>167196</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>8192</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919033_1247686</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_468">ActualEndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:FieldContext>Task 222</mes:FieldContext>
+                            <mes:DisplayLabel>Task 222(Forecast/Actual End Date)</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919094_1247687</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_767">CodeTaskStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:FieldContext>Task 222</mes:FieldContext>
+                            <mes:DisplayLabel>Task 222(Task Status)</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"ShowForeignVal":"false","HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919137_1247688</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>41</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919160_1247689</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_823">ActualStartDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:FieldContext>Task 222</mes:FieldContext>
+                            <mes:DisplayLabel>Task 222(Forecast/Start Date)</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919181_1247690</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_767">CodeTaskStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:FieldContext>Task 444</mes:FieldContext>
+                            <mes:DisplayLabel>Task 444(Task Status)</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"ShowForeignVal":"false","HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919201_1247691</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_468">ActualEndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:FieldContext>Task 444</mes:FieldContext>
+                            <mes:DisplayLabel>Task 444 (Forecast Actual End Date)</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919220_1247692</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_823">ActualStartDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:FieldContext>Task 444</mes:FieldContext>
+                            <mes:DisplayLabel>Task 444(Forecast Actual/Start Date)</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919262_479628</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_476">JurisdictionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919344_479629</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_468">ActualEndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Task 222</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919362_479630</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_767">CodeTaskStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:FieldContext>Task 222</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919382_479631</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_106">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919420_479632</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1026">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919460_479633</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919492_479634</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_823">ActualStartDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Task 222</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919511_479635</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_109">CityStateProvinceCountry</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919529_479636</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_110">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919646_479637</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904487_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919753_479638</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_108">SubRegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919835_479639</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919854_479640</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_113">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152919925_479641</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_767">CodeTaskStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:FieldContext>Task 444</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152920186_479642</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_468">ActualEndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Task 444</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151019_20151204_152920235_479643</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151019_20151204_152918872_30822">Schedule Report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_823">ActualStartDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-6.4</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Task 444</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                </mes:PageLayoutFilters>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

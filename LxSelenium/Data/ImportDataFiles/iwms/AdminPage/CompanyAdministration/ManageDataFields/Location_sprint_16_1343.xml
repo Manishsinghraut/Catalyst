@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location>
+                <ClientEntityID>Location sprint 16</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>Location sprint 16</LocationName>
+                <ProgramID>Portfolio Sprint 16</ProgramID>
+                <ProjectEntityID clientID="client-667522fer">Location sprint 16</ProjectEntityID>
+                </Location>
+        </Locations>
+    </Firm>
+</LxERP>

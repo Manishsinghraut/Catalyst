@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Facilities>
+            <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>Facility one 123</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-abs630378">Facility one 123</ProjectEntityID>
+                <RegionID clientID="client-17654">Central Dallas(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID>Lx Administrator</MemberID>
+                </LinkMemberProjectEntity>
+                </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>

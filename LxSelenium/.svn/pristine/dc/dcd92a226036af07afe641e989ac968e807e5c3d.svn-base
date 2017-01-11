@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-024">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096</mes:ClientID>
+                <mes:PageLayoutName>Contract Exclusions</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>SalesExclusion</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111101453_659549</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338440_0">CodeSalesTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Sales Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111101468_659550</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338438_0">CodeCurrencyTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Currency Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>7</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111101484_659551</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338439_1">EndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>7</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111101531_659554</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338438_1">CapPercent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Cap Percent</mes:DisplayLabel>
+                            <mes:DisplayOption1>33570817</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0","NumberOfDecimals":"5"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111101562_659556</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338437_0">CapAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Cap Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>33570817</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111101578_659557</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338437_1">BeginDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Begin Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111101609_659569</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20100804_175702005_0">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>257</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>9</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>10</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>3</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130108_170041209_668923</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20120808_205513911_0">CodeSalesGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Sales Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243620_670495</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Notes</mes:StaticText>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>10</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243713_670781</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Exclusion Details</mes:StaticText>
+                            <mes:DisplayLabel>Exclusion Details</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>10</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243724_670836</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130118_165131230_0">ExclusionGroupCapID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Exclusion Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>9</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150309_110720949_1003142</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20150224_115959406_0">ExclusionRate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Rate</mes:DisplayLabel>
+                            <mes:DisplayOption1>167788544</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094</mes:ClientID>
+                <mes:PageLayoutName>Contract Offsets</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>VariableRentOffset</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102203_659534</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338448_0">CodeExpenseTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Expense Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102234_659535</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338448_1">CodeExpenseGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Expense Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102250_659536</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338443_1">CapAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Cap Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>33570817</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>10</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102265_659537</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338443_0">CapPercent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Cap Percent</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>9</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":"5"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102281_659538</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338444_1">CodeCurrencyTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Currency Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102312_659540</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338446_0">EndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102328_659541</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338442_0">BeginDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Begin Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102406_659568</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20100804_175702006_1">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>4</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20111129_142046511_666036</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338447_0">CodeOffsetTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Offset Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20111129_142046518_666037</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100803_195338447_1">CodeOffsetGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Offset Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130108_170041486_668924</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20121203_153706066_0">CodeSalesGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Sales Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243798_670779</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Notes</mes:StaticText>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243808_670780</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Offset Details</mes:StaticText>
+                            <mes:DisplayLabel>Offset Details</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140715_150211030_682399</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>&lt;div id="varRentAdjustmentType">&lt;/div></mes:StaticText>
+                            <mes:DisplayLabel>&lt;div id="varRentAdjustmentType">&lt;/div></mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140717_120359645_682406</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140715_145023286_0">FixedOffsetAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Fixed Offset Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>192.168.123.194_Dev_Trunk_20130212_121248241_5041</mes:ClientID>
+                <mes:PageLayoutName>Contract Exclusion Caps</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="sql151_Dev_Trunk_20130228_110119906_5057">Expense Recovery Summary</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>SalesExclusionCap</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130212_121248270_670058</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012755_1">CodeExclusionCapID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Exclusion Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554441</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130212_121248298_670059</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012754_0">EndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>7</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130212_121248322_670060</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012729_1">BeginDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Begin Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130212_121248342_670061</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012730_0">CapAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Cap Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>33570817</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130212_121248367_670062</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012731_1">CapPercent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Cap Percent</mes:DisplayLabel>
+                            <mes:DisplayOption1>33570817</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ColumnWidthInList":"0","NumberOfDecimals":"5"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130212_121248389_670063</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012763_0">CodeSalesGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Sales Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243851_670837</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Notes</mes:StaticText>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>8</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243860_670838</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012756_0">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>8</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>4</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243868_670839</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130208_112012753_0">CodeCurrencyTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Currency Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20130215_094243878_670840</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Exclusion Cap Group Details</mes:StaticText>
+                            <mes:DisplayLabel>Exclusion Cap Group Details</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>8</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>sql151_Dev_Trunk_20140608_200101706_5749</mes:ClientID>
+                <mes:PageLayoutName>Percentage Rent Breakpoints</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="bobWin_Dev_Trunk_20140611_160944021_5749">Percentage Rent Breakpoint Schedule</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>PercentageRentBreakpoint</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200127860_681012</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309407_2">CodeSalesGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Sales Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200127894_681013</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309405_2">Description</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200127930_681014</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309405_0">EndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200127964_681015</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309405_1">NaturalBreakpointRate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Natural Rate</mes:DisplayLabel>
+                            <mes:DisplayOption1>33570817</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200127998_681016</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309399_0">BeginDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Begin Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128031_681017</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309403_0">BreakpointRate5</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #5</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128065_681018</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309403_1">BreakpointRate4</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #4</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128098_681019</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309404_1">BreakpointRate7</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #7</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>12</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128133_681020</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309403_2">BreakpointRate6</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #6</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128167_681021</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309404_0">BreakpointRate8</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #8</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128200_681022</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Payment Rate</mes:StaticText>
+                            <mes:DisplayLabel>Payment Rate</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>304</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128234_681023</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309401_3">BreakpointAmount5</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #5</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128269_681024</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309401_0">BreakpointAmount6</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #6</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128301_681025</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309401_1">BreakpointAmount7</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #7</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>12</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128336_681026</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309401_2">BreakpointAmount8</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #8</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128371_681027</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309399_1">BreakpointAmount1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #1</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234369</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128406_681028</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309402_0">BreakpointRate1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #1</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234369</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128441_681029</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309400_2">BreakpointAmount2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #2</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234369</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128477_681030</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309402_1">BreakpointRate2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #2</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234369</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>9</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128514_681031</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309400_0">BreakpointAmount3</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #3</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234369</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>10</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128549_681032</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309402_2">BreakpointRate3</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Rate #3</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234369</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>11</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128583_681033</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309400_1">BreakpointAmount4</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Breakpoint Amount #4</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234368</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_200128618_681034</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Breakpoint Amount</mes:StaticText>
+                            <mes:DisplayLabel>Breakpoint Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>304</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144339_681035</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#1</mes:StaticText>
+                            <mes:DisplayLabel>#1</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144374_681036</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#4</mes:StaticText>
+                            <mes:DisplayLabel>#4</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144409_681037</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#3</mes:StaticText>
+                            <mes:DisplayLabel>#3</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144444_681038</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#6</mes:StaticText>
+                            <mes:DisplayLabel>#6</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144479_681039</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#5</mes:StaticText>
+                            <mes:DisplayLabel>#5</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144512_681040</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#7</mes:StaticText>
+                            <mes:DisplayLabel>#7</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>12</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144546_681041</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#2</mes:StaticText>
+                            <mes:DisplayLabel>#2</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140608_202144581_681042</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>#8</mes:StaticText>
+                            <mes:DisplayLabel>#8</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140613_110701046_681242</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Breakpoint Amounts and Rates</mes:StaticText>
+                            <mes:DisplayLabel>Breakpoint Amounts and Rates</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140613_110701083_681243</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Notes</mes:StaticText>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>14</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140613_110701117_681244</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_115309406_3">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>257</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>12</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>4</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","MemoColumnNumber":"null","MemoMaxWidth":"null","MemoRowNumber":"null"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140613_110701152_681247</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Enter the Natural Rate for Natural Breakpoint Only</mes:StaticText>
+                            <mes:DisplayLabel>Enter the Natural Rate for Natural Breakpoint Only</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>2176</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20140702_000638201_681443</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140628_150602610_0">CodePortionedSalesGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Portioned Sales Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20141006_230124542_683484</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1774">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Contract ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>301989888</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20141006_230124558_683485</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1750">ContractName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Contract Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>301989888</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118351_35379</mes:ClientID>
+                <mes:PageLayoutName>Percentage Rent</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:ParentPageLayoutID ClientID="lxdfwseml001~BBTestRM~3135~1253762295734">Percentage Rent</mes:ParentPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>PercentageRent</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-024</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118799_1351319</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_2">BeginDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Begin Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118851_1351320</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455512_2">CodeSalesGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Sales Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118869_1351321</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455512_0">CodePercentageRentTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Calculation&amp;nbsp;Method</mes:DisplayLabel>
+                            <mes:DisplayOption1>1025</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118886_1351322</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:StaticText>Percentage Rent Information</mes:StaticText>
+                            <mes:DisplayLabel>Percentage Rent Information</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118903_1351323</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455512_1">CodeReportingFrequencyID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Reporting Frequency</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118919_1351324</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_10">EndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118934_1351325</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_3">CodeBillingFrequencyID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Payment Frequency</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118951_1351326</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_8">Description</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554433</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118970_1351327</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_1">AuditRightFlag</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Right to Audit</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>6</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123118989_1351328</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_4">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Comments</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>19</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>3</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119004_1351329</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:StaticText>Comments</mes:StaticText>
+                            <mes:DisplayLabel>Comments</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>18</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119022_1351330</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:StaticText>Breakpoints</mes:StaticText>
+                            <mes:DisplayLabel>Breakpoints</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119052_1351331</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100407_202356342_1">CovenantID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Covenant</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>22</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"popupHeight":"500","popupWidth":"800"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119069_1351332</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100407_203928735_0">AmendmentID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Amendment</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>22</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"popupHeight":"300","popupWidth":"500"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119094_1351333</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:StaticText>Offsets</mes:StaticText>
+                            <mes:DisplayLabel>Offsets</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119117_1351334</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_Dev_7.1.2_20100805_182533763_0">IsPartialTerm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Partial Term</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119142_1351335</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1318">OneToManyList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_111058640_4096">Contract Exclusions</mes:SubPageLayoutID>
+                            <mes:FieldContext>Contract Exclusions</mes:FieldContext>
+                            <mes:DisplayLabel>Contract Exclusions</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"BOItemPopupWidth":"1200","DisableRowEditorInList":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119159_1351336</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1318">OneToManyList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100820_110230218_4094">Contract Offsets</mes:SubPageLayoutID>
+                            <mes:FieldContext>Contract Offsets</mes:FieldContext>
+                            <mes:DisplayLabel>Contract Offsets</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>17</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"BOItemPopupWidth":"1200","DisableRowEditorInList":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119210_1351337</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101119_110525612_0">CapAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Max Cap (ceiling)</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119229_1351338</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101119_110525613_0">CodeExpenseTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Expense Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119253_1351339</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101119_110525612_1">CodeExpenseGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Expense Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119270_1351340</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20110304_184712548_1">Section</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Section</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>22</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119301_1351341</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20111109_170606441_0">AnnualPaymentDueDays</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Annual Payment Due Day</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119318_1351342</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20111109_170606440_0">AnnualReportDueDays</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Annual Report Due Day</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119336_1351343</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20111109_170606442_0">PeriodReportDueDays</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Period Report Due Day</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119359_1351344</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20111109_170606443_0">PeriodPaymentDueDays</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Period Payment Due Day</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":"0"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119398_1351345</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_11">NaturalBreakpointFlag</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Natural Breakpoint?</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119416_1351346</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:StaticText>&lt;span class="artificialBreakPoint">&lt;/span></mes:StaticText>
+                            <mes:DisplayLabel>&lt;span class="artificialBreakPoint">&lt;/span></mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119433_1351347</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:StaticText>Exclusions</mes:StaticText>
+                            <mes:DisplayLabel>Exclusions</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119455_1351348</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:StaticText>&lt;span class="naturalBreakPoint" id="naturalBreakPoint_div">&lt;/span></mes:StaticText>
+                            <mes:DisplayLabel>&lt;span class="naturalBreakPoint" id="naturalBreakPoint_div">&lt;/span></mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119481_1351349</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1318">OneToManyList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:SubPageLayoutID>
+                            <mes:FieldContext>Contract Sales Exclusion Cap</mes:FieldContext>
+                            <mes:DisplayLabel>Contract Sales Exclusion Cap</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>14</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DisableRowEditorInList":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119502_1351350</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="127.0.0.1_Dev_Trunk_20120819_214543853_0">HELP</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>https://vimeo.com/47741905</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>6</mes:EditColumnPosition>
+                            <mes:EditRowPosition>23</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119520_1351351</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1318">OneToManyList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="sql151_Dev_Trunk_20140608_200101706_5749">Percentage Rent Breakpoints</mes:SubPageLayoutID>
+                            <mes:FieldContext>Percentage Rent Breakpoints</mes:FieldContext>
+                            <mes:DisplayLabel>Percentage Rent Breakpoints</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>12</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DisableRowEditorInList":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119541_1351352</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455496_7">CodeCurrencyTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Currency Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119557_1351353</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_164528368_0">CodeCapFrequencyID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Cap Frequency</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119573_1351354</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140528_164528368_1">FloorAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Min Cap (floor)</mes:DisplayLabel>
+                            <mes:DisplayOption1>33570816</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"FieldValidationMinValue","NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119592_1351355</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140701_113350803_1">RentYearStartMonth</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Rent Year Start Month</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160620_123119665_1351356</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160620_123118351_35379">Percentage Rent</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20131222_155634560_0">PercentageRentID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-024</mes:FirmID>
+                            <mes:DisplayLabel>Percentage Rent RecID</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669605</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

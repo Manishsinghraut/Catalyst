@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project clientID="client-65072">
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeConstructionTypeID>Wood</CodeConstructionTypeID>
+                <CodeDealTypeID>Rental</CodeDealTypeID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeMarketTypeID>Retail Mall</CodeMarketTypeID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ComplexID clientID="client-26893">Stonebriar</ComplexID>
+                <ExpectedEndDate>2015-01-05</ExpectedEndDate>
+                <Frontage>10000.00</Frontage>
+                <GrossArea>6522.00000</GrossArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <JurisdictionID clientID="2562">Collin</JurisdictionID>
+                <LocationID clientID="client-118338">Lucernex-Project</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectDescription>This project will be updated upon import</ProjectDescription>
+                <ProjectEntityID clientID="client-509241">Lucernex-Project</ProjectEntityID>
+                <ProjectName>Lucernex-Project</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID clientID="client-17652">Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central</RegionLvl1>
+                <RentableArea>50000.00000</RentableArea>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <UsableArea>20000.00000</UsableArea>
+                <Competitor clientID="client-6245">
+                    <City>Plano</City>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCompetitorTypeID>Anchor</CodeCompetitorTypeID>
+                    <CompetitorName>Competitor A</CompetitorName>
+                    <CrossStreet1>Democracy</CrossStreet1>
+                    <CrossStreet2>Parkwood</CrossStreet2>
+                    <Distance>1000</Distance>
+                    <IStateProvinceCountryID>
+                        <Country>United States</Country>
+                        <State>TX</State>
+                    </IStateProvinceCountryID>
+                    <IsAnchorStore>true</IsAnchorStore>
+                    <LastYearSales>50000.00000</LastYearSales>
+                    <LatitudeDegrees>33.0685680000</LatitudeDegrees>
+                    <LongitudeDegrees>-96.8185150000</LongitudeDegrees>
+                    <PostalCode>75025</PostalCode>
+                    <ProjectEntityID clientID="client-509241">Lucernex-Project</ProjectEntityID>
+                    <RentableArea>2500.00000</RentableArea>
+                </Competitor>
+                <Competitor clientID="client-6249">
+                    <City>Las Vegas</City>
+                    <CodeCompetitorTypeID>Competitor</CodeCompetitorTypeID>
+                    <CompetitorName>Competitor B</CompetitorName>
+                    <CrossStreet1>Russell</CrossStreet1>
+                    <CrossStreet2>Eastern</CrossStreet2>
+                    <Distance>800</Distance>
+                    <IStateProvinceCountryID>
+                        <Country>United States</Country>
+                        <State>NV</State>
+                    </IStateProvinceCountryID>
+                    <IsAnchorStore>true</IsAnchorStore>
+                    <LastYearSales>80000.00000</LastYearSales>
+                    <LatitudeDegrees>36.0862590000</LatitudeDegrees>
+                    <LongitudeDegrees>-115.1187100000</LongitudeDegrees>
+                    <PostalCode>89120</PostalCode>
+                    <ProjectEntityID clientID="client-509241">Lucernex-Project</ProjectEntityID>
+                </Competitor>
+                <ExpenseVendorAllocation clientID="client-627299">
+                    <BeginDate>2000-01-01</BeginDate>
+                    <ContractID clientID="client-96793">Selenium-Contract</ContractID>
+                    <EndDate>2035-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-505241">Expense Setup Record, ID=622813</ExpenseSetupID>
+                    <Notes>This will be updated upon import</Notes>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-509240">Selenium-Contract</ProjectEntityID>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-627300">
+                    <BeginDate>2000-01-01</BeginDate>
+                    <ContractID clientID="client-96793">Selenium-Contract</ContractID>
+                    <EndDate>2035-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-505242">Expense Setup Record, ID=622814</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-509240">Selenium-Contract</ProjectEntityID>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-627301">
+                    <BeginDate>2000-01-01</BeginDate>
+                    <ContractID clientID="client-96793">Selenium-Contract</ContractID>
+                    <EndDate>2035-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-505243">Expense Setup Record, ID=622815</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-509240">Selenium-Contract</ProjectEntityID>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-627312">
+                    <BeginDate>2000-01-01</BeginDate>
+                    <ContractID clientID="client-96793">Selenium-Contract</ContractID>
+                    <EndDate>2015-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-505273">Expense Setup Record, ID=622816</ExpenseSetupID>
+                    <Notes>This will be created upon import</Notes>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-509240">Selenium-Contract</ProjectEntityID>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </ExpenseVendorAllocation>
+                <SiteSurvey clientID="client-73970">
+                    <BuildingSignage>false</BuildingSignage>
+                    <CanopyLighting>false</CanopyLighting>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                    <FacilityDescription>Project Test</FacilityDescription>
+                    <FireSprinkler>false</FireSprinkler>
+                    <HandicapAccessible>false</HandicapAccessible>
+                    <IsBuildingPlanAvail>false</IsBuildingPlanAvail>
+                    <IsCLECAvail>false</IsCLECAvail>
+                    <IsConstructionCriteriaAvail>false</IsConstructionCriteriaAvail>
+                    <IsCurrentlyOccupied>false</IsCurrentlyOccupied>
+                    <IsLODAvail>false</IsLODAvail>
+                    <IsLandlordWorkDescriptionAvail>false</IsLandlordWorkDescriptionAvail>
+                    <IsRoofAccessAvail>false</IsRoofAccessAvail>
+                    <IsSignCriteriaAvail>false</IsSignCriteriaAvail>
+                    <MonumentSignage>false</MonumentSignage>
+                    <ParkingLotLighting>false</ParkingLotLighting>
+                    <ProjectEntityID clientID="client-509241">Lucernex-Project</ProjectEntityID>
+                    <PylonSignage>false</PylonSignage>
+                    <RecommendToREC>false</RecommendToREC>
+                    <TrafficSignalAccess>false</TrafficSignalAccess>
+                </SiteSurvey>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

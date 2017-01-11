@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="QA">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20151006_145959198_28476</mes:ClientID>
+                <mes:PageLayoutName>Sales Record Validator</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{"SecEntityInclude":0,"AllowInPlaceEdit":false}</mes:URL>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>S</mes:OutputType>
+                    <mes:PageLayoutType>R</mes:PageLayoutType>
+                    <mes:FirmID>QA</mes:FirmID>
+                    <mes:EntitySelectionFilter>163840</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>8192</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000401_1208108</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_Dev_900_20111013_094234060_0">ContractID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Contract RecID</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000450_1208109</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Entity Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>9</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000538_1208110</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="10.211.55.3_Dev_Patch6_20131113_094129945_0">SalesID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Sales RecID</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000568_1208111</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455574_1">SalesYear</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Fiscal Year</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234113</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000581_1208112</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455559_0">EffectiveDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Effective Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000592_1208113</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455559_12">SalesPeriod</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Fiscal Period</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234113</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000635_451946</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_106">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000701_451947</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1026">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000725_451948</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_Dev_900_20111013_094234060_0">ContractID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000735_451949</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000745_451950</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="10.211.55.3_Dev_Patch6_20131113_094129945_0">SalesID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000755_451951</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_109">CityStateProvinceCountry</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000777_451952</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904487_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000787_451953</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20121206_103154645_31711">Off_delivery_state</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000797_451954</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_108">SubRegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000810_451955</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000820_451956</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20140214_163238917_360">strCounty</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000829_451957</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455574_1">SalesYear</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000839_451958</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455559_0">EffectiveDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaType1>6</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000849_451959</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455559_12">SalesPeriod</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20151006_150000859_451960</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20151006_145959198_28476">Sales Record Validator</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql151_Test_910_20120123_112743064_27841">_Postalcode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                </mes:PageLayoutFilters>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_452</mes:ClientID>
+                <mes:ReportGroupDataName>Summary Information</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>sql151_Demo_Trunk_20140528_120142050_1256</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_452">Summary Information</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Client Specific</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>false</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20121206_103154645_31711</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql151_Demo_Trunk_20140528_120142050_1256">Client Specific</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Offsite Delivery State</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>QA</mes:FirmID>
+                                    <mes:CodeSQLTableID>ProjectEntity</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Off_delivery_state</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>301</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>ERP_453</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_452">Summary Information</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>General Summary Information</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:Description/>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20140214_163238917_360</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_453">General Summary Information</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>County</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>QA</mes:FirmID>
+                                    <mes:CodeSQLTableID>ProjectEntity</mes:CodeSQLTableID>
+                                    <mes:AccessorName>strCounty</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>317</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>sql151_Test_910_20120123_112742895_1966</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_452">Summary Information</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>All Fields Types</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:Description>For future Ipad or Smart phone testing - Do not delete</mes:Description>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql151_Test_910_20120123_112743064_27841</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="sql151_Test_910_20120123_112742895_1966">All Fields Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Postalcode</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>QA</mes:FirmID>
+                                    <mes:CodeSQLTableID>ProjectEntity</mes:CodeSQLTableID>
+                                    <mes:AccessorName>_Postalcode</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>421</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

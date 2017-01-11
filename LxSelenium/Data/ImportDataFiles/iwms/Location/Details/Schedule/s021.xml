@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location clientID="client-155627">
+                <ClientEntityID>s021</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>s021</LocationName>
+                <ProgramID clientID="client-2987">Global</ProgramID>
+                <ProjectEntityID clientID="client-613228">s021</ProjectEntityID>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-01-25T15:20:12</LastReviewedDate>
+                    <ProjectEntityID>613228</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                    <Task>
+                        <Description>This group contains the tasks that will test the End Date Change Notifications for the Forecast End Date, and the Projected End Date.
+            
+            Note sure if End Date Change Notifications are supposed to work at the Task Group level.</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>613228</ProjectEntityID>
+                        <TaskName>End Date Change Notification Group</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>Schedule Task to test the notification for once the Forecast End Date has been changed.</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID>End Date Change Notification Group</ParentTaskID>
+                            <ProjectEntityID>613228</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>Forecast End Date Change Notification Test</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>Schedule Task to test the notification for once the Projected End Date has been changed.</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID>End Date Change Notification Group</ParentTaskID>
+                            <ProjectEntityID>613228</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>Projected End Date Change Notificatino Test</TaskName>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <Description>This group will house the tasks for the Task Completion (Before &amp; After) notifications</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>613228</ProjectEntityID>
+                        <TaskName>Before/After Task Complete Notifications</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>Schedule Task to test the notification for once the task has been completed.</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID>Before/After Task Complete Notifications</ParentTaskID>
+                            <ProjectEntityID>613228</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>After Task Complete Notification</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2021-01-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>Testing the "Before Task Complete Notification" at the task level.</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2021-01-03</OriginalStartDate>
+                            <ParentTaskID>Before/After Task Complete Notifications</ParentTaskID>
+                            <ProjectEntityID>613228</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2021-01-03</ProjectedStartDate>
+                            <TaskName>Before Task Complete Notification</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

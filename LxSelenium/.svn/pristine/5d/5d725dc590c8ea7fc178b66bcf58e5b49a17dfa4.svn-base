@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-709">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>lucernex-db01_IWMS_Production_SAN_20100429_094013035_2471</mes:ClientID>
+                <mes:PageLayoutName>Issues and Alerts</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013160_2470">Milestone Timeline</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>ProjectEntity</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db01_IWMS_Production_SAN_20100429_094013691_631171</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013035_2471">Issues and Alerts</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1331">IssuesAndAlerts</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>sql152_Dev_Trunk_20150808_004924314_30846</mes:ClientID>
+                <mes:PageLayoutName>Portfolio Info</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="bobWin_Dev_Trunk_20151021_121651003_35716">Portfolio Wizard Pages</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Program</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925591_1255482</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100519_121030835_0">RegionsInProgram</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Regions Summary</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925676_1255485</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100519_121030834_1">MarketsInProgram</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Markets Summary</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435712</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925731_1255486</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Regions in Portfolio</mes:StaticText>
+                            <mes:DisplayLabel>Regions in Portfolio</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435616</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925746_1255488</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Markets in Portfolio</mes:StaticText>
+                            <mes:DisplayLabel>Markets in Portfolio</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435616</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925768_1255491</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1320">EntityPhoto</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Entity Photo</mes:DisplayLabel>
+                            <mes:DisplayOption1>67109120</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925783_1255492</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_445">Description</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925796_1255497</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1332">ManagerIDList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Project Managers</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925846_1255498</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Management / Approvals</mes:StaticText>
+                            <mes:DisplayLabel>Management / Approvals</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435616</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925875_1255499</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Prototypes in Portfolio</mes:StaticText>
+                            <mes:DisplayLabel>Prototypes in Portfolio</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435616</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925893_1255500</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100519_121030835_1">PrototypesInProgram</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Prototypes Summary</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20150808_004925940_1255503</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="WALDO_Dev_Trunk_20150528_202721146_0">NumberOfPTApprovalLevels</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Number of Contract Approval Levels</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160120_20160204_033545586_32409</mes:ClientID>
+                <mes:PageLayoutName>Summary Page For Portfolio Level Calender</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:ParentPageLayoutID ClientID="3">Summary</mes:ParentPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Program</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-709</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546180_1288499</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_441">StreetAddress2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546264_1288500</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_442">City</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>City</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546280_1288501</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_440">StreetAddress1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Address</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546316_1288502</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_443">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>State</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546336_1288503</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_437">ProgramName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546355_1288504</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_444">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Postal Code</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546391_1288505</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100519_121030833_0">TotalContracts</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Total Contracts</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546409_1288506</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100519_121030834_0">TotalParcels</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Total Parcels</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546428_1288507</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100517_162930504_1">TotalFacilities</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Total Facilities</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>14</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546445_1288508</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100519_121030833_1">TotalLocations</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Total Locations</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>12</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546461_1288509</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:StaticText>General Information</mes:StaticText>
+                            <mes:DisplayLabel>General Information</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435616</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546477_1288510</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100517_162930504_0">TotalSites</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Total Sites</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546492_1288511</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100517_162930505_0">TotalProjects</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Total Projects</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546507_1288512</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_439">FiscalYearEnd</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Fiscal year end</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546522_1288513</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:StaticText>Portfolio Counts</mes:StaticText>
+                            <mes:DisplayLabel>Portfolio Counts</mes:DisplayLabel>
+                            <mes:DisplayOption1>67108864</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435616</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546541_1288514</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013035_2471">Issues and Alerts</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Issues and Alerts</mes:DisplayLabel>
+                            <mes:DisplayOption1>4864</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546591_1288515</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="127.0.0.1_Dev_Trunk_20120819_214543853_0">HELP</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>https://vimeo.com/59692485</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>19</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546624_1288516</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20140507_014152156_0">CodeCurrencyTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Currency Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546667_1288517</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:StaticText>Holiday Schedule Configuration</mes:StaticText>
+                            <mes:DisplayLabel>Holiday Schedule Configuration</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546683_1288519</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="sql152_Dev_Trunk_20150808_004924314_30846">Portfolio Info</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Portfolio</mes:DisplayLabel>
+                            <mes:DisplayOption1>67113488</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>6</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>18</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546758_1288520</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_509">BlankSpace</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Blank Space</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546825_1288521</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20150423_205501453_0">DefaultWorkWeekends</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Default Work Weekends</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>18</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160204_033546846_1288522</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160204_033545586_32409">Summary Page For Portfolio Level Calender</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20150105_133726554_0">DefaultHolidayScheduleID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-709</mes:FirmID>
+                            <mes:DisplayLabel>Default Holiday Schedule</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>20</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

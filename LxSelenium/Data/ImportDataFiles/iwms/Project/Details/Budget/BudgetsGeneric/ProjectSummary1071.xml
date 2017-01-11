@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-03-09</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>DE</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="Automation-1071">Project Summary-1071</ProjectEntityID>
+                <ProjectName>Project Summary-1071</ProjectName>
+				<BudgetTemplateID>Selenium-Budget</BudgetTemplateID>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central (Central region - preOpen) Frisco(Pre-Open)</RegionID>
+                <RegionLvl1>Central (Central region - preOpen) Frisco(Pre-Open)</RegionLvl1>
+				</Project>
+        </Projects>
+    </Firm>
+</LxERP>

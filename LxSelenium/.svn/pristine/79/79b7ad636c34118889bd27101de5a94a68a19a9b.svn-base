@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-10-04</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>00018 Location</LocationID>
+                <ProgramID>00018 Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-730367rer">13180</ProjectEntityID>
+                <ProjectName>13180</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>00018Region</RegionID>
+                <RegionLvl1>00018Region</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                 <_3810_Form clientID="client-485331">
+                    <CodeIssueTypeID clientID="SQL153/SQL_TEST_Test_20160830_20161004_094220232_5990">13810 Form</CodeIssueTypeID>
+                    <ImportedCreatedDate>2016-10-04T09:36:22</ImportedCreatedDate>
+                    <InitiatedByMemberID clientID="client-31100">Saloni Kadakia</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <LastPageLayoutID clientID="SQL153/SQL_TEST_Test_20160830_20161004_094220685_39039">13810 Form</LastPageLayoutID>
+                    <ProjectEntityID>730367rer</ProjectEntityID>
+                    <Subject>10/04/2016</Subject>
+                    <math_MathDiffrence_0>0.0</math_MathDiffrence_0>
+                    <math_MathTotal_0>0.0</math_MathTotal_0>
+                </_3810_Form>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

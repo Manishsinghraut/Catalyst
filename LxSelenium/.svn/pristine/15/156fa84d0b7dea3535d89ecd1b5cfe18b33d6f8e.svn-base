@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetTemplates>
+            <BudgetTemplate clientID="client-3262">
+                <IsValidForAssetContract>false</IsValidForAssetContract>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+                <ProjectEntityID clientID="client-679125">13613 Template</ProjectEntityID>
+                <TemplateName>13613 Template</TemplateName>
+                <BudgetLineItem clientID="client-17331">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>13613 Group B</BudgetLineItemName>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>4</LineItemCode>
+                    <OverrunPercent>100.00000</OverrunPercent>
+                    <ProjectEntityID clientID="client-679125">13613 Template</ProjectEntityID>
+                    <BudgetLineItem clientID="client-17333">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>13613 Subgroup D</BudgetLineItemName>
+                        <CategoryCode>0004</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>6</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17331">4</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-679125">13613 Template</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-17332">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>13613 Subgroup C</BudgetLineItemName>
+                        <CategoryCode>0003</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>5</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17331">4</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-17333">6</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-679125">13613 Template</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+                <BudgetLineItem clientID="client-17328">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>13613 Group A</BudgetLineItemName>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>1</LineItemCode>
+                    <OverrunPercent>100.00000</OverrunPercent>
+                    <PreviousBudgetLineItemID clientID="client-17331">4</PreviousBudgetLineItemID>
+                    <ProjectEntityID clientID="client-679125">13613 Template</ProjectEntityID>
+                    <BudgetLineItem clientID="client-17330">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>13613 Subgroup B</BudgetLineItemName>
+                        <CategoryCode>0002</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>3</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17328">1</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-679125">13613 Template</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-17329">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>13613 Subgroup A</BudgetLineItemName>
+                        <CategoryCode>0001</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>2</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17328">1</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-17330">3</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-679125">13613 Template</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+            </BudgetTemplate>
+        </BudgetTemplates>
+    </Firm>
+</LxERP>

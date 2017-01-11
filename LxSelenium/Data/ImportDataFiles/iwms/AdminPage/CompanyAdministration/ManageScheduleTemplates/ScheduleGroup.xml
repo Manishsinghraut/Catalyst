@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-875">
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-598209">ScheduleGroup</ProjectEntityID>
+                <TemplateName>ScheduleGroup</TemplateName>
+                <MapClientSchedule clientID="client-547210">
+                    <LastReviewedDate>2015-10-28T16:45:21</LastReviewedDate>
+                    <ProjectEntityID clientID="client-598209">ScheduleGroup</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-2009636">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-598209">ScheduleGroup</ProjectEntityID>
+                        <TaskName>ScheduleGroup1</TaskName>
+                        <Task clientID="client-2009637">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-2009636">ScheduleGroup1</ParentTaskID>
+                            <ProjectEntityID clientID="client-598209">ScheduleGroup</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Task 1.1</TaskName>
+                        </Task>
+                        <Task clientID="client-2009638">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-2009636">ScheduleGroup1</ParentTaskID>
+                            <ProjectEntityID clientID="client-598209">ScheduleGroup</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Task 1.2</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Portfolio-Generate-Rent-Payables</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2010-01-01</ExecuteDate>
+                <ExpireDate>2030-12-31</ExpireDate>
+                <LocationID>Imported Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <PossessionEndDate>2030-12-31</PossessionEndDate>
+                <ProgramID>Lucernex</ProgramID>
+                <RentableArea>0.00</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>120000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <FirstPaymentAmount>10000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>10000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>10000.00000</PaymentAmount>
+                        <PaymentRate>24.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <EndDate>2030-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <CodeFrequencyID>Annually</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>true</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>4000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>2000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <FirstPaymentAmount>2000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2000.00000</PaymentAmount>
+                        <PaymentRate>0.50000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <EndDate>2030-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-06-08T01:19:06</LastReviewedDate>
+                    
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

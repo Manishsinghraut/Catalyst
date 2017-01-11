@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-3601">
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-567404">Schedule Template</ProjectEntityID>
+                <TemplateName>Schedule Template</TemplateName>
+                <MapClientSchedule clientID="client-516562">
+                    <HolidayScheduleID clientID="client-27">Firm-Holiday Calendar</HolidayScheduleID>
+                    <LastReviewedDate>2015-07-10T11:46:25</LastReviewedDate>
+                    <ProjectEntityID clientID="client-567404">Schedule Template</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                    <Task clientID="client-1556957">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-567404">Schedule Template</ProjectEntityID>
+                        <TaskName>Group</TaskName>
+                        <Task clientID="client-1556958">
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1556957">Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-567404">Schedule Template</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Task A</TaskName>
+                        </Task>
+                        <Task clientID="client-1556971">
+                            <ActualDuration>3</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-07</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>3</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-07</OriginalStartDate>
+                            <ParentTaskID clientID="client-1556957">Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-567404">Schedule Template</ProjectEntityID>
+                            <ProjectedDuration>3</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-07</ProjectedStartDate>
+                            <TaskName>Task B</TaskName>
+                        </Task>
+                        <Task clientID="client-1556972">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-11</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-11</OriginalStartDate>
+                            <ParentTaskID clientID="client-1556957">Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-567404">Schedule Template</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-11</ProjectedStartDate>
+                            <TaskName>Task C</TaskName>
+                            <TaskPredecessor clientID="client-538965">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1556971">Task B</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-567404">Schedule Template</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1556972">Task C</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

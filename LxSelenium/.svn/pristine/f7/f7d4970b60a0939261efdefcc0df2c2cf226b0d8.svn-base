@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>10002</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Portioned BP with Sales Exclusion</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID>Portioned BP with Sales Exclusion</ProjectEntityID>
+                <RentableArea>4000.00000</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>4000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <EndDate>2030-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>591259</ProjectEntityID>
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-10-15T15:04:16</LastReviewedDate>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PercentageRent>
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Annual Gross-up</CodePercentageRentTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2015-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                </PercentageRent>
+                <PercentageRent>
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Annual Gross-up</CodePercentageRentTypeID>
+                    <CodeSalesGroupID>Sales Lease</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2015-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                </PercentageRent>
+                <PercentageRentBreakpoint>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointAmount1>100000.00000</BreakpointAmount1>
+                    <CodeSalesGroupID>Master</CodeSalesGroupID>
+                    <EndDate>2015-12-31</EndDate>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <PercentageRentBreakpoint>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointRate1>5.00000</BreakpointRate1>
+                    <CodePortionedSalesGroupID>Master</CodePortionedSalesGroupID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2015-12-31</EndDate>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <PercentageRentBreakpoint>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointRate1>10.00000</BreakpointRate1>
+                    <CodePortionedSalesGroupID>Master</CodePortionedSalesGroupID>
+                    <CodeSalesGroupID>Sales Lease</CodeSalesGroupID>
+                    <EndDate>2015-12-31</EndDate>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>250000.00000</GrossSalesAmount>
+                    <NetSalesAmount>250000.00000</NetSalesAmount>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales Lease</CodeSalesGroupID>
+                    <CodeSalesTypeID>Add Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>250000.00000</GrossSalesAmount>
+                    <NetSalesAmount>250000.00000</NetSalesAmount>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <SalesExclusion>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Credit Card Sales</CodeSalesTypeID>
+                    <EndDate>2015-12-31</EndDate>
+                    <ProjectEntityID>591259</ProjectEntityID>
+                </SalesExclusion>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

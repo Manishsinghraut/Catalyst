@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ExpectedEndDate>2016-03-10</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Lucernex-Project</LocationID>
+                <PostalCode>35546</PostalCode>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+
+                <ProjectName>Project_For_Add_Forms_To_Entity_468</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-03-10T01:06:06</LastReviewedDate>
+                  
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+				  <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+				  <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Edit Access Access</MemberID>
+                </LinkMemberProjectEntity>
+				  <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>View Access Access</MemberID>
+                </LinkMemberProjectEntity>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

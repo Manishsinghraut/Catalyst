@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeProjectTypeID>Retail</CodeProjectTypeID>
+                <ExpectedEndDate>2016-11-11</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>FL</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020-AUTOMATION-1469</LocationID>
+                <PostalCode>76098</PostalCode>
+                <ProgramID>Portfolio 00020-AUTOMATION-1469</ProgramID>
+                <ProjectName>11354 Project</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PR020 Sub 020</RegionID>
+                <RegionLvl1>PR020</RegionLvl1>
+                <RegionLvl2>Sub 020</RegionLvl2>
+				<BudgetTemplateID>Selenium-Budget</BudgetTemplateID>
+                </Project>
+        </Projects>
+    </Firm>
+</LxERP>

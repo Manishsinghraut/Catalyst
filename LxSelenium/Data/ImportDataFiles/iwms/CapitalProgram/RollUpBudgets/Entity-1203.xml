@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Sort Porfolio</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-651689rt">Sort Porfolio</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-06-27T17:58:02</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>Sort Porfolio</ProgramID>
+                        <ProjectEntityID clientID="client-651689rt">Sort Porfolio</ProjectEntityID>
+                        <RegionName>P1</RegionName>
+                        <Region>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>P1</ParentRegionID>
+                            <ProgramID>Sort Porfolio</ProgramID>
+                            <ProjectEntityID clientID="client-651689rt">Sort Porfolio</ProjectEntityID>
+                            <RegionName>s1</RegionName>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-651689rt">Sort Porfolio</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Sort Porfolio</ProgramID>
+                        <ProjectEntityID clientID="client-651689rt">Sort Porfolio</ProjectEntityID>
+                        <RegionName>op1</RegionName>
+                        <Region>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>op1</ParentRegionID>
+                            <ProgramID>Sort Porfolio</ProgramID>
+                            <ProjectEntityID clientID="client-651689rt">Sort Porfolio</ProjectEntityID>
+                            <RegionName>sr2</RegionName>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID clientID="client-651689rt">Sort Porfolio</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+			<Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Sort Capital Program</ProgramName>
+                <ProgramType>Capital Program</ProgramType>
+                <ProjectEntityID clientID="client-651690gh">Sort Capital Program</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+				<BudgetTemplateID clientID="QDNewSitesTemplate">QD New Sites</BudgetTemplateID>
+                <BudgetColumn clientID="client-70377">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532910_1818">Cost Calculations</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8244">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:05:56</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632517">
+                        <BudgetLineItemID clientID="client-7421">01.30</BudgetLineItemID>
+                        <ItemValue>3000.00000</ItemValue>
+                        <ProjectEntityID>651690gh</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70378">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532939_1820">Post Curing</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8246">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:06:10</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70379">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532610_1817">PreApproved Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8243">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:06:25</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70380">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144533151_1819">Technical Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8245">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:06:36</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                </Program>
+				<Facilities>
+		 <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityName>Sort Facility A</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Sort Porfolio</ProgramID>
+                <ProjectEntityID clientID="client-651691er">Sort Facility A</ProjectEntityID>
+                <RegionID>op1</RegionID>
+                <RegionLvl1>op1</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+                </Facility>
+				<Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityName>Sort Facility B</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Sort Porfolio</ProgramID>
+                <ProjectEntityID clientID="client-651692tr">Sort Facility B</ProjectEntityID>
+                <RegionID>op1</RegionID>
+                <RegionLvl1>op1</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+                </Facility>
+            <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityName>Sort Facility C</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Sort Porfolio</ProgramID>
+                <ProjectEntityID clientID="client-651695ty">Sort Facility C</ProjectEntityID>
+                <RegionID clientID="client-34737">op1</RegionID>
+                <RegionLvl1>op1</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+               </Facility>
+			   <Projects>
+            <Project>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityID>Sort Facility A</FacilityID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-6960">Sort Capital Program</ProgramID>
+                <ProjectEntityID clientID="client-651694sd">Sort Facility A: Sort Capital Program</ProjectEntityID>
+                <ProjectName>Sort Facility A: Sort Capital Program</ProjectName>
+                <ProjectType>Capital Project</ProjectType>
+                <RegionID>op1</RegionID>
+                <RegionLvl1>op1</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+			  <BudgetTemplateID clientID="QDNewSitesTemplate">QD New Sites</BudgetTemplateID>
+                <BudgetColumn clientID="client-70381">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532910_1818">Cost Calculations</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8244">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:08:33</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632502">
+                        <BudgetLineItemID clientID="client-7427">20.20</BudgetLineItemID>
+                        <ItemValue>2000.00000</ItemValue>
+                        <ProjectEntityID>651694sd</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70382">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532939_1820">Post Curing</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8246">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:09:30</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632504">
+                        <BudgetLineItemID clientID="client-7426">20.10</BudgetLineItemID>
+                        <ItemValue>9000.00000</ItemValue>
+                        <ProjectEntityID>651694sd</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70383">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532610_1817">PreApproved Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8243">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:10:00</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632505">
+                        <BudgetLineItemID clientID="client-7421">01.30</BudgetLineItemID>
+                        <ItemValue>5000.00000</ItemValue>
+                        <ProjectEntityID>651694sd</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70384">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144533151_1819">Technical Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8245">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:10:22</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632506">
+                        <BudgetLineItemID clientID="client-7432">30</BudgetLineItemID>
+                        <ItemValue>4500.00000</ItemValue>
+                        <ProjectEntityID>651694sd</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                </Project>
+				  <Project>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityID>Sort Facility B</FacilityID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID clientID="client-118337">000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Sort Capital Program</ProgramID>
+                <ProjectEntityID clientID="client-651693errr">Sort Facility B: Sort Capital Program</ProjectEntityID>
+                <ProjectName>Sort Facility B: Sort Capital Program</ProjectName>
+                <ProjectType>Capital Project</ProjectType>
+                <RegionID clientID="client-34739">op1</RegionID>
+                <RegionLvl1>op1</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+				 <BudgetTemplateID clientID="QDNewSitesTemplate">QD New Sites</BudgetTemplateID>
+                <BudgetColumn clientID="client-70385">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532910_1818">Cost Calculations</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8244">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:10:54</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632507">
+                        <BudgetLineItemID clientID="client-7424">10.20</BudgetLineItemID>
+                        <ItemValue>3333.00000</ItemValue>
+                        <ProjectEntityID>651693errr</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70386">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532939_1820">Post Curing</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8246">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:11:12</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632508">
+                        <BudgetLineItemID clientID="client-7424">10.20</BudgetLineItemID>
+                        <ItemValue>4500.00000</ItemValue>
+                        <ProjectEntityID>651693errr</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70387">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532610_1817">PreApproved Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8243">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:11:34</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632509">
+                        <BudgetLineItemID clientID="client-7428">20.30</BudgetLineItemID>
+                        <ItemValue>7500.00000</ItemValue>
+                        <ProjectEntityID>651693errr</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70388">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144533151_1819">Technical Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8245">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:11:58</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632510">
+                        <BudgetLineItemID clientID="client-7431">20.60</BudgetLineItemID>
+                        <ItemValue>6800.00000</ItemValue>
+                        <ProjectEntityID>651693errr</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-632511">
+                        <BudgetLineItemID clientID="client-7432">30</BudgetLineItemID>
+                        <ItemValue>0.00</ItemValue>
+                        <ProjectEntityID>651693errr</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+               </Project>
+			    <Project>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityID>Sort Facility C</FacilityID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Sort Capital Program</ProgramID>
+                <ProjectEntityID clientID="client-651696ff">Sort Facility C: Sort Capital Program</ProjectEntityID>
+                <ProjectName>Sort Facility C: Sort Capital Program</ProjectName>
+                <ProjectType>Capital Project</ProjectType>
+                <RegionID>op1</RegionID>
+                <RegionLvl1>op1</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+				<BudgetTemplateID clientID="QDNewSitesTemplate">QD New Sites</BudgetTemplateID>
+                <BudgetColumn clientID="client-70389">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532910_1818">Cost Calculations</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8244">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:14:55</CreatedDate>
+                    <Inactive>false</Inactive>
+                     <BudgetColumnItemValue clientID="client-632513">
+                        <BudgetLineItemID clientID="client-7426">20.10</BudgetLineItemID>
+                        <ItemValue>6500.00000</ItemValue>
+                        <ProjectEntityID>651696ff</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70390">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532939_1820">Post Curing</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8246">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:15:26</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632514">
+                        <BudgetLineItemID clientID="client-7423">10.10</BudgetLineItemID>
+                        <ItemValue>1000.00000</ItemValue>
+                        <ProjectEntityID>651696ff</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70391">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144532610_1817">PreApproved Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8243">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:15:44</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632515">
+                        <BudgetLineItemID clientID="client-7422">10</BudgetLineItemID>
+                        <ItemValue>2000.00000</ItemValue>
+                        <ProjectEntityID>651696ff</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70392">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160628_144533151_1819">Technical Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8245">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T18:16:07</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue clientID="client-632516">
+                        <BudgetLineItemID clientID="client-7428">20.30</BudgetLineItemID>
+                        <ItemValue>8500.00000</ItemValue>
+                        <ProjectEntityID>651696ff</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue clientID="client-632543">
+                        <BudgetLineItemID clientID="client-7426">20.10</BudgetLineItemID>
+                        <ItemValue>200.00000</ItemValue>
+                        <ProjectEntityID>651696ff</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+               </Project>
+        </Projects>
+        </Facilities>
+        </Programs>
+    </Firm>
+</LxERP>

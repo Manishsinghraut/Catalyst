@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Specific time period Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2010-01-01</ExecuteDate>
+                <ExpireDate>2030-12-31</ExpireDate>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-ST-604493">Specific time period Contract</ProjectEntityID>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access</MemberID>
+                </LinkMemberProjectEntity>
+                <ExpenseAccrualSetup>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Water</CodeExpenseTypeID>
+                    <HoldFlag>false</HoldFlag>
+                    <ExpenseAccrualSchedule>
+                        <AnnualAmount>25000.00000</AnnualAmount>
+                        <BeginPeriod>1</BeginPeriod>
+                        <BeginYear>2015</BeginYear>
+                        <EndPeriod>12</EndPeriod>
+                        <EndYear>2015</EndYear>
+                        <FirstPaymentAmount>2083.33000</FirstPaymentAmount>
+                        <LastPaymentAmount>2083.33000</LastPaymentAmount>
+                        <PeriodAmount>2083.33000</PeriodAmount>
+
+                    </ExpenseAccrualSchedule>
+                </ExpenseAccrualSetup>
+                <ExpenseAccrualSetup>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <HoldFlag>false</HoldFlag>
+                    <ExpenseAccrualSchedule>
+                        <AnnualAmount>85000.00000</AnnualAmount>
+                        <BeginPeriod>1</BeginPeriod>
+                        <BeginYear>2015</BeginYear>
+                        <EndPeriod>12</EndPeriod>
+                        <EndYear>2015</EndYear>
+                        <FirstPaymentAmount>7083.33000</FirstPaymentAmount>
+                        <LastPaymentAmount>7083.33000</LastPaymentAmount>
+                        <PeriodAmount>7083.33000</PeriodAmount>
+
+                    </ExpenseAccrualSchedule>
+                    <ExpenseAccrualSchedule>
+                        <AnnualAmount>50000.00000</AnnualAmount>
+                        <BeginPeriod>1</BeginPeriod>
+                        <BeginYear>2016</BeginYear>
+                        <EndPeriod>12</EndPeriod>
+                        <EndYear>2016</EndYear>
+                        <FirstPaymentAmount>4166.67000</FirstPaymentAmount>
+                        <LastPaymentAmount>4166.67000</LastPaymentAmount>
+                        <PeriodAmount>4166.67000</PeriodAmount>
+
+                    </ExpenseAccrualSchedule>
+                </ExpenseAccrualSetup>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

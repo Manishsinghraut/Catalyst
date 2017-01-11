@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                </IStateProvinceCountryID>
+                <ProgramName>Capital Program Rollups Testing</ProgramName>
+                <ProgramType>Capital Program</ProgramType>
+                <ProjectEntityID clientID="client-629710">Capital Program Rollups Testing</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+				<BudgetTemplateID clientID="SeleniumBudgetTemplate">Selenium-Budget</BudgetTemplateID>
+                <BudgetColumn clientID="client-69003">
+                    <BudgetColumnTypeID clientID="client-720">A Building Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-6789">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-04-20T08:43:07</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-69004">
+                    <BudgetColumnTypeID clientID="client-721">B Renovation Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-6788">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-04-20T08:43:15</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-69005">
+                    <BudgetColumnTypeID clientID="client-722">C Clearance Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-6787">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-04-20T08:43:26</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-04-20T08:33:05</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <LinkRegionManager>
+                        <IsManager>true</IsManager>
+                        <MemberID>Delete Access</MemberID>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Capital Program Rollups Testing</ProgramID>
+                        <ProjectEntityID clientID="client-629710">Capital Program Rollups Testing</ProjectEntityID>
+                    </LinkRegionManager>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Capital Program Rollups Testing</ProgramID>
+                        <ProjectEntityID clientID="client-629710">Capital Program Rollups Testing</ProjectEntityID>
+                        <RegionName>Central Dallas(Operating)</RegionName>
+                    </Region>
+                    <Region>
+                        <Description>Operating</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <PreviousRegionID>Central Dallas(Operating)</PreviousRegionID>
+                        <ProgramID>Capital Program Rollups Testing</ProgramID>
+                        <ProjectEntityID clientID="client-629710">Capital Program Rollups Testing</ProjectEntityID>
+                        <RegionName>Central Dallas</RegionName>
+                        <Region>
+                            <Description>Operating</Description>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Central Dallas(Operating)</ParentRegionID>
+                            <ProgramID>Capital Program Rollups Testing</ProgramID>
+                            <ProjectEntityID clientID="client-629710">Capital Program Rollups Testing</ProjectEntityID>
+                            <RegionName>Frisco</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access</MemberID>
+                                <ProgramID>Capital Program Rollups Testing</ProgramID>
+                                <ProjectEntityID clientID="client-629710">Capital Program Rollups Testing</ProjectEntityID>
+                            </LinkRegionManager>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

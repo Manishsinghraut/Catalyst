@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location clientID="client-149817">
+                <ClientEntityID>9818 Location</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>9818 Location</LocationName>
+                <ProgramID clientID="client-3817">Global</ProgramID>
+                <ProjectEntityID clientID="client-592489">9818 Location</ProjectEntityID>
+                <MapClientSchedule clientID="client-541555">
+                    <LastReviewedDate>2015-12-22T16:16:03</LastReviewedDate>
+                    <ProjectEntityID>592489</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

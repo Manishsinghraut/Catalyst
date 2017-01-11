@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <PostalCode>75070</PostalCode>
+                <ProgramName>Portfolio 6907</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-qlixswwpo56w9gtldgh">Portfolio 6907</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <StreetAddress1>2515 Windcrest Drive</StreetAddress1>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>Portfolio 6907</ProgramID>
+                        <ProjectEntityID clientID="client-qlixswwpo56w9gtldgh">Portfolio 6907</ProjectEntityID>
+                        <RegionName>Central Market</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access Access</MemberID>
+                            <ProgramID>Portfolio 6907</ProgramID>
+                            <ProjectEntityID clientID="client-qlixswwpo56w9gtldgh">Portfolio 6907</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>Central Market</ParentRegionID>
+                            <ProgramID>Portfolio 6907</ProgramID>
+                            <ProjectEntityID clientID="client-qlixswwpo56w9gtldgh">Portfolio 6907</ProjectEntityID>
+                            <RegionName>Sub Central</RegionName>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-qlixswwpo56w9gtldgh">Portfolio 6907</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

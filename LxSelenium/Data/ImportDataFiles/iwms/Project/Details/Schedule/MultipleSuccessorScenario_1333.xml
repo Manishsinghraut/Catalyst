@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-2406">
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                <TemplateName>Multiple Successor Scenario</TemplateName>
+                <MapClientSchedule clientID="client-517614">
+                    <LastReviewedDate>2015-08-10T14:07:06</LastReviewedDate>
+                    <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1583801">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                        <TaskName>GroupA</TaskName>
+                        <Task clientID="client-1583802">
+                            <ActualDuration>3</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>3</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583801">GroupA</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Predecessor A</TaskName>
+                        </Task>
+                        <Task clientID="client-1583803">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583801">GroupA</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-04</ProjectedStartDate>
+                            <TaskName>Successor A1</TaskName>
+                            <TaskPredecessor clientID="client-567747">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583802">Predecessor A</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583803">Successor A1</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-1583804">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583801">GroupA</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-04</ProjectedStartDate>
+                            <TaskName>Successor A2</TaskName>
+                            <TaskPredecessor clientID="client-567748">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583802">Predecessor A</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583804">Successor A2</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task clientID="client-1583821">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                        <TaskName>GroupB</TaskName>
+                        <Task clientID="client-1583823">
+                            <ActualDuration>3</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>3</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583821">GroupB</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>3</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Predecessor B</TaskName>
+                        </Task>
+                        <Task clientID="client-1583824">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583821">GroupB</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-06</ProjectedStartDate>
+                            <TaskName>Successor B1</TaskName>
+                            <TaskPredecessor clientID="client-567757">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583823">Predecessor B</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583824">Successor B1</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-1583825">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583821">GroupB</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-06</ProjectedStartDate>
+                            <TaskName>Successor B2</TaskName>
+                            <TaskPredecessor clientID="client-567758">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583823">Predecessor B</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583825">Successor B2</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task clientID="client-1583830">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                        <TaskName>GroupC</TaskName>
+                        <Task clientID="client-1583831">
+                            <ActualDuration>3</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>3</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583830">GroupC</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>3</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Predecessor C</TaskName>
+                        </Task>
+                        <Task clientID="client-1583832">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583830">GroupC</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-06</ProjectedStartDate>
+                            <TaskName>Successor C1</TaskName>
+                            <TaskPredecessor clientID="client-567761">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583831">Predecessor C</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583832">Successor C1</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-1583833">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583830">GroupC</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-06</ProjectedStartDate>
+                            <TaskName>Successor C2</TaskName>
+                            <TaskPredecessor clientID="client-567762">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583831">Predecessor C</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583833">Successor C2</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task clientID="client-1583834">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                        <TaskName>GroupD</TaskName>
+                        <Task clientID="client-1583835">
+                            <ActualDuration>3</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>3</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583834">GroupD</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>3</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Predecessor D</TaskName>
+                        </Task>
+                        <Task clientID="client-1583836">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583834">GroupD</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-06</ProjectedStartDate>
+                            <TaskName>Successor D1</TaskName>
+                            <TaskPredecessor clientID="client-567763">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583835">Predecessor D</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583836">Successor D1</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task clientID="client-1583837">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-06</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-06</OriginalStartDate>
+                            <ParentTaskID clientID="client-1583834">GroupD</ParentTaskID>
+                            <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-06</ProjectedStartDate>
+                            <TaskName>Successor D2</TaskName>
+                            <TaskPredecessor clientID="client-567764">
+                                <ActualLeadLagDays>1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-1583835">Predecessor D</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-568418">Multiple Successor Scenario</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-1583837">Successor D2</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

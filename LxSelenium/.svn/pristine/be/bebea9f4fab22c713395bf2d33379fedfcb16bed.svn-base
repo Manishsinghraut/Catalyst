@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <CodeTables>
+            <CodeSLSchedule>
+                <ShortName>Re Calculate SL</ShortName>
+            </CodeSLSchedule>
+
+            <CodeExpenseType>
+                <ShortName>Rent</ShortName>
+                <ParentCodeExpenseGroupID>Base Rent</ParentCodeExpenseGroupID>
+                <CodeSLScheduleID>Re Calculate SL</CodeSLScheduleID>
+            </CodeExpenseType>
+        </CodeTables>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractCategoryID>Leased</CodeContractCategoryID>
+                <CodeContractGroupID>Lease</CodeContractGroupID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CodeContractTypeID>Option</CodeContractTypeID>
+                <CodeContractUseID>apartment</CodeContractUseID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Re Calculate Straight Line</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2034-12-31</ExecuteDate>
+                <ExpireDate>2034-12-31</ExpireDate>
+                <LocationID>Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2034-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+               
+                <RentableArea>500000.00000</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>500000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>12000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>1000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1000.00000</PaymentAmount>
+                        <PaymentRate>0.02000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Water</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>500000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>1200.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>100.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>100.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>100.00000</PaymentAmount>
+                        <PaymentRate>0.00</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>CAM</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>500000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>24000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>2000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2000.00000</PaymentAmount>
+                        <PaymentRate>0.05000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Building Maintenance</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>500000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>6000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>500.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>500.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>500.00000</PaymentAmount>
+                        <PaymentRate>0.01000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-05-12T12:46:08</LastReviewedDate>
+                    
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <SLSummary>
+                    <BalanceForward>0.00</BalanceForward>
+                    <BeginDate>2020-01-01</BeginDate>
+                    <CodeSLScheduleID>Re Calculate SL</CodeSLScheduleID>
+                    <EndDate>2030-12-31</EndDate>
+                    <Inactive>false</Inactive>
+                    <LastBalancePosted>0.00</LastBalancePosted>
+                    <LastPostedDate>2015-05-13</LastPostedDate>
+                    <PeriodAmount>90.90909</PeriodAmount>
+                    
+                    <SLTermLength>132.00</SLTermLength>
+                    <TotalCommitment>12000.00000</TotalCommitment>
+                </SLSummary>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

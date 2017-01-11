@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ExpectedEndDate>2015-12-08</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Lucernex-Project</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectName>Assignee Deactivation Project</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central (Central region - preOpen) Frisco(Pre-Open)</RegionID>
+                <RegionLvl1>Central (Central region - preOpen) Frisco(Pre-Open)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Abel Abner</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Ada Ace</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Illiana Ines</MemberID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-08T16:03:43</LastReviewedDate>
+                   
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                       
+                        <TaskName>Assignee Group</TaskName>
+                        <Task>
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-29</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-29</OriginalStartDate>
+                            <ParentTaskID>Assignee Group</ParentTaskID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-29</ProjectedStartDate>
+                            <TaskName>Assignee Task A</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-30</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-30</OriginalStartDate>
+                            <ParentTaskID>Assignee Group</ParentTaskID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-30</ProjectedStartDate>
+                            <TaskName>Assignee Task B</TaskName>
+                          </Task>
+                    </Task>
+                </MapClientSchedule>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

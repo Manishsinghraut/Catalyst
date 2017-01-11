@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <CodeTables>
+            <CodeSalesType>
+                <ParentCodeSalesGroupID>Sales</ParentCodeSalesGroupID>
+                <ShortName>Credit Card Sales</ShortName>
+                <OmitFromSalesGroupTotal>true</OmitFromSalesGroupTotal>
+            </CodeSalesType>
+        </CodeTables>
+        <Contracts>
+            <Contract clientID="client-115594">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>11242158</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Portioned BP with Omit Sales Group</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="client-118338">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-573256">Portioned BP with Omit Sales Group</ProjectEntityID>
+                <RentableArea>4000.00000</RentableArea>
+                <ExpenseSetup clientID="client-623843">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>4000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseVendorAllocation clientID="client-881910">
+                        <BeginDate>2010-01-01</BeginDate>
+                        <EndDate>2030-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>573256</ProjectEntityID>
+                        <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule clientID="client-522409">
+                    <LastReviewedDate>2015-08-31T15:04:40</LastReviewedDate>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                </MapClientSchedule>
+                <PercentageRent clientID="client-120656">
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Annual Gross-up</CodePercentageRentTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2015-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                </PercentageRent>
+                <PercentageRent clientID="client-120657">
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Annual Gross-up</CodePercentageRentTypeID>
+                    <CodeSalesGroupID clientID="client-177">Sales Lease</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2015-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                </PercentageRent>
+                <PercentageRentBreakpoint clientID="client-170550">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointAmount1>100000.00000</BreakpointAmount1>
+                    <CodeSalesGroupID clientID="client-178">Master</CodeSalesGroupID>
+                    <EndDate>2015-12-31</EndDate>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <PercentageRentBreakpoint clientID="client-170551">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointRate1>5.00000</BreakpointRate1>
+                    <CodePortionedSalesGroupID clientID="client-178">Master</CodePortionedSalesGroupID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2015-12-31</EndDate>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <PercentageRentBreakpoint clientID="client-170552">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointRate1>10.00000</BreakpointRate1>
+                    <CodePortionedSalesGroupID clientID="client-178">Master</CodePortionedSalesGroupID>
+                    <CodeSalesGroupID clientID="client-177">Sales Lease</CodeSalesGroupID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <Sales clientID="client-8369073">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>250000.00</GrossSalesAmount>
+                    <NetSalesAmount>250000.00</NetSalesAmount>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-8369072">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID clientID="client-177">Sales Lease</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-1654">Add Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>250000.00</GrossSalesAmount>
+                    <NetSalesAmount>250000.00</NetSalesAmount>
+                    <ProjectEntityID>573256</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

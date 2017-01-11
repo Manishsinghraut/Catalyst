@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+	 <Programs>
+            <Program>
+                <City>Plano</City>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <ProgramName>00018 Portfolio</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-679728edr">00018 Portfolio</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-10-03T08:47:21</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>00018 Portfolio</ProgramID>
+                        <ProjectEntityID clientID="client-679728edr">00018 Portfolio</ProjectEntityID>
+                        <RegionName>00018Region</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access Access</MemberID>
+                            <ProgramID>00018 Portfolio</ProgramID>
+                            <ProjectEntityID clientID="client-679728edr">00018 Portfolio</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>00018Region</ParentRegionID>
+                            <ProgramID>00018 Portfolio</ProgramID>
+                            <ProjectEntityID clientID="client-679728edr">00018 Portfolio</ProjectEntityID>
+                            <RegionName>00018Subreg</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access Access</MemberID>
+                                <ProgramID>00018 Portfolio</ProgramID>
+                                <ProjectEntityID clientID="client-679728edr">00018 Portfolio</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-679728edr">00018 Portfolio</ProjectEntityID>
+                                <LinkRegionManager>
+                                    <IsManager>false</IsManager>
+                                    <MemberID>Delete Access Access</MemberID>
+                                    <OperatingStatus>P</OperatingStatus>
+                                    <ProgramID>00018 Portfolio</ProgramID>
+                                    <ProjectEntityID clientID="client-679728edr">00018 Portfolio</ProjectEntityID>
+                                    <RegionID>00018Region 00018Subreg</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+        <Locations>
+            <Location>
+                <ClientEntityID>93278723</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLocationCategoryID>New</CodeLocationCategoryID>
+                <CodeLocationGroupID>Lease</CodeLocationGroupID>
+                <CodeLocationStatusID>Active</CodeLocationStatusID>
+                <CodeLocationTypeID>90909</CodeLocationTypeID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <ComplexID>2077 Complex</ComplexID>
+                <LocationName>2077 Location</LocationName>
+                <ProgramID>00018 Portfolio</ProgramID>
+                <ProjectDescription>Testing Location</ProjectDescription>
+                <ProjectEntityID clientID="client-681221try">2077 Location</ProjectEntityID>
+               </Location>
+        </Locations>
+		<Complexs>
+            <Complex>
+                <City>Plano</City>
+                <ClientNumber>25444</ClientNumber>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeComplexClassID>Class</CodeComplexClassID>
+                <CodeComplexStatusID>Newly Opened</CodeComplexStatusID>
+                <CodeComplexTypeID>Mall</CodeComplexTypeID>
+                <ComplexName>2077 Complex</ComplexName>
+                <CodeComplexStatusID>Newly Opened</CodeComplexStatusID>
+                <DeveloperID>Delete Access</DeveloperID>
+                <ExpansionPlanDate>12/31/2020</ExpansionPlanDate>
+                <LandlordID>Delete Access Access</LandlordID>
+                <GLAExcludingAnchors>200000.00000</GLAExcludingAnchors>
+                <GrossLeaseArea>150000.00000</GrossLeaseArea>
+                <HasFoodCourt>true</HasFoodCourt>
+                <HoursOfOperation>24</HoursOfOperation>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsEnclosed>true</IsEnclosed>
+                <IsExpansionPlanned>true</IsExpansionPlanned>
+                <IsRenovationPlanned>true</IsRenovationPlanned>
+                <IsSpaceAvailable>true</IsSpaceAvailable>
+                <LastRenovated>01/01/2000</LastRenovated>
+                <NearestCompetition>2 Blocks away</NearestCompetition>
+                <NotableTenants>SPA</NotableTenants>
+                <Notes>Updated via import</Notes>
+                <NumberLevels>45</NumberLevels>
+                <NumberOutparcels>67</NumberOutparcels>
+                <NumberParkingSpaces>23456</NumberParkingSpaces>
+                <NumberStores>500</NumberStores>
+                <OccupancyPercentage>10.00000</OccupancyPercentage>
+                <Phone>254.254.3569</Phone>
+                <PostalCode>75024</PostalCode>
+                <PropertyManagerID>Delete Access Access</PropertyManagerID>
+                <RenovationPlanDate>12/31/2020</RenovationPlanDate>
+                <SalesPerArea>45000.00000</SalesPerArea>
+                <StreetAddress1>5601 Democracy DR</StreetAddress1>
+                <YearBuilt>2002</YearBuilt>
+            </Complex>
+        </Complexs>
+    </Firm>
+</LxERP>

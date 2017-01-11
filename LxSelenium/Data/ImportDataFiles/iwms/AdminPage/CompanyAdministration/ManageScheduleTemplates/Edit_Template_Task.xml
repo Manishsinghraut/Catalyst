@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-3354">
+                <Description>Edit  this template task</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <Notes>Created</Notes>
+                <ProjectEntityID clientID="client-566559">Edit Template Task</ProjectEntityID>
+                <TemplateName>Edit Template Task</TemplateName>
+                <MapClientSchedule clientID="client-515749">
+                    <LastReviewedDate>2015-06-30T05:39:49</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566559">Edit Template Task</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1555655">
+                        <Description>Created</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566559">Edit Template Task</ProjectEntityID>
+                        <TaskName>Edit Group</TaskName>
+                        <Task clientID="client-1555656">
+                            <ActualDuration>4</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>Created</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>4</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1555655">Edit Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-566559">Edit Template Task</ProjectEntityID>
+                            <ProjectedDuration>4</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Edit Task</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-0.248">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160418_20160628_144533184_40693</mes:ClientID>
+                <mes:PageLayoutName>Sort Summary</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowEdit>false</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>A</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>BudgetColumnType</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-0.248</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160628_144533224_1390211</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160628_144533184_40693">Sort Summary</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160628_144532880_81130">PreApprovedCost</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-0.248</mes:FirmID>
+                            <mes:FieldContext>RollupProjectValues</mes:FieldContext>
+                            <mes:DisplayLabel>PreApproved Cost</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RollupProjectValues":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160628_144533275_1390212</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160628_144533184_40693">Sort Summary</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160628_144532925_81131">CostCalculations</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-0.248</mes:FirmID>
+                            <mes:FieldContext>RollupProjectValues</mes:FieldContext>
+                            <mes:DisplayLabel>Cost Calculations</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RollupProjectValues":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160628_144533292_1390213</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160628_144533184_40693">Sort Summary</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160628_144532953_81133">PostCuring</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-0.248</mes:FirmID>
+                            <mes:FieldContext>RollupProjectValues</mes:FieldContext>
+                            <mes:DisplayLabel>Post Curing</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RollupProjectValues":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160628_144533307_1390214</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160628_144533184_40693">Sort Summary</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160628_144533170_81132">TechnicalCost</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-0.248</mes:FirmID>
+                            <mes:FieldContext>RollupProjectValues</mes:FieldContext>
+                            <mes:DisplayLabel>Technical Cost</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RollupProjectValues":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_490</mes:ClientID>
+                <mes:ReportGroupDataName>Budget</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>ERP_1330</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_490">Budget</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Budget Types</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:Description/>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>false</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160628_144532880_81130</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>PreApproved Cost</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-0.248</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160628_144532610_1817">PreApproved Cost</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>PreApprovedCost</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160628_144532925_81131</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Cost Calculations</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-0.248</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160628_144532910_1818">Cost Calculations</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>CostCalculations</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160628_144532953_81133</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Post Curing</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-0.248</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160628_144532939_1820">Post Curing</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>PostCuring</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160628_144533170_81132</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Technical Cost</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-0.248</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160628_144533151_1819">Technical Cost</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>TechnicalCost</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-IC.17">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842199_41976</mes:ClientID>
+                <mes:PageLayoutName>Form_Testing-9748 Layout</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:JSONConfigText>{"EmailBody":"","EmailTitle":"","MinPopupWindowWidth":"","hasCustomEmail":"false","useHTMLEmail":""}</mes:JSONConfigText>
+                    <mes:AllowUserCreate>true</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842038_6209">Form_Testing-9748</mes:CodeIssueTypeID>
+                    <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842222_1499533</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842199_41976">Form_Testing-9748 Layout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842130_81898">P101</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                            <mes:DisplayLabel>Price</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842251_1499534</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842199_41976">Form_Testing-9748 Layout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842147_81899">Q102</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                            <mes:DisplayLabel>Quantity</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842269_1499535</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842199_41976">Form_Testing-9748 Layout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842163_81901">I103</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                            <mes:DisplayLabel>Item Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842286_1499536</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842199_41976">Form_Testing-9748 Layout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842178_81902">math_Total_0</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                            <mes:StaticText>81898*x*81899</mes:StaticText>
+                            <mes:DisplayLabel>Total</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_61</mes:ClientID>
+                <mes:ReportGroupDataName>Forms</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842101_6084</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_61">Forms</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Form_Testing-9748</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                            <mes:CodeIssueTypeID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842038_6209">Form_Testing-9748</mes:CodeIssueTypeID>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842130_81898</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842101_6084">Form_Testing-9748</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Price</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>P101</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>2</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842147_81899</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842101_6084">Form_Testing-9748</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Quantity</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Q102</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842163_81901</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842101_6084">Form_Testing-9748</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Item Name</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>I103</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842178_81902</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL153/SQL_TEST_Test_20161106_20161116_122842101_6084">Form_Testing-9748</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Total</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-IC.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_Total_0</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>108</mes:FormFieldType>
+                                    <mes:FieldText>81898*x*81899</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:JSONConfigText>{"ISSUETYPE_81898":"Form_Testing-9748","ISSUETYPE_81899":"Form_Testing-9748","RGAF_81898":"Issue.P101","RGAF_81899":"Issue.Q102"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms>
+            <mes:Form>
+                <mes:ClientID>SQL153/SQL_TEST_Test_20161106_20161116_122842038_6209</mes:ClientID>
+                <mes:ShortName>Form_Testing-9748</mes:ShortName>
+                <mes:IsWorkFlow>false</mes:IsWorkFlow>
+                <mes:AutoClose>false</mes:AutoClose>
+                <mes:AllowReply>true</mes:AllowReply>
+                <mes:DerivedCodeSQLTableID>Issue</mes:DerivedCodeSQLTableID>
+                <mes:IsSequencePerFirm>false</mes:IsSequencePerFirm>
+                <mes:IsValidForCapProgram>false</mes:IsValidForCapProgram>
+                <mes:IsValidForPortfolio>false</mes:IsValidForPortfolio>
+                <mes:IsValidForPrototype>false</mes:IsValidForPrototype>
+                <mes:IsValidForPotentialProject>false</mes:IsValidForPotentialProject>
+                <mes:IsValidForOpenProject>true</mes:IsValidForOpenProject>
+                <mes:IsValidForCapProject>false</mes:IsValidForCapProject>
+                <mes:IsValidForFacility>false</mes:IsValidForFacility>
+                <mes:IsValidForLocation>false</mes:IsValidForLocation>
+                <mes:IsValidForParcel>true</mes:IsValidForParcel>
+                <mes:IsValidForContract>false</mes:IsValidForContract>
+                <mes:IsValidForAssetContract>false</mes:IsValidForAssetContract>
+            </mes:Form>
+        </mes:Forms>
+    </mes:Firm>
+</mes:LxERP>

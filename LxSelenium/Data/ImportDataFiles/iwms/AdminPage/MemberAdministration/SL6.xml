@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+  
+        <Contracts>
+            <Contract clientID="client-121965">
+<ContractName>Straight Line Deletion Contract</ContractName>             
+              
+                <SLSummary clientID="client-38107">
+                    <BalanceForward>0.00</BalanceForward>
+                    <BeginDate>2021-01-01</BeginDate>
+                    <CodeSLScheduleID clientID="client-106">SL Schedule 4</CodeSLScheduleID>
+                    <EndDate>2025-12-31</EndDate>
+                    <Inactive>false</Inactive>
+                    <LastBalancePosted>0.00</LastBalancePosted>
+                    <LastPostedDate>2015-05-13</LastPostedDate>
+                    <PeriodAmount>0.00</PeriodAmount>
+                    <ProjectEntityID>547524</ProjectEntityID>
+                    <SLTermLength>60.00</SLTermLength>
+                    <TotalCommitment>0.00</TotalCommitment>
+                    </SLSummary>
+                 
+
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

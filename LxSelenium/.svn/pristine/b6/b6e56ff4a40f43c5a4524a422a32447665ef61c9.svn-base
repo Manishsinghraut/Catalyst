@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>Receipts-985</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Receipts-985</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>S001- Location-985</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <ProgramID>Global</ProgramID>
+                <RentableArea>0.00</RentableArea>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-21T16:13:48</LastReviewedDate>
+                   
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PaymentReceipt>
+                    <BankAccountNumber>9558745</BankAccountNumber>
+                    <BankRoutingNumber>10055451</BankRoutingNumber>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeReceiptTypeID>ACH</CodeReceiptTypeID>
+                    <EffectiveDate>2015-03-01</EffectiveDate>
+                    <PeriodMonth>3</PeriodMonth>
+                    <PeriodYear>2015</PeriodYear>
+                   
+                    <ReceiptNumber>r001</ReceiptNumber>
+                    <ReceivedAmount>800.00000</ReceivedAmount>
+                </PaymentReceipt>
+                <PaymentReceipt>
+                    <BankAccountNumber>9558745</BankAccountNumber>
+                    <BankRoutingNumber>10055451</BankRoutingNumber>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeReceiptTypeID>ACH</CodeReceiptTypeID>
+                    <EffectiveDate>2015-12-31</EffectiveDate>
+                    <PeriodMonth>12</PeriodMonth>
+                    <PeriodYear>2015</PeriodYear>
+                   
+                    <ReceiptNumber>r002</ReceiptNumber>
+                    <ReceivedAmount>2000.00000</ReceivedAmount>
+                </PaymentReceipt>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2015-03-01</EffectiveDate>
+                    <EffectiveEndDate>2020-12-31</EffectiveEndDate>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>1000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                   
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>1000.00000</TotalAmount>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2015-12-31</EffectiveDate>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>2000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                   
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>2000.00000</TotalAmount>
+                </PaymentTransaction>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

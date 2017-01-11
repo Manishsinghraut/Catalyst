@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LxERP xsi:noNamespaceSchemaLocation="C:/dev/lxTrunk/mapforce/slim/galaxy/iwmsImport.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Firm>
+    <Locations>
+      <Location clientID="DEM001">
+        <City>Chesapeake</City>
+        <ClientEntityID>DEM001</ClientEntityID>
+        <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+        <IStateProvinceCountryID>
+          <Country>United States</Country>
+          <State>VA</State>
+        </IStateProvinceCountryID>
+        <LocationName>Lucernex Location</LocationName>
+        <ProgramID>Lucernex</ProgramID>
+      </Location>
+      <Contracts>
+        <Contract clientID="DEM001  ">
+          <ContractName>Demo 001 Contract</ContractName>
+          <LocationID clientID="DEM001">Lucernex Location</LocationID>
+          <PaymentTransaction clientID="106952">
+            <CheckAmount>7000</CheckAmount>
+            <CheckDate>2006-01-01</CheckDate>
+            <CheckNumber>15355       </CheckNumber>
+            <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+            <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+            <CodeExpenseGroupID clientID="B  ">BASE      </CodeExpenseGroupID>
+            <CodeExpenseTypeID clientID="B  ">Base Rent</CodeExpenseTypeID>
+            <CodePaymentMethodID clientID=" "></CodePaymentMethodID>
+            <Description>Base Rent</Description>
+            <DueDate>2006-01-01</DueDate>
+            <EffectiveDate>2006-01-01</EffectiveDate>
+            <HoldFlag>false</HoldFlag>
+            <InternalRefNumber></InternalRefNumber>
+            <InvoiceAmount>7000</InvoiceAmount>
+            <InvoiceNumber>DEM001060101B           </InvoiceNumber>
+            <OneTimeFlag>false</OneTimeFlag>
+            <ProcessedFlag>true</ProcessedFlag>
+            <TotalAmount>7000</TotalAmount>
+            <VendorID clientID="69233" />
+          </PaymentTransaction>
+        </Contract>
+      </Contracts>
+    </Locations>
+  </Firm>
+</LxERP>

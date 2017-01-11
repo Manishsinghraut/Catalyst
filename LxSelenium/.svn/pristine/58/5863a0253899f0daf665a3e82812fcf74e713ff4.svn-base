@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Parcels>
+            <Parcel clientID="client-31536">
+                <ClientEntityID>PT Location</ClientEntityID>
+                <HasImprovements>false</HasImprovements>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                </IStateProvinceCountryID>
+                <IsTaxExempt>false</IsTaxExempt>
+                <LocationID clientID="client-152381">PT Location</LocationID>
+                <ParcelName>PT without dates</ParcelName>
+                <ParcelNumber>PT without dates</ParcelNumber>
+                <ProgramID clientID="client-3817">Global</ProgramID>
+                <ProjectEntityID clientID="client-592493">PT without dates</ProjectEntityID>
+                <UseLocationAddress>true</UseLocationAddress>
+                <MapClientSchedule clientID="client-541559">
+                    <LastReviewedDate>2015-12-23T11:17:58</LastReviewedDate>
+                    <ProjectEntityID>592493</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PropertyTaxSummary clientID="client-47566">
+                    <CodeBillingFrequencyID>Monthly</CodeBillingFrequencyID>
+                    <CodePaymentFrequencyID>Monthly</CodePaymentFrequencyID>
+                    <CodePropertyTaxTypeID>Resale tax</CodePropertyTaxTypeID>
+                    <Description>Resale tax</Description>
+                    <ProjectEntityID>592493</ProjectEntityID>
+                    <RightToAppeal>false</RightToAppeal>
+                    <TaxAccountNumber>12345</TaxAccountNumber>
+                    <PropertyTaxAssessment clientID="client-126745">
+                        <AssessmentAmountLand>5000.00000</AssessmentAmountLand>
+                        <AutoCalcFlag>false</AutoCalcFlag>
+                        <EffectiveDate>2015-01-01</EffectiveDate>
+                        <EndDate>2015-12-31</EndDate>
+                        <ProjectEntityID>592493</ProjectEntityID>
+                        <PropertyTaxBill clientID="client-101012">
+                            <AutoCalcFlag>false</AutoCalcFlag>
+                            <EffectiveDate>2015-01-01</EffectiveDate>
+                            <EndDate>2015-12-31</EndDate>
+                            <HoldFlag>false</HoldFlag>
+                            <ProcessedFlag>false</ProcessedFlag>
+                            <ProjectEntityID>592493</ProjectEntityID>
+                            <TaxBalanceDue>200.00000</TaxBalanceDue>
+                            <TaxNetAmount>100.00000</TaxNetAmount>
+                            <TaxTotalAmount>100.00000</TaxTotalAmount>
+                        </PropertyTaxBill>
+                    </PropertyTaxAssessment>
+                </PropertyTaxSummary>
+            </Parcel>
+        </Parcels>
+    </Firm>
+</LxERP>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-PR.24">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160418_20160627_094502740_40632</mes:ClientID>
+                <mes:PageLayoutName>Roll Up Summary A</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowEdit>false</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>A</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>BudgetColumnType</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-PR.24</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160627_094502814_1389051</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160627_094502740_40632">Roll Up Summary A</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160627_094502622_81023">RollLevelingValues</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.24</mes:FirmID>
+                            <mes:FieldContext>RollupProjectValues</mes:FieldContext>
+                            <mes:DisplayLabel>Roll Leveling Values</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RollupProjectValues":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160627_094502863_1389052</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160627_094502740_40632">Roll Up Summary A</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160627_094502681_81022">RollExcavationValues</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.24</mes:FirmID>
+                            <mes:FieldContext>RollupProjectValues</mes:FieldContext>
+                            <mes:DisplayLabel>Roll Excavation Values</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RollupProjectValues":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160418_20160627_094502881_1389053</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160418_20160627_094502740_40632">Roll Up Summary A</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160418_20160627_094502710_81024">RollConstructionValues</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.24</mes:FirmID>
+                            <mes:FieldContext>RollupProjectValues</mes:FieldContext>
+                            <mes:DisplayLabel>Roll Construction Values</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RollupProjectValues":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_490</mes:ClientID>
+                <mes:ReportGroupDataName>Budget</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>ERP_1330</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_490">Budget</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Budget Types</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:Description/>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>false</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160627_094502622_81023</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Roll Leveling Values</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-PR.24</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160627_094502549_1808">Roll Leveling Values</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>RollLevelingValues</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160627_094502681_81022</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Roll Excavation Values</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-PR.24</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160627_094502664_1807">Roll Excavation Values</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>RollExcavationValues</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160418_20160627_094502710_81024</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Roll Construction Values</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-PR.24</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_Test_10_20160418_20160627_094502697_1809">Roll Construction Values</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>RollConstructionValues</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

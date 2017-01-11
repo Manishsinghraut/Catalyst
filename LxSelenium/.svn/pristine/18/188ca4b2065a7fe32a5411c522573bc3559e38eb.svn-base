@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="QA">
+        <mes:PageLayouts/>
+        <mes:ReportGroupDatas/>
+        <mes:Forms>
+            <mes:Form>
+                <mes:ClientID>client-3933</mes:ClientID>
+                <mes:ShortName>zWork Order</mes:ShortName>
+                <mes:ActualLongName>Work Order</mes:ActualLongName>
+                <mes:SequencePrefix>WRK</mes:SequencePrefix>
+                <mes:IsWorkFlow>false</mes:IsWorkFlow>
+                <mes:AutoClose>false</mes:AutoClose>
+                <mes:AllowReply>true</mes:AllowReply>
+                <mes:DerivedCodeSQLTableID>Issue</mes:DerivedCodeSQLTableID>
+                <mes:IsSequencePerFirm>false</mes:IsSequencePerFirm>
+                <mes:IsValidForCapProgram>true</mes:IsValidForCapProgram>
+                <mes:IsValidForPortfolio>true</mes:IsValidForPortfolio>
+                <mes:IsValidForPrototype>true</mes:IsValidForPrototype>
+                <mes:IsValidForPotentialProject>true</mes:IsValidForPotentialProject>
+                <mes:IsValidForOpenProject>true</mes:IsValidForOpenProject>
+                <mes:IsValidForCapProject>true</mes:IsValidForCapProject>
+                <mes:IsValidForFacility>true</mes:IsValidForFacility>
+                <mes:IsValidForLocation>true</mes:IsValidForLocation>
+                <mes:IsValidForParcel>true</mes:IsValidForParcel>
+                <mes:IsValidForContract>true</mes:IsValidForContract>
+            </mes:Form>
+        </mes:Forms>
+    </mes:Firm>
+</mes:LxERP>

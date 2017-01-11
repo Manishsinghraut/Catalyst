@@ -1,0 +1,37 @@
+<LxERP>
+<Firm>
+<HolidaySchedules>
+<HolidaySchedule>
+<HolidayScheduleName>Crash Schedule -Holiday Calendar</HolidayScheduleName>
+<HolidayDate>
+<Day>5</Day>
+<HolidayDateName>Holiday 1</HolidayDateName>
+<Month>February</Month>
+</HolidayDate>
+<HolidayDate>
+<Day>5</Day>
+<HolidayDateName>Holiday 2</HolidayDateName>
+<Month>March</Month>
+</HolidayDate>
+<HolidayDate>
+<Day>1</Day>
+<HolidayDateName>Holiday 3</HolidayDateName>
+<Month>January</Month>
+<Year>2020</Year>
+</HolidayDate>
+<HolidayDate>
+<Day>9</Day>
+<HolidayDateName>Holiday 4</HolidayDateName>
+<Month>July</Month>
+<Year>2020</Year>
+</HolidayDate>
+<HolidayDate>
+<Day>10</Day>
+<HolidayDateName>Holiday 5</HolidayDateName>
+<Month>September</Month>
+<Year>2020</Year>
+</HolidayDate>
+</HolidaySchedule>
+</HolidaySchedules>
+</Firm>
+</LxERP>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+	       <Locations>
+            <Location>
+                <ClientEntityID>Location sprint 16</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>Location sprint 16</LocationName>
+                <ProgramID>Portfolio Sprint 16</ProgramID>
+                <ProjectEntityID clientID="client-667522fer">Location sprint 16</ProjectEntityID>
+                </Location>
+        </Locations>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-08-31</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location sprint 16</LocationID>
+                <ProgramID>Portfolio Sprint 16</ProgramID>
+                <ProjectEntityID clientID="client-667519def">Smart Drop downs Project</ProjectEntityID>
+                <ProjectName>Smart Drop downs Project</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central Market</RegionID>
+                <RegionLvl1>Central Market</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access</MemberID>
+                </LinkMemberProjectEntity>
+                </Project>
+        </Projects>
+    </Firm>
+</LxERP>

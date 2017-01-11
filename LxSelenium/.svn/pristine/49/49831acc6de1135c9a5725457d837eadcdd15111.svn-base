@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetColumnTypes>
+            <BudgetColumnType>
+                <BudgetColumnTypeID>1771</BudgetColumnTypeID>
+                <AllowMultiSelect>true</AllowMultiSelect>
+                <AllowOneInstance>false</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>Budget Type 13613</BudgetColumnTypeName>
+                <CodeStatusDefaultID>Submitted</CodeStatusDefaultID>
+                <CodeStatusDefaultNameForCreate>Submitted</CodeStatusDefaultNameForCreate>
+                <CodeStatusSelectedID>Submitted</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Submitted</CodeStatusSelectedNameForCreate>
+                <IsBidTemplate>false</IsBidTemplate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForAssetContract>false</IsValidForAssetContract>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+            </BudgetColumnType>
+			<BudgetColumnType>
+                <BudgetColumnTypeID>1772</BudgetColumnTypeID>
+                <AllowMultiSelect>true</AllowMultiSelect>
+                <AllowOneInstance>false</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>Budget Type 2 13613</BudgetColumnTypeName>
+                <CodeStatusDefaultID>Submitted</CodeStatusDefaultID>
+                <CodeStatusDefaultNameForCreate>Submitted</CodeStatusDefaultNameForCreate>
+                <CodeStatusSelectedID>Submitted</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Submitted</CodeStatusSelectedNameForCreate>
+                <IsBidTemplate>false</IsBidTemplate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForAssetContract>false</IsValidForAssetContract>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+            </BudgetColumnType>
+        </BudgetColumnTypes>
+    </Firm>
+</LxERP>

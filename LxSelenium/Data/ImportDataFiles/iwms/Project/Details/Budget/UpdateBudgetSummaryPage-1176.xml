@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-0.180">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_TestB_10_20160316_20160617_102353357_35350</mes:ClientID>
+                <mes:PageLayoutName>Update Budget Summary Page</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowEdit>false</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>A</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>BudgetColumnType</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-0.180</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_102353376_1350903</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_102353357_35350">Update Budget Summary Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_TestB_10_20160316_20160617_102353308_74473">UpdateBudgetValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-0.180</mes:FirmID>
+                            <mes:DisplayLabel>Update Budget Value</mes:DisplayLabel>
+                            <mes:DisplayOption1>33</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_490</mes:ClientID>
+                <mes:ReportGroupDataName>Budget</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>ERP_1330</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_490">Budget</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Budget Types</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:Description/>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>false</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_TestB_10_20160316_20160617_102353308_74473</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_1330">Budget Types</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Update Budget Value</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-0.180</mes:FirmID>
+                                    <mes:CodeSQLTableID>BudgetColumnType</mes:CodeSQLTableID>
+                                    <mes:BudgetColumnTypeID ClientID="SQL152_TestB_10_20160316_20160617_102353228_913">Update Budget Value</mes:BudgetColumnTypeID>
+                                    <mes:AccessorName>UpdateBudgetValue</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>328</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

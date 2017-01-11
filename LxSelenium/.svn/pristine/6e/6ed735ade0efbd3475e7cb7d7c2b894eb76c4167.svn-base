@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>123</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Sales Exclusion Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2030-12-31</ExpireDate>
+                <LocationID>000056</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-634023a">Sales Exclusion Contract</ProjectEntityID>
+                <RentableArea>56000.00000</RentableArea>
+                 <PercentageRent>
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2000-01-01</BeginDate>
+                    <CapAmount>30000.00000</CapAmount>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CodeCapFrequencyID>Annually</CodeCapFrequencyID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <CodeReportingFrequencyID>Annually</CodeReportingFrequencyID>
+                    <CodeSalesGroupID>Internal Sales</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <Description>Testing Sales Exclusion</Description>
+                    <EndDate>2030-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <RentYearStartMonth>January</RentYearStartMonth>
+                </PercentageRent>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

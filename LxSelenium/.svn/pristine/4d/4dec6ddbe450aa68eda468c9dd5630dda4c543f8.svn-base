@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location>
+                <ClientEntityID>SavetoDocLocation-1118</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>SavetoDocLocation</LocationName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="Loc-Automation-1118">SavetoDocLocation-1118</ProjectEntityID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+            </Location>
+        </Locations>
+        <Facilities>
+            <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>SavetoDocEmailFacility</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>SavetoDocLocation</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="Fac-Automation-1118">SavetoDocEmailFacility-1118</ProjectEntityID>
+                <RegionID>Central Dallas (Operating) Frisco(Operating)</RegionID>
+                <RegionLvl1>Central Dallas (Operating) Frisco(Operating)</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+            </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>

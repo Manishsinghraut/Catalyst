@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <WorkFlowTemplates>
+            <WorkFlowTemplate>
+                <DefaultWFCodePriorityID>3 - Normal</DefaultWFCodePriorityID>
+                <LimitByEntity>false</LimitByEntity>
+                <NotifyAllApproversComplete>false</NotifyAllApproversComplete>
+                <NotifyAllAssigneesComplete>false</NotifyAllAssigneesComplete>
+                <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                <PageLayoutID>MyApprovalsForm~MyApprovalsF</PageLayoutID>
+                <StatusChangeType>1</StatusChangeType>
+                <WorkFlowTemplateName>ApprovalsWF</WorkFlowTemplateName>
+                <WorkFlowTemplateStep>
+                    <ApproverType>3</ApproverType>                    
+					<ApproverMemberIDList>
+					<ApproverMemberID>Delete Access Access</ApproverMemberID>
+					</ApproverMemberIDList>
+                    <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                    <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                    <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                    <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                    <DurationDaysApprovers>1</DurationDaysApprovers>
+                    <EMailAlertApprovers>true</EMailAlertApprovers>
+                    <NotifyStepApproversStarted>true</NotifyStepApproversStarted>
+                    <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                    <PageLayoutApproversID>MyApprovalsForm~MyApprovalsF</PageLayoutApproversID>
+                    <SetTaskCanceled>false</SetTaskCanceled>
+                    <SetTaskInProcess>true</SetTaskInProcess>
+                    <StepNumber>1</StepNumber>
+                    <WorkFlowTemplateStepName>Approve this</WorkFlowTemplateStepName>
+                    <WorkFlowTemplateStepAction>
+                        <CloseWorkFlow>true</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>true</IsApprovalAction>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>false</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Approved</WorkFlowTemplateStepActionName>
+                    </WorkFlowTemplateStepAction>
+                </WorkFlowTemplateStep>
+            </WorkFlowTemplate>
+        </WorkFlowTemplates>
+    </Firm>
+</LxERP>

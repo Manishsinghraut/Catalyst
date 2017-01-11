@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <FiscalPeriods>
+            <FiscalPeriod>
+                <BeginDate>2034-04-02</BeginDate>
+                <EndDate>2034-04-29</EndDate>
+                <Period>4</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-02-26</BeginDate>
+                <EndDate>2034-04-01</EndDate>
+                <Period>3</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-01-29</BeginDate>
+                <EndDate>2034-02-25</EndDate>
+                <Period>2</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-01-01</BeginDate>
+                <EndDate>2034-01-28</EndDate>
+                <Period>1</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-04-30</BeginDate>
+                <EndDate>2034-05-27</EndDate>
+                <Period>5</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-05-28</BeginDate>
+                <EndDate>2034-07-01</EndDate>
+                <Period>6</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-07-02</BeginDate>
+                <EndDate>2034-07-29</EndDate>
+                <Period>7</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-07-30</BeginDate>
+                <EndDate>2034-08-26</EndDate>
+                <Period>8</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-08-27</BeginDate>
+                <EndDate>2034-09-30</EndDate>
+                <Period>9</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-10-01</BeginDate>
+                <EndDate>2034-10-28</EndDate>
+                <Period>10</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-10-29</BeginDate>
+                <EndDate>2034-11-25</EndDate>
+                <Period>11</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2034-11-26</BeginDate>
+                <EndDate>2034-12-30</EndDate>
+                <Period>12</Period>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2034</Year>
+            </FiscalPeriod>
+        </FiscalPeriods>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Financial Settings Portfolio</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID>Financial Settings Portfolio</ProjectEntityID>
+                <SLCashAmortizeMethod>PERPERIOD</SLCashAmortizeMethod>
+                <SLExpenseAmortizeMethod>PERPERIOD</SLExpenseAmortizeMethod>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-02-22T13:01:42</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

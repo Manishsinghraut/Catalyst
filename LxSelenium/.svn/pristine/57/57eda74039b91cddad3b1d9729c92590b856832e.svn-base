@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Parcels>
+            <Parcel>
+                <City>Plano</City>
+                <ClientEntityID>000056</ClientEntityID>
+                <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                <CodeParcelCategoryID>Leased</CodeParcelCategoryID>
+                <CodeParcelGroupID>Retail</CodeParcelGroupID>
+                <CodeParcelStatusID>Active</CodeParcelStatusID>
+                <CodeParcelTypeID>Commercial</CodeParcelTypeID>
+                <HasImprovements>false</HasImprovements>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsTaxExempt>false</IsTaxExempt>
+                <LocationID>000056</LocationID>
+                <Notes>This is a Test</Notes>
+                <ParcelName>8456 Parcel</ParcelName>
+                <ParcelNumber>37261983682193</ParcelNumber>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-661522er">8456 Parcel</ProjectEntityID>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+                <Folder>
+                    <FolderName>SeleniumTestRootFolder1</FolderName>
+                    <IsFolderDownloadableByMember>true</IsFolderDownloadableByMember>
+                    <IsFolderReadableByMember>true</IsFolderReadableByMember>
+                    <IsFolderUploadOnlyByMember>false</IsFolderUploadOnlyByMember>
+                    <IsFolderUploadableByMember>true</IsFolderUploadableByMember>
+                    <ModifiedByID>Delete Access Access</ModifiedByID>
+                    <ModifiedDate>2016-08-05T14:12:19</ModifiedDate>
+                    <SubFolderPath>/SeleniumTestRootFolder1</SubFolderPath>
+                </Folder>
+                <PropertyTaxSummary>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>CAM</CodeExpenseTypeID>
+                    <CodePaymentFrequencyID>Annually</CodePaymentFrequencyID>
+                    <CodePropertyTaxTypeID>Resale tax</CodePropertyTaxTypeID>
+                    <CodeRecoveryGroupID>CAM</CodeRecoveryGroupID>
+                    <CodeRecoveryTypeID>Interior</CodeRecoveryTypeID>
+                    <Description>taxes save to documents</Description>
+                    <Notes>Here you can pay your property taxes online, inquire about a parcel of land, or view maps and plat books.  Please use the links below or in the navigation bar above to proceed. 
+            Pay Property Taxes Online
+            Parcel Inquiry
+            Maps
+            Plat Books
+             
+            Plat books are $35 per copy (cash or check only).  Plat books can be bought in Administrative Services, #103.  To obtain a plat book via mail, please send in a check for $41.45 ($35 for the plat book and $6.45 for shipping &amp; handling) to:</Notes>
+                    <RightToAppeal>false</RightToAppeal>
+                    <TaxAccountNumber>34234324</TaxAccountNumber>
+                    <TaxAuthorityID>Selenium-Employer</TaxAuthorityID>
+                    <TicklerDate>2020-12-31</TicklerDate>
+                    <PropertyTaxAssessment>
+                        <AppraisalDate>2016-08-05</AppraisalDate>
+                        <AppraisalValue>175000.00000</AppraisalValue>
+                        <AppraiserID>Selenium-Employer</AppraiserID>
+                        <AssessmentAmountAdjustments>4000.00000</AssessmentAmountAdjustments>
+                        <AssessmentAmountImprovements>1200.00000</AssessmentAmountImprovements>
+                        <AssessmentAmountLand>120000.00000</AssessmentAmountLand>
+                        <AssessmentAmountOther>30000.00000</AssessmentAmountOther>
+                        <AssessmentAmountTotal>180000.00000</AssessmentAmountTotal>
+                        <AssessmentPercentage>10.00000</AssessmentPercentage>
+                        <AutoCalcFlag>false</AutoCalcFlag>
+                        <Description>Adding values</Description>
+                        <EffectiveDate>2020-01-01</EffectiveDate>
+                        <EndDate>2030-12-31</EndDate>
+                        <MarketValue>185000.00000</MarketValue>
+                        <ProjectEntityID>661522er</ProjectEntityID>
+                    </PropertyTaxAssessment>
+                </PropertyTaxSummary>
+				<ParcelAccess>
+                 <CodeParcelAccessGroupID>Lease</CodeParcelAccessGroupID>
+                 <CodeParcelAccessTypeID>Option</CodeParcelAccessTypeID>
+                 <CodeParcelAccessCategoryID>Category</CodeParcelAccessCategoryID>
+                 <EffectiveDate>2016-11-03</EffectiveDate>
+                 <ExpireDate>2016-11-03</ExpireDate>
+                 <ExistsFlag>True</ExistsFlag>
+                 <TicklerDate>2011-04-07</TicklerDate>
+                  <Notes>The public information contained herein is furnished as a public service by Dutchess County Real Property Tax Service Agency.
+                 The Real Property Tax Service Agency makes no warranties, expressed or implied, concerning the accuracy, completeness, reliability, or 
+                 suitability for the use of this information. Furthermore, the Real Property Tax Service Agency assumes no liability associated with the
+                 use or misuse of such information.Notes</Notes>
+</ParcelAccess>
+            </Parcel>
+        </Parcels>
+    </Firm>
+</LxERP>

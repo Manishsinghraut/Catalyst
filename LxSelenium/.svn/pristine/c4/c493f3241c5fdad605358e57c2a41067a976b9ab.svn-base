@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <CodeTables>
+            <CodeContactType clientID="client-7046">
+                <ActualLongName>Broker</ActualLongName>
+                <ShortName>Broker</ShortName>
+            </CodeContactType><CodeContactType clientID="client-7055">
+                <ActualLongName>Vendor</ActualLongName>
+                <ShortName>Vendor</ShortName>
+            </CodeContactType><CodeContactType clientID="client-7054">
+                <ActualLongName>Team Member</ActualLongName>
+                <ShortName>Team Member</ShortName>
+            </CodeContactType>
+        </CodeTables>
+        <Jurisdictions>
+            <Jurisdiction clientID="2564">
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <JurisdictionName>Colorado</JurisdictionName>
+            </Jurisdiction>
+        </Jurisdictions>
+        <Employers>
+            <Employer clientID="client-382288">
+                <APVendorNumber>1234</APVendorNumber>
+                <AfterHoursContact>Delete Access</AfterHoursContact>
+                <AfterHoursRate>20.00000</AfterHoursRate>
+                <BankAccountNumber>123456</BankAccountNumber>
+                <BankRoutingNumber>00020012</BankRoutingNumber>
+                <BusinessHours>M-F
+                                                8am - 7pm</BusinessHours>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Vendor</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeCoverageID>Full</CodeCoverageID>
+                <CodeVendorGradeID>Excellent</CodeVendorGradeID>
+                <CompanyType>Vendor</CompanyType>
+                <EMail1>qa1@lucernex.com</EMail1>
+                <EmployerName>Selenium-Employer</EmployerName>
+                <Fax>125.124.1254</Fax>
+                <HasAfterHoursSupport>true</HasAfterHoursSupport>
+                <HourlyRate>15.00000</HourlyRate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>true</IsFemaleOwned>
+                <IsGLBTOwned>true</IsGLBTOwned>
+                <IsMinorityOwned>true</IsMinorityOwned>
+                <IsPreferredVendor>true</IsPreferredVendor>
+                <IsSBAProgram>true</IsSBAProgram>
+                <MobileNumber>125.128.4578</MobileNumber>
+                <NameAKA>QA Testing Employer</NameAKA>
+                <Notes>Do NOT change this employer record in any way.</Notes>
+                <NumberOfServiceTrucks>50</NumberOfServiceTrucks>
+                <NumberOfStates>50</NumberOfStates>
+                <NumberOfTechnicians>300</NumberOfTechnicians>
+                <Phone>915.920.2669</Phone>
+                <PostalCode>75026</PostalCode>
+                <SelfPerform>true</SelfPerform>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <TravelRate>25.00000</TravelRate>
+                <WebSite>lucernex.com</WebSite>
+                <VendorInsurance clientID="client-16">
+                    <AggregateOccurrenceAmt>100000.00000</AggregateOccurrenceAmt>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeInsurancePolicyTypeID>General Liability</CodeInsurancePolicyTypeID>
+                    <EndDate>2030-12-31</EndDate>
+                    <Policy>Total deductible for the year is $100,000.00, but the maximum amount that can be paid for a single occurance is $50,000.00.</Policy>
+                    <SingleOccurrenceAmt>50000.00000</SingleOccurrenceAmt>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </VendorInsurance>
+            </Employer><Employer clientID="client-381648">
+                <City>Plano</City>
+                <CompanyType>Other</CompanyType>
+                <EMail1>WebMaster@Lucernex.com</EMail1>
+                <EmployerName>Lucernex</EmployerName>
+                <Fax>972-403-7110</Fax>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <Phone>972-403-7100</Phone>
+                <PostalCode>75024</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>Suite 120</StreetAddress1>
+                <StreetAddress2>5601 Democracy Drive</StreetAddress2>
+                <WebSite>www.Lucernex.com</WebSite>
+            </Employer>
+        </Employers>
+        <Members>
+            <Member clientID="client-25472">
+                <AlwaysSpellCheck>false</AlwaysSpellCheck>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Broker</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeJobFunctionID>Delete Access</CodeJobFunctionID>
+                <CodeJobTitleID>Delete Access</CodeJobTitleID>
+                <CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+                <CodeUserClassID clientID="client-5489">Delete Access</CodeUserClassID>
+                <EMail1>QA1@lucernex.com</EMail1>
+                <EmployerID clientID="client-382288">Selenium-Employer</EmployerID>
+                <FirstName>Delete</FirstName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+                <Language>EN</Language>
+                <LastName>Access</LastName>
+                <LoginName>Delete Access</LoginName>
+                <Phone>(460) 269-6088</Phone>
+                <PostalCode>75026</PostalCode>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <UseEmployerAddress>true</UseEmployerAddress>
+            </Member><Member clientID="client-25471">
+                <AlwaysSpellCheck>false</AlwaysSpellCheck>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Broker</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeJobFunctionID>Edit Access</CodeJobFunctionID>
+                <CodeJobTitleID>Edit Access</CodeJobTitleID>
+                <CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+                <CodeUserClassID clientID="client-5491">Edit Access</CodeUserClassID>
+                <EMail1>QA1@lucernex.com</EMail1>
+                <EmployerID clientID="client-382288">Selenium-Employer</EmployerID>
+                <FirstName>Edit</FirstName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+                <Language>EN</Language>
+                <LastName>Access</LastName>
+                <LoginName>Edit Access</LoginName>
+                <Phone>(469) 269-6088</Phone>
+                <PostalCode>75026</PostalCode>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <UseEmployerAddress>true</UseEmployerAddress>
+            </Member><Member clientID="client-25465">
+                <AlwaysSpellCheck>true</AlwaysSpellCheck>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Team Member</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeJobFunctionID>Lx Administrator</CodeJobFunctionID>
+                <CodeJobTitleID>Lx Administrator</CodeJobTitleID>
+                <CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+                <CodeUserClassID clientID="client-3913">Team Member</CodeUserClassID>
+                <Description>Lx Administrator</Description>
+                <EMail1>WebMaster@Lucernex.com</EMail1>
+                <EmployerID clientID="client-381648">Lucernex</EmployerID>
+                <Fax>972-403-7110</Fax>
+                <FirstName>Lx</FirstName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsViewPrivateIssueAllowed>true</IsViewPrivateIssueAllowed>
+                <LastName>Administrator</LastName>
+                <LoginName>rootDev</LoginName>
+                <NumberPattern>1,234,567.89</NumberPattern>
+                <Phone>972-403-7100</Phone>
+                <PostalCode>75024</PostalCode>
+                <StreetAddress1>Suite 120</StreetAddress1>
+                <StreetAddress2>5601 Democracy Drive</StreetAddress2>
+                <UseEmployerAddress>true</UseEmployerAddress>
+                <WebSite>www.Lucernex.com</WebSite>
+            </Member><Member clientID="client-25470">
+                <AlwaysSpellCheck>false</AlwaysSpellCheck>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Broker</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeJobFunctionID>No Access</CodeJobFunctionID>
+                <CodeJobTitleID>No Access</CodeJobTitleID>
+                <CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+                <CodeUserClassID clientID="client-5492">No Access</CodeUserClassID>
+                <EMail1>QA1@lucernex.com</EMail1>
+                <EmployerID clientID="client-382288">Selenium-Employer</EmployerID>
+                <FirstName>No</FirstName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+                <Language>EN</Language>
+                <LastName>Access</LastName>
+                <LoginName>No Access</LoginName>
+                <Phone>(469) 269-6088</Phone>
+                <PostalCode>75026</PostalCode>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <UseEmployerAddress>true</UseEmployerAddress>
+            </Member>
+        </Members>
+        <Complexs>
+            <Complex clientID="client-26893">
+                <City>Plano</City>
+                <ClientNumber>25444</ClientNumber>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeComplexClassID>Class</CodeComplexClassID>
+                <CodeComplexStatusID>Newly Opened</CodeComplexStatusID>
+                <CodeComplexTypeID>Mall</CodeComplexTypeID>
+                <ComplexName>Stonebriar</ComplexName>
+                <DeveloperID clientID="client-264936">Delete Access</DeveloperID>
+                <ExpansionPlanDate>2020-01-01</ExpansionPlanDate>
+                <GLAExcludingAnchors>200000.00000</GLAExcludingAnchors>
+                <GrossLeaseArea>150000.00000</GrossLeaseArea>
+                <HasFoodCourt>true</HasFoodCourt>
+                <HoursOfOperation>9 am - 10pm</HoursOfOperation>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsEnclosed>true</IsEnclosed>
+                <IsExpansionPlanned>true</IsExpansionPlanned>
+                <IsRenovationPlanned>true</IsRenovationPlanned>
+                <IsSpaceAvailable>true</IsSpaceAvailable>
+                <JurisdictionID clientID="2562">Collin</JurisdictionID>
+                <LastRenovated>1995</LastRenovated>
+                <NearestCompetition>2 Blocks away</NearestCompetition>
+                <NotableTenants>Target, Walmart</NotableTenants>
+                <Notes>Updated via import</Notes>
+                <NumberLevels>3</NumberLevels>
+                <NumberOutparcels>5</NumberOutparcels>
+                <NumberParkingSpaces>300</NumberParkingSpaces>
+                <NumberStores>56</NumberStores>
+                <OccupancyPercentage>76.00000</OccupancyPercentage>
+                <Phone>254.254.3569</Phone>
+                <PostalCode>75024</PostalCode>
+                <PropertyManagerID clientID="client-264935">Edit Access</PropertyManagerID>
+                <RenovationPlanDate>2020-01-01</RenovationPlanDate>
+                <SalesPerArea>1300.00000</SalesPerArea>
+                <StreetAddress1>5601 Democracy DR</StreetAddress1>
+                <YearBuilt>1995</YearBuilt>
+            </Complex>
+        </Complexs>
+        <Programs>
+            <Program clientID="client-4000">
+                <City>Plano</City>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <Description>Used for Automation test Cases</Description>
+                <FiscalYearEnd>2015-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>Migrate Selenium Entity</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <MapClientSchedule clientID="client-539724">
+                    <LastReviewedDate>2015-09-29T03:12:19</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-24152">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Central (Central region - preOpen) Frisco(Pre-Open)</RegionName>
+                    </Region>
+                    <Region clientID="client-25989">
+                        <Description>Central region - preOpen</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <PreviousRegionID clientID="client-24152">Central (Central region - preOpen) Frisco(Pre-Open)</PreviousRegionID>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Central</RegionName>
+                    </Region>
+                    <Region clientID="client-25988">
+                        <Description>Parent Region</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <PreviousRegionID clientID="client-25989">Central(Central region - preOpen)</PreviousRegionID>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Selenium-Parent-Region</RegionName>
+                        <LinkRegionManager clientID="client-60747">
+                            <IsManager>true</IsManager>
+                            <MemberID clientID="client-25465">Lx Administrator</MemberID>
+                            <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                            <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region clientID="client-24151">
+                        <Description>Operating</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Central Dallas</RegionName>
+                    </Region>
+                </OrgChart>
+            </Program><Program clientID="client-3623">
+                <City>Plano</City>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <Description>Used for Automation test Cases</Description>
+                <FiscalYearEnd>2015-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <OrgChartProgramID clientID="client-4000">Migrate Selenium Entity</OrgChartProgramID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>Lucernex-Selenium</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-590603">Lucernex-Selenium</ProjectEntityID>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <DevelopmentPlan clientID="client-109">
+                    <DevelopmentPlanName>lx_devPlan_3623</DevelopmentPlanName>
+                    <DevelopmentSlot clientID="client-5727">
+                        <BrokerMemberID clientID="client-25471">Edit Access</BrokerMemberID>
+                        <BrokerMessage>Message for Broker</BrokerMessage>
+                        <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                        <CodeMarketTypeID>Urban</CodeMarketTypeID>
+                        <CodeSlotTypeID>Franchise</CodeSlotTypeID>
+                        <DevelopmentSlotName>Imported Target</DevelopmentSlotName>
+                        <Duration>365</Duration>
+                        <EndDate>2015-12-31</EndDate>
+                        <OriginalEndDate>2016-01-01</OriginalEndDate>
+                        <PlannedPackageDate>2016-01-01</PlannedPackageDate>
+                        <RegionID clientID="client-17652">Central(Central region - preOpen)</RegionID>
+                        <TradeArea>1</TradeArea>
+                    </DevelopmentSlot>
+                </DevelopmentPlan>
+                <LinkMemberProjectEntity clientID="client-6774397">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-25472">Delete Access</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-6774396">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-25471">Edit Access</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-6774400">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-25470">No Access</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-6774394">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-25465">Lx Administrator</MemberID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule clientID="client-539712">
+                    <LastReviewedDate>2015-09-29T02:56:05</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-24152">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Central (Central region - preOpen) Frisco(Pre-Open)</RegionName>
+                    </Region>
+                    <Region clientID="client-25989">
+                        <Description>Central region - preOpen</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <PreviousRegionID clientID="client-24152">Central (Central region - preOpen) Frisco(Pre-Open)</PreviousRegionID>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Central</RegionName>
+                    </Region>
+                    <Region clientID="client-25988">
+                        <Description>Parent Region</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <PreviousRegionID clientID="client-25989">Central(Central region - preOpen)</PreviousRegionID>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Selenium-Parent-Region</RegionName>
+                        <LinkRegionManager clientID="client-60747">
+                            <IsManager>true</IsManager>
+                            <MemberID clientID="client-25465">Lx Administrator</MemberID>
+                            <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                            <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <LinkRegionManager clientID="client-47740">
+                        <IsManager>true</IsManager>
+                        <MemberID clientID="client-25465">Lx Administrator</MemberID>
+                        <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                        <ProjectEntityID clientID="client-590603">Lucernex-Selenium</ProjectEntityID>
+                    </LinkRegionManager>
+                    <Region clientID="client-24151">
+                        <Description>Operating</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-4000">Migrate Selenium Entity</ProgramID>
+                        <ProjectEntityID clientID="client-590616">Migrate Selenium Entity</ProjectEntityID>
+                        <RegionName>Central Dallas</RegionName>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+        <Locations>
+            <Location clientID="client-118337">
+                <City>Plano</City>
+                <ClientEntityID>000056</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                <CodeLocationCategoryID>New</CodeLocationCategoryID>
+                <CodeLocationGroupID>Lease</CodeLocationGroupID>
+                <CodeLocationTypeID clientID="client-873">90909</CodeLocationTypeID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeSubArea1ID>SubArea</CodeSubArea1ID>
+                <CodeSubRegion1ID>SubRegion</CodeSubRegion1ID>
+                <ComplexID clientID="client-26893">Stonebriar</ComplexID>
+                <CrossStreet1>Parkwood</CrossStreet1>
+                <CrossStreet2>Democracy</CrossStreet2>
+                <GrossLeaseArea>5000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <LocationName>000056</LocationName>
+                <LocationParcelArea>2000.00000</LocationParcelArea>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-590605">000056</ProjectEntityID>
+                <RegionID clientID="client-17655">Central Dallas (Operating) Frisco(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <RegionLvl2>Frisco</RegionLvl2>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <LinkMemberProjectEntity clientID="client-8504287">
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-25472">Delete Access</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-8504286">
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID clientID="client-25465">Lx Administrator</MemberID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule clientID="client-539714">
+                    <LastReviewedDate>2015-09-29T02:57:04</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Location>
+        </Locations>
+        <Parcels>
+            <Parcel clientID="client-6210">
+                <AcquiredDate>2015-01-20</AcquiredDate>
+                <City>Plano</City>
+                <ClientEntityID>222333</ClientEntityID>
+                <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                <CodeParcelCategoryID>Leased</CodeParcelCategoryID>
+                <CodeParcelGroupID>Retail</CodeParcelGroupID>
+                <CodeParcelStatusID>Active</CodeParcelStatusID>
+                <CodeParcelTypeID clientID="client-83">Commercial</CodeParcelTypeID>
+                <CodeParcelUseID>Office</CodeParcelUseID>
+                <CodeTaxResponsibilityID>Developer</CodeTaxResponsibilityID>
+                <HasImprovements>false</HasImprovements>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsTaxExempt>false</IsTaxExempt>
+                <LocationID clientID="client-118337">000056</LocationID>
+                <OwnerName>Mr Selenium</OwnerName>
+                <ParcelArea>20000.00000</ParcelArea>
+                <ParcelName>Lucernex-Parcel</ParcelName>
+                <ParcelNumber>234234</ParcelNumber>
+                <PostalCode>75024</PostalCode>
+                <PrimaryAssessedAmount>450000.00000</PrimaryAssessedAmount>
+                <PrimaryValueAmount>500000.00000</PrimaryValueAmount>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectDescription>This will be updated upon import</ProjectDescription>
+                <ProjectEntityID clientID="client-590606">Lucernex-Parcel</ProjectEntityID>
+                <PurchaseDate>2015-01-03</PurchaseDate>
+                <SourceReferenceDate>2015-01-05</SourceReferenceDate>
+                <StreetAddress1>5601 Democracy Drive</StreetAddress1>
+                <StreetAddress2>Suite 120</StreetAddress2>
+                <SurveyDate>2015-04-09</SurveyDate>
+                <TaxAuthority>Collin County Assessors</TaxAuthority>
+                <TaxBeginPeriod>2015-01-05</TaxBeginPeriod>
+                <TaxEndPeriod>2017-07-06</TaxEndPeriod>
+                <TaxJurisdictionID clientID="2562">Collin</TaxJurisdictionID>
+                <UseLocationAddress>false</UseLocationAddress>
+                <MapClientSchedule clientID="client-539715">
+                    <LastReviewedDate>2015-09-29T02:57:07</LastReviewedDate>
+                    <ProjectEntityID>590606</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Parcel>
+        </Parcels>
+    </Firm>
+</LxERP>

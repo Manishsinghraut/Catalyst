@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location>
+                <ClientEntityID>s060-990</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>s060-990</LocationName>
+                <ProgramID>Global</ProgramID>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-29T14:46:01</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        
+                        <TaskName>Group 1</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID>Group 1</ParentTaskID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>Task 1</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2021-01-01</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2021-01-01</OriginalStartDate>
+                            <ParentTaskID>Group 1</ParentTaskID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2021-01-01</ProjectedStartDate>
+                            <TaskName>Task 2</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>Task 1</PredecessorTaskID>
+                                
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Task 2</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        
+                        <TaskName>Group 2</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID>Group 2</ParentTaskID>
+                            
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>Task 3</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2021-01-08</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2021-01-08</OriginalStartDate>
+                            <ParentTaskID>Group 2</ParentTaskID>
+                            
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2021-01-08</ProjectedStartDate>
+                            <TaskName>Task 4</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>5</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>5</OriginalLeadLagDays>
+                                <PredecessorTaskID>Task 3</PredecessorTaskID>
+                                
+                                <ProjectedLeadLagDays>5</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Task 4</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-14</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020</LocationID>
+                <ProgramID>Portfolio 00020</ProgramID>
+                <ProjectEntityID clientID="client-99swwrrkkq">DocumentVersionProject-44</ProjectEntityID>
+                <ProjectName>DocumentVersionProject-44</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PR020</RegionID>
+                <RegionLvl1>PR020</RegionLvl1>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

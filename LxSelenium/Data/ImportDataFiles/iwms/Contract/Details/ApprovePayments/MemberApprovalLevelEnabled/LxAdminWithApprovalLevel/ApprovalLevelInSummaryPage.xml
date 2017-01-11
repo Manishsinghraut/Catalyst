@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Approval Level in Summary page</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2010-01-01</ExecuteDate>
+                <ExpireDate>2030-12-31</ExpireDate>
+                <LocationID>Approve Payment Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID>Approve Payment Portfolio</ProgramID>
+                <ProjectEntityID>Approval Level in Summary page</ProjectEntityID>
+                <ExpenseSetup clientID="client-860763121">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule clientID="client-8604071132">
+                        <AnnualAmount>18000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-12-31</EndDate>
+                        <FirstPaymentAmount>1500.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1500.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1500.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-8604071133">
+                        <AnnualAmount>12000.00000</AnnualAmount>
+                        <BeginDate>2015-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2016-12-31</EndDate>
+                        <FirstPaymentAmount>1000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-01T13:35:37</LastReviewedDate>
+                    
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PaymentTransaction clientID="client-86037208255">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2010-12-01</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>5000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>5000.00000</TotalAmount>
+                    <VendorID>Selenium-Employer</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-86037208256">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Building Maintenance</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2013-12-01</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>1250.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    
+                    <TaxAmount1>625.00000</TaxAmount1>
+                    <TaxAmount2>625.00000</TaxAmount2>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>2500.00000</TotalAmount>
+                </PaymentTransaction>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

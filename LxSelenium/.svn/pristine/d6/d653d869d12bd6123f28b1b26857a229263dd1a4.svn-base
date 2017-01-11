@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-608">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>lucernex-db02_Dev_Trunk_20110119_092941389_4192</mes:ClientID>
+                <mes:PageLayoutName>Jurisdiction, Tax Parcel Information</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941410_4200">Center/Complex</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Parcel</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005199_659984</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_191637494_6">TaxBeginPeriod</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Tax Begin Period</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005222_659985</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1776">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Tax ID Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005246_659986</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_191637494_7">TaxEndPeriod</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Tax End Period</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005267_659987</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Tax Jurisdiction</mes:StaticText>
+                            <mes:DisplayLabel>Tax Jurisdiction</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005286_659988</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Tax Begin Date</mes:StaticText>
+                            <mes:DisplayLabel>Tax Begin Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005305_659989</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Tax ID Number</mes:StaticText>
+                            <mes:DisplayLabel>Tax ID Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005324_659990</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Tax End Date</mes:StaticText>
+                            <mes:DisplayLabel>Tax End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005343_659991</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1733">TaxAuthority</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Tax Authority</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005361_659992</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Responsibility</mes:StaticText>
+                            <mes:DisplayLabel>Responsibility</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005380_659993</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Tax Authority</mes:StaticText>
+                            <mes:DisplayLabel>Tax Authority</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005405_659994</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_191637494_8">CodeTaxResponsibilityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Tax Responsibility</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005425_659995</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1735">TaxJurisdictionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Tax Jurisdiction</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005443_659998</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Block</mes:StaticText>
+                            <mes:DisplayLabel>Block</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005462_659999</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1700">Block</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Block</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005481_660000</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1710">Lot</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Lot</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133005528_660002</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Lot</mes:StaticText>
+                            <mes:DisplayLabel>Lot</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516337_665155</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028027_0">HasImprovements</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Has Improvements?</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516353_665193</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028032_0">OwnerName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Owner Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516368_665194</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Owner Name</mes:StaticText>
+                            <mes:DisplayLabel>Owner Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516382_665195</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028029_0">IsTaxExempt</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Is Tax Exempt?</mes:DisplayLabel>
+                            <mes:DisplayOption1>1024</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>lucernex-db01_IWMS_Production_SAN_20100429_094013175_3210</mes:ClientID>
+                <mes:PageLayoutName>Photo</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013206_3077">Slide Show</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>ProjectEntity</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db01_IWMS_Production_SAN_20100429_094013753_651767</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013175_3210">Photo</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1320">EntityPhoto</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Photo</mes:DisplayLabel>
+                            <mes:DisplayOption1>67109120</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516394_4567</mes:ClientID>
+                <mes:PageLayoutName>Parcel Key Dates</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Parcel</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516686_665144</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Acquired Date</mes:StaticText>
+                            <mes:DisplayLabel>Acquired Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516699_665145</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Survey Date</mes:StaticText>
+                            <mes:DisplayLabel>Survey Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516713_665146</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100121_033112629_1">OpenYear</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Open Year</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435712</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516726_665147</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Purchase Date</mes:StaticText>
+                            <mes:DisplayLabel>Purchase Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516740_665148</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1694">AcquiredDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Acquired Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516761_665149</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Year "Open"</mes:StaticText>
+                            <mes:DisplayLabel>Year "Open"</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516774_665150</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1731">SurveyDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Survey Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516788_665151</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1728">PurchaseDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Purchase Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516670_4568</mes:ClientID>
+                <mes:PageLayoutName>Parcel Tax Assessment</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130212_121248241_5041">Contract Exclusion Caps</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Parcel</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516804_665156</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028032_1">OtherValueAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Other Value Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516818_665157</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Primary Assessment</mes:StaticText>
+                            <mes:DisplayLabel>Primary Assessment</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516832_665158</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Improvements</mes:StaticText>
+                            <mes:DisplayLabel>Improvements</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516847_665159</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028028_0">ImprovementsValueAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Improvements Value Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516861_665160</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028037_1">SourceReferenceDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Source Reference Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516875_665161</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Source</mes:StaticText>
+                            <mes:DisplayLabel>Source</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516889_665162</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028030_1">LandAssessedAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Land Assessed Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516902_665163</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028035_0">SecondaryValueAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Secondary Value Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516916_665164</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028030_0">LandValueAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Land Value Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516930_665165</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028036_0">SourceReference</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Source Reference</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516943_665166</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028034_0">PrimaryValueAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Primary Value Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516956_665167</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028035_1">SecondaryAssessedAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Secondary Assessed Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516970_665168</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Secondary Assessment</mes:StaticText>
+                            <mes:DisplayLabel>Secondary Assessment</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516983_665169</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028028_1">ImprovementsAsessedAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Improvements Asessed Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181516996_665170</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028033_1">PrimaryAssessedAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Primary Assessed Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517010_665171</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Market Value</mes:StaticText>
+                            <mes:DisplayLabel>Market Value</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>176</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517036_665172</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028031_0">OtherAssessedAmount</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Other Assessed Amount</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517050_665173</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Type of Assessment</mes:StaticText>
+                            <mes:DisplayLabel>Type of Assessment</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>176</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517063_665175</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Land</mes:StaticText>
+                            <mes:DisplayLabel>Land</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>32</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517077_665179</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Assessed Value</mes:StaticText>
+                            <mes:DisplayLabel>Assessed Value</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>176</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517090_665181</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Other</mes:StaticText>
+                            <mes:DisplayLabel>Other</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517104_665182</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Assessment Details</mes:StaticText>
+                            <mes:DisplayLabel>Assessment Details</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>176</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110519_181517117_665183</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Effective Date</mes:StaticText>
+                            <mes:DisplayLabel>Effective Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20150929_173954061_28442</mes:ClientID>
+                <mes:PageLayoutName>Parcel Location Subpage created</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Parcel</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-608</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954072_1207527</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>State / Province</mes:StaticText>
+                            <mes:DisplayLabel>State / Province</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954080_1207528</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1686">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Postal Code</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954090_1207529</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1687">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>State Province Country</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954099_1207530</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1689">StreetAddress1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Street Address #1</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954110_1207531</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1690">StreetAddress2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Street Address #2</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954121_1207532</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>Address</mes:StaticText>
+                            <mes:DisplayLabel>Address</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954133_1207533</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>Zip / Postal Code</mes:StaticText>
+                            <mes:DisplayLabel>Zip / Postal Code</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954142_1207534</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1691">StreetAddress3</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Street Address #3</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954153_1207535</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>City</mes:StaticText>
+                            <mes:DisplayLabel>City</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954164_1207536</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1682">City</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>City</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954175_1207537</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1692">StreetAddress4</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Street Address #4</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954185_1207538</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1683">CountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Country</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954196_1207539</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>Country</mes:StaticText>
+                            <mes:DisplayLabel>Country</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954206_1207540</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954216_1207541</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028025_0">CrossStreet1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Cross Street #1</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435712</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954227_1207542</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>Cross Street#1</mes:StaticText>
+                            <mes:DisplayLabel>Cross Street#1</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954243_1207543</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028026_1">CrossStreet2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Cross Street #2</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435712</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954253_1207544</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>Cross Street#2</mes:StaticText>
+                            <mes:DisplayLabel>Cross Street#2</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173954262_1207545</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="LXDFWSEML001_BBTestRM_20091015_171557328_1">UseLocationAddress</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Use Location Address?</mes:DisplayLabel>
+                            <mes:DisplayOption1>1032</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20150929_173748431_28444</mes:ClientID>
+                <mes:PageLayoutName>Parcel Summary page -Created</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:ParentPageLayoutID ClientID="lxdfwseml001~BBTestRM~3117~1253762289593">Summary</mes:ParentPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Parcel</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-608</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748799_1207546</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1721">CodeParcelStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Status</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748875_1207547</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1722">CodeParcelTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748884_1207548</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1717">CodeParcelCategoryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Category</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748894_1207549</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1718">CodeParcelGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748904_1207550</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1719">ParcelName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Parcel Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748912_1207551</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1711">MasterParcelID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Master Parcel</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748922_1207552</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1720">ParcelNumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Parcel ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748931_1207553</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1723">CodeParcelUseID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Parcel Use</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748940_1207554</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1716">ParcelArea</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Parcel Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748949_1207555</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1706">CodeLandAreaUnitID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Area Unit</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748958_1207556</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1708">LocationID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Location ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>301989896</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748969_1207557</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>General Information</mes:StaticText>
+                            <mes:DisplayLabel>General Information</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748979_1207558</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:StaticText>Comments</mes:StaticText>
+                            <mes:DisplayLabel>Comments</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>21</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173748990_1207559</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Sub Edit Form</mes:DisplayLabel>
+                            <mes:DisplayOption1>4112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>4</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749111_1207560</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013175_3210">Photo</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Sub Edit Form</mes:DisplayLabel>
+                            <mes:DisplayOption1>4112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>7</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749139_1207561</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_508">BlankRow</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Blank Row</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>20</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749172_1207563</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516394_4567">Parcel Key Dates</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Sub Edit Form</mes:DisplayLabel>
+                            <mes:DisplayOption1>4112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>4</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749186_1207564</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1725">ProjectDescription</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749207_1207565</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110519_181516670_4568">Parcel Tax Assessment</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Sub Edit Form</mes:DisplayLabel>
+                            <mes:DisplayOption1>4112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>19</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749239_1207566</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100402_182117483_0">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>22</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>3</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749251_1207567</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_7.0.3_20101122_191028033_0">ParcelPublicName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Parcel Public Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_173749285_1207568</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20150225_180505191_0">CodeCurrencyTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:DisplayLabel>Currency Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20150929_175302229_1207654</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20150929_173748431_28444">Parcel Summary page -Created</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-608</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="SQL152_Test_10_20150929_173954061_28442">Parcel Location Subpage created</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Sub Edit Form</mes:DisplayLabel>
+                            <mes:DisplayOption1>4112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+  <mes:Firm>
+    <mes:BudgetColumnItemValues>
+    	<mes:BudgetColumnItemValue>
+			<mes:ProjectEntityID>210163</mes:ProjectEntityID>
+			<mes:EntityType>Site</mes:EntityType>
+			<mes:BudgetColumnID>Capital</mes:BudgetColumnID>
+			<mes:BudgetLineItemCode>01.30</mes:BudgetLineItemCode>
+			<mes:ItemValue>66666</mes:ItemValue>
+			<mes:Description>text xml upload on zz import new site 1</mes:Description>
+    	</mes:BudgetColumnItemValue>
+    </mes:BudgetColumnItemValues>
+  </mes:Firm>
+</mes:LxERP>
+
+
+
+
+
+

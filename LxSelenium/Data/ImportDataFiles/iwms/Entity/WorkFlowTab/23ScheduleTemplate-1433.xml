@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-1740">
+                <IsValidForAssetContract>false</IsValidForAssetContract>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+                <ProjectEntityID clientID="client-766671">23Template</ProjectEntityID>
+                <TemplateName>23Template</TemplateName>
+                <MapClientSchedule clientID="client-714783">
+                    <LastReviewedDate>2016-11-18T08:39:37</LastReviewedDate>
+                    <ProjectEntityID clientID="client-766671">23Template</ProjectEntityID>
+                    <WorkHolidays>true</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                    <Task clientID="client-2516293">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <ModifiedByID>33574</ModifiedByID>
+                        <ModifiedDate>2016-11-18T08:42:05</ModifiedDate>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-766671">23Template</ProjectEntityID>
+                        <TaskName>Group23</TaskName>
+                        <Task clientID="client-2516294">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <ModifiedByID>33574</ModifiedByID>
+                            <ModifiedDate>2016-11-18T08:42:25</ModifiedDate>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-2516293">Group23</ParentTaskID>
+                            <ProjectEntityID clientID="client-766671">23Template</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Task23A</TaskName>
+                        </Task>
+                        <Task clientID="client-2516295">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <ModifiedByID>33574</ModifiedByID>
+                            <ModifiedDate>2016-11-18T08:42:39</ModifiedDate>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-2516293">Group23</ParentTaskID>
+                            <ProjectEntityID clientID="client-766671">23Template</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Task23B</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

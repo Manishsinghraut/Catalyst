@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Testing-8450</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="qdfsdvxzvs">Testing-8450</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>Testing-8450</ProgramID>
+                        <ProjectEntityID clientID="plbvgsvsbdnmdsd">Testing-8450</ProjectEntityID>
+                        <RegionName>Illinois</RegionName>
+                        <Region>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>Illinois</ParentRegionID>
+                            <ProgramID>Testing-8450</ProgramID>
+                            <ProjectEntityID clientID="fslfavsigtisigdbxkasgv">Testing-8450</ProjectEntityID>
+                            <RegionName>Chicago</RegionName>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID>Testing-8450</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Testing-8450</ProgramID>
+                        <ProjectEntityID clientID="kdvgslgvwslfoqaeofsavfafsnbsk">Testing-8450</ProjectEntityID>
+                        <RegionName>Texas</RegionName>
+                        <Region>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Texas</ParentRegionID>
+                            <ProgramID>Testing-8450</ProgramID>
+                            <ProjectEntityID clientID="egwesgjsllqwfreigeriyusmnvnbsmghf">Testing-8450</ProjectEntityID>
+                            <RegionName>Dallas</RegionName>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID>Testing-8450</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

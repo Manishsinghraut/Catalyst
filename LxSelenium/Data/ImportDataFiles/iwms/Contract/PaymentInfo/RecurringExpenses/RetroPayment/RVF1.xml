@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>RV 1-974</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>RV 1-974</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>Retro location-974</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2013-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <ProgramID>Global</ProgramID>
+                <RentableArea>0.00</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Recurring Expenses</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Water and Sewer</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <PaymentDueDay>1</PaymentDueDay>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>780.00000</AnnualAmount>
+                        <BeginDate>2013-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>65.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>65.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>65.00000</PaymentAmount>
+                        <PaymentRate>0.16000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2013-01-01</BeginDate>
+                        <EndDate>2015-03-15</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        
+                        <VendorID>Vendor A-974</VendorID>
+                    </ExpenseVendorAllocation>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2015-03-16</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        
+                        <VendorID>Vendor B-974</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-16T16:19:26</LastReviewedDate>
+                    
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

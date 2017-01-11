@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+			<Locations>
+            <Location>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>Location B-2206</LocationName>
+                <ProgramID>00018 Portfolio-AUTOMATION-1428</ProgramID>
+              </Location>
+        </Locations>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-09-15</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+					<State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>00018 Location-AUTOMATION-1428</LocationID>
+                <ProgramID>00018 Portfolio-AUTOMATION-1428</ProgramID>
+                <ProjectName>ProjectLocationChange-2206</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-704">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160120_20160215_120923618_33493</mes:ClientID>
+                <mes:PageLayoutName>CustomlistNormalFields</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{}</mes:URL>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:ClientListRGDID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ClientListRGDID>
+                    <mes:FirmID>Selenium-704</mes:FirmID>
+                    <mes:EntitySelectionFilter>131072</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923677_1304165</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160215_120923251_73175">ModifiedByID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Modified By</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435489</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923740_1304166</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823927_72829">math_TotalPrice_0</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:StaticText>72886*x*72887</mes:StaticText>
+                            <mes:FieldContext>TotalPrice</mes:FieldContext>
+                            <mes:DisplayLabel>TotalPrice</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234144</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RGAF_73179":"ClientListRow.Price","CLIENTLISTROW_73178":"CustomListonSite","RGAF_73178":"ClientListRow.Quantity","CLIENTLISTROW_73179":"CustomListonSite","CLIENTLISTROW_72886":"CustomListonSite","RGAF_72886":"ClientListRow.Quantity","RGAF_72887":"ClientListRow.Price","RGAF_73278":"ClientListRow.Quantity","RGAF_73279":"ClientListRow.Price","CLIENTLISTROW_72887":"CustomListonSite","CLIENTLISTROW_73279":"CustomListonSite","CLIENTLISTROW_73278":"CustomListonSite"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923756_1304167</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161824014_72832">DateMath_1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:StaticText>72890*NC5</mes:StaticText>
+                            <mes:FieldContext>Item Delivery Date</mes:FieldContext>
+                            <mes:DisplayLabel>Item Delivery Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234144</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"CLIENTLISTROW_73280":"CustomListonSite","CLIENTLISTROW_72890":"CustomListonSite","CLIENTLISTROW_73182":"CustomListonSite","RGAF_73182":"ClientListRow.Date","RGAF_73280":"ClientListRow.Date","RGAF_72890":"ClientListRow.Date"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923772_1304168</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160215_120923518_73177">Memo</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Memo</mes:DisplayLabel>
+                            <mes:DisplayOption1>32</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923789_1304169</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160215_120923561_73176">Number</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923807_1304170</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823950_72827">Quantity</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Quantity</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234144</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923837_1304171</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161824032_72830">Date</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923852_1304172</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823998_72824">Item Name</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Item Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>33</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923892_1304173</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823966_72826">Price</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Price</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234144</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_120923912_1304174</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_120923618_33493">CustomlistNormalFields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823982_72825">Completed</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Completed</mes:DisplayLabel>
+                            <mes:DisplayOption1>1057</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160120_20160212_161824055_33312</mes:ClientID>
+                <mes:PageLayoutName>CustomListSiteLayout</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{}</mes:URL>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:ClientListRGDID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ClientListRGDID>
+                    <mes:FirmID>Selenium-704</mes:FirmID>
+                    <mes:EntitySelectionFilter>131072</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161824606_1301526</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823927_72829">math_TotalPrice_0</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:StaticText>72827*x*72826</mes:StaticText>
+                            <mes:FieldContext>TotalPrice</mes:FieldContext>
+                            <mes:DisplayLabel>TotalPrice</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"CLIENTLISTROW_72827":"CustomListonSite","CLIENTLISTROW_73178":"CustomListonSite","CLIENTLISTROW_73179":"CustomListonSite","RGAF_72886":"ClientListRow.Quantity","RGAF_72887":"ClientListRow.Price","RGAF_73278":"ClientListRow.Quantity","CLIENTLISTROW_72826":"CustomListonSite","RGAF_73279":"ClientListRow.Price","CLIENTLISTROW_73279":"CustomListonSite","CLIENTLISTROW_73278":"CustomListonSite","RGAF_73179":"ClientListRow.Price","RGAF_73178":"ClientListRow.Quantity","CLIENTLISTROW_72886":"CustomListonSite","CLIENTLISTROW_72887":"CustomListonSite","RGAF_72826":"ClientListRow.Price","RGAF_72827":"ClientListRow.Quantity"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161824817_1301527</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823966_72826">Price</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Price</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161824835_1301528</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823982_72825">Completed</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Completed</mes:DisplayLabel>
+                            <mes:DisplayOption1>1057</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161824856_1301529</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823950_72827">Quantity</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Quantity</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161824876_1301530</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823998_72824">Item Name</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Item Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>33</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161824896_1301531</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161824014_72832">DateMath_1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:StaticText>72830*NC5</mes:StaticText>
+                            <mes:FieldContext>Item Delivery Date</mes:FieldContext>
+                            <mes:DisplayLabel>Item Delivery Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"CLIENTLISTROW_73280":"CustomListonSite","CLIENTLISTROW_72890":"CustomListonSite","RGAF_72830":"ClientListRow.Date","CLIENTLISTROW_73182":"CustomListonSite","RGAF_73182":"ClientListRow.Date","RGAF_73280":"ClientListRow.Date","RGAF_72890":"ClientListRow.Date","CLIENTLISTROW_72830":"CustomListonSite"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161824917_1301532</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161824032_72830">Date</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>33</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160120_20160215_150242173_33549</mes:ClientID>
+                <mes:PageLayoutName>Report on Custom List Entity Page</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{"SecEntityInclude":0,"AllowInPlaceEdit":true}</mes:URL>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>SM</mes:OutputType>
+                    <mes:PageLayoutType>R</mes:PageLayoutType>
+                    <mes:FirmID>Selenium-704</mes:FirmID>
+                    <mes:EntitySelectionFilter>131076</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>8192</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242297_1304393</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>9</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242345_1304394</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823859_72835">CustomListEntity</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="SQL152_Test_10_20160120_20160212_161824055_33312">CustomListSiteLayout</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>EntityCL</mes:DisplayLabel>
+                            <mes:DisplayOption1>2</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242476_518352</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904487_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242536_518353</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_476">JurisdictionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242550_518354</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_106">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242564_518355</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1026">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242579_518356</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_108">SubRegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242601_518357</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242615_518358</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_113">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242628_518359</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaType1>3</mes:CriteriaType1>
+                            <mes:CriteriaValue1>SiteEntityForCL</mes:CriteriaValue1>
+                            <mes:CriteriaValueList>
+                                <mes:CriteriaValue>SiteEntityForCL</mes:CriteriaValue>
+                            </mes:CriteriaValueList>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242643_518360</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160212_161823859_72835">CustomListEntity</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242662_518361</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_109">CityStateProvinceCountry</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160215_150242679_518362</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160215_150242173_33549">Report on Custom List Entity Page</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_110">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                </mes:PageLayoutFilters>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_452</mes:ClientID>
+                <mes:ReportGroupDataName>Summary Information</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>lucernex-db01_IWMS_Production_SAN_20100420_202355689_1588</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_452">Summary Information</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Custom Lists</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161823859_72835</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="lucernex-db01_IWMS_Production_SAN_20100420_202355689_1588">Custom Lists</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>EntityCL</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ProjectEntity</mes:CodeSQLTableID>
+                                    <mes:ClientListRGDID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ClientListRGDID>
+                                    <mes:AccessorName>CustomListEntity</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>323</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_898</mes:ClientID>
+                <mes:ReportGroupDataName>Custom Lists</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160212_161823390_5880</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_898">Custom Lists</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>CustomListonSite</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-704</mes:FirmID>
+                            <mes:CLRExtensionCodeSQLTableID>ClientListRow</mes:CLRExtensionCodeSQLTableID>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160215_120923251_73175</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Modified By</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:AccessorName>ModifiedByID</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>200</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161823927_72829</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>TotalPrice</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_TotalPrice_0</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>108</mes:FormFieldType>
+                                    <mes:FieldText>73278*x*73279</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                    <mes:JSONConfigText>{"RGAF_73278":"ClientListRow.Quantity","RGAF_73279":"ClientListRow.Price","CLIENTLISTROW_73279":"CustomListonSite","CLIENTLISTROW_73278":"CustomListonSite"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161823966_72826</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Price</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>2</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161823950_72827</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Quantity</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161824014_72832</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Item Delivery Date</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:AccessorName>DateMath_1</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>109</mes:FormFieldType>
+                                    <mes:FieldText>73280*NC5</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                    <mes:JSONConfigText>{"CLIENTLISTROW_73280":"CustomListonSite","RGAF_73280":"ClientListRow.Date"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161824032_72830</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Date</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>4</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160215_120923518_73177</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Memo</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>5</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160215_120923561_73176</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Number</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161823998_72824</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Item Name</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160212_161823982_72825</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160212_161823390_5880">CustomListonSite</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Completed</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-704</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>10</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

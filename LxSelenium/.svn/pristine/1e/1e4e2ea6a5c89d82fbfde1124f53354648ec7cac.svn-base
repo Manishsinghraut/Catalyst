@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+	<CodeTables>
+               <!--  CodeSLSchedule must be explicitly created and listed before used -->
+                 
+        	       <!--  CodeSLSchedule must be explicitly created and listed before used -->
+        	        <CodeSLSchedule clientID="sched_baserent">
+        	    	<ShortName>Base Rent SL</ShortName>
+        	        			</CodeSLSchedule>
+        	        			<CodeExpenseType clientID="etype_baserent">
+        	    			<ShortName>Rent</ShortName>
+        	    			<ParentCodeExpenseGroupID>Base Rent</ParentCodeExpenseGroupID>
+        	    			<CodeSLScheduleID>Base Rent SL</CodeSLScheduleID>
+        	        		</CodeExpenseType>
+        </CodeTables>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>4234234</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Straight Line Amortize Pro-rate Per Period Contract option NO</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2035-12-31</ExecuteDate>
+                <ExpireDate>2035-12-31</ExpireDate>
+                <LocationID>000056</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2035-12-31</PaymentsEndDate>
+                <ProgramID>Financial Settings Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-vb608517">Straight Line Amortize Pro-rate Per Period Contract option NO</ProjectEntityID>
+                <RentableArea>70000.00000</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Annually</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>70000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>100000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2035-12-31</EndDate>
+                        <FirstPaymentAmount>100000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>100000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>100000.00000</PaymentAmount>
+                        <PaymentRate>0.00</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>vb608517</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-02-22T13:03:41</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

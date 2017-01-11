@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Secure, Design and Build">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453426_5032</mes:ClientID>
+                <mes:PageLayoutName>Allowance</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{"SecEntityInclude":0}</mes:URL>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>false</mes:IsGlobalReport>
+                    <mes:OutputType>S</mes:OutputType>
+                    <mes:PageLayoutType>R</mes:PageLayoutType>
+                    <mes:CodeCurrencyTypeID>USD</mes:CodeCurrencyTypeID>
+                    <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                    <mes:EntitySelectionFilter>163840</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>8192</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453501_669521</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>9</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:ConfigJSON>{"GroupRowShowLabel":"false"}</mes:ConfigJSON>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453527_669522</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455528_4">CodeAllowanceGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:DisplayLabel>Allowance Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:ConfigJSON>{"GroupRowShowLabel":"false"}</mes:ConfigJSON>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453557_669523</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455528_5">CodeAllowanceTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:DisplayLabel>Allowance Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:ConfigJSON>{"GroupRowShowLabel":"false"}</mes:ConfigJSON>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453575_669524</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455528_11">EndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:DisplayLabel>End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:ConfigJSON>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:ConfigJSON>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453593_669525</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455543_3">DueDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:DisplayLabel>Due Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:ConfigJSON>{"GroupRowShowLabel":"false"}</mes:ConfigJSON>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453611_669526</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455543_2">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:ConfigJSON>{"GroupRowShowLabel":"false"}</mes:ConfigJSON>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453629_669527</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455543_1">AllowanceID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:DisplayLabel>Allowance</mes:DisplayLabel>
+                            <mes:DisplayOption1>8</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:ConfigJSON>{"GroupRowShowLabel":"false"}</mes:ConfigJSON>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453684_28709</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_476">JurisdictionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453707_28710</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_106">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453724_28711</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1026">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453738_28712</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453754_28713</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_522">Years</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453769_28714</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_521">AllQuarters</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453784_28715</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_Dev_910_20111227_171619090_0">Month</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453807_28716</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_110">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453824_28717</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_109">CityStateProvinceCountry</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453845_28718</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_526">AllMonths</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453862_28719</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455528_4">CodeAllowanceGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453876_28720</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455528_5">CodeAllowanceTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453891_28721</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_108">SubRegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453905_28722</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_113">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453919_28723</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_7.2.0_20100909_140939536_0">AllPeriods</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453944_28724</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455528_11">EndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaType1>26</mes:CriteriaType1>
+                            <mes:CriteriaValue1>2013</mes:CriteriaValue1>
+                            <mes:CriteriaValueList>
+                                <mes:CriteriaValue>2013</mes:CriteriaValue>
+                            </mes:CriteriaValueList>
+                            <mes:CriteriaType2>27</mes:CriteriaType2>
+                            <mes:CriteriaValue2>2019</mes:CriteriaValue2>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453959_28725</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455543_3">DueDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453974_28726</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152453987_28727</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455543_2">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152454001_28728</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904487_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>192.168.123.194_Dev_Trunk_20130204_152454016_28729</mes:ClientID>
+                        <mes:PageLayoutID ClientID="192.168.123.194_Dev_Trunk_20130204_152453426_5032">Allowance</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_175455543_1">AllowanceID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Secure, Design and Build</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                </mes:PageLayoutFilters>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

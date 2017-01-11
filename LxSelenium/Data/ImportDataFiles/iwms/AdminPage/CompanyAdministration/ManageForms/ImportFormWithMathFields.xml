@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-B1.34">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728659_34519</mes:ClientID>
+                <mes:PageLayoutName>Import Form with math fields</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:JSONConfigText>{"useHTMLEmail":"","MinPopupWindowWidth":"","EmailBody":"","hasCustomEmail":"false","EmailTitle":""}</mes:JSONConfigText>
+                    <mes:AllowUserCreate>true</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="SQL152_Test_10_20160120_20160302_150728066_6977">Import Form with math fields</mes:CodeIssueTypeID>
+                    <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160302_150728717_1312599</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160302_150728659_34519">Import Form with math fields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160302_150728514_74863">B</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                            <mes:DisplayLabel>B</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160302_150728769_1312600</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160302_150728659_34519">Import Form with math fields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160302_150728574_74864">math_ADivB_1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                            <mes:StaticText>74862*/*74863</mes:StaticText>
+                            <mes:DisplayLabel>ADivB</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160302_150728785_1312601</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160302_150728659_34519">Import Form with math fields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160302_150728608_74870">Subject</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                            <mes:DisplayLabel>Title</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160302_150728815_1312602</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160302_150728659_34519">Import Form with math fields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160302_150728624_74869">math_ADivBx10Percentage_3</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                            <mes:StaticText>74862*/*74863*x*NC10</mes:StaticText>
+                            <mes:DisplayLabel>ADivBx10 Percentage</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>6</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160302_150728850_1312603</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160302_150728659_34519">Import Form with math fields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160302_150728641_74865">math_AplusB_2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                            <mes:StaticText>74862*+*74863</mes:StaticText>
+                            <mes:DisplayLabel>AplusB</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160302_150728896_1312604</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160302_150728659_34519">Import Form with math fields</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160302_150728592_74862">A</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                            <mes:DisplayLabel>A</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_61</mes:ClientID>
+                <mes:ReportGroupDataName>Forms</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160302_150728471_6873</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_61">Forms</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>Import Form with math fields</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                            <mes:CodeIssueTypeID ClientID="SQL152_Test_10_20160120_20160302_150728066_6977">Import Form with math fields</mes:CodeIssueTypeID>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728514_74863</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160302_150728471_6873">Import Form with math fields</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>B</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728574_74864</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160302_150728471_6873">Import Form with math fields</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>ADivB</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_ADivB_1</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>108</mes:FormFieldType>
+                                    <mes:FieldText>74862*/*74863</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:JSONConfigText>{"RGAF_74862":"Issue.A","ISSUETYPE_74863":"Import Form with math fields","RGAF_74863":"Issue.B","ISSUETYPE_74862":"Import Form with math fields"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728592_74862</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160302_150728471_6873">Import Form with math fields</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>A</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728608_74870</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160302_150728471_6873">Import Form with math fields</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Title</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>Subject</mes:AccessorName>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>1</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728624_74869</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160302_150728471_6873">Import Form with math fields</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>ADivBx10 Percentage</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_ADivBx10Percentage_3</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>117</mes:FormFieldType>
+                                    <mes:FieldText>74862*/*74863*x*NC10</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:JSONConfigText>{"RGAF_74862":"Issue.A","ISSUETYPE_74863":"Import Form with math fields","RGAF_74863":"Issue.B","ISSUETYPE_74862":"Import Form with math fields"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728641_74865</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160302_150728471_6873">Import Form with math fields</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>AplusB</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B1.34</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_AplusB_2</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>106</mes:FormFieldType>
+                                    <mes:FieldText>74862*+*74863</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:JSONConfigText>{"RGAF_74862":"Issue.A","ISSUETYPE_74863":"Import Form with math fields","RGAF_74863":"Issue.B","ISSUETYPE_74862":"Import Form with math fields"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms>
+            <mes:Form>
+                <mes:ClientID>SQL152_Test_10_20160120_20160302_150728066_6977</mes:ClientID>
+                <mes:ShortName>Import Form with math fields</mes:ShortName>
+                <mes:IsWorkFlow>false</mes:IsWorkFlow>
+                <mes:AutoClose>false</mes:AutoClose>
+                <mes:AllowReply>true</mes:AllowReply>
+                <mes:DerivedCodeSQLTableID>Issue</mes:DerivedCodeSQLTableID>
+                <mes:IsSequencePerFirm>false</mes:IsSequencePerFirm>
+                <mes:IsValidForCapProgram>true</mes:IsValidForCapProgram>
+                <mes:IsValidForPortfolio>true</mes:IsValidForPortfolio>
+                <mes:IsValidForPrototype>true</mes:IsValidForPrototype>
+                <mes:IsValidForPotentialProject>true</mes:IsValidForPotentialProject>
+                <mes:IsValidForOpenProject>true</mes:IsValidForOpenProject>
+                <mes:IsValidForCapProject>true</mes:IsValidForCapProject>
+                <mes:IsValidForFacility>true</mes:IsValidForFacility>
+                <mes:IsValidForLocation>true</mes:IsValidForLocation>
+                <mes:IsValidForParcel>true</mes:IsValidForParcel>
+                <mes:IsValidForContract>true</mes:IsValidForContract>
+            </mes:Form>
+        </mes:Forms>
+    </mes:Firm>
+</mes:LxERP>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract clientID="client_AD01">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>2055</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Recoveries_Adjustment Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client_AD02">Recoveries_Adjustment Contract</ProjectEntityID>
+                <ExpenseRecovery>
+                    <ApprovedAdjustmentAmount>0.00</ApprovedAdjustmentAmount>
+                    <ApprovedAdminFeePercentage>0.00</ApprovedAdminFeePercentage>
+                    <ApprovedCapAmountNoZeroDef>1000000.00000</ApprovedCapAmountNoZeroDef>
+                    <ApprovedGLA>15000.00000</ApprovedGLA>
+                    <ApprovedPrePaidAmount>6000.00000</ApprovedPrePaidAmount>
+                    <ApprovedProRataShareRate>33.00000</ApprovedProRataShareRate>
+                    <ApprovedRentableArea>5000.00000</ApprovedRentableArea>
+                    <BeginDate>2014-01-01</BeginDate>
+                    <BudgetedAdminFeePercentage>0.00</BudgetedAdminFeePercentage>
+                    <BudgetedCapAmountNoZeroDef>1000000.00000</BudgetedCapAmountNoZeroDef>
+                    <BudgetedGLA>15000.00000</BudgetedGLA>
+                    <BudgetedPrePaidAmount>0.00</BudgetedPrePaidAmount>
+                    <BudgetedProRataShareRate>33.00000</BudgetedProRataShareRate>
+                    <BudgetedRentableArea>5000.00000</BudgetedRentableArea>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCalculationMethodID>Passthrough</CodeCalculationMethodID>
+                    <CodeEscalationPaymentMethodID>Check</CodeEscalationPaymentMethodID>
+                    <CodeExpRecBasedOnID>Actual</CodeExpRecBasedOnID>
+                    <CodeExpenseGroupID>Lease</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>CAM</CodeExpenseTypeID>
+                    <CodeRecoveryGroupID>CAM</CodeRecoveryGroupID>
+                    <CodeRecoveryTypeID>Interior</CodeRecoveryTypeID>
+                    <EndDate>2014-12-31</EndDate>
+                    <ProjectEntityID>2056</ProjectEntityID>
+                    <ReconciledFlag>true</ReconciledFlag>
+                    <RecoveryPeriodDaysNoZeroDef>365</RecoveryPeriodDaysNoZeroDef>
+                    <ReportedAdjustmentAmount>0.00</ReportedAdjustmentAmount>
+                    <ReportedAdminFeePercentage>0.00</ReportedAdminFeePercentage>
+                    <ReportedCapAmountNoZeroDef>1000000.00000</ReportedCapAmountNoZeroDef>
+                    <ReportedGLA>15000.00000</ReportedGLA>
+                    <ReportedPrePaidAmount>0.00</ReportedPrePaidAmount>
+                    <ReportedProRataShareRate>33.00000</ReportedProRataShareRate>
+                    <ReportedRentableArea>5000.00000</ReportedRentableArea>
+                    <ExpenseRecoveryItem>
+                        <ApprovedAmount>30000.00000</ApprovedAmount>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoveryItemGroupID>Interior</CodeRecoveryItemGroupID>
+                        <CodeRecoveryItemTypeID>Cleaning</CodeRecoveryItemTypeID>
+                        <CodeRecoverySectionID>Controllable Expenses</CodeRecoverySectionID>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <ReportedAmount>30000.00000</ReportedAmount>
+                    </ExpenseRecoveryItem>
+                    <ExpenseRecoveryItem>
+                        <ApprovedAdminFeePrcntNoZeroDef>10.00000</ApprovedAdminFeePrcntNoZeroDef>
+                        <ApprovedAmount>55000.00000</ApprovedAmount>
+                        <ApprovedCapPercentNoZeroDef>5.00000</ApprovedCapPercentNoZeroDef>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoveryItemGroupID>Exterior</CodeRecoveryItemGroupID>
+                        <CodeRecoveryItemTypeID>Landscape</CodeRecoveryItemTypeID>
+                        <CodeRecoverySectionID>Controllable Expenses</CodeRecoverySectionID>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <ReportedAmount>55000.00000</ReportedAmount>
+                    </ExpenseRecoveryItem>
+                    <ExpenseRecoveryItem>
+                        <ApprovedAmount>36000.00000</ApprovedAmount>
+                        <ApprovedCapAmountNoZeroDef>500.00000</ApprovedCapAmountNoZeroDef>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoveryItemGroupID>Exterior</CodeRecoveryItemGroupID>
+                        <CodeRecoveryItemTypeID>Parking Lot Maintenance</CodeRecoveryItemTypeID>
+                        <CodeRecoverySectionID>Controllable Expenses</CodeRecoverySectionID>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <ReportedAmount>36000.00000</ReportedAmount>
+                    </ExpenseRecoveryItem>
+                    <ExpenseRecoveryItem>
+                        <ApprovedAdminFeePrcntNoZeroDef>5.00000</ApprovedAdminFeePrcntNoZeroDef>
+                        <ApprovedAmount>60000.00000</ApprovedAmount>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoveryItemGroupID>Interior</CodeRecoveryItemGroupID>
+                        <CodeRecoveryItemTypeID>Security</CodeRecoveryItemTypeID>
+                        <CodeRecoverySectionID>Non-controllable Expenses</CodeRecoverySectionID>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <ReportedAmount>60000.00000</ReportedAmount>
+                    </ExpenseRecoveryItem>
+                    <ExpenseRecoveryItem>
+                        <ApprovedAmount>45000.00000</ApprovedAmount>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoveryItemGroupID>Exterior</CodeRecoveryItemGroupID>
+                        <CodeRecoveryItemTypeID>Snow Removal</CodeRecoveryItemTypeID>
+                        <CodeRecoverySectionID>Non-controllable Expenses</CodeRecoverySectionID>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <ReportedAmount>45000.00000</ReportedAmount>
+                    </ExpenseRecoveryItem>
+                    <ExpenseRecoveryItem>
+                        <ApprovedAmount>1000.00000</ApprovedAmount>
+                        <BudgetedAmount>1000.00000</BudgetedAmount>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoveryItemGroupID>Exterior</CodeRecoveryItemGroupID>
+                        <CodeRecoveryItemTypeID>Landscape</CodeRecoveryItemTypeID>
+                        <CodeRecoverySectionID>Deductions</CodeRecoverySectionID>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <ReportedAmount>1000.00000</ReportedAmount>
+                    </ExpenseRecoveryItem>
+                    <ExpenseRecoveryItem>
+                        <ApprovedAdminFeePrcntNoZeroDef>10.00000</ApprovedAdminFeePrcntNoZeroDef>
+                        <ApprovedAmount>0.00</ApprovedAmount>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoveryItemGroupID>Interior</CodeRecoveryItemGroupID>
+                        <CodeRecoveryItemTypeID>Security</CodeRecoveryItemTypeID>
+                        <CodeRecoverySectionID>Administration Fees</CodeRecoverySectionID>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                    </ExpenseRecoveryItem>
+                </ExpenseRecovery>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>CAM</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>2056</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>2000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>2000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>2056</ProjectEntityID>
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+              </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

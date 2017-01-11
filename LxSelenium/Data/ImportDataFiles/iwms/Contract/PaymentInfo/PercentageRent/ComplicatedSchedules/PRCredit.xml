@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract clientID="client-124595">
+                <ContractID>124595</ContractID>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>CR001</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>PR Credit</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="client-118338">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-568935">PR Credit</ProjectEntityID>
+                <RentableArea>5000.00000</RentableArea>
+                <math_Total_0>0.0</math_Total_0>
+                <ExpenseSetup clientID="client-700322">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>568935</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseVendorAllocation clientID="client-877907">
+                        <BeginDate>2010-01-01</BeginDate>
+                        <EndDate>2030-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>568935</ProjectEntityID>
+                        <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule clientID="client-518126">
+                    <LastReviewedDate>2015-08-12T10:48:02</LastReviewedDate>
+                    <ProjectEntityID>568935</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>true</WorkWeekends>
+                </MapClientSchedule>
+                <PaymentTransaction clientID="client-34342131">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2014-05-15</DueDate>
+                    <EffectiveDate>2014-05-15</EffectiveDate>
+                    <EffectiveEndDate>2014-05-15</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>10000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-05-15</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>568935</ProjectEntityID>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <TaxAmount3>0.00</TaxAmount3>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>10000.00000</TotalAmount>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </PaymentTransaction>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

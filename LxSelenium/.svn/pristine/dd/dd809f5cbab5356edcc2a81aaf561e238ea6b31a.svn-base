@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-PR.66">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113733937_3251</mes:ClientID>
+                <mes:PageLayoutName>Parcel List</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>false</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lxdfwseml001~BBTestRM~3245~1253762292250">Tenant Occupants</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Parcel</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113832265_649893</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1718">CodeParcelGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113832343_649894</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1720">ParcelNumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113832421_649895</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1722">CodeParcelTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113832500_649896</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1717">CodeParcelCategoryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Category</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113832578_649897</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1719">ParcelName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113832656_649898</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1723">CodeParcelUseID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Use</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_BBTestRM_20091110_113832734_649909</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1721">CodeParcelStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Status</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>9</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111104140_659953</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1706">CodeLandAreaUnitID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Area Unit</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111104171_659954</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1716">ParcelArea</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Parcel Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785</mes:ClientID>
+                <mes:PageLayoutName>Facility List</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>false</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Facility</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838390_657196</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1628">CodeFacilityCategoryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Facility Category</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838406_657197</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1632">CodeFacilityTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Facility Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838421_657198</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1671">RentableArea</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Rentable Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217765</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838437_657199</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1629">CodeFacilityGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Facility Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102968_659574</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1630">FacilityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Facility Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100820_111102984_659576</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1631">CodeFacilityStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Facility Status</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql152_Dev_Trunk_20140917_230455012_683321</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1868">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Facility ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>lucernex-db01_IWMS_Production_SAN_20100429_094013175_3210</mes:ClientID>
+                <mes:PageLayoutName>Photo</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013206_3077">Slide Show</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>ProjectEntity</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db01_IWMS_Production_SAN_20100429_094013753_651767</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013175_3210">Photo</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1320">EntityPhoto</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Photo</mes:DisplayLabel>
+                            <mes:DisplayOption1>67109120</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006299_4191</mes:ClientID>
+                <mes:PageLayoutName>Location General Info</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110119_092941389_4192">Jurisdiction, Tax Parcel Information</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Location</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006319_659969</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1546">LocationName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Location Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>264</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006338_659970</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Primary Use</mes:StaticText>
+                            <mes:DisplayLabel>Primary Use</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006356_659971</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Area Measurement</mes:StaticText>
+                            <mes:DisplayLabel>Area Measurement</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006375_659972</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1550">CodeLocationUseID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Location Use</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006394_659973</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1580">ProjectDescription</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006412_659974</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Description</mes:StaticText>
+                            <mes:DisplayLabel>Description</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006431_659975</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20090925_191637494_5">CodeBuildingAreaUnitID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Building Area Unit</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006450_659976</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>&lt;span class='reqdLabel'>Name&lt;/span></mes:StaticText>
+                            <mes:DisplayLabel>&lt;span class='reqdLabel'>Name&lt;/span></mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>536871072</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006468_659978</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Center / Complex</mes:StaticText>
+                            <mes:DisplayLabel>Center / Complex</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006486_659979</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_BBTestRM_20091012_125408593_6">OpenYear</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Open Year</mes:DisplayLabel>
+                            <mes:DisplayOption1>268435712</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006509_659980</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100602_162135965_0">GrossLeaseArea</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Gross Lease Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006529_659981</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Gross Leasable Area</mes:StaticText>
+                            <mes:DisplayLabel>Gross Leasable Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006548_659982</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Year Open</mes:StaticText>
+                            <mes:DisplayLabel>Year Open</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110330_133006567_659983</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1577">ComplexID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Complex Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20111129_142049806_666102</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Parcel Area</mes:StaticText>
+                            <mes:DisplayLabel>Parcel Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20111129_142049813_666107</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:StaticText>Area Measurement</mes:StaticText>
+                            <mes:DisplayLabel>Area Measurement</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20111129_142049819_666108</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20111122_171342038_0">CodeLandAreaUnitID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Area Measurement</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20111129_142049825_666109</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="F">LocationParcelArea</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Location Parcel Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_DEV_Dev_Trunk_20160825_135559314_1622103</mes:ClientID>
+                        <mes:PageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="INNAPC_Dev_Trunk_20160809_162654156_0">EntityEmail</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Entity Email</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787</mes:ClientID>
+                <mes:PageLayoutName>Contract List</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>false</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>E</mes:PageLayoutType>
+                    <mes:PreviousPageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161725109_3789">Parcel Wizard</mes:PreviousPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Contract</mes:PrimaryCodeSQLTableID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838281_657204</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1750">ContractName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838296_657205</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1751">CodeContractStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Contract Status</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>9</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838296_657206</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1753">CodeContractUseID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Use</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838312_657207</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1758">ExpireDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Expire Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838328_657208</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1749">CodeContractGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838343_657209</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1774">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Contract Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838359_657210</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1748">CodeContractCategoryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Category</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>LXDFWSEML001_Dev_7.1.2_20100802_161838359_657211</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1752">CodeContractTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Contract Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>lucernex-db02_Dev_Trunk_20110315_213800561_660004</mes:ClientID>
+                        <mes:PageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100602_162135953_0">OptionDescription</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:DisplayLabel>Options</mes:DisplayLabel>
+                            <mes:DisplayOption1>37</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490</mes:ClientID>
+                <mes:PageLayoutName>Summary Page Location 15688</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>V</mes:PageLayoutType>
+                    <mes:ParentPageLayoutID ClientID="lxdfwseml001~BBTestRM~3087~1253762287859">Summary</mes:ParentPageLayoutID>
+                    <mes:PrimaryCodeSQLTableID>Location</mes:PrimaryCodeSQLTableID>
+                    <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558690_1464321</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1561">CodeSubRegion1ID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Sub Region1</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558706_1464322</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1555">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Region</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558721_1464323</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1570">StreetAddress2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Street Address 2</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558738_1464324</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1562">CodeSubRegion2ID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Sub Region2</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558754_1464325</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1569">StreetAddress1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Address</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558770_1464326</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1567">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>State</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>2</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558787_1464327</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1559">CodeSubArea2ID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Sub Area2</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558803_1464328</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1587">StreetAddress4</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Street Address4</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558819_1464329</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1558">CodeSubArea1ID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Sub Area1</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>7</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558835_1464330</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1586">StreetAddress3</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Street Address3</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>8</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558850_1464331</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1571">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Zip</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558864_1464332</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1564">City</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>City</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558888_1464333</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1584">CountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Country</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558904_1464334</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Distribution</mes:StaticText>
+                            <mes:DisplayLabel>Distribution</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>12</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558919_1464335</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1581">OrganizationID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Organization</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>18</mes:EditRowPosition>
+                            <mes:EditFieldWidth>3</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558934_1464336</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Center / Complex Size</mes:StaticText>
+                            <mes:DisplayLabel>Center / Complex Size</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>14</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558949_1464337</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_70">ThirdPartyWarehouse</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Third-Party Warehouse</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558975_1464338</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Organization Information</mes:StaticText>
+                            <mes:DisplayLabel>Organization Information</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>17</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093558990_1464339</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1583">ThirdPartyWarehouseArea</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Warehouse Size</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>13</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559005_1464340</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1573">AccountingNumber</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Acct. Ref#</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>18</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559020_1464341</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Address</mes:StaticText>
+                            <mes:DisplayLabel>Address</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559034_1464342</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Region / Area Groups</mes:StaticText>
+                            <mes:DisplayLabel>Region / Area Groups</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>5</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559050_1464343</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1549">CodeLocationTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559065_1464344</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1548">CodeLocationStatusID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Status</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559079_1464345</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1545">CodeLocationGroupID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Group</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559095_1464346</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Location Summary</mes:StaticText>
+                            <mes:DisplayLabel>Location Summary</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559109_1464347</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1539">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Location ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559125_1464348</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1544">CodeLocationCategoryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Category</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>2</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559139_1464349</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1553">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Portfolio</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554440</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>3</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559154_1464350</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Comments</mes:StaticText>
+                            <mes:DisplayLabel>Comments</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>27</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559168_1464351</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100402_184104118_0">Notes</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Notes</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>28</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>4</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559183_1464352</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1318">OneToManyList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="LXDFWSEML001_BBTestRM_20091110_113733937_3251">Parcel List</mes:SubPageLayoutID>
+                            <mes:FieldContext>Parcel List</mes:FieldContext>
+                            <mes:DisplayLabel>Parcel List</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>20</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559199_1464353</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Parcels</mes:StaticText>
+                            <mes:DisplayLabel>Parcels</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>19</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559215_1464354</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1318">OneToManyList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838375_3785">Facility List</mes:SubPageLayoutID>
+                            <mes:FieldContext>Facility List</mes:FieldContext>
+                            <mes:DisplayLabel>Facility List</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>22</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559231_1464355</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Facilities</mes:StaticText>
+                            <mes:DisplayLabel>Facilities</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>21</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559245_1464356</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Contracts</mes:StaticText>
+                            <mes:DisplayLabel>Contracts</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>268435744</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>23</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559261_1464357</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100602_162135964_0">CodeCurrencyTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Currency</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>10</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559276_1464358</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="lucernex-db01_IWMS_Production_SAN_20100429_094013175_3210">Photo</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Sub Edit Form</mes:DisplayLabel>
+                            <mes:DisplayOption1>4112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559292_1464359</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1314">SubEditForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="lucernex-db02_Dev_Trunk_20110330_133006299_4191">Location General Info</mes:SubPageLayoutID>
+                            <mes:DisplayLabel>Sub Edit Form</mes:DisplayLabel>
+                            <mes:DisplayOption1>4112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>4</mes:EditRowPosition>
+                            <mes:EditFieldWidth>4</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559308_1464360</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100121_033112520_6">GrossLeaseArea</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Gross Leasable Area</mes:DisplayLabel>
+                            <mes:DisplayOption1>301989888</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559322_1464361</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100121_033112535_8">OccupancyPercentage</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Occupancy Percentage</mes:DisplayLabel>
+                            <mes:DisplayOption1>301989888</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559338_1464362</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100121_033112520_5">GLAExcludingAnchors</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Gla Excluding Anchors</mes:DisplayLabel>
+                            <mes:DisplayOption1>301989888</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>16</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559359_1464363</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1318">OneToManyList</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="LXDFWSEML001_Dev_7.1.2_20100802_161838265_3787">Contract List</mes:SubPageLayoutID>
+                            <mes:FieldContext>Contract List</mes:FieldContext>
+                            <mes:DisplayLabel>Contract List</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>24</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559375_1464364</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20110314_162229964_0">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Market</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>6</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":""}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559389_1464365</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Applicable Tax Rates for Generated Payments:</mes:StaticText>
+                            <mes:DisplayLabel>Applicable Tax Rates for Generated Payments:</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>160</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>25</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559405_1464366</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20110803_180352321_0">TaxRate2</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Secondary Tax/PST</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>4</mes:EditColumnPosition>
+                            <mes:EditRowPosition>25</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":"3"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559419_1464367</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20110803_180352320_0">TaxRate1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Primary Tax/Sales/GST/HST</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>25</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"NumberOfDecimals":"3"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559435_1464368</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_510">StaticText</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:StaticText>Please note: the following information comes from the related Center record and is presented here as read-only.</mes:StaticText>
+                            <mes:DisplayLabel>Please note: the following information comes from the related Center record and is presented here as read-only.</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>2176</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>15</mes:EditRowPosition>
+                            <mes:EditFieldWidth>6</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559449_1464369</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="127.0.0.1_Dev_Trunk_20120819_214543853_0">HELP</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>https://vimeo.com/45644794</mes:DisplayLabel>
+                            <mes:DisplayOption1>256</mes:DisplayOption1>
+                            <mes:DisplayOption2>536870912</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>6</mes:EditColumnPosition>
+                            <mes:EditRowPosition>32</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559496_1464370</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20140123_213128224_1">LongitudeDegrees</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Longitude</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>3</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"","NumberOfDecimals":"5"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559513_1464371</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20140123_213128223_0">LatitudeDegrees</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Latitude</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>9</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"EditModeDefaultValue":"","FieldValidationMaxValue":"","FieldValidationMinValue":"","NumberOfDecimals":"5"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559527_1464372</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="WALDO_Dev_Trunk_20150502_210225093_1">TaxRate3</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Tertiary Tax</mes:DisplayLabel>
+                            <mes:DisplayOption1>134217728</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>25</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559541_1464373</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="WALDO_Dev_Trunk_20160316_013538151_0">TimeZone</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>Time Zone</mes:DisplayLabel>
+                            <mes:DisplayOption1>33554432</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>5</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>2</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL153/SQL_TEST_TestB_20160727_20161003_093559556_1464374</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL153/SQL_TEST_TestB_20160727_20161003_093558672_43490">Summary Page Location 15688</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="sql101_IWMS_Production_SAN_20140214_163238917_360">strCounty</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                            <mes:DisplayLabel>County</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>11</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_452</mes:ClientID>
+                <mes:ReportGroupDataName>Summary Information</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>ERP_453</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_452">Summary Information</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>General Summary Information</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:Description/>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>sql101_IWMS_Production_SAN_20140214_163238917_360</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="ERP_453">General Summary Information</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>County</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-PR.66</mes:FirmID>
+                                    <mes:CodeSQLTableID>ProjectEntity</mes:CodeSQLTableID>
+                                    <mes:AccessorName>strCounty</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>317</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:IsReadOnly>false</mes:IsReadOnly>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

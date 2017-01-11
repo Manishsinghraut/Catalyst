@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-14</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020</LocationID>
+                <ProgramID>Portfolio 00020</ProgramID>
+                <ProjectEntityID clientID="client-ew">UploadZipFile</ProjectEntityID>
+                <ProjectName>UploadZipFile</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PR020</RegionID>
+                <RegionLvl1>PR020</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                <Folder>
+                    <FolderName>UploadaZipFile</FolderName>
+                    <IsFolderDownloadableByMember>true</IsFolderDownloadableByMember>
+                    <IsFolderReadableByMember>true</IsFolderReadableByMember>
+                    <IsFolderUploadOnlyByMember>false</IsFolderUploadOnlyByMember>
+                    <IsFolderUploadableByMember>true</IsFolderUploadableByMember>
+                    </Folder>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

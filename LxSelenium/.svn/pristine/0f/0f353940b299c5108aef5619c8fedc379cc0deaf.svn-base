@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <PotentialProjects>
+            <PotentialProject>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-06-17</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>CT</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <PotentialProjectName>Site Schedule SS</PotentialProjectName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-SS-636">Site Schedule SS</ProjectEntityID>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-06-17T12:44:26</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </PotentialProject>
+        </PotentialProjects>
+    </Firm>
+</LxERP>

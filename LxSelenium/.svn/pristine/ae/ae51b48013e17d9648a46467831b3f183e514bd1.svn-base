@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>SDPortfolio-8449</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+				                <Folder>
+                    <FolderName>SeleniumTestRootFolder1</FolderName>
+                    <IsFolderDownloadableByMember>true</IsFolderDownloadableByMember>
+                    <IsFolderReadableByMember>true</IsFolderReadableByMember>
+                    <IsFolderUploadOnlyByMember>false</IsFolderUploadOnlyByMember>
+                    <IsFolderUploadableByMember>true</IsFolderUploadableByMember>
+                    <ModifiedByID>Delete Access Access</ModifiedByID>
+                    <ModifiedDate>2016-08-05T14:12:19</ModifiedDate>
+                    <SubFolderPath>/SeleniumTestRootFolder1</SubFolderPath>
+                </Folder>
+				                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>SDPortfolio-8449</ProgramID>
+                        <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                        <RegionName>Dallas</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access Access</MemberID>
+                            <ProgramID>SDPortfolio-8449</ProgramID>
+                            <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>Dallas</ParentRegionID>
+                            <ProgramID>SDPortfolio-8449</ProgramID>
+                            <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                            <RegionName>Plano</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access Access</MemberID>
+                                <ProgramID>SDPortfolio-8449</ProgramID>
+                                <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                                <LinkRegionManager>
+                                    <IsManager>false</IsManager>
+                                    <MemberID>Delete Access Access</MemberID>
+                                    <OperatingStatus>P</OperatingStatus>
+                                    <ProgramID>SDPortfolio-8449</ProgramID>
+                                    <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                                    <RegionID>Dallas Plano</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>SDPortfolio-8449</ProgramID>
+                        <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                        <RegionName>Houston</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access Access</MemberID>
+                            <ProgramID>SDPortfolio-8449</ProgramID>
+                            <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Houston</ParentRegionID>
+                            <ProgramID>SDPortfolio-8449</ProgramID>
+                            <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                            <RegionName>Sugar Land</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access Access</MemberID>
+                                <ProgramID>SDPortfolio-8449</ProgramID>
+                                <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                                <LinkRegionManager>
+                                    <IsManager>false</IsManager>
+                                    <MemberID>Delete Access Access</MemberID>
+                                    <OperatingStatus>O</OperatingStatus>
+                                    <ProgramID>SDPortfolio-8449</ProgramID>
+                                    <ProjectEntityID clientID="client-d5p2b7qg">SDPortfolio-8449</ProjectEntityID>
+                                    <RegionID>Houston Sugar Land</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+            <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>SDContract-8449</ClientEntityID>
+                <CodeAgreementTypeID>Rental</CodeAgreementTypeID>
+                <CodeAssetClassID>Operating</CodeAssetClassID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractCategoryID>Retail Lease</CodeContractCategoryID>
+                <CodeContractGroupID>Lease</CodeContractGroupID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CodeContractTypeID>Lease</CodeContractTypeID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                <CodeHoldingInterestID>Tenant</CodeHoldingInterestID>
+                <CommenceDate>2020-12-31</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>SDContract-8449</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2020-12-31</ExecuteDate>
+                <ExpireDate>2030-12-30</ExpireDate>
+                <LocationID>SDLocation-8449</LocationID>
+                <MonthToMonth>true</MonthToMonth>
+                <Notes>Store List Information.</Notes>
+                <ObligationDate>2020-12-31</ObligationDate>
+                <OptionDescription>None</OptionDescription>
+                <OrganizationID>Selenium-Organization</OrganizationID>
+                <PaymentsBeginDate>2020-12-31</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-30</PaymentsEndDate>
+                <PossessionBeginDate>2020-12-31</PossessionBeginDate>
+                <PossessionEndDate>2030-12-30</PossessionEndDate>
+                <ProRataShareRate>100.00000</ProRataShareRate>
+                <ProgramID>SDPortfolio-8449</ProgramID>
+                <ProjectDescription>For Facility/Store List purposes</ProjectDescription>
+                <ProjectEntityID clientID="client-W66X65w5">SDContract-8449</ProjectEntityID>
+                <RentableArea>1000.00000</RentableArea>
+                <StatusEffectiveDate>2020-12-31</StatusEffectiveDate>
+                <TimeZone>US/Eastern</TimeZone>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+            </Contract>
+        </Contracts>
+		        <Locations>
+            <Location>
+                <City>Alpharetta</City>
+                <ClientEntityID>SDLocation-8449</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                <CodeLocationCategoryID>Leased</CodeLocationCategoryID>
+                <CodeLocationGroupID>Lease</CodeLocationGroupID>
+                <CodeLocationStatusID>Active</CodeLocationStatusID>
+                <CodeLocationTypeID>90909</CodeLocationTypeID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeSubArea1ID>SubArea</CodeSubArea1ID>
+                <CodeSubArea2ID>SubArea</CodeSubArea2ID>
+                <CodeSubRegion1ID>SubRegion</CodeSubRegion1ID>
+                <CodeSubRegion2ID>SubRegion</CodeSubRegion2ID>
+                <ComplexID>Stonebriar</ComplexID>
+                <GrossLeaseArea>1000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <LatitudeDegrees>34.0510020000</LatitudeDegrees>
+                <LocationName>SDLocation-8449</LocationName>
+                <LocationParcelArea>2000.00000</LocationParcelArea>
+                <LongitudeDegrees>-84.2334210000</LongitudeDegrees>
+                <PostalCode>30022</PostalCode>
+                <ProgramID>SDPortfolio-8449</ProgramID>
+                <ProjectDescription>Store List Info</ProjectDescription>
+                <ProjectEntityID clientID="client-e5131fe5">SDLocation-8449</ProjectEntityID>
+                <RegionID>Houston Sugar Land</RegionID>
+                <RegionLvl1>Houston</RegionLvl1>
+                <RegionLvl2>Sugar Land</RegionLvl2>
+                <StreetAddress1>Pinehigh Dr</StreetAddress1>
+                <StreetAddress2>Kimball Bridge</StreetAddress2>
+            </Location>
+        </Locations>
+	</Firm>
+</LxERP>

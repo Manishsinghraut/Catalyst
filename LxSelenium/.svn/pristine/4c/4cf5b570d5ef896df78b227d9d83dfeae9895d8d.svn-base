@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Employers>
+            <Employer clientID="client-382288">
+                <APVendorNumber>1234</APVendorNumber>
+                <AfterHoursContact>Delete Access</AfterHoursContact>
+                <AfterHoursRate>20.00000</AfterHoursRate>
+                <BankAccountNumber>123456</BankAccountNumber>
+                <BankRoutingNumber>00020012</BankRoutingNumber>
+                <BusinessHours>M-F
+                    8am - 7pm
+                </BusinessHours>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Vendor</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeCoverageID>Full</CodeCoverageID>
+                <CodeVendorGradeID>Excellent</CodeVendorGradeID>
+                <CompanyType>Vendor</CompanyType>
+                <EMail1>qa1@lucernex.com</EMail1>
+                <EmployerName>Selenium-Employer</EmployerName>
+                <Fax>125.124.1254</Fax>
+                <HasAfterHoursSupport>true</HasAfterHoursSupport>
+                <HourlyRate>15.00000</HourlyRate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>true</IsFemaleOwned>
+                <IsGLBTOwned>true</IsGLBTOwned>
+                <IsMinorityOwned>true</IsMinorityOwned>
+                <IsPreferredVendor>true</IsPreferredVendor>
+                <IsSBAProgram>true</IsSBAProgram>
+                <MobileNumber>125.128.4578</MobileNumber>
+                <NameAKA>QA Testing Employer</NameAKA>
+                <Notes>Do NOT change this employer record in any way.</Notes>
+                <NumberOfServiceTrucks>50</NumberOfServiceTrucks>
+                <NumberOfStates>50</NumberOfStates>
+                <NumberOfTechnicians>300</NumberOfTechnicians>
+                <Phone>915.920.2669</Phone>
+                <PostalCode>75026</PostalCode>
+                <SelfPerform>true</SelfPerform>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <TravelRate>25.00000</TravelRate>
+                <WebSite>lucernex.com</WebSite>
+                <VendorInsurance clientID="client-16">
+                    <AggregateOccurrenceAmt>100000.00000</AggregateOccurrenceAmt>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeInsurancePolicyTypeID>General Liability</CodeInsurancePolicyTypeID>
+                    <EndDate>2030-12-31</EndDate>
+                    <Policy>Total deductible for the year is $100,000.00, but the maximum amount that can be paid for a
+                        single occurance is $50,000.00.
+                    </Policy>
+                    <SingleOccurrenceAmt>50000.00000</SingleOccurrenceAmt>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </VendorInsurance>
+            </Employer>
+        </Employers>
+    </Firm>
+</LxERP>

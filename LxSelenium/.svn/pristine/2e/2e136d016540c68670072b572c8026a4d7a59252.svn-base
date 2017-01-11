@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>Cash Receipts To Payment Transaction Records-984</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Cash Receipts To Payment Transaction Records-984</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <RentableArea>80000.00000</RentableArea>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-18T14:47:04</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PaymentReceipt>
+                    <BankAccountNumber>accno12345</BankAccountNumber>
+                    <BankRoutingNumber>445435435435</BankRoutingNumber>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeReceiptTypeID>Credit</CodeReceiptTypeID>
+                    <EffectiveDate>2000-01-01</EffectiveDate>
+                    <PeriodMonth>3</PeriodMonth>
+                    <PeriodYear>2017</PeriodYear>
+                    <PostingDate>2017-12-18</PostingDate>
+                    <ReceiptDate>2017-12-18</ReceiptDate>
+                    <ReceiptNumber>Receipt 123</ReceiptNumber>
+                    <ReceivedAmount>1000000.00000</ReceivedAmount>
+                </PaymentReceipt>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2020-01-01</EffectiveDate>
+                    <EffectiveEndDate>2020-12-31</EffectiveEndDate>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>2000.00000</InvoiceAmount>
+                    <IsReceivable>true</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>2000.00000</TotalAmount>
+                    <VendorID>Selenium-Employer</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <BankAccountNumber>AAcNo123</BankAccountNumber>
+                    <BankRoutingNumber>abc1234</BankRoutingNumber>
+                    <CheckDate>2017-12-18</CheckDate>
+                    <CheckNumber>Receipt123</CheckNumber>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2020-01-01</EffectiveDate>
+                    <EffectiveEndDate>2020-12-31</EffectiveEndDate>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>10000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>10000.00000</TotalAmount>
+                    <VendorID>Selenium-Employer</VendorID>
+                </PaymentTransaction>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

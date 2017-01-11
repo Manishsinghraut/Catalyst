@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location>
+                <ClientEntityID>clID-Automation-1055</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                </IStateProvinceCountryID>
+                <LocationName>ImportMathFieldsLocation-1055</LocationName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="Automation-1055">ImportMathFieldsLocation-1055</ProjectEntityID>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-03-02T16:18:09</LastReviewedDate>
+                    <ProjectEntityID>Automation-1055</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

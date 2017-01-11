@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Contract for sorting-978</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>978Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID>Global</ProgramID>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-21T14:20:28</LastReviewedDate>
+                    
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Internal Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Fixed Amount</CodeSalesTypeID>
+                    <GrossSalesAmount>2000.00000</GrossSalesAmount>
+                    <NetSalesAmount>2000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2017</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Forecast</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Internal Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Fixed Amount</CodeSalesTypeID>
+                    <GrossSalesAmount>5000.00000</GrossSalesAmount>
+                    <NetSalesAmount>5000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2017</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>1500.00000</GrossSalesAmount>
+                    <NetSalesAmount>1500.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2017</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Forecast</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales Lease</CodeSalesGroupID>
+                    <CodeSalesTypeID>Add Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>2500.00000</GrossSalesAmount>
+                    <NetSalesAmount>2500.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2017</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Internal Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Fixed Amount</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2016</SalesYear>
+                </Sales>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

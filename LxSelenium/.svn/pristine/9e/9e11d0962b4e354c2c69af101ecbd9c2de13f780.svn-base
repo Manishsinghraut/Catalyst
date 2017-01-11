@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>Contract 6907</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>Contract 6907</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="lucernex-location">Location 6907</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID clientID="client-3623">Portfolio 6907</ProgramID>
+                <ProjectEntityID clientID="client-673025">Contract 6907</ProjectEntityID>
+                <MapClientSchedule clientID="client-621014">
+                    <HolidayScheduleID clientID="client-91">Firm-Holiday Calendar</HolidayScheduleID>
+                    <LastReviewedDate>2016-09-12T15:46:21</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

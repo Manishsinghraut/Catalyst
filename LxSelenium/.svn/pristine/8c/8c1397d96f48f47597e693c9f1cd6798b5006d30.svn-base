@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location clientID="client-152180">
+                <ClientEntityID>s016</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                </IStateProvinceCountryID>
+                <LocationName>s016</LocationName>
+                <ProgramID clientID="client-3917">Global</ProgramID>
+                <ProjectEntityID clientID="client-602673">s016</ProjectEntityID>
+                <LinkMemberProjectEntity clientID="client-9082315">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-26182">Delete Access Access</MemberID>
+                    <ProjectEntityID>602673</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule clientID="client-551383">
+                    <LastReviewedDate>2015-12-08T15:50:43</LastReviewedDate>
+                    <ProjectEntityID>602673</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-2016653">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>602673</ProjectEntityID>
+                        <TaskName>Group 1</TaskName>
+                        <Task clientID="client-2016654">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID clientID="client-2016653">Group 1</ParentTaskID>
+                            <ProjectEntityID>602673</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>Task 1</TaskName>
+                        </Task>
+                        <Task clientID="client-2016655">
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID clientID="client-2016653">Group 1</ParentTaskID>
+                            <ProjectEntityID>602673</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>Task 2</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+           <Locations>
+            <Location>
+                <City>Alpharetta</City>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <LocationName>L9-1023</LocationName>
+                <PostalCode>30004</PostalCode>
+                <ProgramID>OrgChart-1023</ProgramID>
+            </Location>
+        </Locations>
+       <Projects>
+            <Project>
+                <City>Alpharetta</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ExpectedEndDate>2016-03-11</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>L9-1023</LocationID>
+                <PostalCode>30004</PostalCode>
+                <ProgramID>OrgChart-1023</ProgramID>
+                <ProjectName>Project-1023</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central Dallas(Pre-Open)</RegionID>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

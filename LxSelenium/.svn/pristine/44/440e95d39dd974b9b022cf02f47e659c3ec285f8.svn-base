@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>World Market</LocationName>
+                <LocationID>888888</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-07T11:45:12</LastReviewedDate>
+
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+
+                        <TaskName>Site</TaskName>
+                        <Task>
+                            <ActualDuration>6</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2018-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>6</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2018-12-31</OriginalStartDate>
+                            <ParentTaskID>Site</ParentTaskID>
+
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2018-12-31</ProjectedStartDate>
+                            <TaskName>Site Excavation</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>6</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2019-01-01</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>6</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2019-01-01</OriginalStartDate>
+                            <ParentTaskID>Site</ParentTaskID>
+
+                            <ProjectedDuration>6</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2019-01-01</ProjectedStartDate>
+                            <TaskName>Survey and Levelling</TaskName>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+
+                        <TaskName>Foundation</TaskName>
+                        <Task>
+                            <ActualDuration>10</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2018-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>10</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2018-12-31</OriginalStartDate>
+                            <ParentTaskID>Foundation</ParentTaskID>
+
+                            <ProjectedDuration>10</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2018-12-31</ProjectedStartDate>
+                            <TaskName>Laying Foundation</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2019-01-09</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2019-01-09</OriginalStartDate>
+                            <ParentTaskID>Foundation</ParentTaskID>
+
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2019-01-09</ProjectedStartDate>
+                            <TaskName>Curing</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>6</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2019-01-14</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>6</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2019-01-13</OriginalStartDate>
+                            <ParentTaskID>Foundation</ParentTaskID>
+
+                            <ProjectedDuration>6</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2019-01-13</ProjectedStartDate>
+                            <TaskName>Framing</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

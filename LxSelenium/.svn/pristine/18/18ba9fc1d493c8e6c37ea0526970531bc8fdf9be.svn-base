@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program clientID="client-6945">
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>Roll Up Portfolio A</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-651617ab">Roll Up Portfolio A</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <MapClientSchedule clientID="client-599236">
+                    <LastReviewedDate>2016-06-27T09:34:27</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-34694">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-6945">Roll Up Portfolio A</ProgramID>
+                        <ProjectEntityID clientID="client-651617ab">Roll Up Portfolio A</ProjectEntityID>
+                        <RegionName>Test1234</RegionName>
+                        <Region clientID="client-34697">
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID clientID="client-34694">Test1234</ParentRegionID>
+                            <ProgramID clientID="client-6945">Roll Up Portfolio A</ProgramID>
+                            <ProjectEntityID clientID="client-651617ab">Roll Up Portfolio A</ProjectEntityID>
+                            <RegionName>sub region 123</RegionName>
+                            <LinkRegionMarket clientID="client-7353">
+                                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-651617ab">Roll Up Portfolio A</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region clientID="client-34695">
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-6945">Roll Up Portfolio A</ProgramID>
+                        <ProjectEntityID clientID="client-651617ab">Roll Up Portfolio A</ProjectEntityID>
+                        <RegionName>Open123</RegionName>
+                        <Region clientID="client-34696">
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID clientID="client-34695">Open123</ParentRegionID>
+                            <ProgramID clientID="client-6945">Roll Up Portfolio A</ProgramID>
+                            <ProjectEntityID clientID="client-651617ab">Roll Up Portfolio A</ProjectEntityID>
+                            <RegionName>sub 123</RegionName>
+                            <LinkRegionMarket clientID="client-7352">
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID clientID="client-651617ab">Roll Up Portfolio A</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>        
+		    <Program clientID="client-6946">
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Roll Up Capital Program A</ProgramName>
+                <ProgramType>Capital Program</ProgramType>
+                <ProjectEntityID clientID="client-6516142ed">Roll Up Capital Program A</ProjectEntityID>
+				<SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+				<BudgetTemplateID clientID="SeleniumBudgetTemplate">Selenium-Budget</BudgetTemplateID>
+                <BudgetColumn clientID="client-70364">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160627_094502697_1809">Roll Construction Values</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8234">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T09:42:00</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70365">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160627_094502664_1807">Roll Excavation Values</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8232">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T09:42:12</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <BudgetColumn clientID="client-70366">
+                    <BudgetColumnTypeID clientID="SQL152_Test_10_20160418_20160627_094502549_1808">Roll Leveling Values</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID clientID="client-8233">Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-06-27T09:42:25</CreatedDate>
+                    <Inactive>false</Inactive>
+                </BudgetColumn>
+                <MapClientSchedule clientID="client-599237">
+                    <LastReviewedDate>2016-06-27T09:36:18</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region clientID="client-34698">
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-6946">Roll Up Capital Program A</ProgramID>
+                        <ProjectEntityID clientID="client-6516142ed">Roll Up Capital Program A</ProjectEntityID>
+                        <RegionName>Open123</RegionName>
+                        <Region clientID="client-34699">
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID clientID="client-34698">Open123</ParentRegionID>
+                            <ProgramID clientID="client-6946">Roll Up Capital Program A</ProgramID>
+                            <ProjectEntityID clientID="client-6516142ed">Roll Up Capital Program A</ProjectEntityID>
+                            <RegionName>sub 123</RegionName>
+                            <LinkRegionMarket clientID="client-7354">
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID clientID="client-6516142ed">Roll Up Capital Program A</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+		 <Facilities>
+            <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>Roll Facility 1</FacilityName>
+				<BudgetTemplateID>Selenium-Budget</BudgetTemplateID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Roll Up Portfolio A</ProgramID>
+                <ProjectEntityID clientID="client-651620we">Roll Facility 1</ProjectEntityID>
+                <RegionID>Open123</RegionID>
+                <RegionLvl1>Open123</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-06-27T09:39:04</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Facility>
+             <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>Roll Facility 2</FacilityName>
+				<BudgetTemplateID>Selenium-Budget</BudgetTemplateID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Roll Up Portfolio A</ProgramID>
+                <ProjectEntityID clientID="client-651621se">Roll Facility 2</ProjectEntityID>
+                <RegionID>Open123</RegionID>
+                <RegionLvl1>Open123</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-06-27T09:40:00</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>
+
+  

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program clientID="client-UNI5190">
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                </IStateProvinceCountryID>
+                <ProgramName>Fiscal Calendar Portfolio</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-MSDEMSDE608342">Fiscal Calendar Portfolio</ProjectEntityID>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-02-04T12:08:22</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <LinkRegionManager>
+                        <IsManager>true</IsManager>
+                        <MemberID>Lx Administrator</MemberID>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                        <ProjectEntityID clientID="client-MSDE608342">Fiscal Calendar Portfolio</ProjectEntityID>
+                    </LinkRegionManager>
+                    <Region clientID="client-31413">
+                        <Description>Operating</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                        <ProjectEntityID clientID="client-MSDE608342">Fiscal Calendar Portfolio</ProjectEntityID>
+                        <RegionName>Central Dallas</RegionName>
+                        <Region>
+                            <Description>Operating</Description>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Central Dallas(Operating)</ParentRegionID>
+                            <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                            <ProjectEntityID clientID="client-MSDE608342">Fiscal Calendar Portfolio</ProjectEntityID>
+                            <RegionName>Frisco</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>Delete Access</MemberID>
+                                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                                <ProjectEntityID clientID="client-MSDE608342">Fiscal Calendar Portfolio</ProjectEntityID>
+                            </LinkRegionManager>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

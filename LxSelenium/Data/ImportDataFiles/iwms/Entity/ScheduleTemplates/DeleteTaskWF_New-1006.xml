@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <WorkFlowTemplates>
+            <WorkFlowTemplate clientID="client-1406">
+                <DefaultWFCodePriorityID>4 - Low</DefaultWFCodePriorityID>
+                <LimitByEntity>false</LimitByEntity>
+                <NotifyAllApproversComplete>false</NotifyAllApproversComplete>
+                <NotifyAllAssigneesComplete>false</NotifyAllAssigneesComplete>
+                <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                <StatusChangeType>1</StatusChangeType>
+                <TaskName>Submit required forms</TaskName>
+                <WorkFlowTemplateName>DeleteTaskWF</WorkFlowTemplateName>
+                <WorkFlowTemplateStep clientID="client-7241">
+                    <AssigneeMemberIDList>
+                        <AssigneeMemberID>Delete Access Access</AssigneeMemberID>
+                    </AssigneeMemberIDList>                
+                    <AssigneeType>3</AssigneeType>
+                    <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                    <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                    <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                    <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                    <DurationDaysAssignees>1</DurationDaysAssignees>
+                    <EMailAlertAssignees>false</EMailAlertAssignees>
+                    <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                    <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                    <PageLayoutAssigneesID clientID="SQL152_Test_10_20160315_20160324_143543728_33838">DTWForm~DTWForm-l</PageLayoutAssigneesID>
+                    <SetTaskCanceled>false</SetTaskCanceled>
+                    <SetTaskInProcess>true</SetTaskInProcess>
+                    <StepNumber>1</StepNumber>
+                    <WorkFlowTemplateStepName>DTW</WorkFlowTemplateStepName>
+                </WorkFlowTemplateStep>
+                <WorkFlowTemplateStep clientID="client-7242">
+                    <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                    <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                    <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                    <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                    <DurationDaysAssignees>1</DurationDaysAssignees>
+                    <EMailAlertAssignees>false</EMailAlertAssignees>
+                    <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                    <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                    <SetTaskCanceled>false</SetTaskCanceled>
+                    <SetTaskInProcess>true</SetTaskInProcess>
+                    <StepNumber>2</StepNumber>
+                    <TaskName>Prepare proposal</TaskName>
+                    <WorkFlowTemplateStepName>Prepare proposal</WorkFlowTemplateStepName>
+                </WorkFlowTemplateStep>
+            </WorkFlowTemplate>
+        </WorkFlowTemplates>
+    </Firm>
+</LxERP>

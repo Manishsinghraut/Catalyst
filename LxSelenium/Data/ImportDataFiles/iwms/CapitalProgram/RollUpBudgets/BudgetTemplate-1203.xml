@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetTemplates>
+            <BudgetTemplate clientID="client-4131">
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>false</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                <TemplateName>QD New Sites</TemplateName>
+                <BudgetLineItem clientID="client-7419">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>Capital</BudgetLineItemName>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>Capital</LineItemCode>
+                    <OverrunPercent>0.00</OverrunPercent>
+                    <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                    <BudgetLineItem clientID="client-7420">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Lse Acq Costs-New</BudgetLineItemName>
+                        <IsGroup>true</IsGroup>
+                        <LineItemCode>01</LineItemCode>
+                        <OverrunPercent>0.00</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-7419">Capital</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        <BudgetLineItem clientID="client-7421">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Lse Acq Cost</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>01.30</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7420">01</ParentBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-7422">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Land-New</BudgetLineItemName>
+                        <IsGroup>true</IsGroup>
+                        <LineItemCode>10</LineItemCode>
+                        <OverrunPercent>0.00</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-7419">Capital</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-7420">01</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        <BudgetLineItem clientID="client-7423">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Land</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>10.10</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7422">10</ParentBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7424">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Misc Land Costs</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>10.20</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7422">10</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7423">10.10</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-7425">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Soft Costs-New</BudgetLineItemName>
+                        <IsGroup>true</IsGroup>
+                        <LineItemCode>20</LineItemCode>
+                        <OverrunPercent>0.00</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-7419">Capital</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-7422">10</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        <BudgetLineItem clientID="client-7426">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Legal Costs</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>20.10</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7425">20</ParentBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7427">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Consulting Services</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>20.20</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7425">20</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7426">20.10</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7428">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Environmental Services</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>20.30</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7425">20</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7427">20.20</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7429">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Permits/Fees</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>20.40</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7425">20</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7428">20.30</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7430">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Overhead Costs</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>20.50</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7425">20</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7429">20.40</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7431">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Misc Soft Costs</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>20.60</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7425">20</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7430">20.50</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-7432">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Construction</BudgetLineItemName>
+                        <IsGroup>true</IsGroup>
+                        <LineItemCode>30</LineItemCode>
+                        <OverrunPercent>0.00</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-7419">Capital</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-7425">20</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        <BudgetLineItem clientID="client-7433">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Offsite Work</BudgetLineItemName>
+                            <IsGroup>true</IsGroup>
+                            <LineItemCode>30.10</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7432">30</ParentBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            <BudgetLineItem clientID="client-7434">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Offsite-Other</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.10.a</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7433">30.10</ParentBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                            <BudgetLineItem clientID="client-7435">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Offsite-GC Contract</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.10.b</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7433">30.10</ParentBudgetLineItemID>
+                                <PreviousBudgetLineItemID clientID="client-7434">30.10.a</PreviousBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                            <BudgetLineItem clientID="client-7436">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Offsite-Change Orders</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.10.c</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7433">30.10</ParentBudgetLineItemID>
+                                <PreviousBudgetLineItemID clientID="client-7435">30.10.b</PreviousBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7437">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Onsite Work</BudgetLineItemName>
+                            <IsGroup>true</IsGroup>
+                            <LineItemCode>30.20</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7432">30</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7433">30.10</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            <BudgetLineItem clientID="client-7438">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Onsite-Other</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.20.a</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7437">30.20</ParentBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                            <BudgetLineItem clientID="client-7439">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Onsite-GC Contract</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.20.b</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7437">30.20</ParentBudgetLineItemID>
+                                <PreviousBudgetLineItemID clientID="client-7438">30.20.a</PreviousBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                            <BudgetLineItem clientID="client-7440">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Onsite-Change Orders</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.20.c</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7437">30.20</ParentBudgetLineItemID>
+                                <PreviousBudgetLineItemID clientID="client-7439">30.20.b</PreviousBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7441">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Building</BudgetLineItemName>
+                            <IsGroup>true</IsGroup>
+                            <LineItemCode>30.40</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7432">30</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7437">30.20</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            <BudgetLineItem clientID="client-7442">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Building-Other</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.40.a</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7441">30.40</ParentBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                            <BudgetLineItem clientID="client-7443">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Building-GC Contract</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.40.b</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7441">30.40</ParentBudgetLineItemID>
+                                <PreviousBudgetLineItemID clientID="client-7442">30.40.a</PreviousBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                            <BudgetLineItem clientID="client-7444">
+                                <AlertEnabled>false</AlertEnabled>
+                                <BudgetLineItemName>Building-Change Orders</BudgetLineItemName>
+                                <DefaultAmount>0.00</DefaultAmount>
+                                <IsGroup>false</IsGroup>
+                                <LineItemCode>30.40.c</LineItemCode>
+                                <OverrunPercent>0.00</OverrunPercent>
+                                <ParentBudgetLineItemID clientID="client-7441">30.40</ParentBudgetLineItemID>
+                                <PreviousBudgetLineItemID clientID="client-7443">30.40.b</PreviousBudgetLineItemID>
+                                <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                            </BudgetLineItem>
+                        </BudgetLineItem>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-7445">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Equipment</BudgetLineItemName>
+                        <IsGroup>true</IsGroup>
+                        <LineItemCode>40</LineItemCode>
+                        <OverrunPercent>0.00</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-7419">Capital</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-7432">30</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        <BudgetLineItem clientID="client-7456">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Bldg-Millwork</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>30.40.18.12</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7455">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Bldg-Doors/Windows</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>30.40.22.10</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7456">30.40.18.12</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7454">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Bldg-Ansul System</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>30.40.30.12</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7455">30.40.22.10</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7453">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Bldg-Lights</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>30.40.36.12</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7454">30.40.30.12</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7446">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Restaurant Equipment</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>40.10</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7453">30.40.36.12</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7447">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Signage</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>40.20</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7446">40.10</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7448">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>FF&amp;E</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>40.30</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7447">40.20</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                        <BudgetLineItem clientID="client-7449">
+                            <AlertEnabled>false</AlertEnabled>
+                            <BudgetLineItemName>Information Systems</BudgetLineItemName>
+                            <DefaultAmount>0.00</DefaultAmount>
+                            <IsGroup>false</IsGroup>
+                            <LineItemCode>40.40</LineItemCode>
+                            <OverrunPercent>0.00</OverrunPercent>
+                            <ParentBudgetLineItemID clientID="client-7445">40</ParentBudgetLineItemID>
+                            <PreviousBudgetLineItemID clientID="client-7448">40.30</PreviousBudgetLineItemID>
+                            <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                        </BudgetLineItem>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+                <BudgetLineItem clientID="client-7450">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>Investment Factors</BudgetLineItemName>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>02</LineItemCode>
+                    <OverrunPercent>0.00</OverrunPercent>
+                    <PreviousBudgetLineItemID clientID="client-7419">Capital</PreviousBudgetLineItemID>
+                    <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                    <BudgetLineItem clientID="client-7451">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Existing Building</BudgetLineItemName>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>02.10</LineItemCode>
+                        <OverrunPercent>0.00</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-7450">02</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-7452">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Leased Land Value</BudgetLineItemName>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>02.20</LineItemCode>
+                        <OverrunPercent>0.00</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-7450">02</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-7451">02.10</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-651688">QD New Sites</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+            </BudgetTemplate>
+        </BudgetTemplates>
+    </Firm>
+</LxERP>

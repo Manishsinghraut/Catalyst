@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Portfolio for Report</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Portfolio for Report</ProgramID>
+                        <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                        <RegionName>Central Dallas(Operating)</RegionName>
+                    </Region>
+                    <Region>
+                        <Description>Operating</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <PreviousRegionID>Central Dallas(Operating)</PreviousRegionID>
+                        <ProgramID>Portfolio for Report</ProgramID>
+                        <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                        <RegionName>Central Dallas</RegionName>
+                        <Region>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Central Dallas(Operating)</ParentRegionID>
+                            <ProgramID>Portfolio for Report</ProgramID>
+                            <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                            <RegionName>Frisco</RegionName>
+                        </Region>
+                    </Region>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <PreviousRegionID>Central Dallas(Operating)</PreviousRegionID>
+                        <ProgramID>Portfolio for Report</ProgramID>
+                        <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                        <RegionName>Central (Central region - preOpen) Frisco(Pre-Open)</RegionName>
+                    </Region>
+                    <Region>
+                        <Description>Central region - preOpen</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <PreviousRegionID>Central (Central region - preOpen) Frisco(Pre-Open)</PreviousRegionID>
+                        <ProgramID>Portfolio for Report</ProgramID>
+                        <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                        <RegionName>Central</RegionName>
+                    </Region>
+                    <Region>
+                        <Description>Parent Region</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Portfolio for Report</ProgramID>
+                        <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                        <RegionName>Selenium-Parent-Region</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>Portfolio for Report</ProgramID>
+                            <ProjectEntityID clientID="client-PT-641">Portfolio for Report</ProjectEntityID>
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+        <Parcels>
+            <Parcel>
+                <City>Plano</City>
+                <ClientEntityID>188</ClientEntityID>
+                <HasImprovements>false</HasImprovements>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsTaxExempt>false</IsTaxExempt>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <ParcelName>Parcel for report</ParcelName>
+                <ParcelNumber>145</ParcelNumber>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Portfolio for Report</ProgramID>
+                <ProjectDescription>Project Test</ProjectDescription>
+                <ProjectEntityID clientID="client-Parcel-64">Parcel for report</ProjectEntityID>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <UseLocationAddress>true</UseLocationAddress>
+            </Parcel>
+        </Parcels>   
+        <Facilities>
+            <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityName>Facility For report</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Portfolio for Report</ProgramID>
+                <ProjectDescription>Project Test</ProjectDescription>
+                <ProjectEntityID clientID="client-Facility-684">Facility For report</ProjectEntityID>
+                <RegionID>Central (Central region - preOpen) Frisco(Pre-Open)</RegionID>
+                <RegionLvl1>Central (Central region - preOpen) Frisco(Pre-Open)</RegionLvl1>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <UseLocationAddress>true</UseLocationAddress>
+            </Facility>
+        </Facilities>        
+    </Firm>
+</LxERP>

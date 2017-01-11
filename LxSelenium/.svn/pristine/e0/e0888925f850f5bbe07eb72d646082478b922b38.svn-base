@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Portfolio Testing 15649</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="dbq84slbaaiddeh">Portfolio Testing 15649</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+				 <LinkMemberProjectEntity clientID="client-10375775">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-30791">Chris Chris Paul 15649</MemberID>
+                </LinkMemberProjectEntity>
+               <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <LinkRegionManager clientID="client-75647">
+                        <IsManager>false</IsManager>
+                        <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                        <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                    </LinkRegionManager>
+                    <Region clientID="client-30553">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                        <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                        <RegionName>Chicago</RegionName>
+                        <LinkRegionManager clientID="client-75649">
+                            <IsManager>false</IsManager>
+                            <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                            <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                            <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region clientID="client-30554">
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID clientID="client-30553">Chicago</ParentRegionID>
+                            <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                            <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                            <RegionName>Suburb of Chicago</RegionName>
+                            <LinkRegionManager clientID="client-75650">
+                                <IsManager>false</IsManager>
+                                <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                                <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                                <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket clientID="client-7203">
+                                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                                <LinkRegionManager clientID="client-75651">
+                                    <IsManager>false</IsManager>
+                                    <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                                    <OperatingStatus>P</OperatingStatus>
+                                    <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                                    <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                                    <RegionID clientID="client-30554">Chicago Suburb of Chicago</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <LinkRegionManager clientID="client-75652">
+                        <IsManager>false</IsManager>
+                        <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                        <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                    </LinkRegionManager>
+                    <Region clientID="client-30555">
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                        <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                        <RegionName>Detroit</RegionName>
+                        <LinkRegionManager clientID="client-75653">
+                            <IsManager>false</IsManager>
+                            <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                            <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                            <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region clientID="client-30556">
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID clientID="client-30555">Detroit</ParentRegionID>
+                            <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                            <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                            <RegionName>Suburb of Detroit</RegionName>
+                            <LinkRegionManager clientID="client-75654">
+                                <IsManager>false</IsManager>
+                                <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                                <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                                <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket clientID="client-7204">
+                                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                                <LinkRegionManager clientID="client-75655">
+                                    <IsManager>false</IsManager>
+                                    <MemberID clientID="client-31414">Chris Chris Paul 15649</MemberID>
+                                    <OperatingStatus>O</OperatingStatus>
+                                    <ProgramID clientID="client-4696">Portfolio Testing 15649</ProgramID>
+                                    <ProjectEntityID clientID="client-631538">Portfolio Testing 15649</ProjectEntityID>
+                                    <RegionID clientID="client-30556">Detroit Suburb of Detroit</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+		   <Locations>
+            <Location>
+                <ClientEntityID>Location 15649</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>Location 15649</LocationName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-g3js92eh">Location 15649</ProjectEntityID>
+				 <LinkMemberProjectEntity clientID="client-10375781">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-30718">Chris Chris Paul 15649</MemberID>
+                </LinkMemberProjectEntity>
+            </Location>
+        </Locations>
+		 <Projects>
+            <Project>
+                <City>Chicago</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-26</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>IL</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+				 <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Chris Chris Paul 15649</MemberID>
+                </LinkMemberProjectEntity>
+                <LocationID>Location 15649</LocationID>
+                <ProgramID>Portfolio Testing 15649</ProgramID>
+                <ProjectEntityID clientID="znvgfmn8hle">Project 15649</ProjectEntityID>
+                <ProjectName>Project 15649</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Chicago</RegionID>
+                <RegionLvl1>Chicago</RegionLvl1>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

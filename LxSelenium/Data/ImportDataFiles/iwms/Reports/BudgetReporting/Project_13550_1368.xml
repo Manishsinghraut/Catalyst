@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-09-19</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>CO</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location Sprint 17</LocationID>
+                <ProgramID>Portfolio Sprint 17</ProgramID>
+                <ProjectEntityID clientID="client-729247vvg">Project 13550</ProjectEntityID>
+                <ProjectName>Project 13550</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PRa</RegionID>
+                <RegionLvl1>PRa</RegionLvl1>
+				<BudgetTemplateID>13550 Template</BudgetTemplateID>
+                <BudgetColumn>
+                    <BudgetColumnTypeID>Green Building</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID>Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-09-19T14:19:10</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0004</BudgetLineItemID>
+                        <ItemValue>200.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0003</BudgetLineItemID>
+                        <ItemValue>300.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0002</BudgetLineItemID>
+                        <ItemValue>4000.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn>
+                    <BudgetColumnTypeID>Sustainable Cost</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID>Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-09-19T14:19:37</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0004</BudgetLineItemID>
+                        <ItemValue>500.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0003</BudgetLineItemID>
+                        <ItemValue>600.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0002</BudgetLineItemID>
+                        <ItemValue>700.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <BudgetColumn>
+                    <BudgetColumnTypeID>View Applied</BudgetColumnTypeID>
+                    <CodeBudgetColumnStatusID>Default Status</CodeBudgetColumnStatusID>
+                    <CreatedDate>2016-09-19T16:27:14</CreatedDate>
+                    <Inactive>false</Inactive>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0004</BudgetLineItemID>
+                        <ItemValue>200.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0002</BudgetLineItemID>
+                        <ItemValue>300.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                    <BudgetColumnItemValue>
+                        <BudgetLineItemID>0003</BudgetLineItemID>
+                        <ItemValue>4000.00000</ItemValue>
+                        <ProjectEntityID>729247vvg</ProjectEntityID>
+                    </BudgetColumnItemValue>
+                </BudgetColumn>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                </Project>
+        </Projects>
+    </Firm>
+</LxERP>

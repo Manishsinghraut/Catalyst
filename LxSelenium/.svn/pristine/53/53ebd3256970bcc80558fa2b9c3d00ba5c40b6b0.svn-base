@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+           <Locations>
+            <Location>
+                <ClientEntityID>CSLocation</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>CSLocation</LocationName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-9z7w1g1">CSLocation</ProjectEntityID>
+            </Location>
+        </Locations>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>CSLocation</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-1w1zt5d55">CSProject-10950</ProjectEntityID>
+                <ProjectName>CSProject-10950</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen))</RegionID>
+                <RegionLvl1>Central(Central region - preOpen))</RegionLvl1>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

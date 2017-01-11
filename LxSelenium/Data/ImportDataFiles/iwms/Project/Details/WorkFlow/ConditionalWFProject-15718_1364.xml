@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <City>Alpharetta</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>101</CodeMarketAreaID>
+                <ExpectedEndDate>2016-09-30</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location Sprint 17</LocationID>
+                <PostalCode>30004</PostalCode>
+                <ProgramID>Portfolio Sprint 17</ProgramID>
+                <ProjectEntityID clientID="client-aslkjwekja2">ConditionalWFProject-15718</ProjectEntityID>
+                <ProjectName>ConditionalWFProject-15718</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PRa Sub AR1</RegionID>
+                <RegionLvl1>PRa Sub AR1</RegionLvl1>
+				<BudgetTemplateID>WFBudget-15718</BudgetTemplateID>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

@@ -1,0 +1,166 @@
+package com.lucernex.qa.views.iwms.project.details.documents;
+
+import com.lucernex.qa.browsers.BrowserDriver;
+import com.lucernex.qa.utils.EmailVerification;
+import com.lucernex.qa.utils.FileUtils;
+import com.lucernex.qa.utils.SeleniumUtilities;
+import com.lucernex.qa.views.BaseView;
+import com.lucernex.qa.views.iwms.CommonMethods;
+import com.lucernex.qa.views.iwms.portfolio.orgchart.OrgChartView;
+import junit.framework.Assert;
+import junit.framework.TestCase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+
+import static com.lucernex.qa.utils.FileDownloader.fileDownload;
+import static com.lucernex.qa.views.BaseView.takeScreenshot;
+import static junit.framework.Assert.assertTrue;
+
+//import org.eclipse.jetty.util.log.Log;
+//import static com.lucernex.qa.utils.ForceWaitForItem.delay;
+
+/**
+ * Created by RLE0097 on 08/06/2016.
+ */
+public class DocumentsTabView {
+
+    private static final Logger logger = Logger.getLogger(DocumentsTabView.class.getName());
+    private static final SeleniumUtilities SeleniumUtil = PageFactory.initElements(BrowserDriver.getCurrentDriver(), SeleniumUtilities.class);
+
+    public static void downloadDocument(String docName, String strMenuOption) {
+        int i = 0;
+        for (i = 0; i < 10; i++) {
+            try {
+                CommonMethods.rightClick(BrowserDriver.getCurrentDriver().findElement(By.xpath("//span[./text()='" + docName + "']")));
+                SeleniumUtil.click("xpath", "//span[./text()='" + strMenuOption + "']", 10);
+                OrgChartView.waitTillModalWindow(5);
+                break;
+            } catch (Exception e) {
+            }
+        }
+
+        if (i == 10) {
+            try {
+                CommonMethods.rightClick(BrowserDriver.getCurrentDriver().findElement(By.xpath("//span[./text()='" + docName + "']")));
+                SeleniumUtil.click("xpath", "//span[./text()='" + strMenuOption + "']", 10);
+            } catch (Exception e) {
+                BaseView.takeScreenshot("Failed to open task pop up.png");
+                TestCase.fail("Failed to open task pop up" + e.getMessage());
+            }
+        }
+    }
+
+    public static void selectRightClickDownload(String strOption) {
+        try {
+            SeleniumUtil.click("cssselector", ".x-grid-cell-inner>a", SeleniumUtilities.OBJWAITTIMEOUT);
+            SeleniumUtil.rightClickSelectMenuOption("cssselector", ".x-grid-cell-inner>a", "cssselector", "a[id='ViewerMenuItem-itemEl']");
+            fileDownload();
+        } catch (Exception ex) {
+            takeScreenshot("selectRightClickDownload");
+            logger.info("Select and right click on Schedules.html and click Download");
+            TestCase.fail("Failed to Select and right click on Schedules.html and click Download" + ex.getMessage());
+        }
+    }
+
+    public static void verifyHTMLFile(List<String> expected) {
+        try {
+            String htmlPageContent = FileUtils.readFileContent((System.getProperty("user.dir") + "\\target\\DownloadFiles\\" + CommonMethods.getLatestDownloadedFile()));
+            for (String strTaskName : expected) {
+                String strTask = "<span style=\"\" class=\"x-tree-node-text \">" + strTaskName + "</span>";
+                assertTrue(strTask + " : ", htmlPageContent.contains(strTask));
+            }
+            EmailVerification.launchLatestDownloadedFile();
+            EmailVerification.closelaunchLatestDownloadedFile();
+        } catch (Throwable throwable) {
+            throwable.printStackTrace();
+        }
+    }
+
+    public static List<WebElement> getGridAllRowsCount() throws Throwable {
+        return DocumentsTabView.fetchGridLineItems();
+    }
+
+    public static List<WebElement> getGridAllRowsCounts() throws Throwable {
+        return DocumentsTabView.fetchGridLineItems("class","rowColor1");
+    }
+
+    public static void verifyButtonName(String buttonName) throws Throwable {
+        if(BaseView.genericSecondWindowHandle!=null){
+            try{
+                if (!(SeleniumUtil.waitForElementContainText("tagname", "input", buttonName))) {
+                    BaseView.takeScreenshot("Button name is not the expected one.png");
+                    logger.info("Button name is not the expected one");
+                }
+            }catch (Exception e){
+            }
+        }else{
+            logger.info("window closed before verifying the button modification");
+        }
+
+    }
+
+    public static List<WebElement> fetchGridLineItems() throws Throwable {
+        List<WebElement> rows = new ArrayList<WebElement>();
+        try {
+            BaseView.pushShortTimeout();
+            if (BrowserDriver.getCurrentDriver().findElements(By.xpath("//tr[not(boolean(@style))][contains(@class,'display:none')]")).size() > 0) {
+                rows = BrowserDriver.getCurrentDriver().findElements(By.xpath("//tr[not(boolean(@style))][contains(@class,'display:none')]"));
+            }
+        } finally {
+            BaseView.popDefaultTimeout();
+        }
+        return rows;
+    }
+
+    public static List<WebElement> fetchGridLineItems(String strAttribute,String strDescription) throws Throwable {
+        List<WebElement> rows = new ArrayList<WebElement>();
+        try {
+            BaseView.pushShortTimeout();
+            if (BrowserDriver.getCurrentDriver().findElements(By.xpath("//tr[not(boolean(@style))][contains(@"+strAttribute+",'"+strDescription+"')]")).size() > 0) {
+                rows = BrowserDriver.getCurrentDriver().findElements(By.xpath("//tr[not(boolean(@style))][contains(@"+strAttribute+",'"+strDescription+"')]"));
+            }
+        } finally {
+            BaseView.popDefaultTimeout();
+        }
+        return rows;
+    }
+    
+    public static void verifyImageUpload() {
+        try {
+            assertTrue(SeleniumUtil.waitForElementVisibilityOf("cssselector", "img[alt='logo'][src*='data:image/gif;']", 6, SeleniumUtilities.OBJWAITTIMEOUT));
+        } catch (Exception e) {
+            BaseView.takeScreenshot("verifyImageupload");
+            Assert.fail("verify Image upload");
+        }
+    }
+
+    public static void verifyEntityPhoto() {
+        try {
+            assertTrue(SeleniumUtil.waitForElementVisibilityOf("cssselector", "img[src*='/DocumentDownload?type=prjEtyImage&']", 6, SeleniumUtilities.OBJWAITTIMEOUT));
+        } catch (Exception e) {
+            BaseView.takeScreenshot("verifyImageupload");
+            Assert.fail("verify Image upload");
+        }
+    }
+
+
+    public static void verifyCustomListBudget(String strBudget, String strBudgetCost, String strItemName, String strQuantity, String strUnitCost, String strMathTotal) {
+        try {
+            SeleniumUtil.waitForElementVisibilityOf("xpath",".//*[./text()='"+strBudget+"']/following-sibling::td[1]",10,SeleniumUtilities.OBJWAITTIMEOUT);
+            assertTrue(SeleniumUtil.verifyTextValue("xpath",".//*[./text()='"+strBudget+"']/following-sibling::td[1]",strBudgetCost,SeleniumUtilities.OBJWAITTIMEOUT));
+            assertTrue(SeleniumUtil.verifyTextValue("xpath",".//*[./text()='"+strBudget+"']/following-sibling::td[2]",strItemName,SeleniumUtilities.OBJWAITTIMEOUT));
+            assertTrue(SeleniumUtil.verifyTextValue("xpath",".//*[./text()='"+strBudget+"']/following-sibling::td[3]",strQuantity,SeleniumUtilities.OBJWAITTIMEOUT));
+            assertTrue(SeleniumUtil.verifyTextValue("xpath",".//*[./text()='"+strBudget+"']/following-sibling::td[4]",strUnitCost,SeleniumUtilities.OBJWAITTIMEOUT));
+            assertTrue(SeleniumUtil.verifyTextValue("xpath",".//*[./text()='"+strBudget+"']/following-sibling::td[5]",strMathTotal,SeleniumUtilities.OBJWAITTIMEOUT));
+
+        } catch (Exception e) {
+            BaseView.takeScreenshot("verifyCustomListBudget");
+            Assert.fail("verify verifyCustomListBudget");
+        }
+    }
+}

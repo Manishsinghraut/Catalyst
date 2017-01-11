@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Prototypes>
+            <Prototype clientID="client-22669">
+                <PrototypeID>22669</PrototypeID>
+                <AverageCostOfProject>5000.00000</AverageCostOfProject>
+                <AverageDurationOfProject>12</AverageDurationOfProject>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <DefaultRentableArea>5000.00000</DefaultRentableArea>
+                <DefaultUsableArea>5000.00000</DefaultUsableArea>
+                <IsApproved>false</IsApproved>
+                <Notes>Notes</Notes>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-565464">Selenium Webdriver Prototype</ProjectEntityID>
+                <PrototypeName>Selenium Webdriver Prototype</PrototypeName>
+                <math_DepthMathField_2>200.0</math_DepthMathField_2>
+                <math_Depthplus100_0>100.0</math_Depthplus100_0>
+                <math_UsableAreaplus200_1>200.0</math_UsableAreaplus200_1>
+                <LinkMemberProjectEntity clientID="client-7509606">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-26005">Delete Access</MemberID>
+                    <ProjectEntityID>565464</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-7509605">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-26004">Edit Access</MemberID>
+                    <ProjectEntityID>565464</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-7509604">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID clientID="client-25998">Lx Administrator</MemberID>
+                    <ProjectEntityID>565464</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule clientID="client-514727">
+                    <LastReviewedDate>2015-06-15T01:59:36</LastReviewedDate>
+                    <ProjectEntityID>565464</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Prototype>
+        </Prototypes>
+    </Firm>
+</LxERP>

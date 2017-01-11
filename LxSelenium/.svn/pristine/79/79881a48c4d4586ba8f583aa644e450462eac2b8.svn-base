@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-03-02</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-adddw624798">Project Form with math fields</ProjectEntityID>
+                <ProjectName>Project Form with math fields</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <Import_Form_with_math_fields clientID="client-441891">
+                    <A>4</A>
+                    <B>8</B>
+                    <CodeIssueTypeID clientID="SQL152_Test_10_20160120_20160302_150728066_6977">Import Form with math fields</CodeIssueTypeID>
+                    <ImportedCreatedDate>2016-03-03T08:17:22</ImportedCreatedDate>
+                    <InitiatedByMemberID>Delete Access Access</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <LastPageLayoutID clientID="SQL152_Test_10_20160120_20160302_150728659_34519">Import Form with math fields</LastPageLayoutID>
+                    <ProjectEntityID>adddw624798</ProjectEntityID>
+                    <Subject>math test</Subject>
+                    <math_ADivB_1>0.5</math_ADivB_1>
+                    <math_ADivBx10Percentage_3>500.0</math_ADivBx10Percentage_3>
+                    <math_AplusB_2>12.0</math_AplusB_2>
+                </Import_Form_with_math_fields>
+				</Project>
+        </Projects>
+    </Firm>
+</LxERP>

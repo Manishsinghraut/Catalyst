@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <City>Alpharetta</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ExpectedEndDate>2016-12-13</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>CrashLocation</LocationID>
+                <PostalCode>30004</PostalCode>
+                <ProgramID>CrashPortfolio-10883</ProgramID>
+                <ProjectEntityID clientID="client-771768-14s81662s37s259">CrashProject-10883</ProjectEntityID>
+                <ProjectName>CrashProject-10883</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PRM</RegionID>
+                <RegionLvl1>PRM</RegionLvl1>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

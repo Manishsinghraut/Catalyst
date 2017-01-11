@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-B2.17">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636154_34588</mes:ClientID>
+                <mes:PageLayoutName>MathReport</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{}</mes:URL>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:ClientListRGDID ClientID="SQL152_Test_10_20160120_20160303_112636035_6947">MathReport</mes:ClientListRGDID>
+                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                    <mes:EntitySelectionFilter>131072</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636175_1313048</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160303_112636154_34588">MathReport</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160303_112636070_75071">math_Product_8</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:StaticText>75068*x*75069</mes:StaticText>
+                            <mes:FieldContext>Product</mes:FieldContext>
+                            <mes:DisplayLabel>Product</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RGAF_75069":"ClientListRow.Secondnumber","CLIENTLISTROW_75068":"MathReport","CLIENTLISTROW_75069":"MathReport","RGAF_75068":"ClientListRow.Firstnumber"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636194_1313049</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160303_112636154_34588">MathReport</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160303_112636114_75072">math_Division_9</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:StaticText>75068*/*75069</mes:StaticText>
+                            <mes:FieldContext>Division</mes:FieldContext>
+                            <mes:DisplayLabel>Division</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RGAF_75069":"ClientListRow.Secondnumber","CLIENTLISTROW_75068":"MathReport","CLIENTLISTROW_75069":"MathReport","RGAF_75068":"ClientListRow.Firstnumber"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636212_1313050</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160303_112636154_34588">MathReport</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160303_112636130_75070">math_Sum_7</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:StaticText>75068*+*75069</mes:StaticText>
+                            <mes:FieldContext>Sum</mes:FieldContext>
+                            <mes:DisplayLabel>Sum</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"RGAF_75069":"ClientListRow.Secondnumber","CLIENTLISTROW_75068":"MathReport","CLIENTLISTROW_75069":"MathReport","RGAF_75068":"ClientListRow.Firstnumber"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636230_1313051</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160303_112636154_34588">MathReport</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160303_112636086_75068">First number</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:DisplayLabel>First number</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636247_1313052</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160303_112636154_34588">MathReport</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160303_112636100_75069">Second number</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:DisplayLabel>Second number</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234145</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636263_34589</mes:ClientID>
+                <mes:PageLayoutName>MathReportForm</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:JSONConfigText>{"useHTMLEmail":"","MinPopupWindowWidth":"","EmailBody":"","hasCustomEmail":"false","EmailTitle":""}</mes:JSONConfigText>
+                    <mes:AllowUserCreate>true</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>L</mes:OutputType>
+                    <mes:PageLayoutType>L</mes:PageLayoutType>
+                    <mes:PrimaryCodeSQLTableID>Issue</mes:PrimaryCodeSQLTableID>
+                    <mes:CodeIssueTypeID ClientID="SQL152_Test_10_20160120_20160303_112635970_7033">MathReportForm</mes:CodeIssueTypeID>
+                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                    <mes:EntitySelectionFilter>31</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>0</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636282_1313053</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_Test_10_20160120_20160303_112636263_34589">MathReportForm</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="SQL152_Test_10_20160120_20160303_112636050_75073">MathReportForm</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:SubPageLayoutID ClientID="SQL152_Test_10_20160120_20160303_112636154_34588">MathReport</mes:SubPageLayoutID>
+                            <mes:FieldContext>75073</mes:FieldContext>
+                            <mes:DisplayLabel>MathReportForm</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters/>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_61</mes:ClientID>
+                <mes:ReportGroupDataName>Forms</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636008_6948</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_61">Forms</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>MathReportForm</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:CodeIssueTypeID ClientID="SQL152_Test_10_20160120_20160303_112635970_7033">MathReportForm</mes:CodeIssueTypeID>
+                            <mes:IsValidForProgram>false</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>false</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636050_75073</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160303_112636008_6948">MathReportForm</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>MathReportForm</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>Issue</mes:CodeSQLTableID>
+                                    <mes:ClientListRGDID ClientID="SQL152_Test_10_20160120_20160303_112636035_6947">MathReport</mes:ClientListRGDID>
+                                    <mes:IsClientExtensionField>false</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>323</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+            <mes:ReportGroupData>
+                <mes:ClientID>ERP_898</mes:ClientID>
+                <mes:ReportGroupDataName>Custom Lists</mes:ReportGroupDataName>
+                <mes:Details>
+                    <mes:Description/>
+                    <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                    <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                    <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                </mes:Details>
+                <mes:ReportGroupDatas>
+                    <mes:ReportGroupData>
+                        <mes:ClientID>SQL152_Test_10_20160120_20160303_112636035_6947</mes:ClientID>
+                        <mes:ParentReportGroupDataID ClientID="ERP_898">Custom Lists</mes:ParentReportGroupDataID>
+                        <mes:ReportGroupDataName>MathReport</mes:ReportGroupDataName>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                            <mes:CLRExtensionCodeSQLTableID>ClientListRow</mes:CLRExtensionCodeSQLTableID>
+                            <mes:IsValidForProgram>true</mes:IsValidForProgram>
+                            <mes:IsValidForEntity>true</mes:IsValidForEntity>
+                            <mes:IsValidForIssue>true</mes:IsValidForIssue>
+                        </mes:Details>
+                        <mes:ReportGroupDatas/>
+                        <mes:ReportGroupAvailableFields>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636070_75071</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160303_112636035_6947">MathReport</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Product</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_Product_8</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>106</mes:FormFieldType>
+                                    <mes:FieldText>75068*x*75069</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:JSONConfigText>{"RGAF_75069":"ClientListRow.Secondnumber","CLIENTLISTROW_75068":"MathReport","CLIENTLISTROW_75069":"MathReport","RGAF_75068":"ClientListRow.Firstnumber"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636086_75068</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160303_112636035_6947">MathReport</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>First number</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636100_75069</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160303_112636035_6947">MathReport</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Second number</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>3</mes:FormFieldType>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636114_75072</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160303_112636035_6947">MathReport</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Division</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_Division_9</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>106</mes:FormFieldType>
+                                    <mes:FieldText>75068*/*75069</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:JSONConfigText>{"RGAF_75069":"ClientListRow.Secondnumber","CLIENTLISTROW_75068":"MathReport","CLIENTLISTROW_75069":"MathReport","RGAF_75068":"ClientListRow.Firstnumber"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                            <mes:ReportGroupAvailableField>
+                                <mes:ClientID>SQL152_Test_10_20160120_20160303_112636130_75070</mes:ClientID>
+                                <mes:ReportGroupDataID ClientID="SQL152_Test_10_20160120_20160303_112636035_6947">MathReport</mes:ReportGroupDataID>
+                                <mes:DefaultLabel>Sum</mes:DefaultLabel>
+                                <mes:Details>
+                                    <mes:FirmID>Selenium-B2.17</mes:FirmID>
+                                    <mes:CodeSQLTableID>ClientListRow</mes:CodeSQLTableID>
+                                    <mes:AccessorName>math_Sum_7</mes:AccessorName>
+                                    <mes:IsClientExtensionField>true</mes:IsClientExtensionField>
+                                    <mes:FormFieldType>106</mes:FormFieldType>
+                                    <mes:FieldText>75068*+*75069</mes:FieldText>
+                                    <mes:IsRequired>false</mes:IsRequired>
+                                    <mes:JSONConfigText>{"RGAF_75069":"ClientListRow.Secondnumber","CLIENTLISTROW_75068":"MathReport","CLIENTLISTROW_75069":"MathReport","RGAF_75068":"ClientListRow.Firstnumber"}</mes:JSONConfigText>
+                                </mes:Details>
+                            </mes:ReportGroupAvailableField>
+                        </mes:ReportGroupAvailableFields>
+                    </mes:ReportGroupData>
+                </mes:ReportGroupDatas>
+                <mes:ReportGroupAvailableFields/>
+            </mes:ReportGroupData>
+        </mes:ReportGroupDatas>
+        <mes:Forms>
+            <mes:Form>
+                <mes:ClientID>SQL152_Test_10_20160120_20160303_112635970_7033</mes:ClientID>
+                <mes:ShortName>MathReportForm</mes:ShortName>
+                <mes:IsWorkFlow>false</mes:IsWorkFlow>
+                <mes:AutoClose>false</mes:AutoClose>
+                <mes:AllowReply>true</mes:AllowReply>
+                <mes:DerivedCodeSQLTableID>Issue</mes:DerivedCodeSQLTableID>
+                <mes:IsSequencePerFirm>false</mes:IsSequencePerFirm>
+                <mes:IsValidForCapProgram>true</mes:IsValidForCapProgram>
+                <mes:IsValidForPortfolio>true</mes:IsValidForPortfolio>
+                <mes:IsValidForPrototype>true</mes:IsValidForPrototype>
+                <mes:IsValidForPotentialProject>true</mes:IsValidForPotentialProject>
+                <mes:IsValidForOpenProject>true</mes:IsValidForOpenProject>
+                <mes:IsValidForCapProject>true</mes:IsValidForCapProject>
+                <mes:IsValidForFacility>true</mes:IsValidForFacility>
+                <mes:IsValidForLocation>true</mes:IsValidForLocation>
+                <mes:IsValidForParcel>true</mes:IsValidForParcel>
+                <mes:IsValidForContract>true</mes:IsValidForContract>
+            </mes:Form>
+        </mes:Forms>
+    </mes:Firm>
+</mes:LxERP>

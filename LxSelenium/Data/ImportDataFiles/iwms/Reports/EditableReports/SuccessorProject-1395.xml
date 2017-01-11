@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <City>Plano</City>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <Description>Used for Automation test Cases</Description>
+                <FiscalYearEnd>2015-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>Regression Portfolio</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-PPY612773">Regression Portfolio</ProjectEntityID>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-01-24T05:20:22</LastReviewedDate>
+                    <ProjectEntityID>PPY612773</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>Lucernex-Selenium</ProgramID>
+                        <ProjectEntityID clientID="client-PPY612773">Regression Portfolio</ProjectEntityID>
+                        <RegionName>Dallas</RegionName>
+                    </Region>
+                </OrgChart>
+				<OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Lucernex-Selenium</ProgramID>
+                        <ProjectEntityID clientID="client-PPY612773">Regression Portfolio</ProjectEntityID>
+                        <RegionName>Dallas</RegionName>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>     
+        <Locations>
+            <Location>
+                <ClientEntityID>SuccessorLocation</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <LatitudeDegrees>31.9685990000</LatitudeDegrees>
+                <LocationName>SuccessorLocation</LocationName>
+                <LongitudeDegrees>-99.9018130000</LongitudeDegrees>
+                <ProgramID>Regression Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-AJ622415">SuccessorLocation</ProjectEntityID>
+            </Location>
+        </Locations>	
+	<Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-02-26</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>SuccessorLocation</LocationID>
+                <ProgramID>Regression Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-MQM623496">SuccessorProject</ProjectEntityID>
+                <ProjectName>SuccessorProject</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Dallas</RegionID>
+                <RegionLvl1>Dallas</RegionLvl1>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-02-26T11:41:13</LastReviewedDate>
+                    <ProjectEntityID>MQM623496</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>MQM623496</ProjectEntityID>
+                        <TaskName>Group 1</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2020-12-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2020-12-31</OriginalStartDate>
+                            <ParentTaskID>Group 1</ParentTaskID>
+                            <ProjectEntityID>MQM623496</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2020-12-31</ProjectedStartDate>
+                            <TaskName>Predecessor 1</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>2021-01-08</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>2021-01-08</OriginalStartDate>
+                            <ParentTaskID>Group 1</ParentTaskID>
+                            <ProjectEntityID>MQM623496</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>2021-01-04</ProjectedStartDate>
+                            <TaskName>Successor 1</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>5</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>5</OriginalLeadLagDays>
+                                <PredecessorTaskID>Predecessor 1</PredecessorTaskID>
+                                <ProjectEntityID>MQM623496</ProjectEntityID>
+                                <ProjectedLeadLagDays>1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Successor 1</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+                <SiteSurvey>
+                    <BuildingSignage>false</BuildingSignage>
+                    <CanopyLighting>false</CanopyLighting>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <FireSprinkler>false</FireSprinkler>
+                    <HandicapAccessible>false</HandicapAccessible>
+                    <IsBuildingPlanAvail>false</IsBuildingPlanAvail>
+                    <IsCLECAvail>false</IsCLECAvail>
+                    <IsConstructionCriteriaAvail>false</IsConstructionCriteriaAvail>
+                    <IsCurrentlyOccupied>false</IsCurrentlyOccupied>
+                    <IsLODAvail>false</IsLODAvail>
+                    <IsLandlordWorkDescriptionAvail>false</IsLandlordWorkDescriptionAvail>
+                    <IsRoofAccessAvail>false</IsRoofAccessAvail>
+                    <IsSignCriteriaAvail>false</IsSignCriteriaAvail>
+                    <MonumentSignage>false</MonumentSignage>
+                    <ParkingLotLighting>false</ParkingLotLighting>
+                    <ProjectEntityID>MQM623496</ProjectEntityID>
+                    <PylonSignage>false</PylonSignage>
+                    <RecommendToREC>false</RecommendToREC>
+                    <TrafficSignalAccess>false</TrafficSignalAccess>
+                </SiteSurvey>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

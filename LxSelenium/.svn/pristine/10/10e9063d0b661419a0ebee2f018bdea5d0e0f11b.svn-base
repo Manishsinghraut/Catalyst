@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <BudgetTemplates>
+            <BudgetTemplate clientID="client-2489">
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-625382">Budget math</ProjectEntityID>
+                <TemplateName>Budget math</TemplateName>
+                <BudgetLineItem clientID="client-14158">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>Investment</BudgetLineItemName>
+                    <CodeCSIID>0140.51 - Stone Maintenance</CodeCSIID>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>01</LineItemCode>
+                    <OverrunPercent>10.00000</OverrunPercent>
+                    <ProjectEntityID clientID="client-625382">Budget math</ProjectEntityID>
+                    <BudgetLineItem clientID="client-14159">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Item 1</BudgetLineItemName>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>001</LineItemCode>
+                        <OverrunPercent>10.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-14158">01</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-625382">Budget math</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-14160">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Item 2</BudgetLineItemName>
+                        <CodeCSIID>0170 - Maintenance of Wall Finishes</CodeCSIID>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>02</LineItemCode>
+                        <OverrunPercent>20.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-14158">01</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-14159">001</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-625382">Budget math</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+            </BudgetTemplate>
+        </BudgetTemplates>
+    </Firm>
+</LxERP>

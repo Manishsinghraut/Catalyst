@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Portfolio Testing-1239</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-6asdf65">Portfolio Testing-1239</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Test Case Member 1 1239, None</MemberID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-07-11T15:03:53</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>Portfolio Testing-1239</ProgramID>
+                        <ProjectEntityID clientID="client-6asdf65">Portfolio Testing-1239</ProjectEntityID>
+                        <RegionName>Dallas</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Test Case Member 1 1239, None</MemberID>
+                            <ProgramID>Portfolio Testing-1239</ProgramID>
+                            <ProjectEntityID clientID="client-6asdf65">Portfolio Testing-1239</ProjectEntityID>
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Portfolio Testing-1239</ProgramID>
+                        <ProjectEntityID clientID="client-6asdf65">Portfolio Testing-1239</ProjectEntityID>
+                        <RegionName>Chicago</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Test Case Member 1 1239, None</MemberID>
+                            <ProgramID>Portfolio Testing-1239</ProgramID>
+                            <ProjectEntityID clientID="client-6asdf65">Portfolio Testing-1239</ProjectEntityID>
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+		       <Locations>
+            <Location>
+                <ClientEntityID>Location-TESTING-1239</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>Location-TESTING-1239</LocationName>
+                <ProgramID>Portfolio Testing-1239</ProgramID>
+				<MemberID>Test Case Member 1 1239, None</MemberID>    
+                <ProjectEntityID clientID="client-6asd66">Location-TESTING-1239</ProjectEntityID>
+            </Location>
+        </Locations>
+         <Facilities>
+            <Facility>
+                <City>Chicago</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>facility TESTING-1239</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>IL</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location-TESTING-1239</LocationID>
+                <ProgramID>Portfolio Testing-1239</ProgramID>
+                <ProjectEntityID clientID="client-6asdf65">facility TESTING-1239</ProjectEntityID>
+                <RegionID>Chicago</RegionID>
+                <RegionLvl1>Chicago</RegionLvl1>
+                <StreetAddress1>1234 Alpha Dr.</StreetAddress1>
+                <UseLocationAddress>true</UseLocationAddress>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Test Case Member 1 1239, None</MemberID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-07-12T08:41:01</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Facility>
+        </Facilities>
+        <Projects>
+            <Project clientID="client-86759">
+                <City>Chicago</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-07-12</ExpectedEndDate>
+                <FacilityID >facility TESTING-1239</FacilityID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>IL</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location-TESTING-1239</LocationID>
+                <ProgramID>Portfolio Testing-1239</ProgramID>
+                <ProjectEntityID clientID="client-6asdf65">facility TESTING-1239</ProjectEntityID>
+                <ProjectName>facility TESTING-1239</ProjectName>
+                <ProjectType>Capital Project</ProjectType>
+                <RegionID>Chicago</RegionID>
+                <RegionLvl1>Chicago</RegionLvl1>
+                <StreetAddress1>1234 Alpha Dr.</StreetAddress1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Test Case Member 1 1239, None</MemberID>
+                </LinkMemberProjectEntity>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

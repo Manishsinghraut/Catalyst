@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-3355">
+                <Description>Selenium Schedule A</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-566560">Selenium Schedule A</ProjectEntityID>
+                <TemplateName>Selenium Schedule A</TemplateName>
+                <MapClientSchedule clientID="client-515750">
+                    <LastReviewedDate>2015-06-30T05:57:59</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566560">Selenium Schedule A</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </TaskTemplate><TaskTemplate clientID="client-3356">
+                <Description>Selenium Schedule B</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <Notes>Selenium Schedule B</Notes>
+                <ProjectEntityID clientID="client-566561">Selenium Schedule B</ProjectEntityID>
+                <TemplateName>Selenium Schedule B</TemplateName>
+                <MapClientSchedule clientID="client-515751">
+                    <LastReviewedDate>2015-06-30T05:58:26</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566561">Selenium Schedule B</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Employers>
+            <Employer clientID="client-434125">
+                <APVendorNumber>12345</APVendorNumber>
+                <AfterHoursContact>Test Contact</AfterHoursContact>
+                <AfterHoursRate>80.00000</AfterHoursRate>
+                <BankAccountNumber>abc123</BankAccountNumber>
+                <BankRoutingNumber>98989</BankRoutingNumber>
+                <BusinessHours>Test hours</BusinessHours>
+                <City>Plano</City>
+                <CodeAssetCategoryIDList>
+                    <CodeAssetCategoryID>Electrical</CodeAssetCategoryID>
+                </CodeAssetCategoryIDList>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Equipment Manager</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeCoverageID>Full</CodeCoverageID>
+                <CodeVendorGradeID>Excellent</CodeVendorGradeID>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>Selenium Vendor</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <HourlyRate>65.00000</HourlyRate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <Notes>This is a Test</Notes>
+                <NumberOfServiceTrucks>40</NumberOfServiceTrucks>
+                <NumberOfStates>30</NumberOfStates>
+                <NumberOfTechnicians>100</NumberOfTechnicians>
+                <Phone>949795666543</Phone>
+                <PostalCode>75024</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>1901 Democracy Drive</StreetAddress1>
+            </Employer>
+        </Employers>
+        <Organizations>
+            <Organization clientID="client-32934">
+                <AccountNumber1>000012548569</AccountNumber1>
+                <CodeOrganizationCategoryID>Internal</CodeOrganizationCategoryID>
+                <CodeOrganizationGroupID>Internal</CodeOrganizationGroupID>
+                <CodeOrganizationTypeID>Corporate</CodeOrganizationTypeID>
+                <OrganizationName>Selenium-Organization</OrganizationName>
+            </Organization>
+        </Organizations>
+        <Contracts>
+            <Contract clientID="client-121845121845">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>12184512134738</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>1990-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>PR with Prorated Breakpoints</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <Notes>This contract is used for testing Prorated Breakpoints. Do not delete.</Notes>
+                <PaymentsBeginDate>1990-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2040-12-31</PaymentsEndDate>
+                <PossessionBeginDate>1990-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-57321499000">PR with Prorated Breakpoints</ProjectEntityID>
+                <RentableArea>5000.00000</RentableArea>
+                <ExpenseSetup clientID="client-652099">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>57321499000</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseVendorAllocation clientID="client-785570">
+                        <BeginDate>1990-01-01</BeginDate>
+                        <EndDate>2040-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>57321499000</ProjectEntityID>
+                        <VendorID clientID="client-434125">Selenium Vendor</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <LinkMemberProjectEntity clientID="client-7146936">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-25123">Delete Access</MemberID>
+                    <ProjectEntityID>57321499000</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule clientID="client-522367">
+                    <HolidayScheduleID clientID="client-88">Portfolio Level</HolidayScheduleID>
+                    <LastReviewedDate>2015-08-31T10:25:48</LastReviewedDate>
+                    <ProjectEntityID>57321499000</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PercentageRent clientID="client-121000">
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2007-02-20</BeginDate>
+                    <CodeBillingFrequencyID>Monthly</CodeBillingFrequencyID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Period Gross-up</CodePercentageRentTypeID>
+                    <CodeReportingFrequencyID>Monthly</CodeReportingFrequencyID>
+                    <CodeSalesGroupID clientID="client-112">Sales</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <Description>Prorated BP</Description>
+                    <EndDate>2022-02-19</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID>57321499000</ProjectEntityID>
+                    <RentYearStartMonth>July</RentYearStartMonth>
+                </PercentageRent>
+                <PercentageRentBreakpoint clientID="client-170934">
+                    <BeginDate>2007-02-20</BeginDate>
+                    <BreakpointAmount1>4024000.00000</BreakpointAmount1>
+                    <BreakpointRate1>6.00000</BreakpointRate1>
+                    <CodeSalesGroupID clientID="client-112">Sales</CodeSalesGroupID>
+                    <EndDate>2012-02-19</EndDate>
+                    <ProjectEntityID>57321499000</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <PercentageRentBreakpoint clientID="client-170932">
+                    <BeginDate>2012-02-20</BeginDate>
+                    <BreakpointAmount1>4480000.00000</BreakpointAmount1>
+                    <BreakpointRate1>7.00000</BreakpointRate1>
+                    <CodeSalesGroupID clientID="client-112">Sales</CodeSalesGroupID>
+                    <EndDate>2017-02-19</EndDate>
+                    <ProjectEntityID>57321499000</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <PercentageRentBreakpoint clientID="client-170933">
+                    <BeginDate>2017-02-20</BeginDate>
+                    <BreakpointAmount1>4920000.00000</BreakpointAmount1>
+                    <BreakpointRate1>8.00000</BreakpointRate1>
+                    <CodeSalesGroupID clientID="client-112">Sales</CodeSalesGroupID>
+                    <EndDate>2022-02-19</EndDate>
+                    <ProjectEntityID>57321499000</ProjectEntityID>
+                </PercentageRentBreakpoint>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

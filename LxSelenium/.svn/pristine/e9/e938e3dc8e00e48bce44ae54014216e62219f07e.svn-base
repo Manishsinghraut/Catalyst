@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract clientID="client-128021">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>789987</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Recoveries Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-573361">Recoveries Contract</ProjectEntityID>
+                <ExpenseRecovery clientID="client-499514">
+                    <ApprovedAdjustmentAmount>0.00</ApprovedAdjustmentAmount>
+                    <ApprovedAdminFeePercentage>0.00</ApprovedAdminFeePercentage>
+                    <ApprovedGLA>0.00</ApprovedGLA>
+                    <ApprovedPrePaidAmount>0.00</ApprovedPrePaidAmount>
+                    <ApprovedProRataShareRate>0.00</ApprovedProRataShareRate>
+                    <ApprovedRentableArea>0.00</ApprovedRentableArea>
+                    <BeginDate>2014-01-01</BeginDate>
+                    <BudgetedAdminFeePercentage>0.00</BudgetedAdminFeePercentage>
+                    <BudgetedGLA>0.00</BudgetedGLA>
+                    <BudgetedPrePaidAmount>0.00</BudgetedPrePaidAmount>
+                    <BudgetedProRataShareRate>0.00</BudgetedProRataShareRate>
+                    <BudgetedRentableArea>0.00</BudgetedRentableArea>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseGroupID>Lease</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-13642">CAM</CodeExpenseTypeID>
+                    <CodeRecoveryGroupID>CAM</CodeRecoveryGroupID>
+                    <CodeRecoveryTypeID clientID="client-292">Interior</CodeRecoveryTypeID>
+                    <EndDate>2014-12-31</EndDate>
+                    <ProjectEntityID>573361</ProjectEntityID>
+                    <ReconciledFlag>false</ReconciledFlag>
+                    <ReportedAdjustmentAmount>0.00</ReportedAdjustmentAmount>
+                    <ReportedAdminFeePercentage>0.00</ReportedAdminFeePercentage>
+                    <ReportedGLA>0.00</ReportedGLA>
+                    <ReportedPrePaidAmount>0.00</ReportedPrePaidAmount>
+                    <ReportedProRataShareRate>0.00</ReportedProRataShareRate>
+                    <ReportedRentableArea>0.00</ReportedRentableArea>
+                    <ExpenseRecoveryItem clientID="client-1342144">
+                        <ApprovedAmount>0.00</ApprovedAmount>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <CodeRecoverySectionID>Controllable Expenses</CodeRecoverySectionID>
+                        <ProjectEntityID>573361</ProjectEntityID>
+                    </ExpenseRecoveryItem>
+                </ExpenseRecovery>
+                <ExpenseSetup clientID="client-703862">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-13642">CAM</CodeExpenseTypeID>
+                    <CodeFrequencyID>Annually</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>573361</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule clientID="client-3829202">
+                        <AnnualAmount>2000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>2000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>573361</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation clientID="client-882006">
+                        <BeginDate>2000-01-01</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>573361</ProjectEntityID>
+                        <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule clientID="client-522510">
+                    <LastReviewedDate>2015-09-01T11:16:18</LastReviewedDate>
+                    <ProjectEntityID>573361</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

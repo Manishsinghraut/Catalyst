@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <BudgetViews>
+            <BudgetView clientID="client-137">
+                <BudgetViewName>Test view</BudgetViewName>
+                <Description>Testing one</Description>
+            </BudgetView>
+        </BudgetViews>
+        <BudgetColumnTypes>
+            <BudgetColumnType clientID="client-1896">
+                <BudgetColumnTypeID>1896</BudgetColumnTypeID>
+                <AllowMultiSelect>true</AllowMultiSelect>
+                <AllowOneInstance>false</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>Footing and Foundation</BudgetColumnTypeName>
+                <CodeStatusSelectedID clientID="client-8276">Default Status</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Default Status</CodeStatusSelectedNameForCreate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsBidTemplate>false</IsBidTemplate>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+            </BudgetColumnType><BudgetColumnType clientID="client-1897">
+                <IsBidTemplate>false</IsBidTemplate>
+                <BudgetColumnTypeID>1897</BudgetColumnTypeID>
+                <AllowMultiSelect>false</AllowMultiSelect>
+                <AllowOneInstance>true</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>false</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>Curing Concrete</BudgetColumnTypeName>
+                <CodeStatusSelectedID clientID="client-8277">Default Status</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Default Status</CodeStatusSelectedNameForCreate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+             </BudgetColumnType><BudgetColumnType clientID="client-1895">
+                <IsBidTemplate>false</IsBidTemplate>
+                <BudgetColumnTypeID>1895</BudgetColumnTypeID>
+                <AllowMultiSelect>true</AllowMultiSelect>
+                <AllowOneInstance>false</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>Excavation</BudgetColumnTypeName>
+                <CodeStatusSelectedID clientID="client-8275">Default Status</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Default Status</CodeStatusSelectedNameForCreate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+            </BudgetColumnType>
+        </BudgetColumnTypes>
+    </Firm>
+</LxERP>

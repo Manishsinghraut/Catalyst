@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetColumnTypes>
+            <BudgetColumnType>
+                <AllowMultiSelect>true</AllowMultiSelect>
+                <AllowOneInstance>false</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>Update Budget Value</BudgetColumnTypeName>
+                <CodeStatusDefaultID>Default Status</CodeStatusDefaultID>
+                <CodeStatusDefaultNameForCreate>Default Status</CodeStatusDefaultNameForCreate>
+                <CodeStatusSelectedID>Default Status</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Default Status</CodeStatusSelectedNameForCreate>
+                <IsBidTemplate>false</IsBidTemplate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+            </BudgetColumnType>
+        </BudgetColumnTypes>
+    </Firm>
+</LxERP>

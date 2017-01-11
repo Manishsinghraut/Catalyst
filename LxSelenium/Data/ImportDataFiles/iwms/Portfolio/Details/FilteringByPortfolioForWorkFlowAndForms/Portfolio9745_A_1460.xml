@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Portfolio9745-A</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-762983ert">Portfolio9745-A</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-33457">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-4916">Portfolio9745-A</ProgramID>
+                        <ProjectEntityID clientID="client-762983ert">Portfolio9745-A</ProjectEntityID>
+                        <RegionName>PRR1</RegionName>
+                        <Region clientID="client-33458">
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID clientID="client-33457">PRR1</ParentRegionID>
+                            <ProgramID clientID="client-4916">Portfolio9745-A</ProgramID>
+                            <ProjectEntityID clientID="client-762983ert">Portfolio9745-A</ProjectEntityID>
+                            <RegionName>PRR2sub</RegionName>
+                            <LinkRegionManager clientID="client-99641">
+                                <IsManager>false</IsManager>
+                                <MemberID clientID="client-31681">Delete Access Access</MemberID>
+                                <ProgramID clientID="client-4916">Portfolio9745-A</ProgramID>
+                                <ProjectEntityID clientID="client-762983ert">Portfolio9745-A</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket clientID="client-7790">
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-762983ert">Portfolio9745-A</ProjectEntityID>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

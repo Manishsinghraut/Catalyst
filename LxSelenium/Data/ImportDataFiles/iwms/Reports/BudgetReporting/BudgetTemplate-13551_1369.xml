@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetTemplates>
+            <BudgetTemplate clientID="client-3106">
+                <IsValidForAssetContract>false</IsValidForAssetContract>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                <TemplateName>BudgetTemplate-13551</TemplateName>
+                <BudgetLineItem clientID="client-17018">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>Equipment</BudgetLineItemName>
+                    <CategoryCode>V2</CategoryCode>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>2</LineItemCode>
+                    <OverrunPercent>100.00000</OverrunPercent>
+                    <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    <BudgetLineItem clientID="client-17022">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Water</BudgetLineItemName>
+                        <CategoryCode>V2.4</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>2.4</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17018">2</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-17021">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Sand</BudgetLineItemName>
+                        <CategoryCode>V2.3</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>2.3</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17018">2</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-17022">2.4</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-17020">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Cement</BudgetLineItemName>
+                        <CategoryCode>V2.2</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>2.2</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17018">2</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-17021">2.3</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-17019">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Tractor</BudgetLineItemName>
+                        <CategoryCode>V2.1</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>2.1</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17018">2</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-17020">2.2</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+                <BudgetLineItem clientID="client-17015">
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>Cement</BudgetLineItemName>
+                    <CategoryCode>V1</CategoryCode>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>1</LineItemCode>
+                    <OverrunPercent>100.00000</OverrunPercent>
+                    <PreviousBudgetLineItemID clientID="client-17018">2</PreviousBudgetLineItemID>
+                    <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    <BudgetLineItem clientID="client-17017">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Sand</BudgetLineItemName>
+                        <CategoryCode>V1.2</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>1.2</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17015">1</ParentBudgetLineItemID>
+                        <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem clientID="client-17016">
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Water</BudgetLineItemName>
+                        <CategoryCode>V1.1</CategoryCode>
+                        <DefaultAmount>0.00</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>1.1</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID clientID="client-17015">1</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID clientID="client-17017">1.2</PreviousBudgetLineItemID>
+                        <ProjectEntityID clientID="client-678174">BudgetTemplate-13551</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+            </BudgetTemplate>
+        </BudgetTemplates>
+    </Firm>
+</LxERP>

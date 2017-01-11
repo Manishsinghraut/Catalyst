@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                <TemplateName>2015 Company Schedule-878</TemplateName>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-08T15:10:54</LastReviewedDate>
+                    <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>01 Real Estate</TaskName>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>*Identify Available Property</TaskName>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-03-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-03-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-03-02</ProjectedStartDate>
+                            <TaskName>*DOD Visit Site</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>29</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>29</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Identify Available Property</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>29</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*DOD Visit Site</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-03-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-03-03</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-03-03</ProjectedStartDate>
+                            <TaskName>LOI - Tender/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*DOD Visit Site</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>LOI - Tender/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>10</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>10</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>10</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Site Clearance / Impact Notification</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Site Clearance / Impact Notification</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>21</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>21</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>21</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Birchwood Order/Recieve</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Birchwood Order/Recieve</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Asbestos Report Order/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Asbestos Report Order/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Phase 1 Order/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Phase 1 Order/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>SIR Order/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>SIR Order/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Soils Order/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Soils Order/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Survey Order/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Survey Order/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Title Order/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Title Order/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>60</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>60</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>60</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-02</ProjectedStartDate>
+                            <TaskName>Lease or Purchase Agreements Negotiation</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>LOI - Tender/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Lease or Purchase Agreements Negotiation</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-04-21</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-04-21</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-04-21</ProjectedStartDate>
+                            <TaskName>Impact Study</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>9</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>9</OriginalLeadLagDays>
+                                <PredecessorTaskID>Site Clearance / Impact Notification</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>9</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Impact Study</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-05-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-05-02</OriginalStartDate>
+                            <ParentTaskID>01 Real Estate</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-05-02</ProjectedStartDate>
+                            <TaskName>Phase 2 Order/Receive</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>Phase 1 Order/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Phase 2 Order/Receive</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>02 PLKI Design</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-05-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-05-02</OriginalStartDate>
+                            <ParentTaskID>02 PLKI Design</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-05-02</ProjectedStartDate>
+                            <TaskName>Submit Preliminary/Site Plan</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>SIR Order/Receive</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Submit Preliminary/Site Plan</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>14</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-05-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>This must includes approval by FP, BC, DOD, and CM.</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>14</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-05-02</OriginalStartDate>
+                            <ParentTaskID>02 PLKI Design</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>14</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-05-02</ProjectedStartDate>
+                            <TaskName>Preliminary Plans (Site, Elevations, Floor, Rendering)</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-1</OriginalLeadLagDays>
+                                <PredecessorTaskID>Submit Preliminary/Site Plan</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>-1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Preliminary Plans (Site, Elevations, Floor, Rendering)</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>10</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-05-15</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>10</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-05-15</OriginalStartDate>
+                            <ParentTaskID>02 PLKI Design</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>10</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-05-15</ProjectedStartDate>
+                            <TaskName>Concept Drawings</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-1</OriginalLeadLagDays>
+                                <PredecessorTaskID>Preliminary Plans (Site, Elevations, Floor, Rendering)</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>-1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Concept Drawings</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>03 BA Process</TaskName>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-05-16</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-05-16</OriginalStartDate>
+                            <ParentTaskID>03 BA Process</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-05-16</ProjectedStartDate>
+                            <TaskName>Construction Estimate</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>Preliminary Plans (Site, Elevations, Floor, Rendering)</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Construction Estimate</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-05-21</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-05-21</OriginalStartDate>
+                            <ParentTaskID>03 BA Process</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-05-21</ProjectedStartDate>
+                            <TaskName>*Prepare Package for BA</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>Construction Estimate</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Prepare Package for BA</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-06-20</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-06-20</OriginalStartDate>
+                            <ParentTaskID>03 BA Process</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-06-20</ProjectedStartDate>
+                            <TaskName>*BA Approval</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Prepare Package for BA</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*BA Approval</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>04 Entitlements</TaskName>
+                        <Task>
+                            <ActualDuration>10</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-06-21</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>10</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-06-21</OriginalStartDate>
+                            <ParentTaskID>04 Entitlements</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>10</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-06-21</ProjectedStartDate>
+                            <TaskName>Produce Entitlement Drawings</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*BA Approval</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Produce Entitlement Drawings</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-07-01</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-07-01</OriginalStartDate>
+                            <ParentTaskID>04 Entitlements</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-07-01</ProjectedStartDate>
+                            <TaskName>*Planning/Zoning to Municipality</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>Produce Entitlement Drawings</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Planning/Zoning to Municipality</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>3</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-07-31</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>3</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-07-31</OriginalStartDate>
+                            <ParentTaskID>04 Entitlements</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>3</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-07-31</ProjectedStartDate>
+                            <TaskName>Re-approval of Concept/Site Plan/Elevation/Rendering</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Planning/Zoning to Municipality</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Re-approval of Concept/Site Plan/Elevation/Rendering</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>05 Construction Documents</TaskName>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-08-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-08-03</OriginalStartDate>
+                            <ParentTaskID>05 Construction Documents</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-08-03</ProjectedStartDate>
+                            <TaskName>*Construction Documents</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>Re-approval of Concept/Site Plan/Elevation/Rendering</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Construction Documents</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-09-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-09-02</OriginalStartDate>
+                            <ParentTaskID>05 Construction Documents</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-09-02</ProjectedStartDate>
+                            <TaskName>Bid Invitation / Reponse Due</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Documents</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Bid Invitation / Reponse Due</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>21</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-09-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>21</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-09-02</OriginalStartDate>
+                            <ParentTaskID>05 Construction Documents</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>21</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-09-02</ProjectedStartDate>
+                            <TaskName>Bids Due</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-1</OriginalLeadLagDays>
+                                <PredecessorTaskID>Bid Invitation / Reponse Due</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>-1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Bids Due</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>06 Permits</TaskName>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-09-01</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-09-01</OriginalStartDate>
+                            <ParentTaskID>06 Permits</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-09-01</ProjectedStartDate>
+                            <TaskName>*Building Permits</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-1</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Documents</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>-1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Building Permits</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>30</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-09-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>30</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-09-02</OriginalStartDate>
+                            <ParentTaskID>06 Permits</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>30</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-09-02</ProjectedStartDate>
+                            <TaskName>DOT</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Documents</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>DOT</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-09-11</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-09-11</OriginalStartDate>
+                            <ParentTaskID>06 Permits</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-09-11</ProjectedStartDate>
+                            <TaskName>Re-Plat Hearing Date</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>9</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>9</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Documents</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>9</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Re-Plat Hearing Date</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-09-24</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-09-24</OriginalStartDate>
+                            <ParentTaskID>06 Permits</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-09-24</ProjectedStartDate>
+                            <TaskName>Sign Construction Contract</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>-8</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-8</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Pick up Permits</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>-8</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Sign Construction Contract</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-01</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-01</OriginalStartDate>
+                            <ParentTaskID>06 Permits</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-01</ProjectedStartDate>
+                            <TaskName>*Pick up Permits</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Building Permits</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Pick up Permits</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-02</OriginalStartDate>
+                            <ParentTaskID>06 Permits</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-02</ProjectedStartDate>
+                            <TaskName>Legal Approval to start construction</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Pick up Permits</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Legal Approval to start construction</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-02</OriginalStartDate>
+                            <ParentTaskID>06 Permits</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-02</ProjectedStartDate>
+                            <TaskName>Precon Meeting</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Pick up Permits</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Precon Meeting</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>07 Under Construction</TaskName>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-03</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-03</ProjectedStartDate>
+                            <TaskName>*Construction Start</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>Legal Approval to start construction</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Construction Start</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-04</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-04</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-04</ProjectedStartDate>
+                            <TaskName>Utilities Applications</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Utilities Applications</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-04</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-04</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-04</ProjectedStartDate>
+                            <TaskName>Underground</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>0</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>0</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>0</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Underground</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>10</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-08</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>10</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-08</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>10</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-08</ProjectedStartDate>
+                            <TaskName>Rough In</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>4</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>4</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>4</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Rough In</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-18</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-18</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-18</ProjectedStartDate>
+                            <TaskName>Hood</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>14</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>14</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>14</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Hood</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-23</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-23</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-23</ProjectedStartDate>
+                            <TaskName>Tile</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>19</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>19</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>19</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Tile</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-28</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-28</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-28</ProjectedStartDate>
+                            <TaskName>Lighting Delivery</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>24</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>24</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>24</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Lighting Delivery</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-10-28</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-10-28</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-10-28</ProjectedStartDate>
+                            <TaskName>Equipment Install</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>24</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>24</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>24</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Equipment Install</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>5</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-11-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>5</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-11-02</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>5</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-11-02</ProjectedStartDate>
+                            <TaskName>Seating &amp; D�cor</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>29</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>29</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>29</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Seating &amp; D�cor</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>10</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-11-07</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>10</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-11-07</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>10</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-11-07</ProjectedStartDate>
+                            <TaskName>Utilities</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>34</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>34</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>34</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Utilities</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>10</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-11-17</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>10</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-11-17</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>10</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-11-17</ProjectedStartDate>
+                            <TaskName>Signs</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>44</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>44</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>44</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Signs</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>14</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-11-27</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>14</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-11-27</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>14</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-11-27</ProjectedStartDate>
+                            <TaskName>Site Work</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>54</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>54</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>54</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Site Work</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-12-05</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>Install Coke Machine. Lines come 2-3 weeks earlier</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-12-05</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-12-05</ProjectedStartDate>
+                            <TaskName>Beverages</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>62</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>62</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>62</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Beverages</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-12-07</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-12-07</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-12-07</ProjectedStartDate>
+                            <TaskName>Digital Menuboard</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>64</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>64</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>64</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Digital Menuboard</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-12-11</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-12-11</OriginalStartDate>
+                            <ParentTaskID>07 Under Construction</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-12-11</ProjectedStartDate>
+                            <TaskName>*Turnover to Ops</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>68</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>68</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Construction Start</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>68</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Turnover to Ops</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                    <Task>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                        <TaskName>08 Operations</TaskName>
+                        <Task>
+                            <ActualDuration>7</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-12-11</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>7</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-12-11</OriginalStartDate>
+                            <ParentTaskID>08 Operations</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>7</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-12-11</ProjectedStartDate>
+                            <TaskName>Training</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-1</OriginalLeadLagDays>
+                                <PredecessorTaskID>*Turnover to Ops</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>-1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>Training</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                        <Task>
+                            <ActualDuration>1</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-12-17</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>1</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-12-17</OriginalStartDate>
+                            <ParentTaskID>08 Operations</ParentTaskID>
+                            <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                            <ProjectedDuration>1</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-12-17</ProjectedStartDate>
+                            <TaskName>*Open Restaurant</TaskName>
+                            <TaskPredecessor>
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-1</OriginalLeadLagDays>
+                                <PredecessorTaskID>Training</PredecessorTaskID>
+                                <ProjectEntityID>2015 Company Schedule-878</ProjectEntityID>
+                                <ProjectedLeadLagDays>-1</ProjectedLeadLagDays>
+                                <SuccessorTaskID>*Open Restaurant</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

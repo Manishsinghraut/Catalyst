@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+      <CodeTables>
+          <!--  CodeSLSchedule must be explicitly created and listed before used -->
+           <CodeSLSchedule clientID="sched_leasebaserent">
+       	<ShortName>Base Rent SL</ShortName>
+           			</CodeSLSchedule>
+   	<CodeExpenseType clientID="etype_expbaserent">
+       			<ShortName>Base Rent</ShortName>
+       			<ParentCodeExpenseGroupID>Lease Expense</ParentCodeExpenseGroupID>
+       			<CodeSLScheduleID>Base Rent SL</CodeSLScheduleID>
+           			</CodeExpenseType>
+           			
+		</CodeTables>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>SL002</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2017-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>SL Alternate Rent Scenario</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExpireDate>2017-12-31</ExpireDate>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2017-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2017-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2017-01-01</PossessionBeginDate>
+                <PossessionEndDate>2017-12-31</PossessionEndDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-Kic567">SL Alternate Rent Scenario</ProjectEntityID>
+                <RentableArea>0.00</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Base Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>12000.00000</AnnualAmount>
+                        <BeginDate>2017-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2017-06-30</EndDate>
+                        <FirstPaymentAmount>1000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>Kic567</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule>
+                        <AnnualAmount>18000.00000</AnnualAmount>
+                        <BeginDate>2017-07-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2017-12-31</EndDate>
+                        <FirstPaymentAmount>1500.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1500.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1500.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>Kic567</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2017-01-01</BeginDate>
+                        <EndDate>2017-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>Kic567</ProjectEntityID>
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-01-05T15:14:50</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <SLSummary>
+                    <BalanceForward>0.00</BalanceForward>
+                    <BeginDate>2017-01-01</BeginDate>
+                    <CodeSLScheduleID clientID="sched_baserent">Base Rent SL</CodeSLScheduleID>
+                    <EndDate>2017-12-31</EndDate>
+                    <Inactive>false</Inactive>
+                    <PeriodAmount>1250.00000</PeriodAmount>
+                    <SLTermLength>12.00</SLTermLength>
+                    <TotalCommitment>15000.00000</TotalCommitment>
+                </SLSummary>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract clientID="client-127428">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>S001- Contract</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>S001- Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="client-149815">S001- Location</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <ProgramID clientID="client-3817">Global</ProgramID>
+                <ProjectEntityID clientID="client-592484">S001- Contract</ProjectEntityID>
+                <ExpenseRecovery clientID="client-542954">
+                    <ApprovedAdjustmentAmount>0.00</ApprovedAdjustmentAmount>
+                    <ApprovedAdminFeePercentage>0.00</ApprovedAdminFeePercentage>
+                    <ApprovedGLA>0.00</ApprovedGLA>
+                    <ApprovedPrePaidAmount>0.00</ApprovedPrePaidAmount>
+                    <ApprovedProRataShareRate>0.00</ApprovedProRataShareRate>
+                    <ApprovedRentableArea>0.00</ApprovedRentableArea>
+                    <BaseYearAmount>1000.00000</BaseYearAmount>
+                    <BeginDate>2015-03-01</BeginDate>
+                    <BudgetedAdminFeePercentage>0.00</BudgetedAdminFeePercentage>
+                    <BudgetedGLA>0.00</BudgetedGLA>
+                    <BudgetedPrePaidAmount>0.00</BudgetedPrePaidAmount>
+                    <BudgetedProRataShareRate>0.00</BudgetedProRataShareRate>
+                    <BudgetedRentableArea>0.00</BudgetedRentableArea>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCalculationMethodID>Passthrough</CodeCalculationMethodID>
+                    <CodePaymentFrequencyID>Monthly</CodePaymentFrequencyID>
+                    <CodeRecoveryGroupID>CAM</CodeRecoveryGroupID>
+                    <CodeRecoveryTypeID clientID="client-292">Interior</CodeRecoveryTypeID>
+                    <EndDate>2020-12-31</EndDate>
+                    <ProjectEntityID>592484</ProjectEntityID>
+                    <ReconciledFlag>false</ReconciledFlag>
+                    <ReportedAdjustmentAmount>0.00</ReportedAdjustmentAmount>
+                    <ReportedAdminFeePercentage>0.00</ReportedAdminFeePercentage>
+                    <ReportedGLA>0.00</ReportedGLA>
+                    <ReportedPrePaidAmount>0.00</ReportedPrePaidAmount>
+                    <ReportedProRataShareRate>0.00</ReportedProRataShareRate>
+                    <ReportedRentableArea>0.00</ReportedRentableArea>
+                </ExpenseRecovery>
+                <MapClientSchedule clientID="client-541550">
+                    <LastReviewedDate>2015-12-21T13:43:54</LastReviewedDate>
+                    <ProjectEntityID>592484</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PaymentTransaction clientID="client-36939521">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2015-03-01</EffectiveDate>
+                    <EffectiveEndDate>2020-12-31</EffectiveEndDate>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>1000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>592484</ProjectEntityID>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>1000.00000</TotalAmount>
+                </PaymentTransaction>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

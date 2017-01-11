@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="QA">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>sql151_Dev_Trunk_20120303_105920409_4435</mes:ClientID>
+                <mes:PageLayoutName>Admin-Sites for this Portfolio_Button</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:AllowUserCreate>false</mes:AllowUserCreate>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>S</mes:OutputType>
+                    <mes:PageLayoutType>R</mes:PageLayoutType>
+                    <mes:CodeCurrencyTypeID>USD</mes:CodeCurrencyTypeID>
+                    <mes:FirmID>QA</mes:FirmID>
+                    <mes:EntitySelectionFilter>131076</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>8192</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920416_662894</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_69">CodeProjectTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Project Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920423_662895</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_86">CurrentPhaseStatus</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Project Status</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920430_662896</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>9</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920437_662897</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_301">StreetAddress1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Street Address #1</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920444_662898</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_451">City</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>City</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920453_662899</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_299">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Store Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920461_662900</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_113">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>State</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920468_662901</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:DisplayLabel>Portfolio</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920478_23024</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_476">JurisdictionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920485_23025</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_69">CodeProjectTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920494_23026</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_106">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920501_23027</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1026">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920509_23028</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_86">CurrentPhaseStatus</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920580_23029</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920587_23030</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_522">Years</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920594_23031</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_521">AllQuarters</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920601_23032</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_301">StreetAddress1</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920608_23033</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_110">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920615_23034</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_109">CityStateProvinceCountry</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920622_23035</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_526">AllMonths</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920628_23036</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_108">SubRegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920634_23037</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_451">City</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920641_23038</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_299">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920647_23039</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_113">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920653_23040</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_7.2.0_20100909_140939536_0">AllPeriods</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920660_23041</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Dev_Trunk_20120303_105920666_23042</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904487_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>sql151_Demo_Trunk_20120621_111912908_24464</mes:ClientID>
+                        <mes:PageLayoutID ClientID="sql151_Dev_Trunk_20120303_105920409_4435">Admin-Sites for this Portfolio_Button</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_Dev_910_20111227_171619090_0">Month</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>QA</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                </mes:PageLayoutFilters>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-3394">
+                <Description>Selenium Schedule A</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-566635">Selenium Schedule A</ProjectEntityID>
+                <TemplateName>Selenium Schedule A</TemplateName>
+                <MapClientSchedule clientID="client-515822">
+                    <LastReviewedDate>2015-07-01T05:40:01</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566635">Selenium Schedule A</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1555791">
+                        <Description>Created Root Group</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566635">Selenium Schedule A</ProjectEntityID>
+                        <TaskName>Selenium Root Group</TaskName>
+                        <Task clientID="client-1555792">
+                            <Description>Added Group</Description>
+                            <IsTaskGroup>true</IsTaskGroup>
+                            <OnCriticalPath>false</OnCriticalPath>
+                            <ParentTaskID clientID="client-1555791">Selenium Root Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-566635">Selenium Schedule A</ProjectEntityID>
+                            <TaskName>Selenium Group</TaskName>
+                            <Task clientID="client-1555795">
+                                <ActualDuration>4</ActualDuration>
+                                <ActualResourceUnits>0</ActualResourceUnits>
+                                <ActualStartDate>1970-01-02</ActualStartDate>
+                                <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                                <IsTaskGroup>false</IsTaskGroup>
+                                <OriginalDuration>4</OriginalDuration>
+                                <OriginalResourceUnits>0</OriginalResourceUnits>
+                                <OriginalStartDate>1970-01-02</OriginalStartDate>
+                                <ParentTaskID clientID="client-1555792">Selenium Group</ParentTaskID>
+                                <ProjectEntityID clientID="client-566635">Selenium Schedule A</ProjectEntityID>
+                                <ProjectedDuration>4</ProjectedDuration>
+                                <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                                <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                                <TaskName>Selenium Task</TaskName>
+                            </Task>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate><TaskTemplate clientID="client-3395">
+                <Description>Selenium Schedule B</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <Notes>Selenium Schedule B</Notes>
+                <ProjectEntityID clientID="client-566636">Selenium Schedule B</ProjectEntityID>
+                <TemplateName>Selenium Schedule B</TemplateName>
+                <MapClientSchedule clientID="client-515823">
+                    <LastReviewedDate>2015-07-01T05:40:02</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566636">Selenium Schedule B</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1555796">
+                        <Description>Created Root Group</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566636">Selenium Schedule B</ProjectEntityID>
+                        <TaskName>Selenium Root Group</TaskName>
+                        <Task clientID="client-1555797">
+                            <Description>Added Group</Description>
+                            <IsTaskGroup>true</IsTaskGroup>
+                            <OnCriticalPath>false</OnCriticalPath>
+                            <ParentTaskID clientID="client-1555796">Selenium Root Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-566636">Selenium Schedule B</ProjectEntityID>
+                            <TaskName>Selenium Group</TaskName>
+                            <Task clientID="client-1555800">
+                                <ActualDuration>4</ActualDuration>
+                                <ActualResourceUnits>0</ActualResourceUnits>
+                                <ActualStartDate>1970-01-02</ActualStartDate>
+                                <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                                <IsTaskGroup>false</IsTaskGroup>
+                                <OriginalDuration>4</OriginalDuration>
+                                <OriginalResourceUnits>0</OriginalResourceUnits>
+                                <OriginalStartDate>1970-01-02</OriginalStartDate>
+                                <ParentTaskID clientID="client-1555797">Selenium Group</ParentTaskID>
+                                <ProjectEntityID clientID="client-566636">Selenium Schedule B</ProjectEntityID>
+                                <ProjectedDuration>4</ProjectedDuration>
+                                <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                                <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                                <TaskName>Selenium Task</TaskName>
+                            </Task>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate><TaskTemplate clientID="client-3399">
+                <Description>Selenium Template A</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-566640">Selenium Template A</ProjectEntityID>
+                <TemplateName>Selenium Template A</TemplateName>
+                <MapClientSchedule clientID="client-515826">
+                    <LastReviewedDate>2015-07-01T06:23:51</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566640">Selenium Template A</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1555819">
+                        <Description>Created Root Group</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566640">Selenium Template A</ProjectEntityID>
+                        <TaskName>Selenium Root Group A</TaskName>
+                        <Task clientID="client-1555820">
+                            <Description>Added Group</Description>
+                            <IsTaskGroup>true</IsTaskGroup>
+                            <OnCriticalPath>false</OnCriticalPath>
+                            <ParentTaskID clientID="client-1555819">Selenium Root Group A</ParentTaskID>
+                            <ProjectEntityID clientID="client-566640">Selenium Template A</ProjectEntityID>
+                            <TaskName>Selenium Group A</TaskName>
+                            <Task clientID="client-1555821">
+                                <ActualDuration>4</ActualDuration>
+                                <ActualResourceUnits>0</ActualResourceUnits>
+                                <ActualStartDate>1970-01-02</ActualStartDate>
+                                <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                                <IsTaskGroup>false</IsTaskGroup>
+                                <OriginalDuration>4</OriginalDuration>
+                                <OriginalResourceUnits>0</OriginalResourceUnits>
+                                <OriginalStartDate>1970-01-02</OriginalStartDate>
+                                <ParentTaskID clientID="client-1555820">Selenium Group A</ParentTaskID>
+                                <ProjectEntityID clientID="client-566640">Selenium Template A</ProjectEntityID>
+                                <ProjectedDuration>4</ProjectedDuration>
+                                <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                                <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                                <TaskName>Selenium Task A</TaskName>
+                            </Task>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate><TaskTemplate clientID="client-3400">
+                <Description>Selenium Template B</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <Notes>Selenium Schedule B</Notes>
+                <ProjectEntityID clientID="client-566641">Selenium Template B</ProjectEntityID>
+                <TemplateName>Selenium Template B</TemplateName>
+                <MapClientSchedule clientID="client-515827">
+                    <LastReviewedDate>2015-07-01T06:23:53</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566641">Selenium Template B</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1555784">
+                        <Description>Created Root Group</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566641">Selenium Template B</ProjectEntityID>
+                        <TaskName>Selenium Root Group B</TaskName>
+                        <Task clientID="client-1555787">
+                            <Description>Added Group</Description>
+                            <IsTaskGroup>true</IsTaskGroup>
+                            <OnCriticalPath>false</OnCriticalPath>
+                            <ParentTaskID clientID="client-1555784">Selenium Root Group B</ParentTaskID>
+                            <ProjectEntityID clientID="client-566641">Selenium Template B</ProjectEntityID>
+                            <TaskName>Selenium Group B</TaskName>
+                            <Task clientID="client-1555788">
+                                <ActualDuration>4</ActualDuration>
+                                <ActualResourceUnits>0</ActualResourceUnits>
+                                <ActualStartDate>1970-01-02</ActualStartDate>
+                                <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                                <IsTaskGroup>false</IsTaskGroup>
+                                <OriginalDuration>4</OriginalDuration>
+                                <OriginalResourceUnits>0</OriginalResourceUnits>
+                                <OriginalStartDate>1970-01-02</OriginalStartDate>
+                                <ParentTaskID clientID="client-1555787">Selenium Group B</ParentTaskID>
+                                <ProjectEntityID clientID="client-566641">Selenium Template B</ProjectEntityID>
+                                <ProjectedDuration>4</ProjectedDuration>
+                                <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                                <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                                <TaskName>Selenium Task B</TaskName>
+                            </Task>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

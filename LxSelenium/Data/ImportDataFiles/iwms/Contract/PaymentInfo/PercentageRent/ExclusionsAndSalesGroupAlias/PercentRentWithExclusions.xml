@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <CodeTables>
+            <CodeSalesType>
+                <ParentCodeSalesGroupID>Sales</ParentCodeSalesGroupID>
+                <ShortName>Credit Card Sales - 701</ShortName>
+                <OmitFromSalesGroupTotal>true</OmitFromSalesGroupTotal>
+            </CodeSalesType>
+            <CodeSalesType>
+                <ParentCodeSalesGroupID>Sales</ParentCodeSalesGroupID>
+                <ShortName>Employee Sales - 701</ShortName>
+                <OmitFromSalesGroupTotal>false</OmitFromSalesGroupTotal>
+            </CodeSalesType>
+        </CodeTables>
+        <Contracts>
+            <Contract clientID="client-5744457875787">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>PercentRentWithExclusions-5744457875787</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Percent Rent With Exclusions</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-5744457875787">Percent Rent With Exclusions</ProjectEntityID>
+                <RentableArea>1800.00000</RentableArea>
+                <math_DepthMathField_2>200.0</math_DepthMathField_2>
+                <math_Depthplus100_0>100.0</math_Depthplus100_0>
+                <math_UsableAreaplus200_1>200.0</math_UsableAreaplus200_1>
+                <ExpenseSetup clientID="client-57444578757871">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>5744457875787</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>1800.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseVendorAllocation clientID="client-57444578757872">
+                        <BeginDate>2000-01-01</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>5744457875787</ProjectEntityID>
+                        <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule clientID="client-522871">
+                    <LastReviewedDate>2015-09-08T03:40:22</LastReviewedDate>
+                    <ProjectEntityID>5744457875787</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PercentageRent clientID="client-57444578757874">
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2014-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Quarterly</CodeBillingFrequencyID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12451">Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Cumulative</CodePercentageRentTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2020-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID>5744457875787</ProjectEntityID>
+                    <RentYearStartMonth>January</RentYearStartMonth>
+                </PercentageRent>
+                <PercentageRentBreakpoint clientID="client-57444578757876">
+                    <BeginDate>2000-01-01</BeginDate>
+                    <BreakpointAmount1>100000.00000</BreakpointAmount1>
+                    <BreakpointRate1>10.00000</BreakpointRate1>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2020-12-31</EndDate>
+                    <ProjectEntityID>5744457875787</ProjectEntityID>
+                </PercentageRentBreakpoint>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

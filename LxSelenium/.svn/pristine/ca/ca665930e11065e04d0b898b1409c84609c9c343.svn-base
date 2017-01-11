@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <WorkFlowTemplates>
+            <WorkFlowTemplate>
+                <DefaultWFCodePriorityID>3 - Normal</DefaultWFCodePriorityID>
+                <Description>Handles the process of receiving and Invoice, Reviewing it, Challenging it and Approving it.</Description>
+                <LimitByEntity>false</LimitByEntity>
+                <NotifyAllApproversComplete>true</NotifyAllApproversComplete>
+                <NotifyAllAssigneesComplete>false</NotifyAllAssigneesComplete>
+                <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+                <StatusChangeType>1</StatusChangeType>
+                <WorkFlowTemplateName>Invoicing</WorkFlowTemplateName>
+                <WorkFlowTemplateStep>
+                    <ApproverType>1</ApproverType>
+                    <ApproverTypeList>Work Order Dispatch</ApproverTypeList>
+                    <AssigneeType>4</AssigneeType>
+                    <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                    <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                    <DaysUntilAlertApprovers>4</DaysUntilAlertApprovers>
+                    <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                    <DaysUntilWarnApprovers>3</DaysUntilWarnApprovers>
+                    <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                    <DurationDaysApprovers>2</DurationDaysApprovers>
+                    <DurationDaysAssignees>1</DurationDaysAssignees>
+                    <EMailAlertApprovers>false</EMailAlertApprovers>
+                    <EMailAlertAssignees>false</EMailAlertAssignees>
+                    <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                    <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                    <PageLayoutApproversID>Invoice~Invoice Approval</PageLayoutApproversID>
+                    <PageLayoutAssigneesID>Invoice~Submit Invoice</PageLayoutAssigneesID>
+                    <SetTaskCanceled>false</SetTaskCanceled>
+                    <SetTaskInProcess>true</SetTaskInProcess>
+                    <StepNumber>1</StepNumber>
+                    <WorkFlowTemplateID>Invoicing</WorkFlowTemplateID>
+                    <WorkFlowTemplateStepName>Submit Invoice</WorkFlowTemplateStepName>
+                    <WorkFlowTemplateStepAction>
+                        <CloseWorkFlow>false</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>true</IsApprovalAction>
+                        <MoveToStepNumber>3</MoveToStepNumber>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>false</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Approve</WorkFlowTemplateStepActionName>
+                        <WorkFlowTemplateStepID>Submit Invoice</WorkFlowTemplateStepID>
+                    </WorkFlowTemplateStepAction>
+                    <WorkFlowTemplateStepAction>
+                        <CloseWorkFlow>false</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>false</IsApprovalAction>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>true</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Challenge</WorkFlowTemplateStepActionName>
+                        <WorkFlowTemplateStepID>Submit Invoice</WorkFlowTemplateStepID>
+                    </WorkFlowTemplateStepAction>
+                    <WorkFlowTemplateStepAction>
+                        <CloseWorkFlow>false</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>true</IsApprovalAction>
+                        <MoveToStepNumber>2</MoveToStepNumber>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>false</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Submit for Additional Approval</WorkFlowTemplateStepActionName>
+                        <WorkFlowTemplateStepID>Submit Invoice</WorkFlowTemplateStepID>
+                    </WorkFlowTemplateStepAction>
+                </WorkFlowTemplateStep>
+                <WorkFlowTemplateStep>
+                    <ApproverType>1</ApproverType>
+                    <ApproverTypeList>Regional Director of Operations</ApproverTypeList>
+                    <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                    <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                    <DaysUntilAlertApprovers>4</DaysUntilAlertApprovers>
+                    <DaysUntilWarnApprovers>3</DaysUntilWarnApprovers>
+                    <DurationDaysApprovers>2</DurationDaysApprovers>
+                    <EMailAlertApprovers>false</EMailAlertApprovers>
+                    <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                    <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                    <PageLayoutApproversID>Invoice~Invoice Approval</PageLayoutApproversID>
+                    <SetTaskCanceled>false</SetTaskCanceled>
+                    <SetTaskInProcess>true</SetTaskInProcess>
+                    <StepNumber>2</StepNumber>
+                    <WorkFlowTemplateID>Invoicing</WorkFlowTemplateID>
+                    <WorkFlowTemplateStepName>Additional Approval</WorkFlowTemplateStepName>
+                    <WorkFlowTemplateStepAction>
+                        <CloseWorkFlow>false</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>true</IsApprovalAction>
+                        <MoveToStepNumber>3</MoveToStepNumber>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>false</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Approve</WorkFlowTemplateStepActionName>
+                        <WorkFlowTemplateStepID>Additional Approval</WorkFlowTemplateStepID>
+                    </WorkFlowTemplateStepAction>
+                    <WorkFlowTemplateStepAction>
+                        <CloseWorkFlow>false</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>false</IsApprovalAction>
+                        <MoveToStepNumber>1</MoveToStepNumber>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>false</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Challenge</WorkFlowTemplateStepActionName>
+                        <WorkFlowTemplateStepID>Additional Approval</WorkFlowTemplateStepID>
+                    </WorkFlowTemplateStepAction>
+                </WorkFlowTemplateStep>
+                <WorkFlowTemplateStep>
+                    <ApproverType>1</ApproverType>
+                    <ApproverTypeList>Accounting</ApproverTypeList>
+                    <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                    <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                    <DaysUntilAlertApprovers>5</DaysUntilAlertApprovers>
+                    <DaysUntilNotification>0</DaysUntilNotification>
+                    <DaysUntilWarnApprovers>4</DaysUntilWarnApprovers>
+                    <DurationDaysApprovers>3</DurationDaysApprovers>
+                    <EMailAlertApprovers>false</EMailAlertApprovers>
+                    <EnableForDashboard>true</EnableForDashboard>
+                    <EnableForEMail>true</EnableForEMail>
+                    <NotifieeType>1</NotifieeType>
+                    <NotifieeTypeList>Work Order Dispatch</NotifieeTypeList>
+                    <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                    <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                    <PageLayoutApproversID>Invoice~Invoice Approval</PageLayoutApproversID>
+                    <SetTaskCanceled>false</SetTaskCanceled>
+                    <SetTaskInProcess>true</SetTaskInProcess>
+                    <StepNumber>3</StepNumber>
+                    <WorkFlowTemplateID>Invoicing</WorkFlowTemplateID>
+                    <WorkFlowTemplateStepName>Submit For Payment</WorkFlowTemplateStepName>
+                    <WorkFlowTemplateStepAction>
+                        <CloseWorkFlow>true</CloseWorkFlow>
+                        <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                        <IsApprovalAction>true</IsApprovalAction>
+                        <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                        <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                        <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                        <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                        <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                        <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                        <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                        <RestartStep>false</RestartStep>
+                        <SendPaymentInfo>false</SendPaymentInfo>
+                        <WorkFlowTemplateStepActionName>Payment Sent</WorkFlowTemplateStepActionName>
+                        <WorkFlowTemplateStepID>Submit For Payment</WorkFlowTemplateStepID>
+                    </WorkFlowTemplateStepAction>
+                </WorkFlowTemplateStep>
+            </WorkFlowTemplate><WorkFlowTemplate>
+            <DefaultWFCodePriorityID>3 - Normal</DefaultWFCodePriorityID>
+            <Description>Used to solicit bids/proposals for Service Requests</Description>
+            <LimitByEntity>false</LimitByEntity>
+            <NotifyAllApproversComplete>true</NotifyAllApproversComplete>
+            <NotifyAllAssigneesComplete>false</NotifyAllAssigneesComplete>
+            <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+            <StatusChangeType>1</StatusChangeType>
+            <WorkFlowTemplateName>Proposal Request</WorkFlowTemplateName>
+            <WorkFlowTemplateStep>
+                <ApproverType>1</ApproverType>
+                <ApproverTypeList>Work Order Dispatch</ApproverTypeList>
+                <AssigneeType>4</AssigneeType>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                <DurationDaysApprovers>1</DurationDaysApprovers>
+                <DurationDaysAssignees>1</DurationDaysAssignees>
+                <EMailAlertApprovers>false</EMailAlertApprovers>
+                <EMailAlertAssignees>false</EMailAlertAssignees>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutApproversID>Work Order~2c. Work Order Proposal</PageLayoutApproversID>
+                <PageLayoutAssigneesID>Work Order~2c. Work Order Proposal</PageLayoutAssigneesID>
+                <Priority>1</Priority>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>1</StepNumber>
+                <WorkFlowTemplateID>Proposal Request</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Enter Proposal</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Work Order Execution</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>true</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Accept Proposal</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Enter Proposal</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <Description>Negotiate a better deal.</Description>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>true</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Challenge Proposal</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Enter Proposal</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Reject Proposal</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Enter Proposal</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <MoveToStepNumber>2</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Submit for Approval</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Enter Proposal</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+            <WorkFlowTemplateStep>
+                <ApproverType>1</ApproverType>
+                <ApproverTypeList>Lx Administrator</ApproverTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                <DurationDaysApprovers>1</DurationDaysApprovers>
+                <EMailAlertApprovers>false</EMailAlertApprovers>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutApproversID>Work Order~2c. Work Order Proposal</PageLayoutApproversID>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>2</StepNumber>
+                <WorkFlowTemplateID>Proposal Request</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Review and Approve Proposal - 1</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Work Order Execution</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Approve</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Review and Approve Proposal - 1</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <MoveToStepNumber>1</MoveToStepNumber>
+                    <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>true</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Deny</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Review and Approve Proposal - 1</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <MoveToStepNumber>3</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Submit for Additional Approval</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Review and Approve Proposal - 1</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+            <WorkFlowTemplateStep>
+                <ApproverType>1</ApproverType>
+                <ApproverTypeList>Lx Administrator</ApproverTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                <DurationDaysApprovers>1</DurationDaysApprovers>
+                <EMailAlertApprovers>false</EMailAlertApprovers>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutApproversID>Work Order~2c. Work Order Proposal</PageLayoutApproversID>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>3</StepNumber>
+                <WorkFlowTemplateID>Proposal Request</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Review and Approve Proposal - 2</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Work Order Execution</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Approve</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Review and Approve Proposal - 2</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <MoveToStepNumber>1</MoveToStepNumber>
+                    <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>true</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Deny</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Review and Approve Proposal - 2</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+        </WorkFlowTemplate><WorkFlowTemplate>
+            <DefaultWFCodePriorityID>3 - Normal</DefaultWFCodePriorityID>
+            <LimitByEntity>false</LimitByEntity>
+            <NotifyAllApproversComplete>false</NotifyAllApproversComplete>
+            <NotifyAllAssigneesComplete>false</NotifyAllAssigneesComplete>
+            <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+            <PageLayoutID>Service Request~1a. New Service Request</PageLayoutID>
+            <StatusChangeType>1</StatusChangeType>
+            <WorkFlowTemplateName>Service Request</WorkFlowTemplateName>
+            <WorkFlowTemplateStep>
+                <ApproverType>1</ApproverType>
+                <ApproverTypeList>Work Order Dispatch</ApproverTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                <DurationDaysApprovers>1</DurationDaysApprovers>
+                <EMailAlertApprovers>false</EMailAlertApprovers>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutApproversID>Service Request~1b. Service Request - Corporate</PageLayoutApproversID>
+                <Priority>0</Priority>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>1</StepNumber>
+                <WorkFlowTemplateID>Service Request</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Route to Responsible Party</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <Description>Issue has been resolved.</Description>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Close Service Request</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Route to Responsible Party</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Work Order Execution</KickOffWorkFlowTemplateID>
+                    <MoveToStepNumber>2</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>true</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Dispatch to Vendor</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Route to Responsible Party</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Proposal Request</KickOffWorkFlowTemplateID>
+                    <MoveToStepNumber>2</MoveToStepNumber>
+                    <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>true</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Request Proposal #1</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Route to Responsible Party</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Proposal Request</KickOffWorkFlowTemplateID>
+                    <MoveToStepNumber>2</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>true</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Request Proposal #2</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Route to Responsible Party</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Route to Maintenance</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Route to Responsible Party</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Route to Real Estate</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Route to Responsible Party</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+            <WorkFlowTemplateStep>
+                <ApproverType>1</ApproverType>
+                <ApproverTypeList>Work Order Dispatch</ApproverTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                <DurationDaysApprovers>1</DurationDaysApprovers>
+                <EMailAlertApprovers>true</EMailAlertApprovers>
+                <NotifyStepApproversStarted>true</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutApproversID>Service Request~1b. Service Request - Corporate</PageLayoutApproversID>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>2</StepNumber>
+                <WorkFlowTemplateID>Service Request</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Close/Re-Open Service Request</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>true</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Close Service Request</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Work Order Execution</KickOffWorkFlowTemplateID>
+                    <MoveToStepNumber>3</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Dispatch to a New Vendor</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Proposal Request</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>true</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Request Proposal #1</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Proposal Request</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>true</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Request Proposal #2</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Route to Landlord/Real Estate</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+            <WorkFlowTemplateStep>
+                <ApproverType>1</ApproverType>
+                <ApproverTypeList>Work Order Dispatch</ApproverTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                <DurationDaysApprovers>1</DurationDaysApprovers>
+                <EMailAlertApprovers>false</EMailAlertApprovers>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutApproversID>Service Request~1b. Service Request - Corporate</PageLayoutApproversID>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>3</StepNumber>
+                <WorkFlowTemplateID>Service Request</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Close/Re-Re-Open Service Request</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Close Service Request</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Work Order Execution</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>true</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Dispatch to an Alternate Vendor</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Route to Maintenance</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Route to Real Estate</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Proposal Request</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>true</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Send Proposal #1</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>false</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Proposal Request</KickOffWorkFlowTemplateID>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>true</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Send Proposal #2</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Close/Re-Re-Open Service Request</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+        </WorkFlowTemplate><WorkFlowTemplate>
+            <DefaultWFCodePriorityID>3 - Normal</DefaultWFCodePriorityID>
+            <LimitByEntity>false</LimitByEntity>
+            <NotifyAllApproversComplete>false</NotifyAllApproversComplete>
+            <NotifyAllAssigneesComplete>false</NotifyAllAssigneesComplete>
+            <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+            <StatusChangeType>1</StatusChangeType>
+            <WorkFlowTemplateName>Work Order Execution</WorkFlowTemplateName>
+            <WorkFlowTemplateStep>
+                <AssigneeType>4</AssigneeType>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                <DaysUntilNotification>0</DaysUntilNotification>
+                <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                <DurationDaysAssignees>1</DurationDaysAssignees>
+                <EMailAlertAssignees>false</EMailAlertAssignees>
+                <EnableForDashboard>true</EnableForDashboard>
+                <EnableForEMail>true</EnableForEMail>
+                <NotifieeType>1</NotifieeType>
+                <NotifieeTypeList>Store Manager,Work Order Dispatch</NotifieeTypeList>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutAssigneesID>Work Order~3a. Vendor Scheduling</PageLayoutAssigneesID>
+                <Priority>0</Priority>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>1</StepNumber>
+                <WorkFlowTemplateID>Work Order Execution</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Confirm Vendor Dates</WorkFlowTemplateStepName>
+            </WorkFlowTemplateStep>
+            <WorkFlowTemplateStep>
+                <AssigneeType>1</AssigneeType>
+                <AssigneeTypeList>Store Manager</AssigneeTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                <DurationDaysAssignees>1</DurationDaysAssignees>
+                <EMailAlertAssignees>false</EMailAlertAssignees>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutAssigneesID>Work Order~3b. Vendor Check-In/Out</PageLayoutAssigneesID>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>2</StepNumber>
+                <WorkFlowTemplateID>Work Order Execution</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Vendor Check-In</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <MoveToStepNumber>3</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>true</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Check-in Verified</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Vendor Check-In</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+            <WorkFlowTemplateStep>
+                <ApproverType>1</ApproverType>
+                <ApproverTypeList>Store Manager</ApproverTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertApprovers>1</DaysUntilAlertApprovers>
+                <DaysUntilWarnApprovers>1</DaysUntilWarnApprovers>
+                <DurationDaysApprovers>1</DurationDaysApprovers>
+                <EMailAlertApprovers>false</EMailAlertApprovers>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutApproversID>Work Order~3b. Vendor Check-In/Out</PageLayoutApproversID>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>3</StepNumber>
+                <WorkFlowTemplateID>Work Order Execution</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Vendor Check-Out</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <KickOffWorkFlowTemplateID>Invoicing</KickOffWorkFlowTemplateID>
+                    <MoveToStepNumber>6</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>true</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>true</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Work is Complete</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Vendor Check-Out</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>false</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <MoveToStepNumber>2</MoveToStepNumber>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Work is NOT Complete</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Vendor Check-Out</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+            <WorkFlowTemplateStep>
+                <AssigneeType>1</AssigneeType>
+                <AssigneeTypeList>Store Manager</AssigneeTypeList>
+                <AutoAdjustTaskDates>true</AutoAdjustTaskDates>
+                <AutoLaunchNextStep>true</AutoLaunchNextStep>
+                <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                <DaysUntilNotification>0</DaysUntilNotification>
+                <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                <DurationDaysAssignees>1</DurationDaysAssignees>
+                <EMailAlertAssignees>false</EMailAlertAssignees>
+                <EnableForDashboard>true</EnableForDashboard>
+                <EnableForEMail>true</EnableForEMail>
+                <NotifieeType>1</NotifieeType>
+                <NotifieeTypeList>Work Order Dispatch</NotifieeTypeList>
+                <NotifyStepApproversStarted>false</NotifyStepApproversStarted>
+                <NotifyStepAssigneesStarted>false</NotifyStepAssigneesStarted>
+                <PageLayoutAssigneesID>Work Order~3d. Vendor Evaluation</PageLayoutAssigneesID>
+                <SetTaskCanceled>false</SetTaskCanceled>
+                <SetTaskInProcess>true</SetTaskInProcess>
+                <StepNumber>6</StepNumber>
+                <WorkFlowTemplateID>Work Order Execution</WorkFlowTemplateID>
+                <WorkFlowTemplateStepName>Perform Vendor Evaluation</WorkFlowTemplateStepName>
+                <WorkFlowTemplateStepAction>
+                    <CloseWorkFlow>true</CloseWorkFlow>
+                    <DisableEditAfterDecision>false</DisableEditAfterDecision>
+                    <IsApprovalAction>true</IsApprovalAction>
+                    <NotifyInitiatorComplete>false</NotifyInitiatorComplete>
+                    <NotifyPriorApproversComplete>false</NotifyPriorApproversComplete>
+                    <NotifyPriorAssigneesComplete>false</NotifyPriorAssigneesComplete>
+                    <NotifyStepApproversComplete>false</NotifyStepApproversComplete>
+                    <NotifyStepAssigneesComplete>false</NotifyStepAssigneesComplete>
+                    <PassAdhocToNewWF>false</PassAdhocToNewWF>
+                    <PassPriorityToNewWF>false</PassPriorityToNewWF>
+                    <RestartStep>false</RestartStep>
+                    <SendPaymentInfo>false</SendPaymentInfo>
+                    <WorkFlowTemplateStepActionName>Update Vendor Records</WorkFlowTemplateStepActionName>
+                    <WorkFlowTemplateStepID>Perform Vendor Evaluation</WorkFlowTemplateStepID>
+                </WorkFlowTemplateStepAction>
+            </WorkFlowTemplateStep>
+        </WorkFlowTemplate>
+        </WorkFlowTemplates>
+    </Firm>
+</LxERP>

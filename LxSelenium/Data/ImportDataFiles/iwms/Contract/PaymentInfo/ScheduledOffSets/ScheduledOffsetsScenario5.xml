@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <StateProvinceCountries>
+            <StateProvinceCountry>
+                <Country>United States</Country>
+                <State>TX</State>
+                <StateProvince>TX</StateProvince>
+            </StateProvinceCountry>
+        </StateProvinceCountries>
+        <Employers>
+            <Employer>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Broker</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>Vendor C</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <PostalCode>Texas</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>5601 Democracy Drive</StreetAddress1>
+            </Employer>
+            <Employer>
+                <APVendorNumber>1234</APVendorNumber>
+                <AfterHoursContact>Delete Access</AfterHoursContact>
+                <AfterHoursRate>20.00000</AfterHoursRate>
+                <BankAccountNumber>123456</BankAccountNumber>
+                <BankRoutingNumber>00020012</BankRoutingNumber>
+                <BusinessHours>M-F
+                    8am - 7pm
+                </BusinessHours>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Vendor</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeCoverageID>Full</CodeCoverageID>
+                <CodeVendorGradeID>Excellent</CodeVendorGradeID>
+                <CompanyType>Vendor</CompanyType>
+                <EMail1>qa1@lucernex.com</EMail1>
+                <EmployerName>Selenium-Employer</EmployerName>
+                <Fax>125.124.1254</Fax>
+                <HasAfterHoursSupport>true</HasAfterHoursSupport>
+                <HourlyRate>15.00000</HourlyRate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>true</IsFemaleOwned>
+                <IsGLBTOwned>true</IsGLBTOwned>
+                <IsMinorityOwned>true</IsMinorityOwned>
+                <IsPreferredVendor>true</IsPreferredVendor>
+                <IsSBAProgram>true</IsSBAProgram>
+                <MobileNumber>125.128.4578</MobileNumber>
+                <NameAKA>QA Testing Employer</NameAKA>
+                <Notes>Do NOT change this employer record in any way.</Notes>
+                <NumberOfServiceTrucks>50</NumberOfServiceTrucks>
+                <NumberOfStates>50</NumberOfStates>
+                <NumberOfTechnicians>300</NumberOfTechnicians>
+                <Phone>915.920.2669</Phone>
+                <PostalCode>75026</PostalCode>
+                <SelfPerform>true</SelfPerform>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <TravelRate>25.00000</TravelRate>
+                <WebSite>lucernex.com</WebSite>
+                <VendorInsurance>
+                    <AggregateOccurrenceAmt>100000.00000</AggregateOccurrenceAmt>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeInsurancePolicyTypeID>General Liability</CodeInsurancePolicyTypeID>
+                    <EndDate>2030-12-31</EndDate>
+                    <Policy>Total deductible for the year is $100,000.00, but the maximum amount that can be paid for a
+                        single occurance is $50,000.00.
+                    </Policy>
+                    <SingleOccurrenceAmt>50000.00000</SingleOccurrenceAmt>
+                    <VendorID>Selenium-Employer</VendorID>
+                </VendorInsurance>
+            </Employer>
+            <Employer>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Broker</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>Vendor B</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <PostalCode>Texas</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>5601 Democracy Drive</StreetAddress1>
+            </Employer>
+            <Employer>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Employer</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>Vendor A</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <PostalCode>Texas</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>8025 Ohio Dr</StreetAddress1>
+                <VendorInsurance>
+                    <BeginDate>2010-02-01</BeginDate>
+                    <CodeInsurancePolicyTypeID>General Liability</CodeInsurancePolicyTypeID>
+                    <EndDate>2030-12-31</EndDate>
+                    <VendorID>Vendor A</VendorID>
+                </VendorInsurance>
+            </Employer>
+        </Employers>
+        <Organizations>
+            <Organization>
+                <AccountNumber1>000012548569</AccountNumber1>
+                <CodeOrganizationCategoryID>Internal</CodeOrganizationCategoryID>
+                <CodeOrganizationGroupID>Internal</CodeOrganizationGroupID>
+                <CodeOrganizationTypeID>Corporate</CodeOrganizationTypeID>
+                <OrganizationName>Selenium-Organization</OrganizationName>
+            </Organization>
+        </Organizations>
+        <Complexs>
+            <Complex>
+                <City>Plano</City>
+                <ClientNumber>25444</ClientNumber>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeComplexClassID>Class</CodeComplexClassID>
+                <CodeComplexStatusID>Newly Opened</CodeComplexStatusID>
+                <CodeComplexTypeID>Mall</CodeComplexTypeID>
+                <ComplexName>Stonebriar</ComplexName>
+                <DeveloperID>Delete Access</DeveloperID>
+                <ExpansionPlanDate>2020-01-01</ExpansionPlanDate>
+                <GLAExcludingAnchors>200000.00000</GLAExcludingAnchors>
+                <GrossLeaseArea>150000.00000</GrossLeaseArea>
+                <HasFoodCourt>true</HasFoodCourt>
+                <HoursOfOperation>9 am - 10pm</HoursOfOperation>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsEnclosed>true</IsEnclosed>
+                <IsExpansionPlanned>true</IsExpansionPlanned>
+                <IsRenovationPlanned>true</IsRenovationPlanned>
+                <IsSpaceAvailable>true</IsSpaceAvailable>
+                <JurisdictionID>Collin</JurisdictionID>
+                <LandlordID>View Access</LandlordID>
+                <LastRenovated>1995</LastRenovated>
+                <NearestCompetition>2 Blocks away</NearestCompetition>
+                <NotableTenants>Target, Walmart</NotableTenants>
+                <Notes>Updated via import</Notes>
+                <NumberLevels>3</NumberLevels>
+                <NumberOutparcels>5</NumberOutparcels>
+                <NumberParkingSpaces>300</NumberParkingSpaces>
+                <NumberStores>56</NumberStores>
+                <OccupancyPercentage>76.00000</OccupancyPercentage>
+                <Phone>254.254.3569</Phone>
+                <PostalCode>75024</PostalCode>
+                <PropertyManagerID>Edit Access</PropertyManagerID>
+                <RenovationPlanDate>2020-01-01</RenovationPlanDate>
+                <SalesPerArea>1300.00000</SalesPerArea>
+                <StreetAddress1>5601 Democracy DR</StreetAddress1>
+                <YearBuilt>1995</YearBuilt>
+            </Complex>
+        </Complexs>
+        <Locations>
+            <Location>
+                <City>Plano</City>
+                <ClientEntityID>12345678</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLocationGroupID>Retail</CodeLocationGroupID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ComplexID>Stonebriar</ComplexID>
+                <CrossStreet1>Alameda</CrossStreet1>
+                <CrossStreet2>Buena Vista</CrossStreet2>
+                <GrossLeaseArea>200000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <LatitudeDegrees>33.0691140000</LatitudeDegrees>
+                <LocationName>Lucernex-Project</LocationName>
+                <LongitudeDegrees>-96.8172200000</LongitudeDegrees>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectDescription>Project Test</ProjectDescription>
+                <ProjectEntityID>Lucernex-Project</ProjectEntityID>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <!--  <ExpenseVendorAllocation>
+                      <BeginDate>2010-01-01</BeginDate>
+                      <ContractID>Scheduled Offset Scenario 2</ContractID>
+                      <EndDate>2014-03-31</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=623570</ExpenseSetupID>
+                      <PaymentPercentage>50.00000</PaymentPercentage>
+                      <ProjectEntityID>Scheduled Offset Scenario 2</ProjectEntityID>
+                      <VendorID>Vendor A</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2010-01-01</BeginDate>
+                      <ContractID>Scheduled Offset Scenario 2</ContractID>
+                      <EndDate>2014-03-31</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=623570</ExpenseSetupID>
+                      <PaymentPercentage>50.00000</PaymentPercentage>
+                      <ProjectEntityID>Scheduled Offset Scenario 2</ProjectEntityID>
+                      <VendorID>Vendor B</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2014-04-01</BeginDate>
+                      <ContractID>Scheduled Offset Scenario 2</ContractID>
+                      <EndDate>2030-12-31</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=623570</ExpenseSetupID>
+                      <PaymentPercentage>100.00000</PaymentPercentage>
+                      <ProjectEntityID>Scheduled Offset Scenario 2</ProjectEntityID>
+                      <VendorID>Vendor A</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2010-01-01</BeginDate>
+                      <ContractID>SchedulesOffsetsScenario 6</ContractID>
+                      <EndDate>2030-11-30</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=623574</ExpenseSetupID>
+                      <PaymentPercentage>50.00000</PaymentPercentage>
+                      <ProjectEntityID>SchedulesOffsetsScenario 6</ProjectEntityID>
+                      <VendorID>Vendor A</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2010-01-01</BeginDate>
+                      <ContractID>SchedulesOffsetsScenario 6</ContractID>
+                      <EndDate>2030-11-30</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=623574</ExpenseSetupID>
+                      <PaymentPercentage>50.00000</PaymentPercentage>
+                      <ProjectEntityID>SchedulesOffsetsScenario 6</ProjectEntityID>
+                      <VendorID>Vendor B</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2000-01-01</BeginDate>
+                      <ContractID>Selenium-Contract</ContractID>
+                      <EndDate>2035-12-31</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=622813</ExpenseSetupID>
+                      <Notes>This will be updated upon import</Notes>
+                      <PaymentPercentage>100.00000</PaymentPercentage>
+                      <ProjectEntityID>Selenium-Contract</ProjectEntityID>
+                      <VendorID>Selenium-Employer</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2000-01-01</BeginDate>
+                      <ContractID>Selenium-Contract</ContractID>
+                      <EndDate>2035-12-31</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=622814</ExpenseSetupID>
+                      <PaymentPercentage>100.00000</PaymentPercentage>
+                      <ProjectEntityID>Selenium-Contract</ProjectEntityID>
+                      <VendorID>Selenium-Employer</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2000-01-01</BeginDate>
+                      <ContractID>Selenium-Contract</ContractID>
+                      <EndDate>2035-12-31</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=622815</ExpenseSetupID>
+                      <PaymentPercentage>100.00000</PaymentPercentage>
+                      <ProjectEntityID>Selenium-Contract</ProjectEntityID>
+                      <VendorID>Selenium-Employer</VendorID>
+                  </ExpenseVendorAllocation>
+                  <ExpenseVendorAllocation>
+                      <BeginDate>2000-01-01</BeginDate>
+                      <ContractID>Selenium-Contract</ContractID>
+                      <EndDate>2015-12-31</EndDate>
+                      <ExpenseSetupID>Expense Setup Record, ID=622816</ExpenseSetupID>
+                      <Notes>This will be created upon import</Notes>
+                      <PaymentPercentage>100.00000</PaymentPercentage>
+                      <ProjectEntityID>Selenium-Contract</ProjectEntityID>
+                      <VendorID>Selenium-Employer</VendorID>
+                  </ExpenseVendorAllocation>-->
+            </Location>
+        </Locations>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>ScheduledOffsetsScenario 5</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExpireDate>2030-12-31</ExpireDate>
+                <LocationID>Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <PossessionEndDate>2030-12-31</PossessionEndDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+
+                <PaymentTransaction>
+                    <BankAccountNumber>78787</BankAccountNumber>
+                    <BankRoutingNumber>674456</BankRoutingNumber>
+                    <CheckDate>2014-01-12</CheckDate>
+                    <CheckNumber>7888</CheckNumber>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Scheduled Offsets test</Description>
+                    <DueDate>2014-01-12</DueDate>
+                    <EffectiveDate>2014-01-12</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InternalRefNumber>897888</InternalRefNumber>
+                    <InvoiceAmount>2000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <OrganizationID>Selenium-Organization</OrganizationID>
+                    <PostingDate>2014-01-12</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <RemitMessage>Test Case</RemitMessage>
+                    <TaxAmount1>200.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor A</VendorID>
+                    <VendorRefNumber>90909</VendorRefNumber>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CheckDate>2014-01-13</CheckDate>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2014-01-13</DueDate>
+                    <EffectiveDate>2014-01-13</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>250.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <OrganizationID>Selenium-Organization</OrganizationID>
+                    <PostingDate>2014-01-13</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>25.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor A</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Water</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2014-01-13</DueDate>
+                    <EffectiveDate>2014-01-13</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>314.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-01-13</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>36.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor B</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2014-02-14</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>2000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-02-14</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>48.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor A</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2014-02-15</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>250.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <OrganizationID>Selenium-Organization</OrganizationID>
+                    <PostingDate>2014-02-15</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>32.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor A</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Water</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2014-02-16</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>314.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-02-16</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>34.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor B</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2014-03-12</DueDate>
+                    <EffectiveDate>2014-03-12</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>2000.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-03-12</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>50.00000</TaxAmount1>
+                    <TaxAmount2>50.00000</TaxAmount2>
+                    <VendorID>Vendor A</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Interior</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2014-03-13</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>250.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-03-13</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>10.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor A</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction>
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Water</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2014-03-14</DueDate>
+                    <EffectiveDate>2014-03-14</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>314.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PostingDate>2014-03-14</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+
+                    <TaxAmount1>10.00000</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID>Vendor B</VendorID>
+                </PaymentTransaction>
+                <ScheduledOffset>
+                    <BeginDate>2014-01-01</BeginDate>
+                    <CapAmountPerMonth>1500.00000</CapAmountPerMonth>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+
+                    <EndDate>2014-02-28</EndDate>
+
+                    <TotalAmount>2500.00000</TotalAmount>
+                    <VendorID>Vendor A</VendorID>
+                </ScheduledOffset>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

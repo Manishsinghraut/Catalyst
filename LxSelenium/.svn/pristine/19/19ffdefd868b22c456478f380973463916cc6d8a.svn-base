@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-03-07</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Lucernex-Project</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-Project-6258">ProjectForMathfieldinBudget</ProjectEntityID>
+                <ProjectName>ProjectForMathfieldinBudget</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+	     <BudgetTemplateID clientID="SeleniumBudgetTemplate">Selenium-Budget</BudgetTemplateID>
+                <BudgetColumn>
+		     <BudgetColumnTypeID>Estimate One</BudgetColumnTypeID>
+		     <CodeBudgetColumnStatusID>Default Status</CodeBudgetColumnStatusID>
+		     <RawBudgetColumnName>Estimate One</RawBudgetColumnName>
+		     <BudgetColumnItemValue>
+		           <BudgetLineItemID>1.1</BudgetLineItemID>
+		           <BypassLockedCheck>false</BypassLockedCheck>
+		           <ItemValue>200.00000</ItemValue>
+		     </BudgetColumnItemValue>
+		     <BudgetColumnItemValue>
+		           <BudgetLineItemID>1.2</BudgetLineItemID>
+		           <BypassLockedCheck>false</BypassLockedCheck>
+		           <ItemValue>150.00000</ItemValue>
+		      <BudgetColumnItemValue>
+		            <BudgetLineItemID>2.1</BudgetLineItemID>
+		            <BypassLockedCheck>false</BypassLockedCheck>
+		            <ItemValue>100.00000</ItemValue>
+		      </BudgetColumnItemValue>
+		      <BudgetColumnItemValue>
+		            <BudgetLineItemID>2.2</BudgetLineItemID>
+		            <BypassLockedCheck>false</BypassLockedCheck>
+		            <ItemValue>200.00000</ItemValue>
+		      </BudgetColumnItemValue>		           
+		     </BudgetColumnItemValue>
+		</BudgetColumn>
+                <BudgetColumn>
+		     <BudgetColumnTypeID>Estimate Two</BudgetColumnTypeID>
+		     <CodeBudgetColumnStatusID>Default Status</CodeBudgetColumnStatusID>
+		     <RawBudgetColumnName>Estimate One</RawBudgetColumnName>
+		     <BudgetColumnItemValue>
+		           <BudgetLineItemID>1.1</BudgetLineItemID>
+		           <BypassLockedCheck>false</BypassLockedCheck>
+		           <ItemValue>400.00000</ItemValue>
+		     </BudgetColumnItemValue>
+   	             <BudgetColumnItemValue>
+		            <BudgetLineItemID>2.2</BudgetLineItemID>
+		            <BypassLockedCheck>false</BypassLockedCheck>
+		            <ItemValue>300.00000</ItemValue>
+		      </BudgetColumnItemValue>		           
+		</BudgetColumn>
+                <BudgetColumn>
+		     <BudgetColumnTypeID>Estimate Three</BudgetColumnTypeID>
+		     <CodeBudgetColumnStatusID>Default Status</CodeBudgetColumnStatusID>
+		     <RawBudgetColumnName>Estimate One</RawBudgetColumnName>
+		     <BudgetColumnItemValue>
+		           <BudgetLineItemID>1.2</BudgetLineItemID>
+		           <BypassLockedCheck>false</BypassLockedCheck>
+		           <ItemValue>250.00000</ItemValue>
+		      </BudgetColumnItemValue>     
+		      <BudgetColumnItemValue>
+		            <BudgetLineItemID>2.1</BudgetLineItemID>
+		            <BypassLockedCheck>false</BypassLockedCheck>
+		            <ItemValue>200.00000</ItemValue>
+		      </BudgetColumnItemValue>
+		</BudgetColumn>		
+                
+                <SiteSurvey>
+                    <BuildingSignage>false</BuildingSignage>
+                    <CanopyLighting>false</CanopyLighting>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <FireSprinkler>false</FireSprinkler>
+                    <HandicapAccessible>false</HandicapAccessible>
+                    <IsBuildingPlanAvail>false</IsBuildingPlanAvail>
+                    <IsCLECAvail>false</IsCLECAvail>
+                    <IsConstructionCriteriaAvail>false</IsConstructionCriteriaAvail>
+                    <IsCurrentlyOccupied>false</IsCurrentlyOccupied>
+                    <IsLODAvail>false</IsLODAvail>
+                    <IsLandlordWorkDescriptionAvail>false</IsLandlordWorkDescriptionAvail>
+                    <IsRoofAccessAvail>false</IsRoofAccessAvail>
+                    <IsSignCriteriaAvail>false</IsSignCriteriaAvail>
+                    <MonumentSignage>false</MonumentSignage>
+                    <ParkingLotLighting>false</ParkingLotLighting>
+                    <ProjectEntityID>Project-6258</ProjectEntityID>
+                    <PylonSignage>false</PylonSignage>
+                    <RecommendToREC>false</RecommendToREC>
+                    <TrafficSignalAccess>false</TrafficSignalAccess>
+                </SiteSurvey>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

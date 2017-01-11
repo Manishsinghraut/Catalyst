@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location>
+                <ClientEntityID>Location 15688</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLocationCategoryID>Leased</CodeLocationCategoryID>
+                <CodeLocationGroupID>Lease</CodeLocationGroupID>
+                <CodeLocationStatusID>Active</CodeLocationStatusID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <LocationName>Location 15688</LocationName>
+                <ProgramID>00018 Portfolio</ProgramID>
+                <ProjectEntityID clientID="client-hr2">Location 15688</ProjectEntityID>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

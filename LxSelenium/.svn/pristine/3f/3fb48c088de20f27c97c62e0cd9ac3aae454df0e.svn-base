@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Facilities>
+            <Facility>
+                <City>Denton</City>
+                <ClientEntityID>Delete Template Facility823</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeFacilityCategoryID>Retail</CodeFacilityCategoryID>
+                <CodeFacilityGroupID>Retail</CodeFacilityGroupID>
+                <CodeFacilityStatusID>Active</CodeFacilityStatusID>
+                <CodeFacilityTypeID>000098</CodeFacilityTypeID>
+                <CodeFacilityUseID>Retail</CodeFacilityUseID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>Delete Template Facility</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Imported Location</LocationID>
+                <PostalCode>75034</PostalCode>
+                <ProgramID>Lucernex</ProgramID>
+                <ProjectEntityID>Delete Template Facility</ProjectEntityID>
+                <RegionID>Central Dallas(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <StreetAddress1>2343 Best Place Drive</StreetAddress1>
+                <UseLocationAddress>true</UseLocationAddress>
+                <MapClientSchedule>
+                    <HolidayScheduleID>Portfolio-Holiday Calendar</HolidayScheduleID>
+                    <LastReviewedDate>2015-11-03T13:48:31</LastReviewedDate>
+                    <ProjectEntityID>598858</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>

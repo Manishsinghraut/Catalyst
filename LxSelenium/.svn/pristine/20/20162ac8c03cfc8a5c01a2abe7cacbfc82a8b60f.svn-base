@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program clientID="client-4004">
+                <City>Plano</City>
+                <Description>Used for Automation test Cases</Description>
+                <FiscalYearEnd>2015-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>For Org Chart Feature</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-509228">For Org Chart Feature</ProjectEntityID>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <DevelopmentPlan clientID="client-109">
+                    <DevelopmentPlanName>lx_devPlan_3623</DevelopmentPlanName>
+                    <ProgramID clientID="client-3623">For Org Chart Feature</ProgramID>
+                    <ProjectEntityID clientID="client-509228">For Org Chart Feature</ProjectEntityID>
+                </DevelopmentPlan>
+                <LinkMemberProjectEntity clientID="client-6774397">
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access</MemberID>
+                    <ProjectEntityID clientID="client-509228">For Org Chart Feature</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-6774396">
+                    <IsManager>false</IsManager>
+                    <MemberID>Edit Access</MemberID>
+                    <ProjectEntityID clientID="client-509228">For Org Chart Feature</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-6774400">
+                    <IsManager>false</IsManager>
+                    <MemberID>No Access</MemberID>
+                    <ProjectEntityID clientID="client-509228">For Org Chart Feature</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-6774394">
+                    <IsManager>false</IsManager>
+                    <MemberID>Lx Administrator</MemberID>
+                    <ProjectEntityID clientID="client-509228">For Org Chart Feature</ProjectEntityID>
+                </LinkMemberProjectEntity>
+				
+				<OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-26001">
+                        <Description>Delete Parent Region</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-4004">For Org Chart Feature</ProgramID>
+                        <ProjectEntityID clientID="client-565544">For Org Chart Feature</ProjectEntityID>
+                        <RegionName>Delete-Parent-Region</RegionName>
+                        <LinkRegionManager clientID="client-60753">
+                            <IsManager>true</IsManager>
+                            <MemberID clientID="client-25981">Lx Administrator</MemberID>
+                            <ProgramID clientID="client-4004">For Org Chart Feature</ProgramID>
+                            <ProjectEntityID clientID="client-565544">For Org Chart Feature</ProjectEntityID>
+                        </LinkRegionManager>
+						
+						<LinkRegionManager clientID="client-60754">
+                            <IsManager>false</IsManager>
+                            <MemberID clientID="client-25981">Delete Access</MemberID>
+                            <ProgramID clientID="client-4004">For Org Chart Feature</ProgramID>
+                            <ProjectEntityID clientID="client-565544">For Org Chart Feature</ProjectEntityID>
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

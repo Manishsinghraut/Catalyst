@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Facilities>
+            <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeFacilityGroupID>Retail</CodeFacilityGroupID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityName>8457 Facility</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-661525gddd">8457 Facility</ProjectEntityID>
+                <RegionID>Central Dallas(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+				<Folder>
+                    <FolderName>SeleniumTestRootFolder1</FolderName>
+                    <IsFolderDownloadableByMember>true</IsFolderDownloadableByMember>
+                    <IsFolderReadableByMember>true</IsFolderReadableByMember>
+                    <IsFolderUploadOnlyByMember>false</IsFolderUploadOnlyByMember>
+                    <IsFolderUploadableByMember>true</IsFolderUploadableByMember>
+                    <ModifiedByID>Delete Access Access</ModifiedByID>
+                    <ModifiedDate>2016-08-05T14:12:19</ModifiedDate>
+                    <SubFolderPath>/SeleniumTestRootFolder1</SubFolderPath>
+                </Folder>
+                <Asset>
+                    <AssetName>123</AssetName>
+                    <CodeAssetCategoryID>Electrical</CodeAssetCategoryID>
+                </Asset>
+                <FacilityExpense>
+                    <ActualAmount>2000.00000</ActualAmount>
+                    <BudgetedAmount>1000.00000</BudgetedAmount>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>CAM</CodeExpenseTypeID>
+                    <Description>This is a Test</Description>
+                    <EffectiveDate>2016-08-05</EffectiveDate>
+                    <Notes>Regular, preventive maintenance helps maintain a clean, consistent appearance in your locations,while optimizing functionality
+            
+            Because the unexpected is bound to happen,FM Facility Maintenance service providers are ready to fix any unexpected problems</Notes>
+                    <PlannedAmount>25000.00000</PlannedAmount>
+                    <RevisedAmount>23000.00000</RevisedAmount>
+                </FacilityExpense>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID>Lx Administrator</MemberID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-08-05T14:40:00</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <Space>
+                    <ClientNumber>123</ClientNumber>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Active</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Retail</CodeSpaceUseID>
+                    <EffectiveDate>2002-01-01</EffectiveDate>
+                    <FloorNumber>34</FloorNumber>
+                    <GrossArea>1000.00000</GrossArea>
+                    <Notes>Regular, preventive maintenance helps maintain
+            a clean, consistent appearance in your locations,
+            while optimizing functionality
+            
+            Because the unexpected is bound to happen, 
+            FM Facility Maintenance service providers are 
+            ready to fix any unexpected problems</Notes>
+                    <RentableArea>3000.00000</RentableArea>
+                    <RoomNumber>101</RoomNumber>
+                    <SpaceName>Test facility</SpaceName>
+                    <SuiteNumber>12</SuiteNumber>
+                    <UsableArea>2500.00000</UsableArea>
+                    <Tenant>
+                        <Capacity1>100</Capacity1>
+                        <Capacity2>200</Capacity2>
+                        <Capacity3>300</Capacity3>
+                        <Capacity4>400</Capacity4>
+                        <CodeTenantCategoryID>Store</CodeTenantCategoryID>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantStatusID>Active</CodeTenantStatusID>
+                        <CodeTenantTypeID>Sales</CodeTenantTypeID>
+                        <Description>Testing save to documents</Description>
+                        <EffectiveDate>2016-08-05</EffectiveDate>
+                        <HeadCount1>88</HeadCount1>
+                        <HeadCount2>89</HeadCount2>
+                        <HeadCount3>90</HeadCount3>
+                        <HeadCount4>91</HeadCount4>
+                        <MoveInDate>2000-01-01</MoveInDate>
+                        <MoveOutDate>2020-12-31</MoveOutDate>
+                        <ProjectEntityID>661525gddd</ProjectEntityID>
+                        <TenantName>Tenant 1</TenantName>
+                    </Tenant>
+                </Space>
+            </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>

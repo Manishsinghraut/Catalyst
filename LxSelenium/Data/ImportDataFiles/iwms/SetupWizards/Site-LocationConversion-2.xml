@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <PotentialProjects>
+            <PotentialProject>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeConstructionTypeID>Brick</CodeConstructionTypeID>
+                <CodeDealTypeID>Leasing</CodeDealTypeID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeMarketTypeID>Retail Mall</CodeMarketTypeID>
+                <CodeProjectTypeID>Retail Project</CodeProjectTypeID>
+                <ComplexID>Stonebriar</ComplexID>
+                <CrossStreet1>Democracy</CrossStreet1>
+                <CrossStreet2>Parkwood</CrossStreet2>
+                <Depth>10.00</Depth>
+                <ExpectedEndDate>2016-02-10</ExpectedEndDate>
+                <Frontage>20.00</Frontage>
+                <GrossArea>4356000.00000</GrossArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <PostalCode>75024</PostalCode>
+                <PotentialProjectName>Site - Location Conversion-2</PotentialProjectName>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectDescription>Selenium Test Description</ProjectDescription>
+                <ProjectEntityID>Site - Location Conversion-2</ProjectEntityID>
+                <PrototypeID>Selenium Webdriver Prototype</PrototypeID>
+                <RegionID>Central (Central region - preOpen) Frisco(Pre-Open)</RegionID>
+                <RentableArea>100.00000</RentableArea>
+                <StreetAddress1>5601 democracy dr</StreetAddress1>
+                <TradeArea>Test</TradeArea>
+                <UsableArea>80.00000</UsableArea>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>true</AddedByOrgChart>
+                    <IsManager>true</IsManager>
+                    <MemberID>Lx Administrator</MemberID>
+                    
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Selenium Tester</MemberID>
+                    
+                </LinkMemberProjectEntity>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-02-10T06:31:50</LastReviewedDate>
+                    
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <SiteSurvey>
+                    <BuildingSignage>false</BuildingSignage>
+                    <CanopyLighting>false</CanopyLighting>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                    <FacilityDescription>Selenium Test Description</FacilityDescription>
+                    <FireSprinkler>false</FireSprinkler>
+                    <HandicapAccessible>false</HandicapAccessible>
+                    <IsBuildingPlanAvail>false</IsBuildingPlanAvail>
+                    <IsCLECAvail>false</IsCLECAvail>
+                    <IsConstructionCriteriaAvail>false</IsConstructionCriteriaAvail>
+                    <IsCurrentlyOccupied>false</IsCurrentlyOccupied>
+                    <IsLODAvail>false</IsLODAvail>
+                    <IsLandlordWorkDescriptionAvail>false</IsLandlordWorkDescriptionAvail>
+                    <IsRoofAccessAvail>false</IsRoofAccessAvail>
+                    <IsSignCriteriaAvail>false</IsSignCriteriaAvail>
+                    <MonumentSignage>false</MonumentSignage>
+                    <ParkingLotLighting>false</ParkingLotLighting>
+                    
+                    <PylonSignage>false</PylonSignage>
+                    <RecommendToREC>false</RecommendToREC>
+                    <TrafficSignalAccess>false</TrafficSignalAccess>
+                </SiteSurvey>
+            </PotentialProject>
+        </PotentialProjects>
+    </Firm>
+</LxERP>

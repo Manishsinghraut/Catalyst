@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Locations>
+            <Location>
+                <City>Plano</City>
+                <ClientEntityID>12345678</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLocationGroupID>Retail</CodeLocationGroupID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ComplexID clientID="client-26893">Stonebriar</ComplexID>
+                <CrossStreet1>Alameda</CrossStreet1>
+                <CrossStreet2>Buena Vista</CrossStreet2>
+                <GrossLeaseArea>200000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <LatitudeDegrees>33.0691140000</LatitudeDegrees>
+                <LocationName>Lucernex-Project</LocationName>
+                <LongitudeDegrees>-96.8172200000</LongitudeDegrees>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectDescription>Project Test</ProjectDescription>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+            </Location>
+            <Location>
+                <City>Plano</City>
+                <ClientEntityID>000056</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                <CodeLocationCategoryID>New</CodeLocationCategoryID>
+                <CodeLocationGroupID>Lease</CodeLocationGroupID>
+                <CodeLocationTypeID clientID="client-873">90909</CodeLocationTypeID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeSubArea1ID>SubArea</CodeSubArea1ID>
+                <CodeSubRegion1ID>SubRegion</CodeSubRegion1ID>
+                <ComplexID clientID="client-26893">Stonebriar</ComplexID>
+                <CrossStreet1>Parkwood</CrossStreet1>
+                <CrossStreet2>Democracy</CrossStreet2>
+                <GrossLeaseArea>5000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <LocationName>000056</LocationName>
+                <LocationParcelArea>2000.00000</LocationParcelArea>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <RegionID clientID="client-17655">Central Dallas (Operating) Frisco(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <RegionLvl2>Frisco</RegionLvl2>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <LinkMemberProjectEntity clientID="client-6773956">
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-15833">Delete Access</MemberID>
+                    <ProjectEntityID clientID="client-509236">000056</ProjectEntityID>
+                </LinkMemberProjectEntity>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Facilities>
+            <Facility>
+                <City>Plano</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <FacilityName>Facility Test 1a</FacilityName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID>Migrate Selenium Entity</ProgramID>
+                <ProjectEntityID clientID="client-abc630495">Facility Test 1a</ProjectEntityID>
+                <RegionID>Central Dallas(Operating)</RegionID>
+                <RegionLvl1>Central Dallas(Operating)</RegionLvl1>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <UseLocationAddress>true</UseLocationAddress>
+              </Facility>
+        </Facilities>
+    </Firm>
+</LxERP>

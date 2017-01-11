@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META NAME='robots' CONTENT='none'>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico">
+<link rel='stylesheet' type='text/css' href='/all/js/ext-3.4.0/resources/css/ext-all.css?build=1028'>
+<link rel='stylesheet' type='text/css' href='/all/js/ext-3.4.0/ext-ux.css?build=1028'>
+<link rel='stylesheet' type='text/css' href='/all/js/ext-3.4.0/resources/css/xtheme-gray.css?build=1028'>
+<link rel='stylesheet' type='text/css' href='/en/css/lxBase.css?build=1028'>
+<link rel='stylesheet' type='text/css' href='/en/css/lxBrown.css?build=1028'>
+<script type='text/javascript' src='/all/js/ext-3.4.0/adapter/ext/ext-base.js?build=1028'></script>
+<script type='text/javascript' src='/all/js/ext-3.4.0/ext-all.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/miframe2/miframe.js?build=1028'></script>
+<script type='text/javascript' src='/all/js/ext-3.4.0/iscroll.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/ext-lx.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/util/lxPopup.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/lxui/slideshow.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/DynTable.jsp?build=1028'></script>
+<script type='text/javascript' src='/en/js/util/PopulateList.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/util/lxDate.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/util/JspUtil.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/ext-ux.js?build=1028'></script>
+<script type='text/javascript' src='/en/js/lxui/layoutGrid.js?build=1028'></script>
+<script type="text/javascript" src="/RolloutManager/js/OpenLayers/OpenLayers.js"></script>
+<script src="/RolloutManager/js/mapstraction/mxn.js?(openlayers,googlev3)" type="text/javascript"></script>
+<script type="text/javascript">function lxGetLoadScriptUrl() {
+return location.protocol+'//maps.googleapis.com/maps/api/js?client=gme-lucernextechnologies&v=3&sensor=false&callback=googleMapsCallback&channel=1921681107DevTrunk&signature=cEQyXpmY_yTjaNHTwKGHWcqFDoo=';
+}
+</script><script src='/RolloutManager/js/util/markerclusterer.js' type='text/javascript'></script>
+<script type='text/javascript' src='/en/js/menu.js?build=1028'></script>
+<STYLE TYPE='text/css'>
+div#mainwrapper { top: 98px; }
+</style>
+<TITLE>LxRetail</TITLE>
+</head>
+<body bgcolor="#ffffff">
+<script type='text/javascript'>
+if( typeof( Ext ) != 'undefined' ){
+Ext.BLANK_IMAGE_URL = '/all/js/ext-3.4.0/resources/images/default/s.gif';
+}
+var _lxuiSiteRoot = '/en';
+var lxDatePattern = 'm/d/Y';
+var lxNumberPattern0 = '0,000.';
+var lxNumberPattern2 = '0,000.00';
+var frameSiteRoot = '/en';
+var framesLXFORM_KEY = '1125986614';
+</script>
+<div id='lxModal'></div>
+<div id='alltopheader'>
+<div id=topbar><table style='float:right;' cellspacing='0' cellpadding='0'><tr>	<td style='padding-top:10px;'><form onsubmit='doTopSearch(document.forms.txtSearchForm);return(false);' name='txtSearchForm' action='#'>		      <table border=0 cellpadding=0 cellspacing=0>		        <tr valign=middle>		          <td NOWRAP>		           <input style='color:#888888;' class='fieldText' type='text' value='enter search text' name='searchText' size='15'		              onfocus='this.style.color="#000000";this.value="";'>&nbsp;		          </td>		          <td valign='bottom'>		            <img onclick='javascript:doTopSearch(document.forms.txtSearchForm);' border='0' src='/en/img/searchicon.png'		              width='28' height='28' alt='Text Search' title='Text Search' align='bottom' id='advSearchDiv'>		          &nbsp;&nbsp;&nbsp;&nbsp;</td>		        </tr>		      </table></form>     </td><td><div id='lxToolBar' style='float:right;height: 35px;'></div></td></tr></table><div id='topleftlogo'><a href='http://www.lucernex.com'><img alt=logo border=0 height=35 src='/en/img/lucernexlogo.gif' align=top></a></div></div>
+<script type='text/javascript'>
+_menu_siteRoot = '/en';
+var toolBar;
+Ext.onReady(function() {
+var showWizard = 'true';
+var showAdmin  = 'true';
+toolBar = lxCreateToolbar(showWizard, showAdmin);
+//if(!isBrowserSupported()) {
+//	Ext.Msg.alert('Warning!', browserErrorMessage);
+//}
+});
+</script>
+<form name=IssueCacheform action="/en/issue/IssueDetail.jsp" method=GET TARGET="_top">
+<input type=hidden name=projectEntityID>
+<input type=hidden name=issueID>
+</form>
+<form name=Cacheform action="/RolloutManager/admin/Messenger.jsp"  method=GET TARGET="_top">
+<input type="hidden" name="firmID" value="3064">
+<input type="hidden" name="requestedProjectEntityType" value="">
+<input type="hidden" name="projectEntityID" value="-1">
+</form>
+<!-- Fields required for history management -->
+<form id="history-form" class="x-hidden" action="#">
+<input type="hidden" id="x-history-field">
+<iframe id="x-history-frame"></iframe>
+</form>
+<div id='tabsbar' class='menubar'><div id='tabsbar2'><div class='menubar2_bkg'><span id='firm_text'>QA</span></div></div><div id='lx-hpicker-div' style='display: none;'><select id='lx-hpicker' onchange='onSEPChange(this)'><option value=''></select></div><ul class='nav1'><li id='image0'>  <a id='m1_Program' target=_top href="javascript:redirectForPE(null, 'Program');">Portfolio</a>
+<ul class='nav2'>    <li id=subImage0_0 class='starting-menu2-item'><a id='m2_Program_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=Program&amp;menuPLID=935">Details</a></li>
+<li id=subImage0_1><a id='m2_Program_Demographics' target=_top href="/en/Page.jsp?requestedProjectEntityType=Program&amp;menuPLID=925">Demographics</a></li>
+<li id=subImage0_2><a id='m2_Program_Market_Optimization' target=_top href="/en/Page.jsp?requestedProjectEntityType=Program&amp;menuPLID=3869">Market Optimization</a></li>
+<li id=subImage0_3><a id='m2_Program_RE_Planner' target=_top href="/en/Page.jsp?requestedProjectEntityType=Program&amp;menuPLID=929">RE Planner</a></li>
+<li id=subImage0_4><a id='m2_Program_Org_Chart' target=_top href="/en/Page.jsp?requestedProjectEntityType=Program&amp;menuPLID=933">Org Chart</a></li>
+<li id=subImage0_5><a id='m2_Program_Facility___Store_List' target=_top href="/en/Page.jsp?requestedProjectEntityType=Program&amp;menuPLID=4262">Facility / Store List</a></li>
+<li id=subImage0_6><a id='m2_Program_Reports' target=_top href="/en/reports/SavedReportList.jsp?requestedProjectEntityType=Program&amp;menuPLID=3573">Reports</a></li>
+</ul>
+</li>
+<li id='image1'>  <a id='m1_CapitalProgram' target=_top href="javascript:redirectForPE(null, 'CapitalProgram');">Program</a>
+<ul class='nav2'>    <li id=subImage1_0><a id='m2_CapitalProgram_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=CapitalProgram&amp;menuPLID=3745">Details</a></li>
+<li id=subImage1_1><a id='m2_CapitalProgram_Org_Chart' target=_top href="/en/Page.jsp?requestedProjectEntityType=CapitalProgram&amp;menuPLID=3754">Org Chart</a></li>
+<li id=subImage1_2><a id='m2_CapitalProgram_Reports' target=_top href="/en/Page.jsp?requestedProjectEntityType=CapitalProgram&amp;menuPLID=3756">Reports</a></li>
+</ul>
+</li>
+<li id='image2'>  <a id='m1_PotentialProject' target=_top href="javascript:redirectForPE(null, 'PotentialProject');">Site</a>
+<ul class='nav2'>    <li id=subImage2_0><a id='m2_PotentialProject_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=PotentialProject&amp;menuPLID=950">Details</a></li>
+<li id=subImage2_1><a id='m2_PotentialProject_Demographics' target=_top href="/en/Page.jsp?requestedProjectEntityType=PotentialProject&amp;menuPLID=3587">Demographics</a></li>
+<li id=subImage2_2><a id='m2_PotentialProject_Equipment' target=_top href="/en/Page.jsp?requestedProjectEntityType=PotentialProject&amp;menuPLID=3584">Equipment</a></li>
+<li id=subImage2_3><a id='m2_PotentialProject_Pro_Forma_Lease' target=_top href="/en/Page.jsp?requestedProjectEntityType=PotentialProject&amp;menuPLID=960">Pro Forma Lease</a></li>
+<li id=subImage2_4><a id='m2_PotentialProject_Reports' target=_top href="/en/Page.jsp?requestedProjectEntityType=PotentialProject&amp;menuPLID=3590">Reports</a></li>
+</ul>
+</li>
+<li id='image3'>  <a id='m1_Project' target=_top href="javascript:redirectForPE(null, 'Project');">Project</a>
+<ul class='nav2'>    <li id=subImage3_0><a id='m2_Project_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=Project&amp;menuPLID=975">Details</a></li>
+<li id=subImage3_1><a id='m2_Project_Demographics' target=_top href="/en/Page.jsp?requestedProjectEntityType=Project&amp;menuPLID=3578">Demographics</a></li>
+<li id=subImage3_2><a id='m2_Project_Equipment' target=_top href="/en/Page.jsp?requestedProjectEntityType=Project&amp;menuPLID=3576">Equipment</a></li>
+<li id=subImage3_3><a id='m2_Project_Pro_Forma_Lease' target=_top href="/en/Page.jsp?requestedProjectEntityType=Project&amp;menuPLID=988">Pro Forma Lease</a></li>
+<li id=subImage3_4><a id='m2_Project_Reports' target=_top href="/en/Page.jsp?requestedProjectEntityType=Project&amp;menuPLID=3581">Reports</a></li>
+</ul>
+</li>
+<li id='image4'>  <a id='m1_Location' target=_top href="javascript:redirectForPE(null, 'Location');">Location</a>
+<ul class='nav2'>    <li id=subImage4_0><a id='m2_Location_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=Location&amp;menuPLID=3536">Details</a></li>
+<li id=subImage4_1><a id='m2_Location_Complex_Center' target=_top href="/en/Page.jsp?requestedProjectEntityType=Location&amp;menuPLID=3549">Complex/Center</a></li>
+<li id=subImage4_2><a id='m2_Location_Reports' target=_top href="/en/reports/SavedReportList.jsp?requestedProjectEntityType=Location&amp;menuPLID=3556">Reports</a></li>
+</ul>
+</li>
+<li id='image5'>  <a id='m1_Parcel' target=_top href="javascript:redirectForPE(null, 'Parcel');">Parcel</a>
+<ul class='nav2'>    <li id=subImage5_0><a id='m2_Parcel_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=Parcel&amp;menuPLID=3559">Details</a></li>
+<li id=subImage5_1><a id='m2_Parcel_Parcel_Access' target=_top href="/en/Page.jsp?requestedProjectEntityType=Parcel&amp;menuPLID=4204">Parcel Access</a></li>
+<li id=subImage5_2><a id='m2_Parcel_Property_Taxes' target=_top href="/en/Page.jsp?requestedProjectEntityType=Parcel&amp;menuPLID=5842">Property Taxes</a></li>
+<li id=subImage5_3><a id='m2_Parcel_Reports' target=_top href="/en/Page.jsp?requestedProjectEntityType=Parcel&amp;menuPLID=3571">Reports</a></li>
+<li id=subImage5_4><a id='m2_Parcel_Jurisdiction' target=_top href="/en/Page.jsp?requestedProjectEntityType=Parcel&amp;menuPLID=4894">Jurisdiction</a></li>
+</ul>
+</li>
+<li id='image6'>  <a id='m1_Facility' target=_top href="javascript:redirectForPE(null, 'Facility');">Facility</a>
+<ul class='nav2'>    <li id=subImage6_0><a id='m2_Facility_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=Facility&amp;menuPLID=1006">Details</a></li>
+<li id=subImage6_1><a id='m2_Facility_Demographics' target=_top href="/en/Page.jsp?requestedProjectEntityType=Facility&amp;menuPLID=4577">Demographics</a></li>
+<li id=subImage6_2><a id='m2_Facility_Asset_Management' target=_top href="/en/Page.jsp?requestedProjectEntityType=Facility&amp;menuPLID=3525">Asset Management</a></li>
+<li id=subImage6_3><a id='m2_Facility_Space_Management' target=_top href="/en/Page.jsp?requestedProjectEntityType=Facility&amp;menuPLID=3527">Space Management</a></li>
+<li id=subImage6_4><a id='m2_Facility_Facility_Expense' target=_top href="/en/Page.jsp?requestedProjectEntityType=Facility&amp;menuPLID=5583">Facility Expense</a></li>
+<li id=subImage6_5><a id='m2_Facility_Pro_Forma_Lease' target=_top href="/en/Page.jsp?requestedProjectEntityType=Facility&amp;menuPLID=1014">Pro Forma Lease</a></li>
+<li id=subImage6_6><a id='m2_Facility_Reports' target=_top href="/en/Page.jsp?requestedProjectEntityType=Facility&amp;menuPLID=3533">Reports</a></li>
+</ul>
+</li>
+<li id='image7'>  <a id='m1_CapitalProject' target=_top href="javascript:redirectForPE(null, 'CapitalProject');">Capital Project</a>
+<ul class='nav2'>    <li id=subImage7_0><a id='m2_CapitalProject_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=CapitalProject&amp;menuPLID=3759">Details</a></li>
+<li id=subImage7_1><a id='m2_CapitalProject_Reports' target=_top href="/en/Page.jsp?requestedProjectEntityType=CapitalProject&amp;menuPLID=3768">Reports</a></li>
+</ul>
+</li>
+<li id='image8'>  <a id='m1_Contract' target=_top href="javascript:redirectForPE(null, 'Contract');">Contract</a>
+<ul class='nav2'>    <li id=subImage8_0><a id='m2_Contract_Details' target=_top href="/en/Page.jsp?requestedProjectEntityType=Contract&amp;menuPLID=3493">Details</a></li>
+<li id=subImage8_1><a id='m2_Contract_Abstract_Info' target=_top href="/en/Page.jsp?requestedProjectEntityType=Contract&amp;menuPLID=3502">Abstract Info</a></li>
+<li id=subImage8_2><a id='m2_Contract_Payment_Info' target=_top href="/en/Page.jsp?requestedProjectEntityType=Contract&amp;menuPLID=3512">Payment Info</a></li>
+<li id=subImage8_3><a id='m2_Contract_Accounting_Info' target=_top href="/en/Page.jsp?requestedProjectEntityType=Contract&amp;menuPLID=5476">Accounting Info</a></li>
+<li id=subImage8_4><a id='m2_Contract_Reports' target=_top href="/en/Page.jsp?requestedProjectEntityType=Contract&amp;menuPLID=3521">Reports</a></li>
+</ul>
+</li>
+</ul></div>
+</div>
+<div id=footerHtml style="display:none">
+<table>
+<tr>
+<td style='padding-right: 50px'><B>User:</B> <a title='Lx Administrator' href=javascript: onClick='javascript:showMemberInfo(this, "/en", 8048,true,true,true)'>Lx Administrator</a></td>
+<td style='padding-right: 50px'><B>Firm:</B> QA</td>
+</tr>
+</table>
+</div>
+<MAP NAME=searchmap>
+<AREA
+SHAPE=rect
+ALT='Search'
+COORDS="0,0,42,12"
+HREF="javascript:doTopSearch(document.forms.txtSearchForm)"
+>
+<AREA
+SHAPE=rect
+ALT='Advanced Search'
+COORDS="0,13,42,22"
+HREF="javascript:doTopAdvSearch()"
+>
+</MAP>
+<div id=mainwrappernoframe><div id=main>
+<script type='text/javascript'>
+_menu_curPageLink='/RolloutManager/admin/Messenger.jsp?';_menu_curPagePLID=-1;_menu_curPagePETypes = [];
+var _tpMode = 'noFrame';
+</script>
+<script type='text/javascript'>document.title="Import Data";</script>
+<div class='x-tab-strip-wrap'><ul class='x-tab-strip-top x-tab-strip'  style='border-bottom:0px'><li class='x-tab-strip-active'><a class='x-tab-right' href='/en/admin/Messenger.jsp'><em class='x-tab-left'><span class='x-tab-strip-inner'><span class='x-tab-strip-text'>Import Data</span></span></em></a></li><li class=''><a class='x-tab-right' href='/en/admin/Messenger.jsp?formSubmit=fileDownload'><em class='x-tab-left'><span class='x-tab-strip-inner'><span class='x-tab-strip-text'>Spreadsheets</span></span></em></a></li><li class=''><a class='x-tab-right' href='/en/admin/MessengerScheduleJobEdit.jsp?'><em class='x-tab-left'><span class='x-tab-strip-inner'><span class='x-tab-strip-text'>Schedule Job</span></span></em></a></li><li class=''><a class='x-tab-right' href='/en/admin/JobLogEdit.jsp?'><em class='x-tab-left'><span class='x-tab-strip-inner'><span class='x-tab-strip-text'>Job Log</span></span></em></a></li></ul></div><table cellpadding=0 cellspacing=0 border=0 width='100%'><tr><td width='100%' class='tabSpacer'><img alt='spacer' src='/en/img/spacer.gif' height=5 width=746></td></tr></table>
+<tr><td>
+<br>
+<div class='frmNote'>Processing Done - "3form.xml".<br></div>
+<br></br>
+<div class='frmNote'>
+Less than one second<br><br>Form&nbsp;&nbsp;-&nbsp;&nbsp;Total Adds: 0&nbsp;&nbsp;-&nbsp;&nbsp;Total Updates: 1&nbsp;&nbsp;-&nbsp;&nbsp;Total Deletes: 0&nbsp;&nbsp;-&nbsp;&nbsp;Total Failed: 0&nbsp;&nbsp;-&nbsp;&nbsp;Total Processed: 1<br><br>
+</div>
+</td></tr>
+<tr>
+<td align=center>
+<form name="resetForm" method="post" action=/RolloutManager/admin/Messenger.jsp>
+<input type=hidden name="formSubmit" value="reset">
+<input type=hidden name="popupEdit" value="false">
+<input type=submit value="Reset">
+</form>
+</td>
+</tr>
+<tr><td>
+<div class='frmError' id='errMsg'>
+</div>
+<div class='frmNote' id='warnMsg'>
+</div>
+</td></tr>
+<script type='text/javascript'>
+if (typeof(Ext) != 'undefined') {
+Ext.onReady(
+function(){
+var f = Ext.get('footerHtml');
+var ft = Ext.get('footerHtmlTarget');
+if(f && ft &&  f != null && ft != null ){
+ft.replaceWith(f);
+ft.setVisible(true);
+}
+}
+);
+}
+</script>
+<br><br>
+<table width="100%"><tr>
+<td>
+<div id='footerHtmlTarget'></div>
+</td><td align=center>
+<i>~~Copyright#~&nbsp;&copy;&nbsp;2014,&nbsp;Lucernex Inc.
+&nbsp;&nbsp;&nbsp;~~Build#~&nbsp;9.2.2.3.1028 (2014/10/18 04:11) (9.2.2.3)
+</i>
+<FONT COLOR=WHITE>
+192.168.1.101 101:8080
+</FONT>
+</td></tr></table>
+</div></div>
+<script type='text/javascript'>
+Ext.onReady(new function() {
+new Ext.Viewport({
+layout: {
+type:'vbox',
+padding:'0',
+align:'stretch'
+},
+defaults:{margins:'0 0 0 0'},
+items : [
+{
+contentEl: 'alltopheader',
+border: false,
+height: 96,
+padding: '0'
+},{
+contentEl : 'mainwrappernoframe',
+border: false,
+padding: '0',
+flex:1,
+autoScroll: true
+}
+]
+});
+});
+</script>
+<IFrame id="dlIFrm" style="display:none"></IFrame>
+<script type='text/javascript'>
+function refreshIOSScrollWrapper(){
+//console.log('refreshing scroll wrapper...');
+return;
+}
+</script>
+</BODY>
+</HTML>

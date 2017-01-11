@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+<Firm>
+<Employers>
+<Employer>
+<City>Plano</City>
+<CodeContactTypeIDList>
+<CodeContactTypeID>Employer</CodeContactTypeID>
+</CodeContactTypeIDList>
+<CompanyType>Vendor</CompanyType>
+<EmployerName>Vendor A</EmployerName>
+<HasAfterHoursSupport>false</HasAfterHoursSupport>
+<IStateProvinceCountryID>
+<Country>United States</Country>
+<State>TX</State>
+</IStateProvinceCountryID>
+<Inactive>false</Inactive>
+<IsFemaleOwned>false</IsFemaleOwned>
+<IsGLBTOwned>false</IsGLBTOwned>
+<IsMinorityOwned>false</IsMinorityOwned>
+<IsPreferredVendor>false</IsPreferredVendor>
+<IsSBAProgram>false</IsSBAProgram>
+<PostalCode>Texas</PostalCode>
+<SelfPerform>false</SelfPerform>
+<StreetAddress1>8025 Ohio Dr</StreetAddress1>
+</Employer> 
+<Employer>
+<City>Plano</City>
+<CodeContactTypeIDList>
+<CodeContactTypeID>Employer</CodeContactTypeID>
+</CodeContactTypeIDList>
+<CompanyType>Vendor</CompanyType>
+<EmployerName>Vendor B</EmployerName>
+<HasAfterHoursSupport>false</HasAfterHoursSupport>
+<IStateProvinceCountryID>
+<Country>United States</Country>
+<State>TX</State>
+</IStateProvinceCountryID>
+<Inactive>false</Inactive>
+<IsFemaleOwned>false</IsFemaleOwned>
+<IsGLBTOwned>false</IsGLBTOwned>
+<IsMinorityOwned>false</IsMinorityOwned>
+<IsPreferredVendor>false</IsPreferredVendor>
+<IsSBAProgram>false</IsSBAProgram>
+<PostalCode>Texas</PostalCode>
+<SelfPerform>false</SelfPerform>
+<StreetAddress1>5601 Democracy Drive</StreetAddress1>
+</Employer>
+<Employer>
+<City>Plano</City>
+<CodeContactTypeIDList>
+<CodeContactTypeID>Employer</CodeContactTypeID>
+</CodeContactTypeIDList>
+<CompanyType>Vendor</CompanyType>
+<EmployerName>Vendor C</EmployerName>
+<HasAfterHoursSupport>false</HasAfterHoursSupport>
+<IStateProvinceCountryID>
+<Country>United States</Country>
+<State>TX</State>
+</IStateProvinceCountryID>
+<Inactive>false</Inactive>
+<IsFemaleOwned>false</IsFemaleOwned>
+<IsGLBTOwned>false</IsGLBTOwned>
+<IsMinorityOwned>false</IsMinorityOwned>
+<IsPreferredVendor>false</IsPreferredVendor>
+<IsSBAProgram>false</IsSBAProgram>
+<PostalCode>Texas</PostalCode>
+<SelfPerform>false</SelfPerform>
+<StreetAddress1>5601 Democracy Drive</StreetAddress1>
+</Employer>
+</Employers>
+<Members>
+<Member>
+<AlwaysSpellCheck>false</AlwaysSpellCheck>
+<City>Plano</City>
+<CodeContactTypeIDList>
+<CodeContactTypeID>Team Member</CodeContactTypeID>
+</CodeContactTypeIDList>
+<CodeJobFunctionID>General Contractor</CodeJobFunctionID>
+<CodeJobTitleID>General Contractor</CodeJobTitleID>
+<CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+<CodeUserClassID>General Contractor</CodeUserClassID>
+<Description>GC</Description>
+<EMail1>QA1@lucernex.com</EMail1>
+<EmployerID>Vendor A</EmployerID>
+<Fax>456987123</Fax>
+<FirstName>GC</FirstName>
+<IStateProvinceCountryID>
+<Country>United States</Country>
+<State>TX</State>
+</IStateProvinceCountryID>
+<IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+<Language>EN</Language>
+<LastName>One</LastName>
+<LoginName>BidderOne</LoginName>
+<Password>regressionTest</Password>
+<MobileNumber>123.456.7892</MobileNumber>
+<Phone>456.236.3699</Phone>
+<PostalCode>Texas</PostalCode>
+<StreetAddress1>8025 Ohio Dr</StreetAddress1>
+<Title>Mr</Title>
+<UseEmployerAddress>true</UseEmployerAddress>
+</Member>
+<Member>
+<AlwaysSpellCheck>false</AlwaysSpellCheck>
+<City>Plano</City>
+<CodeContactTypeIDList>
+<CodeContactTypeID>Team Member</CodeContactTypeID>
+</CodeContactTypeIDList>
+<CodeJobFunctionID>General Contractor</CodeJobFunctionID>
+<CodeJobTitleID>General Contractor</CodeJobTitleID>
+<CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+<CodeUserClassID>General Contractor</CodeUserClassID>
+<Description>GC</Description>
+<EMail1>QA1@lucernex.com</EMail1>
+<EmployerID>Vendor B</EmployerID>
+<Fax>456987123</Fax>
+<FirstName>GC</FirstName>
+<IStateProvinceCountryID>
+<Country>United States</Country>
+<State>TX</State>
+</IStateProvinceCountryID>
+<IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+<Language>EN</Language>
+<LastName>Two</LastName>
+<LoginName>BidderTwo</LoginName>
+<Password>regressionTest</Password>
+<MobileNumber>123.456.7892</MobileNumber>
+<Phone>456.236.3698</Phone>
+<PostalCode>Texas</PostalCode>
+<StreetAddress1>5601 Democracy Drive</StreetAddress1>
+<Title>Mr</Title>
+<UseEmployerAddress>true</UseEmployerAddress>
+</Member>
+<Member>
+<AlwaysSpellCheck>false</AlwaysSpellCheck>
+<City>Plano</City>
+<CodeContactTypeIDList>
+<CodeContactTypeID>Team Member</CodeContactTypeID>
+</CodeContactTypeIDList>
+<CodeJobFunctionID>General Contractor</CodeJobFunctionID>
+<CodeJobTitleID>General Contractor</CodeJobTitleID>
+<CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+<CodeUserClassID>General Contractor</CodeUserClassID>
+<Description>GC</Description>
+<EMail1>QA1@lucernex.com</EMail1>
+<EmployerID>Vendor C</EmployerID>
+<Fax>456987123</Fax>
+<FirstName>GC</FirstName>
+<IStateProvinceCountryID>
+<Country>United States</Country>
+<State>TX</State>
+</IStateProvinceCountryID>
+<IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+<Language>EN</Language>
+<LastName>Three</LastName>
+<LoginName>BidderThree</LoginName>
+<Password>regressionTest</Password>
+<MobileNumber>123.456.7892</MobileNumber>
+<Phone>456.236.3697</Phone>
+<PostalCode>Texas</PostalCode>
+<StreetAddress1>5601 Democracy Drive</StreetAddress1>
+<Title>Mr</Title>
+<UseEmployerAddress>true</UseEmployerAddress>
+</Member>
+<Member>
+      <AlwaysSpellCheck>false</AlwaysSpellCheck>
+      <City>Plano</City>
+      <CodeContactTypeIDList>
+            <CodeContactTypeID>Construction Manager</CodeContactTypeID>
+      </CodeContactTypeIDList>
+      <CodeJobFunctionID>Construction</CodeJobFunctionID>
+      <CodeJobTitleID>Construction Manager</CodeJobTitleID>
+      <CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+      <CodeUserClassID>Construction Manager</CodeUserClassID>
+      <EMail1>QA1@lucernex.com</EMail1>
+      <EmployerID>Lucernex</EmployerID>
+      <FirstName>Construction</FirstName>
+      <IStateProvinceCountryID>
+            <Country>United States</Country>
+            <State>TX</State>
+      </IStateProvinceCountryID>
+      <IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+      <LastName>Manager</LastName>
+      <LoginName>ConMan</LoginName>
+      <Password>regressionTest</Password>
+      <Phone>1234567890</Phone>
+      <PostalCode>75024</PostalCode>
+      <StreetAddress1>Suite 120</StreetAddress1>
+      <StreetAddress2>5601 Democracy Drive</StreetAddress2>
+      <UseEmployerAddress>true</UseEmployerAddress>
+</Member>
+</Members>
+</Firm>
+</LxERP>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="Selenium-T.93">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>SQL152_TestB_10_20160316_20160617_145039543_35366</mes:ClientID>
+                <mes:PageLayoutName>Schedule Task RecID report</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{"AllowInPlaceEdit":false,"AppendRunTimeInfoToTitle":true,"SecEntityInclude":0}</mes:URL>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>true</mes:IsGlobalReport>
+                    <mes:OutputType>S</mes:OutputType>
+                    <mes:PageLayoutType>R</mes:PageLayoutType>
+                    <mes:FirmID>Selenium-T.93</mes:FirmID>
+                    <mes:EntitySelectionFilter>131076</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>8192</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043041_1351097</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:FieldContext>SS task 2.1</mes:FieldContext>
+                            <mes:DisplayLabel>SS task 2.1 Rec ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234113</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"GroupRowShowLabel":"false","HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043176_1351098</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>9</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"GroupRowShowLabel":"false","HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043196_1351099</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:FieldContext>SS Task 1.2</mes:FieldContext>
+                            <mes:DisplayLabel>SS Task 1.2 Rec ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234113</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"GroupRowShowLabel":"false","HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043211_1351100</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:FieldContext>SS Task 1.1</mes:FieldContext>
+                            <mes:DisplayLabel>SS Task 1.1 Rec ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234113</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"GroupRowShowLabel":"false","HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043227_1351101</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:FieldContext>SS Task 2.2</mes:FieldContext>
+                            <mes:DisplayLabel>SS Task 2.2 Rec ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234113</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"GroupRowShowLabel":"false","HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_164041257_1351242</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:FieldContext>SS Group 2</mes:FieldContext>
+                            <mes:DisplayLabel>SS Group 2 Rec ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234112</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"GroupRowShowLabel":"false","HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_164041943_1351243</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:FieldContext>SS Group 1</mes:FieldContext>
+                            <mes:DisplayLabel>SS Group 1 Rec ID</mes:DisplayLabel>
+                            <mes:DisplayOption1>134234113</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"GroupRowShowLabel":"false","HideDecimals":false,"HideSubRegionDescription":false}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043293_564258</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_476">JurisdictionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043357_564259</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>SS task 2.1</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043375_564260</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_106">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043419_564261</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1026">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043437_564262</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaType1>3</mes:CriteriaType1>
+                            <mes:CriteriaValue1>Site Schedule SS</mes:CriteriaValue1>
+                            <mes:CriteriaValueList>
+                                <mes:CriteriaValue>Site Schedule SS</mes:CriteriaValue>
+                            </mes:CriteriaValueList>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043453_564263</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>SS Task 1.2</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043472_564264</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>SS Task 1.1</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043488_564265</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_109">CityStateProvinceCountry</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043502_564266</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_110">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043541_564267</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904487_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043567_564268</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_108">SubRegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043610_564269</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>SS Task 2.2</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043677_564270</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_145043693_564271</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_113">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_164042049_564296</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>SS Group 2</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>SQL152_TestB_10_20160316_20160617_164042227_564297</mes:ClientID>
+                        <mes:PageLayoutID ClientID="SQL152_TestB_10_20160316_20160617_145039543_35366">Schedule Task RecID report</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.1.69_Dev_Trunk_20140929_142304824_0">TaskID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>Selenium-T.93</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>SS Group 1</mes:FieldContext>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                </mes:PageLayoutFilters>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <StateProvinceCountries>
+            <StateProvinceCountry clientID="client-2546">
+                <Country>United States</Country>
+                <State>Unknown</State>
+                <StateProvince>Unknown</StateProvince>
+            </StateProvinceCountry><StateProvinceCountry clientID="client-2489">
+                <Country>United States</Country>
+                <State>TX</State>
+                <StateProvince>TX</StateProvince>
+            </StateProvinceCountry>
+        </StateProvinceCountries>
+        <Employers>
+            <Employer clientID="client-382288">
+                <APVendorNumber>1234</APVendorNumber>
+                <AfterHoursContact>Delete Access</AfterHoursContact>
+                <AfterHoursRate>20.00000</AfterHoursRate>
+                <BankAccountNumber>123456</BankAccountNumber>
+                <BankRoutingNumber>00020012</BankRoutingNumber>
+                <BusinessHours>M-F
+                        8am - 7pm</BusinessHours>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Vendor</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeCoverageID>Full</CodeCoverageID>
+                <CodeVendorGradeID>Excellent</CodeVendorGradeID>
+                <CompanyType>Vendor</CompanyType>
+                <EMail1>qa1@lucernex.com</EMail1>
+                <EmployerName>Selenium-Employer</EmployerName>
+                <Fax>125.124.1254</Fax>
+                <HasAfterHoursSupport>true</HasAfterHoursSupport>
+                <HourlyRate>15.00000</HourlyRate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>true</IsFemaleOwned>
+                <IsGLBTOwned>true</IsGLBTOwned>
+                <IsMinorityOwned>true</IsMinorityOwned>
+                <IsPreferredVendor>true</IsPreferredVendor>
+                <IsSBAProgram>true</IsSBAProgram>
+                <MobileNumber>125.128.4578</MobileNumber>
+                <NameAKA>QA Testing Employer</NameAKA>
+                <Notes>Do NOT change this employer record in any way.</Notes>
+                <NumberOfServiceTrucks>50</NumberOfServiceTrucks>
+                <NumberOfStates>50</NumberOfStates>
+                <NumberOfTechnicians>300</NumberOfTechnicians>
+                <Phone>915.920.2669</Phone>
+                <PostalCode>75026</PostalCode>
+                <SelfPerform>true</SelfPerform>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <TravelRate>25.00000</TravelRate>
+                <WebSite>lucernex.com</WebSite>
+                <VendorInsurance clientID="client-16">
+                    <AggregateOccurrenceAmt>100000.00000</AggregateOccurrenceAmt>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeInsurancePolicyTypeID>General Liability</CodeInsurancePolicyTypeID>
+                    <EndDate>2030-12-31</EndDate>
+                    <Policy>Total deductible for the year is $100,000.00, but the maximum amount that can be paid for a single occurance is $50,000.00.</Policy>
+                    <SingleOccurrenceAmt>50000.00000</SingleOccurrenceAmt>
+                    <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                </VendorInsurance>
+            </Employer><Employer clientID="client-433971">
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Broker</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>Vendor B</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <PostalCode>Texas</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>5601 Democracy Drive</StreetAddress1>
+            </Employer><Employer clientID="client-381648">
+                <City>Plano</City>
+                <CompanyType>Other</CompanyType>
+                <EMail1>WebMaster@Lucernex.com</EMail1>
+                <EmployerName>Lucernex</EmployerName>
+                <Fax>972-403-7110</Fax>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <Phone>972-403-7100</Phone>
+                <PostalCode>75024</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>Suite 120</StreetAddress1>
+                <StreetAddress2>5601 Democracy Drive</StreetAddress2>
+                <WebSite>www.Lucernex.com</WebSite>
+            </Employer><Employer clientID="client-434125">
+                <APVendorNumber>12345</APVendorNumber>
+                <AfterHoursContact>Test Contact</AfterHoursContact>
+                <AfterHoursRate>80.00000</AfterHoursRate>
+                <BankAccountNumber>abc123</BankAccountNumber>
+                <BankRoutingNumber>98989</BankRoutingNumber>
+                <BusinessHours>Test hours</BusinessHours>
+                <City>Plano</City>
+                <CodeAssetCategoryIDList>
+                    <CodeAssetCategoryID>Electrical</CodeAssetCategoryID>
+                </CodeAssetCategoryIDList>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Equipment Manager</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeCoverageID>Full</CodeCoverageID>
+                <CodeVendorGradeID>Excellent</CodeVendorGradeID>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>Selenium Vendor</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <HourlyRate>65.00000</HourlyRate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <Notes>This is a Test</Notes>
+                <NumberOfServiceTrucks>40</NumberOfServiceTrucks>
+                <NumberOfStates>30</NumberOfStates>
+                <NumberOfTechnicians>100</NumberOfTechnicians>
+                <Phone>949795666543</Phone>
+                <PostalCode>75024</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>1901 Democracy Drive</StreetAddress1>
+            </Employer><Employer clientID="client-433970">
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Employer</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CompanyType>Vendor</CompanyType>
+                <EmployerName>Vendor A</EmployerName>
+                <HasAfterHoursSupport>false</HasAfterHoursSupport>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <Inactive>false</Inactive>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <PostalCode>Texas</PostalCode>
+                <SelfPerform>false</SelfPerform>
+                <StreetAddress1>8025 Ohio Dr</StreetAddress1>
+                <VendorInsurance clientID="client-148">
+                    <BeginDate>2010-02-01</BeginDate>
+                    <CodeInsurancePolicyTypeID>General Liability</CodeInsurancePolicyTypeID>
+                    <EndDate>2030-12-31</EndDate>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </VendorInsurance>
+            </Employer>
+        </Employers>
+        <Members>
+            <Member clientID="client-15833">
+                <AlwaysSpellCheck>false</AlwaysSpellCheck>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Broker</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeJobFunctionID>Delete Access</CodeJobFunctionID>
+                <CodeJobTitleID>Delete Access</CodeJobTitleID>
+                <CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+                <CodeUserClassID clientID="client-5489">Delete Access</CodeUserClassID>
+                <EMail1>QA1@lucernex.com</EMail1>
+                <EmployerID clientID="client-382288">Selenium-Employer</EmployerID>
+                <FirstName>Delete</FirstName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsViewPrivateIssueAllowed>false</IsViewPrivateIssueAllowed>
+                <Language>EN</Language>
+                <LastName>Access</LastName>
+                <LoginName>Delete Access</LoginName>
+                <Phone>(460) 269-6088</Phone>
+                <PostalCode>75026</PostalCode>
+                <StreetAddress1>5601 Democracy Dr</StreetAddress1>
+                <StreetAddress2>Building A</StreetAddress2>
+                <StreetAddress3>Suite 120</StreetAddress3>
+                <UseEmployerAddress>true</UseEmployerAddress>
+            </Member><Member clientID="client-19942">
+                <AlwaysSpellCheck>true</AlwaysSpellCheck>
+                <City>Plano</City>
+                <CodeContactTypeIDList>
+                    <CodeContactTypeID>Team Member</CodeContactTypeID>
+                </CodeContactTypeIDList>
+                <CodeJobFunctionID>Lx Administrator</CodeJobFunctionID>
+                <CodeJobTitleID>Lx Administrator</CodeJobTitleID>
+                <CodeLockOutReasonID>Login enabled</CodeLockOutReasonID>
+                <CodeUserClassID clientID="client-3913">Team Member</CodeUserClassID>
+                <Description>Lx Messenger</Description>
+                <EMail1>WebMaster@Lucernex.com</EMail1>
+                <EmployerID clientID="client-381648">Lucernex</EmployerID>
+                <Fax>972-403-7110</Fax>
+                <FirstName>Lx</FirstName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsViewPrivateIssueAllowed>true</IsViewPrivateIssueAllowed>
+                <LastName>Messenger</LastName>
+                <LoginName>lxMessenger</LoginName>
+                <Phone>972-403-7100</Phone>
+                <PostalCode>75024</PostalCode>
+                <StreetAddress1>Suite 120</StreetAddress1>
+                <StreetAddress2>5601 Democracy Drive</StreetAddress2>
+                <UseEmployerAddress>true</UseEmployerAddress>
+                <WebSite>www.Lucernex.com</WebSite>
+            </Member>
+        </Members>
+        <Organizations>
+            <Organization clientID="client-37632">
+                <AccountNumber1>000012548570</AccountNumber1>
+                <CodeOrganizationCategoryID>Internal</CodeOrganizationCategoryID>
+                <CodeOrganizationGroupID>Internal</CodeOrganizationGroupID>
+                <CodeOrganizationTypeID>Corporate</CodeOrganizationTypeID>
+                <OrganizationName>Selenium-301 Organization</OrganizationName>
+            </Organization><Organization clientID="client-32934">
+                <AccountNumber1>000012548569</AccountNumber1>
+                <CodeOrganizationCategoryID>Internal</CodeOrganizationCategoryID>
+                <CodeOrganizationGroupID>Internal</CodeOrganizationGroupID>
+                <CodeOrganizationTypeID>Corporate</CodeOrganizationTypeID>
+                <OrganizationName>Selenium-Organization</OrganizationName>
+            </Organization>
+        </Organizations>
+        <Complexs>
+            <Complex clientID="client-26893">
+                <City>Plano</City>
+                <ClientNumber>25444</ClientNumber>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeComplexClassID>Class</CodeComplexClassID>
+                <CodeComplexStatusID>Newly Opened</CodeComplexStatusID>
+                <CodeComplexTypeID>Mall</CodeComplexTypeID>
+                <ComplexName>Stonebriar</ComplexName>
+                <DeveloperID clientID="client-15833">Delete Access</DeveloperID>
+                <ExpansionPlanDate>2020-01-01</ExpansionPlanDate>
+                <GLAExcludingAnchors>200000.00000</GLAExcludingAnchors>
+                <GrossLeaseArea>150000.00000</GrossLeaseArea>
+                <HasFoodCourt>true</HasFoodCourt>
+                <HoursOfOperation>9 am - 10pm</HoursOfOperation>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsEnclosed>true</IsEnclosed>
+                <IsExpansionPlanned>true</IsExpansionPlanned>
+                <IsRenovationPlanned>true</IsRenovationPlanned>
+                <IsSpaceAvailable>true</IsSpaceAvailable>
+                <JurisdictionID clientID="2562">Collin</JurisdictionID>
+                <LandlordID clientID="client-15834">View Access</LandlordID>
+                <LastRenovated>1995</LastRenovated>
+                <NearestCompetition>2 Blocks away</NearestCompetition>
+                <NotableTenants>Target, Walmart</NotableTenants>
+                <Notes>Updated via import</Notes>
+                <NumberLevels>3</NumberLevels>
+                <NumberOutparcels>5</NumberOutparcels>
+                <NumberParkingSpaces>300</NumberParkingSpaces>
+                <NumberStores>56</NumberStores>
+                <OccupancyPercentage>76.00000</OccupancyPercentage>
+                <Phone>254.254.3569</Phone>
+                <PostalCode>75024</PostalCode>
+                <PropertyManagerID clientID="client-15835">Edit Access</PropertyManagerID>
+                <RenovationPlanDate>2020-01-01</RenovationPlanDate>
+                <SalesPerArea>1300.00000</SalesPerArea>
+                <StreetAddress1>5601 Democracy DR</StreetAddress1>
+                <YearBuilt>1995</YearBuilt>
+            </Complex>
+        </Complexs>
+        <Locations>
+            <Location clientID="client-118337">
+                <City>Plano</City>
+                <ClientEntityID>000056</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                <CodeLocationCategoryID>New</CodeLocationCategoryID>
+                <CodeLocationGroupID>Lease</CodeLocationGroupID>
+                <CodeLocationTypeID clientID="client-873">90909</CodeLocationTypeID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <CodeSubArea1ID>SubArea</CodeSubArea1ID>
+                <CodeSubRegion1ID>SubRegion</CodeSubRegion1ID>
+                <ComplexID clientID="client-26893">Stonebriar</ComplexID>
+                <CrossStreet1>Parkwood</CrossStreet1>
+                <CrossStreet2>Democracy</CrossStreet2>
+                <GrossLeaseArea>5000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <LocationName>000056</LocationName>
+                <LocationParcelArea>2000.00000</LocationParcelArea>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-509236">000056</ProjectEntityID>
+                <RegionID clientID="client-17655">Central Dallas (Operating) Frisco(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <RegionLvl2>Frisco</RegionLvl2>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <TaxRate1>3.00000</TaxRate1>
+                <TaxRate2>5.00000</TaxRate2>
+                <ExpenseVendorAllocation clientID="client-757010">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623821">Expense Setup Record, ID=623821</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757011">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623822">Expense Setup Record, ID=623822</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757008">
+                    <BeginDate>2030-12-31</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                    <PaymentPercentage>10.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-434125">Selenium Vendor</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757009">
+                    <BeginDate>2030-12-31</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                    <PaymentPercentage>20.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757005">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2015-02-28</EndDate>
+                    <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757007">
+                    <BeginDate>2015-03-01</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2025-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757012">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <LinkMemberProjectEntity clientID="client-6773956">
+                    <LinkMemberProjectEntityID>6773956</LinkMemberProjectEntityID>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-15833">Delete Access</MemberID>
+                    <ProjectEntityID clientID="client-509236">000056</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity clientID="client-6773955">
+                    <LinkMemberProjectEntityID>6773955</LinkMemberProjectEntityID>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-19942">Lx Messenger</MemberID>
+                    <ProjectEntityID clientID="client-509236">000056</ProjectEntityID>
+                </LinkMemberProjectEntity>
+            </Location>
+        </Locations>
+        <Parcels>
+            <Parcel clientID="client-6210">
+                <AcquiredDate>2015-01-20</AcquiredDate>
+                <City>Plano</City>
+                <ClientEntityID>222333</ClientEntityID>
+                <CodeLandAreaUnitID>Square Feet</CodeLandAreaUnitID>
+                <CodeParcelCategoryID>Leased</CodeParcelCategoryID>
+                <CodeParcelGroupID>Retail</CodeParcelGroupID>
+                <CodeParcelStatusID>Active</CodeParcelStatusID>
+                <CodeParcelTypeID clientID="client-83">Commercial</CodeParcelTypeID>
+                <CodeParcelUseID>Office</CodeParcelUseID>
+                <CodeTaxResponsibilityID>Developer</CodeTaxResponsibilityID>
+                <HasImprovements>false</HasImprovements>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsTaxExempt>false</IsTaxExempt>
+                <LocationID clientID="client-118337">000056</LocationID>
+                <OwnerName>Mr Selenium</OwnerName>
+                <ParcelArea>20000.00000</ParcelArea>
+                <ParcelName>Lucernex-Parcel</ParcelName>
+                <ParcelNumber>234234</ParcelNumber>
+                <PostalCode>75024</PostalCode>
+                <PrimaryAssessedAmount>450000.00000</PrimaryAssessedAmount>
+                <PrimaryValueAmount>500000.00000</PrimaryValueAmount>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectDescription>This will be updated upon import</ProjectDescription>
+                <ProjectEntityID clientID="client-509237">Lucernex-Parcel</ProjectEntityID>
+                <PurchaseDate>2015-01-03</PurchaseDate>
+                <SourceReferenceDate>2015-01-05</SourceReferenceDate>
+                <StreetAddress1>5601 Democracy Drive</StreetAddress1>
+                <StreetAddress2>Suite 120</StreetAddress2>
+                <SurveyDate>2015-04-09</SurveyDate>
+                <TaxAuthority>Collin County Assessors</TaxAuthority>
+                <TaxBeginPeriod>2015-01-05</TaxBeginPeriod>
+                <TaxEndPeriod>2017-07-06</TaxEndPeriod>
+                <TaxJurisdictionID clientID="2562">Collin</TaxJurisdictionID>
+                <UseLocationAddress>false</UseLocationAddress>
+                <ExpenseVendorAllocation clientID="client-757010">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623821">Expense Setup Record, ID=623821</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757011">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623822">Expense Setup Record, ID=623822</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757008">
+                    <BeginDate>2030-12-31</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                    <PaymentPercentage>10.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-434125">Selenium Vendor</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757009">
+                    <BeginDate>2030-12-31</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                    <PaymentPercentage>20.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757005">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2015-02-28</EndDate>
+                    <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757007">
+                    <BeginDate>2015-03-01</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2025-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757012">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+            </Parcel>
+        </Parcels>
+        <Facilities>
+            <Facility clientID="client-167272">
+                <City>Plano</City>
+                <ClientEntityID>1000</ClientEntityID>
+                <CloseDate>2016-01-05</CloseDate>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeDistributionCenterID>Distribution Center A</CodeDistributionCenterID>
+                <CodeFacilityCategoryID>Retail</CodeFacilityCategoryID>
+                <CodeFacilityGroupID>Retail</CodeFacilityGroupID>
+                <CodeFacilityStatusID>Active</CodeFacilityStatusID>
+                <CodeFacilityTypeID clientID="client-632">000098</CodeFacilityTypeID>
+                <CodeFacilityUseID>Retail</CodeFacilityUseID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <FacilityName>Lucernex-Facility</FacilityName>
+                <GrossArea>4000.00000</GrossArea>
+                <HoursOfOperation>10 am - 12 pm</HoursOfOperation>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LastYearsAnnualSales>10000.00000</LastYearsAnnualSales>
+                <LocationID clientID="client-118337">000056</LocationID>
+                <Notes>This is to import XML</Notes>
+                <ParcelID clientID="client-6210">Lucernex-Parcel</ParcelID>
+                <PostalCode>75024</PostalCode>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectDescription>This facility will be updated via import</ProjectDescription>
+                <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                <RegionID clientID="client-17654">Central Dallas(Operating)</RegionID>
+                <RegionLvl1>Central Dallas</RegionLvl1>
+                <RentableArea>5000.00000</RentableArea>
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <TradeArea>1000</TradeArea>
+                <UsableArea>2000.00000</UsableArea>
+                <UseLocationAddress>true</UseLocationAddress>
+                <Asset clientID="client-220664">
+                    <AssetName>Green Energy</AssetName>
+                    <AssetSerialNumber>5060</AssetSerialNumber>
+                    <CodeAssetCategoryID clientID="client-514">Electrical</CodeAssetCategoryID>
+                    <CodeAssetDepartmentID>Electrical Department</CodeAssetDepartmentID>
+                    <CodeAssetGroupID>HVAC</CodeAssetGroupID>
+                    <CodeAssetOperationStatusID>Operating</CodeAssetOperationStatusID>
+                    <CodeAssetTypeID clientID="client-807">Air Conditioning Unit</CodeAssetTypeID>
+                    <CodeMaintenancePartyID>Landlord</CodeMaintenancePartyID>
+                    <CodeMaintenanceRemedyID>Fixed</CodeMaintenanceRemedyID>
+                    <CodeRepairPartyID>Landlord</CodeRepairPartyID>
+                    <CodeRepairRemedyID>Fixed</CodeRepairRemedyID>
+                    <Floor>2</Floor>
+                    <LocationDetails>Location Details - It is a Selenium Location</LocationDetails>
+                    <MaintenanceMaximumRemedyDays>2</MaintenanceMaximumRemedyDays>
+                    <MaintenanceResponsiblePersonID clientID="client-15833">Delete Access</MaintenanceResponsiblePersonID>
+                    <PrimaryVendorID clientID="client-382288">Selenium-Employer</PrimaryVendorID>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RepairMaximumRemedyDays>2</RepairMaximumRemedyDays>
+                    <RepairResponsiblePersonID clientID="client-15833">Delete Access</RepairResponsiblePersonID>
+                </Asset>
+                <ExpenseVendorAllocation clientID="client-757010">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623821">Expense Setup Record, ID=623821</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757011">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623822">Expense Setup Record, ID=623822</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757008">
+                    <BeginDate>2030-12-31</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                    <PaymentPercentage>10.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-434125">Selenium Vendor</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757009">
+                    <BeginDate>2030-12-31</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                    <PaymentPercentage>20.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757005">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2015-02-28</EndDate>
+                    <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433970">Vendor A</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757007">
+                    <BeginDate>2015-03-01</BeginDate>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <EndDate>2025-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <ExpenseVendorAllocation clientID="client-757012">
+                    <BeginDate>2010-01-01</BeginDate>
+                    <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                    <EndDate>2030-12-31</EndDate>
+                    <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                    <PaymentPercentage>100.00000</PaymentPercentage>
+                    <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </ExpenseVendorAllocation>
+                <LeaseInfo clientID="client-36722">
+                    <BaseRentIncludesOpXFlag>false</BaseRentIncludesOpXFlag>
+                    <IsLeaseExecuted>false</IsLeaseExecuted>
+                    <MonthToMonth>false</MonthToMonth>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <LeaseCoTenant clientID="client-1">
+                        <CoTenantAnnualSales>20000.00000</CoTenantAnnualSales>
+                        <CoTenantHasRights>true</CoTenantHasRights>
+                        <CoTenantLeaseExpirationDate>2015-07-31</CoTenantLeaseExpirationDate>
+                        <CoTenantOpenDate>2015-03-01</CoTenantOpenDate>
+                        <CodeLeaseCoTenantTypeID>Seasonal</CodeLeaseCoTenantTypeID>
+                        <LeaseCoTenantName>Juice Vendor</LeaseCoTenantName>
+                        <LeaseInfoID clientID="client-36722">Lease Info, ID=36765</LeaseInfoID>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    </LeaseCoTenant>
+                    <LeaseOption clientID="client-40076">
+                        <AlertDaysBeforeNotification>10</AlertDaysBeforeNotification>
+                        <BeginLeaseDate>2016-01-01</BeginLeaseDate>
+                        <CodeLeaseOptionStatusID>Not yet exercised</CodeLeaseOptionStatusID>
+                        <CodeLeaseOptionTypeID>Renewal</CodeLeaseOptionTypeID>
+                        <DaysPriorToBeginDate>10</DaysPriorToBeginDate>
+                        <EndLeaseDate>2016-12-31</EndLeaseDate>
+                        <ExerciseDate>2016-01-01</ExerciseDate>
+                        <LeaseInfoID clientID="client-36722">Lease Info, ID=36765</LeaseInfoID>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <RentAmount>5000.00000</RentAmount>
+                    </LeaseOption>
+                    <LeaseOptionOther clientID="client-44795">
+                        <Amount1>10000.00000</Amount1>
+                        <Amount2>500.00000</Amount2>
+                        <CodeLeaseOptionOtherTypeID>Security</CodeLeaseOptionOtherTypeID>
+                        <EffectiveDate>2015-01-01</EffectiveDate>
+                        <LeaseInfoID clientID="client-36722">Lease Info, ID=36765</LeaseInfoID>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    </LeaseOptionOther>
+                </LeaseInfo>
+                <LinkMemberProjectEntity clientID="client-6773958">
+                    <LinkMemberProjectEntityID>6773958</LinkMemberProjectEntityID>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-19942">Lx Messenger</MemberID>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                </LinkMemberProjectEntity>
+                <Space clientID="client-45570">
+                    <ClientNumber>1000</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Ready</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Retail</CodeSpaceUseID>
+                    <Description>Update</Description>
+                    <EffectiveDate>2015-01-09</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>2</FloorNumber>
+                    <GrossArea>500.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>7000.00000</RentableArea>
+                    <RoomNumber>2</RoomNumber>
+                    <SpaceName>Selenium Space Management1</SpaceName>
+                    <SuiteNumber>100</SuiteNumber>
+                    <UsableArea>100.00000</UsableArea>
+                    <Tenant clientID="client-70">
+                        <Capacity1>11</Capacity1>
+                        <Capacity2>13</Capacity2>
+                        <Capacity3>20</Capacity3>
+                        <Capacity4>12</Capacity4>
+                        <City>Murfreesboro</City>
+                        <CodeTenantCategoryID>Store</CodeTenantCategoryID>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantTypeID>Sales</CodeTenantTypeID>
+                        <EffectiveDate>2015-01-09</EffectiveDate>
+                        <HeadCount1>1</HeadCount1>
+                        <HeadCount2>10</HeadCount2>
+                        <HeadCount3>5</HeadCount3>
+                        <HeadCount4>15</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-09</MoveInDate>
+                        <MoveOutDate>2015-12-31</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>37130</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45570">Space, ID=45568</SpaceID>
+                        <StreetAddress1>97</StreetAddress1>
+                        <StreetAddress2>maple street</StreetAddress2>
+                        <TenantName>Joy</TenantName>
+                        <TotalCapacity>100</TotalCapacity>
+                    </Tenant>
+                </Space>
+                <Space clientID="client-45574">
+                    <ClientNumber>105</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail Space</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Active</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store Space</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Store</CodeSpaceUseID>
+                    <Description>Create</Description>
+                    <EffectiveDate>2015-01-10</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>1</FloorNumber>
+                    <GrossArea>100.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>4000.00000</RentableArea>
+                    <RoomNumber>1</RoomNumber>
+                    <SpaceName>Selenium Space Management2</SpaceName>
+                    <SuiteNumber>120</SuiteNumber>
+                    <TotalHeadCount>20</TotalHeadCount>
+                    <UsableArea>500.00000</UsableArea>
+                    <Tenant clientID="client-80">
+                        <Capacity1>1</Capacity1>
+                        <Capacity2>25</Capacity2>
+                        <Capacity3>12</Capacity3>
+                        <Capacity4>4</Capacity4>
+                        <City>Toronto</City>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantStatusID>Active</CodeTenantStatusID>
+                        <CodeTenantTypeID>Store</CodeTenantTypeID>
+                        <CodeTenantUseID>1</CodeTenantUseID>
+                        <HeadCount1>2</HeadCount1>
+                        <HeadCount2>4</HeadCount2>
+                        <HeadCount3>6</HeadCount3>
+                        <HeadCount4>12</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-10</MoveInDate>
+                        <MoveOutDate>2016-01-01</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>M5V 2T6</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45574">Space, ID=45569</SpaceID>
+                        <StreetAddress1>301</StreetAddress1>
+                        <StreetAddress2>Front Street West</StreetAddress2>
+                        <TenantName>Joan</TenantName>
+                        <TotalCapacity>200</TotalCapacity>
+                    </Tenant>
+                </Space>
+            </Facility>
+        </Facilities>
+        <Contracts>
+            <Contract clientID="client-115577">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>GR 001</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractCategoryID>Retail Lease</CodeContractCategoryID>
+                <CodeContractGroupID>Store</CodeContractGroupID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CodeContractTypeID clientID="client-573">Mall Based</CodeContractTypeID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Generating Rent with Taxes Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                <LocationID clientID="client-118337">000056</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <Notes>This contract will be used to go through the generating rent test cases</Notes>
+                <ParcelID clientID="client-6210">Lucernex-Parcel</ParcelID>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                <RentableArea>5000.00000</RentableArea>
+                <ExpenseSetup clientID="client-623821">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12794">Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-3172981">
+                        <AnnualAmount>60000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623821">Expense Setup Record, ID=623821</ExpenseSetupID>
+                        <FirstPaymentAmount>5000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>5000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>5000.00000</PaymentAmount>
+                        <PaymentRate>12.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172980">
+                        <AnnualAmount>120000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623821">Expense Setup Record, ID=623821</ExpenseSetupID>
+                        <FirstPaymentAmount>10000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>10000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>10000.00000</PaymentAmount>
+                        <PaymentRate>24.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                        <TaxAmount1>10.00000</TaxAmount1>
+                        <TaxAmount2>5.00000</TaxAmount2>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation clientID="client-757010">
+                        <BeginDate>2010-01-01</BeginDate>
+                        <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623821">Expense Setup Record, ID=623821</ExpenseSetupID>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                        <VendorID clientID="client-433970">Vendor A</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="client-623822">
+                    <ApplyTaxFlag>true</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12827">Water</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-3172979">
+                        <AnnualAmount>12000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623822">Expense Setup Record, ID=623822</ExpenseSetupID>
+                        <FirstPaymentAmount>1000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1000.00000</PaymentAmount>
+                        <PaymentRate>2.40000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation clientID="client-757011">
+                        <BeginDate>2010-01-01</BeginDate>
+                        <ContractID clientID="client-115577">Generating Rent with Taxes Contract</ContractID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623822">Expense Setup Record, ID=623822</ExpenseSetupID>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510791">Generating Rent with Taxes Contract</ProjectEntityID>
+                        <VendorID clientID="client-433971">Vendor B</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <Space clientID="client-45570">
+                    <ClientNumber>1000</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Ready</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Retail</CodeSpaceUseID>
+                    <Description>Update</Description>
+                    <EffectiveDate>2015-01-09</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>2</FloorNumber>
+                    <GrossArea>500.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>7000.00000</RentableArea>
+                    <RoomNumber>2</RoomNumber>
+                    <SpaceName>Selenium Space Management1</SpaceName>
+                    <SuiteNumber>100</SuiteNumber>
+                    <UsableArea>100.00000</UsableArea>
+                    <Tenant clientID="client-70">
+                        <Capacity1>11</Capacity1>
+                        <Capacity2>13</Capacity2>
+                        <Capacity3>20</Capacity3>
+                        <Capacity4>12</Capacity4>
+                        <City>Murfreesboro</City>
+                        <CodeTenantCategoryID>Store</CodeTenantCategoryID>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantTypeID>Sales</CodeTenantTypeID>
+                        <EffectiveDate>2015-01-09</EffectiveDate>
+                        <HeadCount1>1</HeadCount1>
+                        <HeadCount2>10</HeadCount2>
+                        <HeadCount3>5</HeadCount3>
+                        <HeadCount4>15</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-09</MoveInDate>
+                        <MoveOutDate>2015-12-31</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>37130</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45570">Space, ID=45568</SpaceID>
+                        <StreetAddress1>97</StreetAddress1>
+                        <StreetAddress2>maple street</StreetAddress2>
+                        <TenantName>Joy</TenantName>
+                        <TotalCapacity>100</TotalCapacity>
+                    </Tenant>
+                </Space>
+                <Space clientID="client-45574">
+                    <ClientNumber>105</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail Space</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Active</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store Space</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Store</CodeSpaceUseID>
+                    <Description>Create</Description>
+                    <EffectiveDate>2015-01-10</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>1</FloorNumber>
+                    <GrossArea>100.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>4000.00000</RentableArea>
+                    <RoomNumber>1</RoomNumber>
+                    <SpaceName>Selenium Space Management2</SpaceName>
+                    <SuiteNumber>120</SuiteNumber>
+                    <TotalHeadCount>20</TotalHeadCount>
+                    <UsableArea>500.00000</UsableArea>
+                    <Tenant clientID="client-80">
+                        <Capacity1>1</Capacity1>
+                        <Capacity2>25</Capacity2>
+                        <Capacity3>12</Capacity3>
+                        <Capacity4>4</Capacity4>
+                        <City>Toronto</City>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantStatusID>Active</CodeTenantStatusID>
+                        <CodeTenantTypeID>Store</CodeTenantTypeID>
+                        <CodeTenantUseID>1</CodeTenantUseID>
+                        <HeadCount1>2</HeadCount1>
+                        <HeadCount2>4</HeadCount2>
+                        <HeadCount3>6</HeadCount3>
+                        <HeadCount4>12</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-10</MoveInDate>
+                        <MoveOutDate>2016-01-01</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>M5V 2T6</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45574">Space, ID=45569</SpaceID>
+                        <StreetAddress1>301</StreetAddress1>
+                        <StreetAddress2>Front Street West</StreetAddress2>
+                        <TenantName>Joan</TenantName>
+                        <TotalCapacity>200</TotalCapacity>
+                    </Tenant>
+                </Space>
+            </Contract><Contract clientID="client-115576">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>RE001</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractCategoryID>Retail Lease</CodeContractCategoryID>
+                <CodeContractGroupID>Store</CodeContractGroupID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CodeContractTypeID clientID="client-573">Mall Based</CodeContractTypeID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Recurring Expense Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExpireDate>2030-12-31</ExpireDate>
+                <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                <LocationID clientID="client-118337">000056</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <Notes>This contract will be used for running the recurring expense test cases.</Notes>
+                <ParcelID clientID="client-6210">Lucernex-Parcel</ParcelID>
+                <PaymentsBeginDate>2030-12-31</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                <RentableArea>5000.00000</RentableArea>
+                <ExpenseSetup clientID="client-623817">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12794">Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <InternalReferenceNumber>1111</InternalReferenceNumber>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-3172972">
+                        <AnnualAmount>960000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                        <FirstPaymentAmount>80000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>80000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>80000.00000</PaymentAmount>
+                        <PaymentRate>192.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172974">
+                        <AnnualAmount>50000.00000</AnnualAmount>
+                        <BeginDate>2016-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                        <FirstPaymentAmount>4166.67000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>4166.67000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>4166.67000</PaymentAmount>
+                        <PaymentRate>10.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172978">
+                        <AnnualAmount>50000.04000</AnnualAmount>
+                        <BeginDate>2021-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2025-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                        <FirstPaymentAmount>4166.67000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>4166.67000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>4166.67000</PaymentAmount>
+                        <PaymentRate>10.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                        <TaxAmount1>10.00000</TaxAmount1>
+                        <TaxAmount2>5.00000</TaxAmount2>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation clientID="client-757008">
+                        <BeginDate>2030-12-31</BeginDate>
+                        <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                        <PaymentPercentage>10.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <VendorID clientID="client-434125">Selenium Vendor</VendorID>
+                    </ExpenseVendorAllocation>
+                    <ExpenseVendorAllocation clientID="client-757009">
+                        <BeginDate>2030-12-31</BeginDate>
+                        <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623817">Expense Setup Record, ID=623817</ExpenseSetupID>
+                        <PaymentPercentage>20.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <VendorID clientID="client-433970">Vendor A</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="client-623818">
+                    <ApplyTaxFlag>true</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12827">Water</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <InternalReferenceNumber>222</InternalReferenceNumber>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseAllocation clientID="client-164691">
+                        <AllocationPercentage>100.00000</AllocationPercentage>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                        <EndDate>2020-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <Notes>Selenium-301 Organization</Notes>
+                        <OrganizationID clientID="client-37632">Selenium-301 Organization</OrganizationID>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    </ExpenseAllocation>
+                    <ExpenseAllocation clientID="client-164692">
+                        <AllocationPercentage>50.00000</AllocationPercentage>
+                        <BeginDate>2021-01-01</BeginDate>
+                        <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                        <EndDate>2025-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    </ExpenseAllocation>
+                    <ExpenseAllocation clientID="client-164693">
+                        <AllocationPercentage>50.00000</AllocationPercentage>
+                        <BeginDate>2021-01-01</BeginDate>
+                        <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                        <EndDate>2025-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <OrganizationID clientID="client-37632">Selenium-301 Organization</OrganizationID>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    </ExpenseAllocation>
+                    <ExpenseSchedule clientID="client-3172960">
+                        <AnnualAmount>12000.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <FirstPaymentAmount>1000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1000.00000</PaymentAmount>
+                        <PaymentRate>2.40000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172967">
+                        <AnnualAmount>30000.00000</AnnualAmount>
+                        <BeginDate>2016-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <FirstPaymentAmount>2500.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2500.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2500.00000</PaymentAmount>
+                        <PaymentRate>6.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172968">
+                        <AnnualAmount>50000.00000</AnnualAmount>
+                        <BeginDate>2021-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2025-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <FirstPaymentAmount>4166.67000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>4166.67000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>4166.67000</PaymentAmount>
+                        <PaymentRate>10.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172977">
+                        <AnnualAmount>60000.00000</AnnualAmount>
+                        <BeginDate>2026-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <FirstPaymentAmount>5000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>5000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>5000.00000</PaymentAmount>
+                        <PaymentRate>12.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation clientID="client-757005">
+                        <BeginDate>2010-01-01</BeginDate>
+                        <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                        <EndDate>2015-02-28</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <VendorID clientID="client-433970">Vendor A</VendorID>
+                    </ExpenseVendorAllocation>
+                    <ExpenseVendorAllocation clientID="client-757007">
+                        <BeginDate>2015-03-01</BeginDate>
+                        <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                        <EndDate>2025-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623818">Expense Setup Record, ID=623818</ExpenseSetupID>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <VendorID clientID="client-433971">Vendor B</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="client-623819">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12795">Interior</CodeExpenseTypeID>
+                    <CodeFrequencyID>Quarterly</CodeFrequencyID>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <HoldFlag>false</HoldFlag>
+                    <InternalReferenceNumber>3333</InternalReferenceNumber>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-3172975">
+                        <AnnualAmount>8000.00000</AnnualAmount>
+                        <BeginDate>2011-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623819">Expense Setup Record, ID=623819</ExpenseSetupID>
+                        <FirstPaymentAmount>2000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2000.00000</PaymentAmount>
+                        <PaymentRate>1.60000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172971">
+                        <AnnualAmount>16000.00000</AnnualAmount>
+                        <BeginDate>2025-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623819">Expense Setup Record, ID=623819</ExpenseSetupID>
+                        <FirstPaymentAmount>4000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>4000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>4000.00000</PaymentAmount>
+                        <PaymentRate>3.20000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-3172973">
+                        <AnnualAmount>4000.00000</AnnualAmount>
+                        <BeginDate>2028-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2029-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623819">Expense Setup Record, ID=623819</ExpenseSetupID>
+                        <FirstPaymentAmount>1000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>1000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>1000.00000</PaymentAmount>
+                        <PaymentRate>0.80000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <PaymentTransaction clientID="client-25620233">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeExpenseGroupID>Utilities</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12827">Water</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-115576">Recurring Expense Contract</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <EffectiveDate>2015-03-24</EffectiveDate>
+                    <EffectiveEndDate>2030-12-31</EffectiveEndDate>
+                    <FreightAmount>0.00</FreightAmount>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>100.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <MiscAmount>0.00</MiscAmount>
+                    <OneTimeFlag>true</OneTimeFlag>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-510790">Recurring Expense Contract</ProjectEntityID>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </PaymentTransaction>
+                <Space clientID="client-45570">
+                    <ClientNumber>1000</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Ready</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Retail</CodeSpaceUseID>
+                    <Description>Update</Description>
+                    <EffectiveDate>2015-01-09</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>2</FloorNumber>
+                    <GrossArea>500.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>7000.00000</RentableArea>
+                    <RoomNumber>2</RoomNumber>
+                    <SpaceName>Selenium Space Management1</SpaceName>
+                    <SuiteNumber>100</SuiteNumber>
+                    <UsableArea>100.00000</UsableArea>
+                    <Tenant clientID="client-70">
+                        <Capacity1>11</Capacity1>
+                        <Capacity2>13</Capacity2>
+                        <Capacity3>20</Capacity3>
+                        <Capacity4>12</Capacity4>
+                        <City>Murfreesboro</City>
+                        <CodeTenantCategoryID>Store</CodeTenantCategoryID>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantTypeID>Sales</CodeTenantTypeID>
+                        <EffectiveDate>2015-01-09</EffectiveDate>
+                        <HeadCount1>1</HeadCount1>
+                        <HeadCount2>10</HeadCount2>
+                        <HeadCount3>5</HeadCount3>
+                        <HeadCount4>15</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-09</MoveInDate>
+                        <MoveOutDate>2015-12-31</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>37130</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45570">Space, ID=45568</SpaceID>
+                        <StreetAddress1>97</StreetAddress1>
+                        <StreetAddress2>maple street</StreetAddress2>
+                        <TenantName>Joy</TenantName>
+                        <TotalCapacity>100</TotalCapacity>
+                    </Tenant>
+                </Space>
+                <Space clientID="client-45574">
+                    <ClientNumber>105</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail Space</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Active</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store Space</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Store</CodeSpaceUseID>
+                    <Description>Create</Description>
+                    <EffectiveDate>2015-01-10</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>1</FloorNumber>
+                    <GrossArea>100.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>4000.00000</RentableArea>
+                    <RoomNumber>1</RoomNumber>
+                    <SpaceName>Selenium Space Management2</SpaceName>
+                    <SuiteNumber>120</SuiteNumber>
+                    <TotalHeadCount>20</TotalHeadCount>
+                    <UsableArea>500.00000</UsableArea>
+                    <Tenant clientID="client-80">
+                        <Capacity1>1</Capacity1>
+                        <Capacity2>25</Capacity2>
+                        <Capacity3>12</Capacity3>
+                        <Capacity4>4</Capacity4>
+                        <City>Toronto</City>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantStatusID>Active</CodeTenantStatusID>
+                        <CodeTenantTypeID>Store</CodeTenantTypeID>
+                        <CodeTenantUseID>1</CodeTenantUseID>
+                        <HeadCount1>2</HeadCount1>
+                        <HeadCount2>4</HeadCount2>
+                        <HeadCount3>6</HeadCount3>
+                        <HeadCount4>12</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-10</MoveInDate>
+                        <MoveOutDate>2016-01-01</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>M5V 2T6</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45574">Space, ID=45569</SpaceID>
+                        <StreetAddress1>301</StreetAddress1>
+                        <StreetAddress2>Front Street West</StreetAddress2>
+                        <TenantName>Joan</TenantName>
+                        <TotalCapacity>200</TotalCapacity>
+                    </Tenant>
+                </Space>
+            </Contract><Contract clientID="client-115578">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>GR 002</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractCategoryID>Retail Lease</CodeContractCategoryID>
+                <CodeContractGroupID>Store</CodeContractGroupID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CodeContractTypeID clientID="client-573">Mall Based</CodeContractTypeID>
+                <CodeContractUseID>Retail</CodeContractUseID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Retro Payment Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExpireDate>2030-12-31</ExpireDate>
+                <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                <LocationID clientID="client-118337">000056</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <Notes>This contract will be used to run Retro Payment Test Cases</Notes>
+                <ParcelID clientID="client-6210">Lucernex-Parcel</ParcelID>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                <RentableArea>5000.00000</RentableArea>
+                <ExpenseSetup clientID="client-623823">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12795">Interior</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                    <Description>Common area maintenance</Description>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProRataShareRate>50.00000</ProRataShareRate>
+                    <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>5000.00000</RentableArea>
+                    <ExpenseSchedule clientID="client-3172982">
+                        <AnnualAmount>600.00000</AnnualAmount>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                        <FirstPaymentAmount>50.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>50.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>50.00000</PaymentAmount>
+                        <PaymentRate>0.12000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation clientID="client-757012">
+                        <BeginDate>2010-01-01</BeginDate>
+                        <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                        <EndDate>2030-12-31</EndDate>
+                        <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                        <VendorID clientID="client-433971">Vendor B</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <PaymentTransaction clientID="client-25620234">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12795">Interior</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Common area maintenance</Description>
+                    <DueDate>2015-01-01</DueDate>
+                    <EffectiveDate>2015-01-01</EffectiveDate>
+                    <EffectiveEndDate>2015-01-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>50.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                    <SourceEntityTable>RNT20150324-032309</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-25620235">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12795">Interior</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Common area maintenance</Description>
+                    <DueDate>2015-02-01</DueDate>
+                    <EffectiveDate>2015-02-01</EffectiveDate>
+                    <EffectiveEndDate>2015-02-28</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>50.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-02-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                    <SourceEntityTable>RNT20150324-032359</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-25620236">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>U.S. Dollar</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12795">Interior</CodeExpenseTypeID>
+                    <CodePaymentMethodID>Check</CodePaymentMethodID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <ContractID clientID="client-115578">Retro Payment Contract</ContractID>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Common area maintenance</Description>
+                    <DueDate>2015-03-01</DueDate>
+                    <EffectiveDate>2015-03-01</EffectiveDate>
+                    <EffectiveEndDate>2015-03-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-623823">Expense Setup Record, ID=623823</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>50.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-03-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID clientID="client-510792">Retro Payment Contract</ProjectEntityID>
+                    <SourceEntityTable>RNT20150324-032407</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <VendorID clientID="client-433971">Vendor B</VendorID>
+                </PaymentTransaction>
+                <Space clientID="client-45570">
+                    <ClientNumber>1000</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Ready</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Retail</CodeSpaceUseID>
+                    <Description>Update</Description>
+                    <EffectiveDate>2015-01-09</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>2</FloorNumber>
+                    <GrossArea>500.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>7000.00000</RentableArea>
+                    <RoomNumber>2</RoomNumber>
+                    <SpaceName>Selenium Space Management1</SpaceName>
+                    <SuiteNumber>100</SuiteNumber>
+                    <UsableArea>100.00000</UsableArea>
+                    <Tenant clientID="client-70">
+                        <Capacity1>11</Capacity1>
+                        <Capacity2>13</Capacity2>
+                        <Capacity3>20</Capacity3>
+                        <Capacity4>12</Capacity4>
+                        <City>Murfreesboro</City>
+                        <CodeTenantCategoryID>Store</CodeTenantCategoryID>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantTypeID>Sales</CodeTenantTypeID>
+                        <EffectiveDate>2015-01-09</EffectiveDate>
+                        <HeadCount1>1</HeadCount1>
+                        <HeadCount2>10</HeadCount2>
+                        <HeadCount3>5</HeadCount3>
+                        <HeadCount4>15</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-09</MoveInDate>
+                        <MoveOutDate>2015-12-31</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>37130</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45570">Space, ID=45568</SpaceID>
+                        <StreetAddress1>97</StreetAddress1>
+                        <StreetAddress2>maple street</StreetAddress2>
+                        <TenantName>Joy</TenantName>
+                        <TotalCapacity>100</TotalCapacity>
+                    </Tenant>
+                </Space>
+                <Space clientID="client-45574">
+                    <ClientNumber>105</ClientNumber>
+                    <CodeBuildingAreaUnitID>squarefeet</CodeBuildingAreaUnitID>
+                    <CodeSpaceGroupID>Retail Space</CodeSpaceGroupID>
+                    <CodeSpaceStatusID>Active</CodeSpaceStatusID>
+                    <CodeSpaceTypeID>Store Space</CodeSpaceTypeID>
+                    <CodeSpaceUseID>Store</CodeSpaceUseID>
+                    <Description>Create</Description>
+                    <EffectiveDate>2015-01-10</EffectiveDate>
+                    <FacilityID clientID="client-167272">Lucernex-Facility</FacilityID>
+                    <FloorNumber>1</FloorNumber>
+                    <GrossArea>100.00000</GrossArea>
+                    <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                    <RentableArea>4000.00000</RentableArea>
+                    <RoomNumber>1</RoomNumber>
+                    <SpaceName>Selenium Space Management2</SpaceName>
+                    <SuiteNumber>120</SuiteNumber>
+                    <TotalHeadCount>20</TotalHeadCount>
+                    <UsableArea>500.00000</UsableArea>
+                    <Tenant clientID="client-80">
+                        <Capacity1>1</Capacity1>
+                        <Capacity2>25</Capacity2>
+                        <Capacity3>12</Capacity3>
+                        <Capacity4>4</Capacity4>
+                        <City>Toronto</City>
+                        <CodeTenantGroupID>Retail</CodeTenantGroupID>
+                        <CodeTenantStatusID>Active</CodeTenantStatusID>
+                        <CodeTenantTypeID>Store</CodeTenantTypeID>
+                        <CodeTenantUseID>1</CodeTenantUseID>
+                        <HeadCount1>2</HeadCount1>
+                        <HeadCount2>4</HeadCount2>
+                        <HeadCount3>6</HeadCount3>
+                        <HeadCount4>12</HeadCount4>
+                        <IStateProvinceCountryID>
+                            <Country>United States</Country>
+                            <State>Unknown</State>
+                        </IStateProvinceCountryID>
+                        <MoveInDate>2015-01-10</MoveInDate>
+                        <MoveOutDate>2016-01-01</MoveOutDate>
+                        <OrganizationID clientID="client-32934">Selenium-Organization</OrganizationID>
+                        <PostalCode>M5V 2T6</PostalCode>
+                        <ProjectEntityID clientID="client-509238">Lucernex-Facility</ProjectEntityID>
+                        <SpaceID clientID="client-45574">Space, ID=45569</SpaceID>
+                        <StreetAddress1>301</StreetAddress1>
+                        <StreetAddress2>Front Street West</StreetAddress2>
+                        <TenantName>Joan</TenantName>
+                        <TotalCapacity>200</TotalCapacity>
+                    </Tenant>
+                </Space>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

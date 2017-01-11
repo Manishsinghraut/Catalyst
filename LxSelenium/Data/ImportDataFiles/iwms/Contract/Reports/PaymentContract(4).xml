@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract clientID="client-126457">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>Payment Contract</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Payment Contract</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>1900-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2050-12-31</PaymentsEndDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-591239">Payment Contract</ProjectEntityID>
+                <RentableArea>0.00</RentableArea>
+                <ExpenseSetup clientID="client-741459">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>3000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule clientID="client-4012152">
+                        <AnnualAmount>10200.00000</AnnualAmount>
+                        <BeginDate>2015-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-03-31</EndDate>
+                        <FirstPaymentAmount>850.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>850.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>850.00000</PaymentAmount>
+                        <PaymentRate>3.40000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>591239</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseSchedule clientID="client-4012160">
+                        <AnnualAmount>10800.00000</AnnualAmount>
+                        <BeginDate>2015-04-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2015-12-31</EndDate>
+                        <FirstPaymentAmount>900.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>900.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>900.00000</PaymentAmount>
+                        <PaymentRate>3.60000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>591239</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <MapClientSchedule clientID="client-540323">
+                    <LastReviewedDate>2015-10-15T12:25:17</LastReviewedDate>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PaymentTransaction clientID="client-36936346">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2015-01-01</DueDate>
+                    <EffectiveDate>2015-01-01</EffectiveDate>
+                    <EffectiveEndDate>2015-01-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-741459">Expense Setup Record, ID=741459</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>850.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-01-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <SourceEntityTable>RNT20151015-024126</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <TaxAmount3>0.00</TaxAmount3>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>850.00000</TotalAmount>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-36936347">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2015-02-01</DueDate>
+                    <EffectiveDate>2015-02-01</EffectiveDate>
+                    <EffectiveEndDate>2015-02-28</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-741459">Expense Setup Record, ID=741459</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>850.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-02-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <SourceEntityTable>RNT20151015-024139</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <TaxAmount3>0.00</TaxAmount3>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>850.00000</TotalAmount>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-36936348">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2015-03-01</DueDate>
+                    <EffectiveDate>2015-03-01</EffectiveDate>
+                    <EffectiveEndDate>2015-03-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-741459">Expense Setup Record, ID=741459</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>850.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-03-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <SourceEntityTable>RNT20151015-024147</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <TaxAmount3>0.00</TaxAmount3>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>850.00000</TotalAmount>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-36936352">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2015-04-01</DueDate>
+                    <EffectiveDate>2015-04-01</EffectiveDate>
+                    <EffectiveEndDate>2015-04-30</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-741459">Expense Setup Record, ID=741459</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>900.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-04-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <SourceEntityTable>RNT20151015-024526</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <TaxAmount3>0.00</TaxAmount3>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>900.00000</TotalAmount>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-36936353">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2015-05-01</DueDate>
+                    <EffectiveDate>2015-05-01</EffectiveDate>
+                    <EffectiveEndDate>2015-05-31</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-741459">Expense Setup Record, ID=741459</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>900.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-05-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <SourceEntityTable>RNT20151015-024533</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <TaxAmount3>0.00</TaxAmount3>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>900.00000</TotalAmount>
+                </PaymentTransaction>
+                <PaymentTransaction clientID="client-36936354">
+                    <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <DueDate>2015-06-01</DueDate>
+                    <EffectiveDate>2015-06-01</EffectiveDate>
+                    <EffectiveEndDate>2015-06-30</EffectiveEndDate>
+                    <ExpenseSetupID clientID="client-741459">Expense Setup Record, ID=741459</ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InvoiceAmount>900.00000</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2015-06-01</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <ProjectEntityID>591239</ProjectEntityID>
+                    <SourceEntityTable>RNT20151015-024539</SourceEntityTable>
+                    <TaxAmount1>0.00</TaxAmount1>
+                    <TaxAmount2>0.00</TaxAmount2>
+                    <TaxAmount3>0.00</TaxAmount3>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <TotalAmount>900.00000</TotalAmount>
+                </PaymentTransaction>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

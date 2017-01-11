@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Portfolio2177</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-681259rer">Portfolio2177</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <MapClientSchedule clientID="client-628814">
+                    <LastReviewedDate>2016-10-05T14:02:39</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-36522">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-6683">Portfolio2177</ProgramID>
+                        <ProjectEntityID clientID="client-681259rer">Portfolio2177</ProjectEntityID>
+                        <RegionName>2177 Parent</RegionName>
+                        <LinkRegionManager clientID="client-83577">
+                            <IsManager>false</IsManager>
+                            <MemberID clientID="client-36458">Delete Access Access</MemberID>
+                            <ProgramID clientID="client-6683">Portfolio2177</ProgramID>
+                            <ProjectEntityID clientID="client-681259rer">Portfolio2177</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region clientID="client-36523">
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID clientID="client-36522">2177 Parent</ParentRegionID>
+                            <ProgramID clientID="client-6683">Portfolio2177</ProgramID>
+                            <ProjectEntityID clientID="client-681259rer">Portfolio2177</ProjectEntityID>
+                            <RegionName>2177 sub</RegionName>
+                            <LinkRegionManager clientID="client-83578">
+                                <IsManager>false</IsManager>
+                                <MemberID clientID="client-36458">Delete Access Access</MemberID>
+                                <ProgramID clientID="client-6683">Portfolio2177</ProgramID>
+                                <ProjectEntityID clientID="client-681259rer">Portfolio2177</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket clientID="client-8059">
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-681259rer">Portfolio2177</ProjectEntityID>
+                                <LinkRegionManager clientID="client-83579">
+                                    <IsManager>false</IsManager>
+                                    <MemberID clientID="client-36458">Delete Access Access</MemberID>
+                                    <OperatingStatus>P</OperatingStatus>
+                                    <ProgramID clientID="client-6683">Portfolio2177</ProgramID>
+                                    <ProjectEntityID clientID="client-681259rer">Portfolio2177</ProjectEntityID>
+                                    <RegionID clientID="client-36523">2177 Parent 2177 sub</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+				  <DevelopmentPlan clientID="client-729">
+                    <DevelopmentPlanName>lx_devPlan_6683</DevelopmentPlanName>
+                    <DevelopmentSlot clientID="client-4752">
+                        <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                        <DevelopmentSlotName>2177 Target</DevelopmentSlotName>
+                        <Duration>250</Duration>
+                        <EndDate>2000-01-01</EndDate>
+                        <ProjectEntityID>681259rer</ProjectEntityID>
+                        <RegionID clientID="client-36522">2177 Parent</RegionID>
+                    </DevelopmentSlot>
+                </DevelopmentPlan>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

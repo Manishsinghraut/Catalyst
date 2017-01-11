@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program clientID="client-5815">
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <ProgramName>Portfolio 00020</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-769643rettt">Portfolio 00020</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <LinkMemberProjectEntity clientID="client-14163028">
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID clientID="client-33626">Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                <MapClientSchedule clientID="client-717572">
+                    <LastReviewedDate>2016-12-09T14:16:28</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region clientID="client-35701">
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID clientID="client-5815">Portfolio 00020</ProgramID>
+                        <ProjectEntityID clientID="client-769643rettt">Portfolio 00020</ProjectEntityID>
+                        <RegionName>PR020</RegionName>
+                        <LinkRegionManager clientID="client-101461">
+                            <IsManager>false</IsManager>
+                            <MemberID clientID="client-33626">Delete Access Access</MemberID>
+                            <ProgramID clientID="client-5815">Portfolio 00020</ProgramID>
+                            <ProjectEntityID clientID="client-769643rettt">Portfolio 00020</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region clientID="client-35702">
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID clientID="client-35701">PR020</ParentRegionID>
+                            <ProgramID clientID="client-5815">Portfolio 00020</ProgramID>
+                            <ProjectEntityID clientID="client-769643rettt">Portfolio 00020</ProjectEntityID>
+                            <RegionName>Sub 020</RegionName>
+                            <LinkRegionManager clientID="client-101462">
+                                <IsManager>false</IsManager>
+                                <MemberID clientID="client-33626">Delete Access Access</MemberID>
+                                <ProgramID clientID="client-5815">Portfolio 00020</ProgramID>
+                                <ProjectEntityID clientID="client-769643rettt">Portfolio 00020</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket clientID="client-8127">
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-769643rettt">Portfolio 00020</ProjectEntityID>
+                                <LinkRegionManager clientID="client-101463">
+                                    <IsManager>false</IsManager>
+                                    <MemberID clientID="client-33626">Delete Access Access</MemberID>
+                                    <OperatingStatus>P</OperatingStatus>
+                                    <ProgramID clientID="client-5815">Portfolio 00020</ProgramID>
+                                    <ProjectEntityID clientID="client-769643rettt">Portfolio 00020</ProjectEntityID>
+                                    <RegionID clientID="client-35702">PR020 Sub 020</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+		<Locations>
+            <Location>
+                <ClientEntityID>Location 00020</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                </IStateProvinceCountryID>
+                <LocationName>Location 00020</LocationName>
+                <ProgramID>Portfolio 00020</ProgramID>
+                <ProjectEntityID clientID="client-769644ret">Location 00020</ProjectEntityID>
+               </Location>
+        </Locations>
+    </Firm>
+</LxERP>

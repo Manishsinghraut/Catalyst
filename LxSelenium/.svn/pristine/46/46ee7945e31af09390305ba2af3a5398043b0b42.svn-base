@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract clientID="client-124172">
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>2000</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>2.Fixed Offset- Semi Annually- Per Period</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID clientID="client-3623">Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-571428">2.Fixed Offset- Semi Annually- Per Period</ProjectEntityID>
+                <ExpenseSetup clientID="client-701603">
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Annually</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseVendorAllocation clientID="client-877186">
+                        <BeginDate>2000-01-01</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>571428</ProjectEntityID>
+                        <VendorID clientID="client-382288">Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule clientID="client-520605">
+                    <LastReviewedDate>2015-08-19T06:11:21</LastReviewedDate>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <PercentageRent clientID="client-136562">
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2000-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Semi-Annually</CodeBillingFrequencyID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID clientID="client-12837">Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Per Period</CodePercentageRentTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2020-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                </PercentageRent>
+                <PercentageRentBreakpoint clientID="client-189661">
+                    <BeginDate>2000-01-01</BeginDate>
+                    <BreakpointAmount1>50000.00000</BreakpointAmount1>
+                    <BreakpointAmount2>100000.00000</BreakpointAmount2>
+                    <BreakpointRate1>10.00000</BreakpointRate1>
+                    <BreakpointRate2>5.00000</BreakpointRate2>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2020-12-31</EndDate>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                </PercentageRentBreakpoint>
+                <Sales clientID="client-13232043">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232020">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232045">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232022">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>130000.00</GrossSalesAmount>
+                    <NetSalesAmount>130000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232047">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232024">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232049">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232050">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>150000.00</GrossSalesAmount>
+                    <NetSalesAmount>150000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232027">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232052">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232029">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>200000.00</GrossSalesAmount>
+                    <NetSalesAmount>200000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <Sales clientID="client-13232054">
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID clientID="client-758">Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>300000.00</GrossSalesAmount>
+                    <NetSalesAmount>300000.00</NetSalesAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2014</SalesYear>
+                </Sales>
+                <VariableRentOffset clientID="client-49644">
+                    <BeginDate>2000-01-01</BeginDate>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeOffsetGroupID>Fixed Offset Group</CodeOffsetGroupID>
+                    <CodeOffsetTypeID>Fixed Offset Type</CodeOffsetTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2020-12-31</EndDate>
+                    <FixedOffsetAmount>600.00000</FixedOffsetAmount>
+                    <ProjectEntityID>571428</ProjectEntityID>
+                </VariableRentOffset>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

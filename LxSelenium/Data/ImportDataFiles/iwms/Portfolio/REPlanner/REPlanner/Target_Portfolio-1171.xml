@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <City>Plano</City>
+                <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>Target Portfolio-auto-1117</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <StreetAddress1>100</StreetAddress1>
+                <StreetAddress2>Windcrest</StreetAddress2>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <Description>Operating</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Target Portfolio</ProgramID>
+                        <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                        <RegionName>Central Dallas</RegionName>
+                        <Region>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Central Dallas(Operating)</ParentRegionID>
+                            <ProgramID>Target Portfolio</ProgramID>
+                            <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                            <RegionName>Frisco</RegionName>
+                        </Region>
+                    </Region>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>Target Portfolio</ProgramID>
+                        <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                        <RegionName>Central(Central region - preOpen)</RegionName>
+                    </Region>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <PreviousRegionID>Central(Central region - preOpen)</PreviousRegionID>
+                        <ProgramID>Target Portfolio</ProgramID>
+                        <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                        <RegionName>Central (Central region - preOpen) Frisco(Pre-Open)</RegionName>
+                    </Region>
+                    <Region>
+                        <Description>Central region - preOpen</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <PreviousRegionID >Central (Central region - preOpen) Frisco(Pre-Open)</PreviousRegionID>
+                        <ProgramID>Target Portfolio</ProgramID>
+                        <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                        <RegionName>Central</RegionName>
+                    </Region>
+                    <Region>
+                        <Description>Parent Region</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <PreviousRegionID>Central(Central region - preOpen)</PreviousRegionID>
+                        <ProgramID>Target Portfolio</ProgramID>
+                        <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                        <RegionName>Selenium-Parent-Region</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>Target Portfolio</ProgramID>
+                            <ProjectEntityID clientID="portfolio-automation-1171">Target Portfolio-1117</ProjectEntityID>
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

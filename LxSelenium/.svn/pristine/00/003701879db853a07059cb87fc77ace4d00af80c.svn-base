@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-06-01</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AL</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-123eds">Form Assignments</ProjectEntityID>
+                <ProjectName>Form Assignments</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                <assignee>
+                    <AssignedToMemberIDs>Delete Access Access</AssignedToMemberIDs>
+                    <CodeIssueTypeID>assignee</CodeIssueTypeID>
+                    <ImportedCreatedDate>2016-06-01T13:44:15</ImportedCreatedDate>
+                    <InitiatedByMemberID>Delete Access Access</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <IssueID>453390</IssueID>
+                    <LastPageLayoutID>assignee_L</LastPageLayoutID>
+                    <ProjectEntityID>123eds</ProjectEntityID>
+                    <Subject>06/01/2016</Subject>
+                </assignee>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

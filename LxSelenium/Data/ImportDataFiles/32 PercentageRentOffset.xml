@@ -1,0 +1,617 @@
+<?xml version="1.0"?>
+<LxERP>
+    <Firm>
+        <Employers>
+            <Employer clientID="40290">
+                <APVendorNumber>40290</APVendorNumber>
+                <City>Chicago</City>
+                <CompanyType>1</CompanyType>
+                <CreatedDate>2012-10-07T07:35:53</CreatedDate>
+                <EmployerName>1325 Simon Park Mall</EmployerName>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>IL</State>
+                </IStateProvinceCountryID>
+                <IsFemaleOwned>false</IsFemaleOwned>
+                <IsGLBTOwned>false</IsGLBTOwned>
+                <IsMinorityOwned>false</IsMinorityOwned>
+                <IsPreferredVendor>false</IsPreferredVendor>
+                <IsSBAProgram>false</IsSBAProgram>
+                <PostalCode>60686-0076</PostalCode>
+                <StreetAddress1>Greenwood Park Mall</StreetAddress1>
+                <StreetAddress2>7695 Reliable Parkway</StreetAddress2>
+                <StreetAddress4>.</StreetAddress4>
+            </Employer>
+        </Employers>
+        <Programs>
+            <Program clientID="client-2599">
+                <City>New York</City>
+                <FiscalYearEnd>2009-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>NY</State>
+                </IStateProvinceCountryID>
+                <PostalCode>10017</PostalCode>
+                <ProgramName>Retail (Demo)</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <RevenuePerWeek>28000</RevenuePerWeek>
+                <StreetAddress1>270 Park Ave</StreetAddress1>
+                <StreetAddress2>Suite 2340</StreetAddress2>
+            </Program>
+        </Programs>
+        <Locations>
+            <Location clientID="PRPOffset_Location">
+                <LocationName>% Rent Cap Examples</LocationName>
+                <City>Coppell</City>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                <CodeLocationCategoryID>Leased</CodeLocationCategoryID>
+                <CodeLocationGroupID>Retail</CodeLocationGroupID>
+                <CodeLocationStatusID>Active</CodeLocationStatusID>
+                <CodeLocationTypeID>Regional Center</CodeLocationTypeID>
+                <CodeLocationUseID>Retail</CodeLocationUseID>
+                <GrossLeaseArea>250000.00000</GrossLeaseArea>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75019</PostalCode>
+                <ProgramID clientID="client-2599">Retail (Demo)</ProgramID>
+                <StreetAddress1>724 Dove Circle</StreetAddress1>
+                <ThirdPartyWarehouse>Dallas Distribution Center
+                </ThirdPartyWarehouse>
+                <ThirdPartyWarehouseArea>100000.00000</ThirdPartyWarehouseArea>
+            </Location>
+        </Locations>
+        <Contracts>
+            <Contract clientID="PRPOffset7">
+                <LocationID clientID="PRPOffset_Location">% Rent Cap Examples</LocationID>
+                <ProgramID clientID="client-2599">Retail (Demo)</ProgramID>
+                <ClientEntityID>PRPOffset7</ClientEntityID>
+                <ContractName>Annual (PRPOffset7)</ContractName>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeContractStatusID>Active</CodeContractStatusID>
+                <CommenceDate>2011-02-01</CommenceDate>
+                <PossessionBeginDate>2011-02-01</PossessionBeginDate>
+                <PaymentsBeginDate>2011-02-01</PaymentsBeginDate>
+                <ExpireDate>2013-1-31</ExpireDate>
+                <PossessionEndDate>2013-1-31</PossessionEndDate>
+                <PaymentsEndDate>2013-1-31</PaymentsEndDate>
+                <MonthToMonth>false</MonthToMonth>
+                <RentableArea>1000.00000</RentableArea>
+                <ExpenseSetup clientID="PRPOffset7-Exp_1">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <Description>Lease - % Rent</Description>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RemitMessage>Lease - % Rent</RemitMessage>
+                    <RentableArea>1000.00000</RentableArea>
+                    <ExpenseSchedule clientID="PRPOffset7-ExpSch_1">
+                        <AdjustmentMethod>Increase Type 2</AdjustmentMethod>
+                        <AnnualAmount>120000.00000</AnnualAmount>
+                        <BeginDate>2011-02-01</BeginDate>
+                        <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+                        <Description>Base Rent</Description>
+                        <EndDate>2013-01-31</EndDate>
+                        <FirstPaymentAmount>10000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>10000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>10000</PaymentAmount>
+                        <PaymentRate>65.00000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ReadyForPaymentFlag>true</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation clientID="PRPOffset7-ExpVe_1">
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <VendorID clientID="40290">1325 Simon Park Mall</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <ExpenseSetup clientID="PRPOffset7-Exp_2" modified="2014-02-20">
+                    <ApplyTaxFlag>false</ApplyTaxFlag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Trash</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <Description>Expense - Trash</Description>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RemitMessage>Expense - Trash</RemitMessage>
+                    <RentableArea>1000.00000</RentableArea>
+                    <ExpenseSchedule clientID="PRPOffset7-ExpSch_2">
+                        <AdjustmentMethod>Original Amount</AdjustmentMethod>
+                        <AnnualAmount>600.08000</AnnualAmount>
+                        <BeginDate>2011-02-01</BeginDate>
+                        <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+                        <Description>Trash</Description>
+                        <EndDate>2013-01-31</EndDate>
+                        <FirstPaymentAmount>50.80000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>50.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>50.00000</PaymentAmount>
+                        <PaymentRate>0.20000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ReadyForPaymentFlag>true</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                </ExpenseSetup>
+                <PercentageRent clientID="PRPOffset7-Sales001">
+                    <CodePercentageRentTypeID>Annual</CodePercentageRentTypeID>
+                    <CodeReportingFrequencyID>Annually</CodeReportingFrequencyID>
+                    <CodeBillingFrequencyID>Annually</CodeBillingFrequencyID>
+                    <CumulativeFlag>true</CumulativeFlag>
+                    <AuditRightFlag>true</AuditRightFlag>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <BeginDate>2011-02-01</BeginDate>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Percentage Rent</CodeExpenseTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2013-1-31</EndDate>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    <Notes></Notes>
+                    <CodeCapFrequencyID>Annually</CodeCapFrequencyID>
+                    <CapAmount>24000</CapAmount>
+                    <SalesYearEndDate>2012-1-31</SalesYearEndDate>
+                </PercentageRent>
+                <PercentageRentBreakpoint clientID="PRPOffset7-Sales001">
+                    <BeginDate>2011-02-01</BeginDate>
+                    <BreakpointAmount1>500000.00000</BreakpointAmount1>
+                    <BreakpointAmount2>750000.00000</BreakpointAmount2>
+                    <BreakpointAmount3>1000000.00000</BreakpointAmount3>
+                    <BreakpointRate1>5.00000</BreakpointRate1>
+                    <BreakpointRate2>4.00000</BreakpointRate2>
+                    <BreakpointRate3>3.00000</BreakpointRate3>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2013-1-31</EndDate>
+                </PercentageRentBreakpoint>
+                <VariableRentOffset clientID="PRPOffset7-Sales001" modified="2014-02-20">
+                    <BeginDate>2011-02-01</BeginDate>
+                    <CapPercent>10.0</CapPercent>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Trash</CodeExpenseTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2013-1-31</EndDate>
+                </VariableRentOffset>
+                <VariableRentOffset clientID="PRPOffset7-Sales002" modified="2014-02-20">
+                    <BeginDate>2011-02-01</BeginDate>
+                    <CapAmount>150.0</CapAmount>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Trash</CodeExpenseTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2013-1-31</EndDate>
+                </VariableRentOffset>
+                <VariableRentOffset clientID="PRPOffset7-Sales003" modified="2014-02-20">
+                    <BeginDate>2011-02-01</BeginDate>
+                    <FixedOffsetAmount>190.0</FixedOffsetAmount>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2013-1-31</EndDate>
+                </VariableRentOffset>
+                <PaymentTransaction clientID="PRPOffset7_PAYMENT_Trash" modified="2012-09-15">
+                    <BillingDate>2011-12-31</BillingDate>
+                    <CheckAmount>600.80000</CheckAmount>
+                    <CheckDate>2011-12-31</CheckDate>
+                    <CodeApprovalStatusID>Approved</CodeApprovalStatusID>
+                    <CodeCheckCurrencyTypeID>USD</CodeCheckCurrencyTypeID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Trash</CodeExpenseTypeID>
+                    <ConfirmedFlag>false</ConfirmedFlag>
+                    <CreditFlag>false</CreditFlag>
+                    <Description>Trash</Description>
+                    <DueDate>2011-12-31</DueDate>
+                    <EffectiveDate>2011-12-31</EffectiveDate>
+                    <ExpenseSetupID clientID="PRPOffset7-Exp_2"></ExpenseSetupID>
+                    <HoldFlag>false</HoldFlag>
+                    <InternalRefNumber>7570.5</InternalRefNumber>
+                    <InvoiceAmount>600</InvoiceAmount>
+                    <IsReceivable>false</IsReceivable>
+                    <OneTimeFlag>false</OneTimeFlag>
+                    <PostingDate>2011-12-31</PostingDate>
+                    <PrepaidFlag>false</PrepaidFlag>
+                    <ProcessedFlag>false</ProcessedFlag>
+                    <RemitMessage>Trash</RemitMessage>
+                    <TaxAmount1>300.00</TaxAmount1>
+                    <TaxAmount2>400.00</TaxAmount2>
+                </PaymentTransaction>
+                <Sales clientID="PRPOffset7_201212" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-12-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-12-01</PostingDate>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201211" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-11-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-11-01</PostingDate>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201210" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-10-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-10-01</PostingDate>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201209" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-09-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-09-01</PostingDate>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201208" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-08-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-08-01</PostingDate>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201207" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-07-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-07-01</PostingDate>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201206" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-06-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-06-01</PostingDate>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201205" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-05-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-05-01</PostingDate>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201204" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-04-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-04-01</PostingDate>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201203" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-03-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-03-01</PostingDate>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201202" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-02-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-02-01</PostingDate>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201201" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2012-01-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2012-01-01</PostingDate>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2012</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201112" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-12-01</EffectiveDate>
+                    <GrossSalesAmount>200000.00000</GrossSalesAmount>
+                    <NetSalesAmount>200000.00000</NetSalesAmount>
+                    <PostingDate>2011-12-01</PostingDate>
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201111" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-11-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-11-01</PostingDate>
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201110" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-10-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-10-01</PostingDate>
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201109" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-09-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-09-01</PostingDate>
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201108" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-08-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-08-01</PostingDate>
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201107" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-07-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-07-01</PostingDate>
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201106" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-06-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-06-01</PostingDate>
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201105" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-05-01</EffectiveDate>
+                    <GrossSalesAmount>40000.00000</GrossSalesAmount>
+                    <NetSalesAmount>40000.00000</NetSalesAmount>
+                    <PostingDate>2011-05-01</PostingDate>
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201104" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-04-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-04-01</PostingDate>
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201103" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-03-01</EffectiveDate>
+                    <GrossSalesAmount>40000.00000</GrossSalesAmount>
+                    <NetSalesAmount>40000.00000</NetSalesAmount>
+                    <PostingDate>2011-03-01</PostingDate>
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201102" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-02-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-02-01</PostingDate>
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+                <Sales clientID="PRPOffset7_201101" modified="2012-11-06">
+                    <CodeCurrencyTypeID>USD
+                    </CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual
+                    </CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales
+                    </CodeSalesGroupID>
+                    <CodeSalesTypeID>Gross Sales
+                    </CodeSalesTypeID>
+                    <EffectiveDate>2011-01-01</EffectiveDate>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    <PostingDate>2011-01-01</PostingDate>
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2011</SalesYear>
+                </Sales>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

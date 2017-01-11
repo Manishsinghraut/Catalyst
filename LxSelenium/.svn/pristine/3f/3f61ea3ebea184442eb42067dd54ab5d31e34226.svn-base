@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>RMPortfolio-15648</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>OCMember 15648</MemberID>
+                </LinkMemberProjectEntity>
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <LinkRegionManager>
+                        <IsManager>false</IsManager>
+                        <MemberID>OCMember 15648</MemberID>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>RMPortfolio-15648</ProgramID>
+                        <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                    </LinkRegionManager>
+                    <Region>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>RMPortfolio-15648</ProgramID>
+                        <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                        <RegionName>Dallas</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>OCMember 15648</MemberID>
+                            <ProgramID>RMPortfolio-15648</ProgramID>
+                            <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region>
+                            <OperatingStatus>P</OperatingStatus>
+                            <ParentRegionID>Dallas</ParentRegionID>
+                            <ProgramID>RMPortfolio-15648</ProgramID>
+                            <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                            <RegionName>Plano</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>OCMember 15648</MemberID>
+<ProgramID>RMPortfolio-15648</ProgramID>
+                                <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>P</OperatingStatus>
+                                <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                                <LinkRegionManager>
+                                    <IsManager>false</IsManager>
+                                    <MemberID>OCMember 15648</MemberID>
+                                    <OperatingStatus>P</OperatingStatus>
+    <ProgramID>RMPortfolio-15648</ProgramID>
+                                    <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                                    <RegionID>Dallas Plano</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+                <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>RMPortfolio-15648</ProgramID>
+                        <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                        <RegionName>Houston</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>OCMember 15648</MemberID>
+                            <ProgramID>RMPortfolio-15648</ProgramID>
+                            <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                        </LinkRegionManager>
+                        <Region>
+                            <OperatingStatus>O</OperatingStatus>
+                            <ParentRegionID>Houston</ParentRegionID>
+                            <ProgramID>RMPortfolio-15648</ProgramID>
+                            <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                            <RegionName>Sugar Land</RegionName>
+                            <LinkRegionManager>
+                                <IsManager>false</IsManager>
+                                <MemberID>OCMember 15648</MemberID>
+<ProgramID>RMPortfolio-15648</ProgramID>
+                                <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                            </LinkRegionManager>
+                            <LinkRegionMarket>
+                                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                                <OperatingStatus>O</OperatingStatus>
+                                <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                                <LinkRegionManager>
+                                    <IsManager>false</IsManager>
+                                    <MemberID>OCMember 15648</MemberID>
+                                    <OperatingStatus>O</OperatingStatus>
+    <ProgramID>RMPortfolio-15648</ProgramID>
+                                    <ProjectEntityID clientID="client-2k0xm4nv78">RMPortfolio-15648</ProjectEntityID>
+                                    <RegionID>Houston Sugar Land</RegionID>
+                                </LinkRegionManager>
+                            </LinkRegionMarket>
+                        </Region>
+                    </Region>
+                </OrgChart>
+            </Program>
+        </Programs>
+		           <Locations>
+            <Location>
+                <ClientEntityID>OCMLocation</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <LocationName>OCMLocation</LocationName>
+                <ProgramID>RMPortfolio-15648</ProgramID>
+				    <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>OCMember 15648</MemberID>
+                </LinkMemberProjectEntity>
+                <ProjectEntityID clientID="client-u3y75gc">OCMLocation</ProjectEntityID>
+            </Location>
+        </Locations>
+    </Firm>
+</LxERP>

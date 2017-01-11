@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Central</CodeMarketAreaID>
+                <ExpectedEndDate>2016-06-17</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>AK</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-634041ter">Form Project Import 1</ProjectEntityID>
+                <ProjectName>Form Project Import 1</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Central(Central region - preOpen)</RegionID>
+                <RegionLvl1>Central(Central region - preOpen)</RegionLvl1>
+                <MapClientSchedule>
+                    <LastReviewedDate>2016-06-17T10:44:23</LastReviewedDate>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+                <TestForm123 clientID="client-452765">
+                    <CodeIssueTypeID clientID="client-6568">TestForm123</CodeIssueTypeID>
+                    <DueDate>2016-06-22</DueDate>
+                    <ImportedCreatedDate>2016-06-17T10:44:35</ImportedCreatedDate>
+                    <InitiatedByMemberID>Delete Access Access</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <LastPageLayoutID clientID="client-35354">TestForm123</LastPageLayoutID>
+                    <ProjectEntityID>634041ter</ProjectEntityID>
+                </TestForm123>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

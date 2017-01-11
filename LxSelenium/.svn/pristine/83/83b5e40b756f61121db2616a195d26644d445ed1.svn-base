@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:LxERP xmlns:mes="http://iwms.lucernex.com/messaging">
+    <mes:Firm Name="JUnitTest">
+        <mes:PageLayouts>
+            <mes:PageLayout>
+                <mes:ClientID>bobWin_Dev_9223_20150131_115051935_6311</mes:ClientID>
+                <mes:PageLayoutName>Compare Obligation by Calendar / Fiscal year</mes:PageLayoutName>
+                <mes:Details>
+                    <mes:URL>{}</mes:URL>
+                    <mes:Description>Compares Calendar and Fiscal rents</mes:Description>
+                    <mes:AllowEdit>true</mes:AllowEdit>
+                    <mes:IsGlobalReport>false</mes:IsGlobalReport>
+                    <mes:OutputType>S</mes:OutputType>
+                    <mes:PageLayoutType>R</mes:PageLayoutType>
+                    <mes:CodeCurrencyTypeID>USD</mes:CodeCurrencyTypeID>
+                    <mes:FirmID>JUnitTest</mes:FirmID>
+                    <mes:EntitySelectionFilter>163840</mes:EntitySelectionFilter>
+                    <mes:RunModeFilters>8193</mes:RunModeFilters>
+                </mes:Details>
+                <mes:PageLayoutFields>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052088_692505</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1752">CodeContractTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Contract Type</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>8192</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052099_692506</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1774">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Contract Number</mes:DisplayLabel>
+                            <mes:DisplayOption1>16785664</mes:DisplayOption1>
+                            <mes:DisplayOption2>8192</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052107_692508</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1748">CodeContractCategoryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Contract Category</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>8192</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052116_692511</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501658_0">AggregateBaseRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Total Obligation</mes:DisplayLabel>
+                            <mes:DisplayOption1>268453888</mes:DisplayOption1>
+                            <mes:DisplayOption2>8192</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":true,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052123_692512</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100428_131559595_1">PaymentsEndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Payments End Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>8192</mes:DisplayOption1>
+                            <mes:DisplayOption2>8192</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052133_692514</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Name</mes:DisplayLabel>
+                            <mes:DisplayOption1>265</mes:DisplayOption1>
+                            <mes:DisplayOption2>8192</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"SortDescending":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"true"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052140_692515</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1758">ExpireDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Expire Date</mes:DisplayLabel>
+                            <mes:DisplayOption1>8192</mes:DisplayOption1>
+                            <mes:DisplayOption2>8192</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"HideSubRegionDescription":false,"GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052148_692519</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Y1</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Y1</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>2</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"ComputedDataType":"2","NumberOfDecimals":"3","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.CurrentAnnualTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.CurrentAnnualFiscalTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052157_692520</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Y3</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Y3</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>4</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"ComputedDataType":"2","HideDecimals":false,"NumberOfDecimals":"","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.ThirdYearTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.ThirdFiscalYearTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052164_692521</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Y2</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Y2</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>3</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"ComputedDataType":"2","HideDecimals":false,"NumberOfDecimals":"","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.NextYearTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.NextFiscalYearTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052172_692522</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Y4</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Y4</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>5</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"ComputedDataType":"2","NumberOfDecimals":"","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.FourthYearTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.FourthFiscalYearTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052180_692523</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Y5</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Y5</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>6</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"HideDecimals":false,"ComputedDataType":"2","NumberOfDecimals":"","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.FifthYearTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.FifthFiscalYearTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052188_692524</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Y6</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Y6</mes:DisplayLabel>
+                            <mes:DisplayOption1>0</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"ComputedDataType":"2","HideDecimals":false,"NumberOfDecimals":"","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.SixthYearTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.SixthFiscalYearTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052195_692525</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Beyond6</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Beyond6</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>8</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"ComputedDataType":"2","HideDecimals":false,"NumberOfDecimals":"","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.BeyondSixthYearTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.BeyondSixthFiscalYearTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052203_692526</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:FieldContext>Diff_Beyond5</mes:FieldContext>
+                            <mes:DisplayLabel>Diff Beyond5</mes:DisplayLabel>
+                            <mes:DisplayOption1>1</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>7</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"DateFormat_YYYY-MM-DD":false,"ComputedDataType":"2","HideDecimals":false,"NumberOfDecimals":"","debugValueJS":"false","computeValueJS":"var valueToSet = '';\nvar cashVal = new Number('${Contract.BeyondFifthYearTotalRent}');\nif (isNaN(cashVal)) {\n  cashVal = 0;\n}\nvar fiscalVal = new Number('${Contract.BeyondFifthFiscalYearTotalRent}');\nif (isNaN(fiscalVal)) {\n  fiscalVal = 0;\n}\nvalueToSet = cashVal - fiscalVal;\nif (valueToSet &lt; 1 &amp;&amp; valueToSet > -1) {\n  valueToSet = '';\n}\n","HideSubRegionDescription":false,"ComputedSQLTableID":"2792","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052219_692527</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713368_0">CurrentAnnualFiscalTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Current Annual Fiscal Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>10</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052227_692528</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713384_0">BeyondSixthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Beyond Sixth Fiscal Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>22</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052235_692529</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713383_2">BeyondFifthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Beyond Fifth Fiscal Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669568</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052242_692530</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713383_0">SixthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Sixth Fiscal Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>20</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052249_692531</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713382_1">FifthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Fifth Fiscal Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>18</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052257_692532</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713381_1">ThirdFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Third Fiscal Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>14</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052264_692533</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713382_2">FourthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Fourth Fiscal Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>16</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052272_692534</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713379_0">NextFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Next Fiscal Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>12</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052280_692535</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_Dev_910_20120115_184000255_0">BeyondFifthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Beyond Fifth Calendar Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669568</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>-1</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052289_692536</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501660_0">FifthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Fifth Calendar Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>17</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052299_692537</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.1.3_20100929_143058121_0">SixthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Sixth Calendar Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>19</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052306_692538</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501659_1">CurrentAnnualTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Current Annual Calendar Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>9</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052313_692539</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501671_0">FourthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Fourth Calendar Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>15</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052320_692540</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501674_1">ThirdYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Third Calendar Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>13</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052328_692541</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501672_0">NextYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Next Calendar Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>11</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                    <mes:PageLayoutField>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052336_692542</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501673_0">BeyondSixthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:DisplayLabel>Beyond Sixth Calendar Year Total Rent</mes:DisplayLabel>
+                            <mes:DisplayOption1>402669569</mes:DisplayOption1>
+                            <mes:DisplayOption2>0</mes:DisplayOption2>
+                            <mes:HeaderColumnPosition>21</mes:HeaderColumnPosition>
+                            <mes:ViewColumnPosition>-1</mes:ViewColumnPosition>
+                            <mes:ViewRowPosition>-1</mes:ViewRowPosition>
+                            <mes:ViewFieldWidth>1</mes:ViewFieldWidth>
+                            <mes:ViewFieldHeight>1</mes:ViewFieldHeight>
+                            <mes:EditColumnPosition>-1</mes:EditColumnPosition>
+                            <mes:EditRowPosition>-1</mes:EditRowPosition>
+                            <mes:EditFieldWidth>1</mes:EditFieldWidth>
+                            <mes:EditFieldHeight>1</mes:EditFieldHeight>
+                            <mes:JSONConfigText>{"ObligationYearAsLabel":"true","GroupRowShowLabel":"false"}</mes:JSONConfigText>
+                        </mes:Details>
+                    </mes:PageLayoutField>
+                </mes:PageLayoutFields>
+                <mes:PageLayoutFilters>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052375_32814</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_476">JurisdictionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052387_32815</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_1026">RegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052393_32816</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1752">CodeContractTypeID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052402_32817</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1774">ClientEntityID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>true</mes:ShowLabel>
+                            <mes:ShowSubtotal>true</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052409_32819</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_110">PostalCode</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052417_32820</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1748">CodeContractCategoryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052425_32821</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_526">AllMonths</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052433_32822</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_108">SubRegionID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052441_32824</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_7.2.0_20100909_140939536_0">AllPeriods</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052449_32826</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501658_0">AggregateBaseRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaType1>8</mes:CriteriaType1>
+                            <mes:CriteriaValue1>0</mes:CriteriaValue1>
+                            <mes:CriteriaValueList>
+                                <mes:CriteriaValue>$0.00</mes:CriteriaValue>
+                            </mes:CriteriaValueList>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052457_32827</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="DIRK_IWMS_20100120_20100428_131559595_1">PaymentsEndDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052463_32828</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_106">CodeMarketAreaID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052470_32830</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_298">ProjectEntityName</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>true</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052477_32831</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_522">Years</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052485_32832</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_521">AllQuarters</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052495_32833</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="Dev_1758">ExpireDate</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052503_32834</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_109">CityStateProvinceCountry</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052509_32835</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_Dev_910_20111227_171619090_0">Month</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052516_32836</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="ERP_113">IStateProvinceCountryID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052522_32839</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904488_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052528_32840</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobnotebook/SQLEXPRESS_Trunk_20100331_153904487_0">ProgramID</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>true</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052535_32843</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Y3</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052542_32846</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Y4</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052550_32847</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Y1</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052560_32848</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Y5</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052568_32849</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Y2</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052576_32850</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Y6</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052585_32851</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Beyond6</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052593_32852</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="bobWin_Dev_Trunk_20141003_164927045_0">JavaScriptValue</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:FieldContext>Diff_Beyond5</mes:FieldContext>
+                            <mes:CriteriaType1>28</mes:CriteriaType1>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052599_32853</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713368_0">CurrentAnnualFiscalTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052605_32854</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713384_0">BeyondSixthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052611_32855</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713383_2">BeyondFifthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052617_32856</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713383_0">SixthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052623_32857</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713382_1">FifthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052629_32858</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713381_1">ThirdFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052636_32859</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713382_2">FourthFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052641_32860</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="MORTVM_Dev_Trunk_20130222_183713379_0">NextFiscalYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052647_32861</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="192.168.123.194_Dev_910_20120115_184000255_0">BeyondFifthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052654_32862</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501660_0">FifthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052660_32863</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.1.3_20100929_143058121_0">SixthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052667_32864</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501659_1">CurrentAnnualTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052673_32865</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501671_0">FourthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052678_32866</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501674_1">ThirdYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052686_32867</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501672_0">NextYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                    <mes:PageLayoutFilter>
+                        <mes:ClientID>bobWin_Dev_9223_20150131_115052692_32868</mes:ClientID>
+                        <mes:PageLayoutID ClientID="bobWin_Dev_9223_20150131_115051935_6311">Compare Obligation by Calendar / Fiscal year</mes:PageLayoutID>
+                        <mes:ReportGroupAvailableFieldID ClientID="dbhost_IWMS_Dev_7.0.2_20100612_163501673_0">BeyondSixthYearTotalRent</mes:ReportGroupAvailableFieldID>
+                        <mes:Details>
+                            <mes:FirmID>JUnitTest</mes:FirmID>
+                            <mes:IsListFilter>false</mes:IsListFilter>
+                            <mes:CriteriaValueList/>
+                            <mes:ShowLabel>false</mes:ShowLabel>
+                            <mes:ShowSubtotal>false</mes:ShowSubtotal>
+                        </mes:Details>
+                    </mes:PageLayoutFilter>
+                </mes:PageLayoutFilters>
+            </mes:PageLayout>
+        </mes:PageLayouts>
+        <mes:ReportGroupDatas/>
+        <mes:Forms/>
+    </mes:Firm>
+</mes:LxERP>

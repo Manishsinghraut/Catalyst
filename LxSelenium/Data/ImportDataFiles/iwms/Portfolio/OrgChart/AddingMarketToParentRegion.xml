@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <City>Plano</City>
+                <Description>Used for Automation test Cases-442</Description>
+                <FiscalYearEnd>2015-12-31</FiscalYearEnd>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <PostalCode>75024</PostalCode>
+                <ProgramName>AddMarketToParentRegion-443</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                
+                <StreetAddress1>5601</StreetAddress1>
+                <StreetAddress2>Democracy Drive</StreetAddress2>
+                <DevelopmentPlan>
+                    <DevelopmentPlanName>lx_devPlan_3623</DevelopmentPlanName>
+                    <ProgramID>AddMarketToParentRegion-443</ProgramID>
+                    
+                </DevelopmentPlan>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access</MemberID>
+                    
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>Edit Access</MemberID>
+                    
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>No Access</MemberID>
+                    
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <IsManager>false</IsManager>
+                    <MemberID>Lx Administrator</MemberID>
+                    
+                </LinkMemberProjectEntity>
+
+                <OrgChart>
+                    <OperatingStatus>P</OperatingStatus>
+                    <Region>
+                        <Description>Add Market Here</Description>
+                        <OperatingStatus>P</OperatingStatus>
+                        <ProgramID>AddMarketToParentRegion-443</ProgramID>
+                        
+                        <RegionName>Add Market Here</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>AddMarketToParentRegion-443</ProgramID>
+                            
+                        </LinkRegionManager>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access</MemberID>
+                            <ProgramID>AddMarketToParentRegion-443</ProgramID>
+                            
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+				
+				 <OrgChart>
+                    <OperatingStatus>O</OperatingStatus>
+                    <Region>
+                        <Description>Add Market Here</Description>
+                        <OperatingStatus>O</OperatingStatus>
+                        <ProgramID>AddMarketToParentRegion-443</ProgramID>
+                        
+                        <RegionName>Add Market Here</RegionName>
+                        <LinkRegionManager>
+                            <IsManager>true</IsManager>
+                            <MemberID>Lx Administrator</MemberID>
+                            <ProgramID>AddMarketToParentRegion-443</ProgramID>
+                            
+                        </LinkRegionManager>
+                        <LinkRegionManager>
+                            <IsManager>false</IsManager>
+                            <MemberID>Delete Access</MemberID>
+                            <ProgramID>AddMarketToParentRegion-443</ProgramID>
+                            
+                        </LinkRegionManager>
+                    </Region>
+                </OrgChart>
+
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

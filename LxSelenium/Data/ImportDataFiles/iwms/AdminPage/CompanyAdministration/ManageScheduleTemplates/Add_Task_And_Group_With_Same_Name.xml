@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-3328">
+                <Description>Add Task And Group and verify error</Description>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-566464">Add Task And Group With Same Name</ProjectEntityID>
+                <TemplateName>Add Task And Group With Same Name</TemplateName>
+                <MapClientSchedule clientID="client-515657">
+                    <LastReviewedDate>2015-06-27T04:23:39</LastReviewedDate>
+                    <ProjectEntityID clientID="client-566464">Add Task And Group With Same Name</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-1555557">
+                        <Description>Test duplicate group</Description>
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566464">Add Task And Group With Same Name</ProjectEntityID>
+                        <TaskName>Test duplicate root group</TaskName>
+                        <Task clientID="client-1555559">
+                            <ActualDuration>4</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <Description>Test duplicate task</Description>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>4</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1555557">Test duplicate root group</ParentTaskID>
+                            <ProjectEntityID clientID="client-566464">Add Task And Group With Same Name</ProjectEntityID>
+                            <ProjectedDuration>4</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Test duplicate task</TaskName>
+                        </Task>
+                        <Task clientID="client-1555558">
+                            <Description>Test duplicate group</Description>
+                            <IsTaskGroup>true</IsTaskGroup>
+                            <OnCriticalPath>false</OnCriticalPath>
+                            <ParentTaskID clientID="client-1555557">Test duplicate root group</ParentTaskID>
+                            <ProjectEntityID clientID="client-566464">Add Task And Group With Same Name</ProjectEntityID>
+                            <TaskName>Test duplicate group</TaskName>
+                        </Task>
+                    </Task>
+                    <Task clientID="client-1555560">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-566464">Add Task And Group With Same Name</ProjectEntityID>
+                        <TaskName>Group2</TaskName>
+                        <Task clientID="client-1555561">
+                            <ActualDuration>8</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>8</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-1555560">Group2</ParentTaskID>
+                            <ProjectEntityID clientID="client-566464">Add Task And Group With Same Name</ProjectEntityID>
+                            <ProjectedDuration>8</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Duplicate task</TaskName>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

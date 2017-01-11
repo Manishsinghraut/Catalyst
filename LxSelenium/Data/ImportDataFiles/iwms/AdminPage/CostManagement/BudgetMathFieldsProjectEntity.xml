@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-03-04</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>TX</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>000056</LocationID>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <ProjectEntityID clientID="client-fer625397">Budget Math fields</ProjectEntityID>
+                <ProjectName>Budget Math fields</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>Selenium-Parent-Region</RegionID>
+                <RegionLvl1>Selenium-Parent-Region</RegionLvl1>
+                <BudgetTemplateID>Budget math</BudgetTemplateID>
+                </Project>
+        </Projects>
+        <BudgetColumnTypes>
+	    <BudgetColumnType>
+	        <AllowMultiSelect>true</AllowMultiSelect>
+	        <AllowOneInstance>false</AllowOneInstance>
+	        <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+	        <BudgetColumnTypeName>Installation</BudgetColumnTypeName>
+	        <CodeStatusDefaultID>Default Status</CodeStatusDefaultID>
+	        <CodeStatusSelectedID>Default Status</CodeStatusSelectedID>
+			<IsBidTemplate>false</IsBidTemplate>
+	        <IsForBidLeveling>false</IsForBidLeveling>
+	        <IsForBidding>false</IsForBidding>
+	        <IsValidForCapProgram>false</IsValidForCapProgram>
+	        <IsValidForCapProject>false</IsValidForCapProject>
+	        <IsValidForContract>false</IsValidForContract>
+	        <IsValidForFacility>false</IsValidForFacility>
+	        <IsValidForLocation>false</IsValidForLocation>
+	        <IsValidForOpenProject>true</IsValidForOpenProject>
+	        <IsValidForParcel>false</IsValidForParcel>
+	        <IsValidForPortfolio>false</IsValidForPortfolio>
+	        <IsValidForPotentialProject>false</IsValidForPotentialProject>
+	        <IsValidForPrototype>false</IsValidForPrototype>
+	    </BudgetColumnType>
+	    <BudgetColumnType>
+	        <AllowMultiSelect>true</AllowMultiSelect>
+	        <AllowOneInstance>false</AllowOneInstance>
+	        <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+	        <BudgetColumnTypeName>Investment factors</BudgetColumnTypeName>
+	        <CodeStatusDefaultID>Default Status</CodeStatusDefaultID>
+	        <CodeStatusSelectedID>Default Status</CodeStatusSelectedID>
+			<IsBidTemplate>false</IsBidTemplate>
+	        <IsForBidLeveling>false</IsForBidLeveling>
+	        <IsForBidding>false</IsForBidding>
+	        <IsValidForCapProgram>false</IsValidForCapProgram>
+	        <IsValidForCapProject>false</IsValidForCapProject>
+	        <IsValidForContract>false</IsValidForContract>
+	        <IsValidForFacility>true</IsValidForFacility>
+	        <IsValidForLocation>false</IsValidForLocation>
+	        <IsValidForOpenProject>true</IsValidForOpenProject>
+	        <IsValidForParcel>false</IsValidForParcel>
+	        <IsValidForPortfolio>true</IsValidForPortfolio>
+	        <IsValidForPotentialProject>true</IsValidForPotentialProject>
+	        <IsValidForPrototype>true</IsValidForPrototype>
+	    </BudgetColumnType>
+		 <BudgetColumnType>
+	        <AllowMultiSelect>true</AllowMultiSelect>
+	        <AllowOneInstance>false</AllowOneInstance>
+	        <AllowUIEditForBudgetColumn>true</AllowUIEditForBudgetColumn>
+	        <BudgetColumnTypeName>Building Cost</BudgetColumnTypeName>
+	        <CodeStatusDefaultID>Default Status</CodeStatusDefaultID>
+	        <CodeStatusSelectedID>Default Status</CodeStatusSelectedID>
+			<IsBidTemplate>false</IsBidTemplate>
+	        <IsForBidLeveling>false</IsForBidLeveling>
+	        <IsForBidding>false</IsForBidding>
+	        <IsValidForCapProgram>false</IsValidForCapProgram>
+	        <IsValidForCapProject>false</IsValidForCapProject>
+	        <IsValidForContract>false</IsValidForContract>
+	        <IsValidForFacility>true</IsValidForFacility>
+	        <IsValidForLocation>false</IsValidForLocation>
+	        <IsValidForOpenProject>true</IsValidForOpenProject>
+	        <IsValidForParcel>false</IsValidForParcel>
+	        <IsValidForPortfolio>true</IsValidForPortfolio>
+	        <IsValidForPotentialProject>true</IsValidForPotentialProject>
+	        <IsValidForPrototype>true</IsValidForPrototype>
+	    </BudgetColumnType>
+        </BudgetColumnTypes>
+    </Firm>
+</LxERP>

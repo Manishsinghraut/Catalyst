@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>PR Accrual Contract-987</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                <CommenceDate>2010-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>PR Accrual Contract-987</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID clientID="lucernex-location">Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2010-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2010-01-01</PossessionBeginDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <RentableArea>0.00</RentableArea>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Rent</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Percentage Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>None</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>4000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2010-01-01</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <PercentageRent>
+                    <AuditRightFlag>false</AuditRightFlag>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeBillingFrequencyID>Monthly</CodeBillingFrequencyID>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeExpenseGroupID>Lease Expense</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Percentage Rent</CodeExpenseTypeID>
+                    <CodePercentageRentTypeID>Per Period</CodePercentageRentTypeID>
+                    <CodeReportingFrequencyID>None</CodeReportingFrequencyID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CumulativeFlag>false</CumulativeFlag>
+                    <EndDate>2020-12-31</EndDate>
+                    <IsPartialTerm>false</IsPartialTerm>
+                    <NaturalBreakpointFlag>false</NaturalBreakpointFlag>
+                    
+                    <RentYearStartMonth>January</RentYearStartMonth>
+                </PercentageRent>
+                <PercentageRentBreakpoint>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <BreakpointAmount1>1200000.00000</BreakpointAmount1>
+                    <BreakpointRate1>10.00000</BreakpointRate1>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2020-12-31</EndDate>
+                    
+                </PercentageRentBreakpoint>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>115000.00000</GrossSalesAmount>
+                    <NetSalesAmount>115000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>12</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Credit Card Sales Group</CodeSalesTypeID>
+                    <GrossSalesAmount>2000.00000</GrossSalesAmount>
+                    <NetSalesAmount>2000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>115000.00000</GrossSalesAmount>
+                    <NetSalesAmount>115000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>11</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>115000.00000</GrossSalesAmount>
+                    <NetSalesAmount>115000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>10</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>115000.00000</GrossSalesAmount>
+                    <NetSalesAmount>115000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>9</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>115000.00000</GrossSalesAmount>
+                    <NetSalesAmount>115000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>8</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>115000.00000</GrossSalesAmount>
+                    <NetSalesAmount>115000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>7</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>125000.00000</GrossSalesAmount>
+                    <NetSalesAmount>125000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>6</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>115000.00000</GrossSalesAmount>
+                    <NetSalesAmount>115000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>5</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>4</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>120000.00000</GrossSalesAmount>
+                    <NetSalesAmount>120000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>3</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>100000.00000</GrossSalesAmount>
+                    <NetSalesAmount>100000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>2</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Employee Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>4000.00000</GrossSalesAmount>
+                    <NetSalesAmount>4000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Retail Sales</CodeSalesTypeID>
+                    <GrossSalesAmount>105000.00000</GrossSalesAmount>
+                    <NetSalesAmount>105000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>
+                <Sales>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesCategoryID>Actual</CodeSalesCategoryID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <CodeSalesTypeID>Returns</CodeSalesTypeID>
+                    <GrossSalesAmount>1000.00000</GrossSalesAmount>
+                    <NetSalesAmount>1000.00000</NetSalesAmount>
+                    
+                    <SalesPeriod>1</SalesPeriod>
+                    <SalesYear>2015</SalesYear>
+                </Sales>    
+                <VariableRentOffset>
+                    <BeginDate>2010-01-01</BeginDate>
+                    <CodeCurrencyTypeID>USD</CodeCurrencyTypeID>
+                    <CodeSalesGroupID>Sales</CodeSalesGroupID>
+                    <EndDate>2020-12-31</EndDate>
+                    <FixedOffsetAmount>200.00000</FixedOffsetAmount>
+                    
+                </VariableRentOffset>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

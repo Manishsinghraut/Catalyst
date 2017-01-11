@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <ClientEntityID>ReportCurrencyContract-13625</ClientEntityID>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractClass>RE Contract</ContractClass>
+                <ContractName>ReportCurrencyContract-13625</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <LocationID>Location Sprint 17</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2030-12-31</PaymentsEndDate>
+                <ProgramID>Portfolio Sprint 17</ProgramID>
+                <ProjectEntityID clientID="client-6e6bl6pa">ReportCurrencyContract-13625</ProjectEntityID>
+                <ExpenseAccrualSetup>
+                    <CodeAccrualTypeID>Accrual</CodeAccrualTypeID>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>JPY</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>CAM</CodeExpenseTypeID>
+                    <HoldFlag>false</HoldFlag>
+                    <ExpenseAccrualSchedule>
+                        <AnnualAmount>2500000.00000</AnnualAmount>
+                        <BeginPeriod>1</BeginPeriod>
+                        <BeginYear>2016</BeginYear>
+                        <EndPeriod>12</EndPeriod>
+                        <EndYear>2030</EndYear>
+                        <FirstPaymentAmount>208333.00000</FirstPaymentAmount>
+                        <LastPaymentAmount>208333.00000</LastPaymentAmount>
+                        <PeriodAmount>208333.00000</PeriodAmount>
+                        <ProjectEntityID>675652</ProjectEntityID>
+                    </ExpenseAccrualSchedule>
+                </ExpenseAccrualSetup>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>true</ApplyTax1Flag>
+                    <ApplyTax2Flag>true</ApplyTax2Flag>
+                    <ApplyTax3Flag>true</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeCurrencyTypeID>JPY</CodeCurrencyTypeID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>CAM</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>CAM</CodeExpenseTypeID>
+                    <CodeFrequencyID>Monthly</CodeFrequencyID>
+                    <CodeProrationMethodID>Annual (actual)</CodeProrationMethodID>
+                    <Description>Currency test</Description>
+                    <HoldFlag>false</HoldFlag>
+                    <IncludeInPlanForecast>false</IncludeInPlanForecast>
+                    <IsReceivable>false</IsReceivable>
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <TaxesIncludedFlag>true</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>30000000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2030-12-31</EndDate>
+                        <FirstPaymentAmount>2500000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>2500000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>2500000.00000</PaymentAmount>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        <ProjectEntityID>675652</ProjectEntityID>
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                        <TaxAmount1>15000.00000</TaxAmount1>
+                        <TaxAmount2>10000.00000</TaxAmount2>
+                        <TaxAmount3>50000.00000</TaxAmount3>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <EndDate>2030-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        <ProjectEntityID>675652</ProjectEntityID>
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

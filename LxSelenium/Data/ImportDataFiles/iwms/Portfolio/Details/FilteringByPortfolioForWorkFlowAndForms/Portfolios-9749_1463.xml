@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>ExamplePortfolioA-9749</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-s55e2w1bv">ExamplePortfolioA-9749</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+            </Program>
+			<Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>ExamplePortfolioB-9749</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-521111ss5">ExamplePortfolioB-9749</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+            </Program>
+			<Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>ExamplePortfolioC-9749</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID clientID="client-987134ewjj">ExamplePortfolioC-9749</ProjectEntityID>
+                <SLMatchYearEnds>false</SLMatchYearEnds>
+                <SLProrate35As28>false</SLProrate35As28>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>

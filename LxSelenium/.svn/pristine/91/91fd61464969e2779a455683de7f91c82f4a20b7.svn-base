@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+            <FiscalPeriods>
+            <FiscalPeriod>
+                <BeginDate>2015-10-01</BeginDate>
+                <EndDate>2015-10-31</EndDate>
+                <Period>10</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-09-01</BeginDate>
+                <EndDate>2015-09-30</EndDate>
+                <Period>9</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-12-01</BeginDate>
+                <EndDate>2015-12-31</EndDate>
+                <Period>12</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-11-01</BeginDate>
+                <EndDate>2015-11-30</EndDate>
+                <Period>11</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-02-01</BeginDate>
+                <EndDate>2016-02-29</EndDate>
+                <Period>2</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-01-01</BeginDate>
+                <EndDate>2016-01-31</EndDate>
+                <Period>1</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-04-01</BeginDate>
+                <EndDate>2016-04-30</EndDate>
+                <Period>4</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-03-01</BeginDate>
+                <EndDate>2016-03-31</EndDate>
+                <Period>3</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-02-01</BeginDate>
+                <EndDate>2015-02-28</EndDate>
+                <Period>2</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-01-01</BeginDate>
+                <EndDate>2015-01-31</EndDate>
+                <Period>1</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-04-01</BeginDate>
+                <EndDate>2015-04-30</EndDate>
+                <Period>4</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-03-01</BeginDate>
+                <EndDate>2015-03-31</EndDate>
+                <Period>3</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-06-01</BeginDate>
+                <EndDate>2015-06-30</EndDate>
+                <Period>6</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-05-01</BeginDate>
+                <EndDate>2015-05-31</EndDate>
+                <Period>5</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-08-01</BeginDate>
+                <EndDate>2015-08-31</EndDate>
+                <Period>8</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2015-07-01</BeginDate>
+                <EndDate>2015-07-31</EndDate>
+                <Period>7</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2015</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-05-01</BeginDate>
+                <EndDate>2014-05-31</EndDate>
+                <Period>5</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-06-01</BeginDate>
+                <EndDate>2014-06-30</EndDate>
+                <Period>6</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-07-01</BeginDate>
+                <EndDate>2014-07-31</EndDate>
+                <Period>7</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-08-01</BeginDate>
+                <EndDate>2014-08-31</EndDate>
+                <Period>8</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-09-01</BeginDate>
+                <EndDate>2014-09-30</EndDate>
+                <Period>9</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-10-01</BeginDate>
+                <EndDate>2014-10-31</EndDate>
+                <Period>10</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-11-01</BeginDate>
+                <EndDate>2014-11-30</EndDate>
+                <Period>11</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-12-01</BeginDate>
+                <EndDate>2014-12-31</EndDate>
+                <Period>12</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-01-01</BeginDate>
+                <EndDate>2014-01-31</EndDate>
+                <Period>1</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-02-01</BeginDate>
+                <EndDate>2014-02-28</EndDate>
+                <Period>2</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-03-01</BeginDate>
+                <EndDate>2014-03-31</EndDate>
+                <Period>3</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2014-04-01</BeginDate>
+                <EndDate>2014-04-30</EndDate>
+                <Period>4</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2014</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-11-01</BeginDate>
+                <EndDate>2017-11-30</EndDate>
+                <Period>11</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-12-01</BeginDate>
+                <EndDate>2017-12-31</EndDate>
+                <Period>12</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-09-01</BeginDate>
+                <EndDate>2017-09-30</EndDate>
+                <Period>9</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-10-01</BeginDate>
+                <EndDate>2017-10-31</EndDate>
+                <Period>10</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-12-01</BeginDate>
+                <EndDate>2016-12-31</EndDate>
+                <Period>12</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-11-01</BeginDate>
+                <EndDate>2016-11-30</EndDate>
+                <Period>11</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-10-01</BeginDate>
+                <EndDate>2016-10-31</EndDate>
+                <Period>10</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>4</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-09-01</BeginDate>
+                <EndDate>2016-09-30</EndDate>
+                <Period>9</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-08-01</BeginDate>
+                <EndDate>2016-08-31</EndDate>
+                <Period>8</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-07-01</BeginDate>
+                <EndDate>2016-07-31</EndDate>
+                <Period>7</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-06-01</BeginDate>
+                <EndDate>2016-06-30</EndDate>
+                <Period>6</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2016-05-01</BeginDate>
+                <EndDate>2016-05-31</EndDate>
+                <Period>5</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2016</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-08-01</BeginDate>
+                <EndDate>2017-08-31</EndDate>
+                <Period>8</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-07-01</BeginDate>
+                <EndDate>2017-07-31</EndDate>
+                <Period>7</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>3</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-06-01</BeginDate>
+                <EndDate>2017-06-30</EndDate>
+                <Period>6</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-05-01</BeginDate>
+                <EndDate>2017-05-31</EndDate>
+                <Period>5</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-04-01</BeginDate>
+                <EndDate>2017-04-30</EndDate>
+                <Period>4</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>2</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-03-01</BeginDate>
+                <EndDate>2017-03-31</EndDate>
+                <Period>3</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-02-01</BeginDate>
+                <EndDate>2017-02-28</EndDate>
+                <Period>2</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod><FiscalPeriod>
+                <BeginDate>2017-01-01</BeginDate>
+                <EndDate>2017-01-31</EndDate>
+                <Period>1</Period>
+                <ProgramID clientID="client-UNI5190">Fiscal Calendar Portfolio</ProgramID>
+                <Quarter>1</Quarter>
+                <Year>2017</Year>
+            </FiscalPeriod>
+        </FiscalPeriods>
+    </Firm>
+</LxERP>

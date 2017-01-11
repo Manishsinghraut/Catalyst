@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Contracts>
+            <Contract>
+                <AutomaticRenewalInLease>false</AutomaticRenewalInLease>
+                <AutomaticRenewalOption>false</AutomaticRenewalOption>
+                <BargainRenewalInLease>false</BargainRenewalInLease>
+                <BargainRenewalOption>false</BargainRenewalOption>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CommenceDate>2000-01-01</CommenceDate>
+                <ContainsBargainPurchaseOption>false</ContainsBargainPurchaseOption>
+                <ContractName>Print Expense Accruals</ContractName>
+                <DoesTitleRevertToTenant>false</DoesTitleRevertToTenant>
+                <ExecuteDate>2000-01-01</ExecuteDate>
+                <ExpireDate>2020-12-31</ExpireDate>
+                <LocationID>Lucernex-Project</LocationID>
+                <MonthToMonth>false</MonthToMonth>
+                <PaymentsBeginDate>2000-01-01</PaymentsBeginDate>
+                <PaymentsEndDate>2020-12-31</PaymentsEndDate>
+                <PossessionBeginDate>2000-01-01</PossessionBeginDate>
+                <ProgramID>Lucernex-Selenium</ProgramID>
+                <RentableArea>200000.00000</RentableArea>
+				 <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access Access</MemberID>
+                </LinkMemberProjectEntity>
+                <LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Delete Access</MemberID>
+                </LinkMemberProjectEntity>
+                <ExpenseAccrualSetup>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <HoldFlag>false</HoldFlag>
+                    
+                    <RentableArea>200000.00000</RentableArea>
+                    <ExpenseAccrualSchedule>
+                        <AccrualRate>0.35000</AccrualRate>
+                        <AnnualAmount>70000.00000</AnnualAmount>
+                        <BeginPeriod>1</BeginPeriod>
+                        <BeginYear>2000</BeginYear>
+                        <EndPeriod>12</EndPeriod>
+                        <EndYear>2020</EndYear>
+                        <FirstPaymentAmount>5833.33000</FirstPaymentAmount>
+                        <LastPaymentAmount>5834.17000</LastPaymentAmount>
+                        <PeriodAmount>5833.33000</PeriodAmount>
+                        
+                    </ExpenseAccrualSchedule>
+                    <ExpenseAccrualSchedule>
+                        <AccrualRate>0.01000</AccrualRate>
+                        <AnnualAmount>3000.00000</AnnualAmount>
+                        <BeginPeriod>2</BeginPeriod>
+                        <BeginYear>2015</BeginYear>
+                        <EndPeriod>2</EndPeriod>
+                        <EndYear>2015</EndYear>
+                        <FirstPaymentAmount>250.00000</FirstPaymentAmount>
+                        <LastPaymentAmount>250.00000</LastPaymentAmount>
+                        <PeriodAmount>250.00000</PeriodAmount>
+                        
+                    </ExpenseAccrualSchedule>
+                    <ExpenseAccrualSchedule>
+                        <AccrualRate>0.03000</AccrualRate>
+                        <AnnualAmount>5677.00000</AnnualAmount>
+                        <BeginPeriod>4</BeginPeriod>
+                        <BeginYear>2022</BeginYear>
+                        <EndPeriod>4</EndPeriod>
+                        <EndYear>2022</EndYear>
+                        <FirstPaymentAmount>473.08000</FirstPaymentAmount>
+                        <LastPaymentAmount>473.08000</LastPaymentAmount>
+                        <PeriodAmount>473.08000</PeriodAmount>
+                        
+                    </ExpenseAccrualSchedule>
+                </ExpenseAccrualSetup>
+                <ExpenseSetup>
+                    <ApplyTax1Flag>false</ApplyTax1Flag>
+                    <ApplyTax2Flag>false</ApplyTax2Flag>
+                    <ApplyTax3Flag>false</ApplyTax3Flag>
+                    <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                    <CodeExpenseCategoryID>Expense</CodeExpenseCategoryID>
+                    <CodeExpenseGroupID>Base Rent</CodeExpenseGroupID>
+                    <CodeExpenseTypeID>Rent</CodeExpenseTypeID>
+                    <CodeFrequencyID>Annually</CodeFrequencyID>
+                    <HoldFlag>false</HoldFlag>
+                    <IsReceivable>false</IsReceivable>
+                    
+                    <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    <ReconcilableExpense>false</ReconcilableExpense>
+                    <RentableArea>200000.00000</RentableArea>
+                    <TaxesIncludedFlag>false</TaxesIncludedFlag>
+                    <ExpenseSchedule>
+                        <AnnualAmount>70000.00000</AnnualAmount>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <CodeApprovalStatusID>Review</CodeApprovalStatusID>
+                        <EndDate>2020-12-31</EndDate>
+                        <FirstPaymentAmount>70000.00000</FirstPaymentAmount>
+                        <HoldFlag>false</HoldFlag>
+                        <LastPaymentAmount>70000.00000</LastPaymentAmount>
+                        <OptionRentFlag>false</OptionRentFlag>
+                        <PaymentAmount>70000.00000</PaymentAmount>
+                        <PaymentRate>0.35000</PaymentRate>
+                        <ProcessedFlag>false</ProcessedFlag>
+                        
+                        <ReadyForPaymentFlag>false</ReadyForPaymentFlag>
+                    </ExpenseSchedule>
+                    <ExpenseVendorAllocation>
+                        <BeginDate>2000-01-01</BeginDate>
+                        <EndDate>2020-12-31</EndDate>
+                        <PaymentPercentage>100.00000</PaymentPercentage>
+                        
+                        <VendorID>Selenium-Employer</VendorID>
+                    </ExpenseVendorAllocation>
+                </ExpenseSetup>
+                <MapClientSchedule>
+                    <HolidayScheduleID>Portfolio-Holiday Calendar</HolidayScheduleID>
+                    <LastReviewedDate>2015-12-16T15:24:31</LastReviewedDate>
+                    
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Contract>
+        </Contracts>
+    </Firm>
+</LxERP>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <Projects>
+            <Project>
+                <CodeBuildingAreaUnitID>Square Feet</CodeBuildingAreaUnitID>
+                <CodeMarketAreaID>Legacy Market Area</CodeMarketAreaID>
+                <ExpectedEndDate>2016-11-18</ExpectedEndDate>
+                <IStateProvinceCountryID>
+                    <Country>United States</Country>
+                    <State>GA</State>
+                </IStateProvinceCountryID>
+                <IsDead>false</IsDead>
+                <LocationID>Location 00020</LocationID>
+                <ProgramID>Portfolio 00020</ProgramID>
+                <ProjectEntityID clientID="client-m8xji9hb">NonAdminWFProject-15570</ProjectEntityID>
+                <ProjectName>NonAdminWFProject-15570</ProjectName>
+                <ProjectType>Opening Project</ProjectType>
+                <RegionID>PR020 Sub 020</RegionID>
+                <RegionLvl1>PR020 Sub 020</RegionLvl1>
+				<LinkMemberProjectEntity>
+                    <AddedByOrgChart>false</AddedByOrgChart>
+                    <IsManager>false</IsManager>
+                    <MemberID>Michael Scott</MemberID>
+                </LinkMemberProjectEntity>
+				<NonAdminForm15570>
+                    <CodeIssueTypeID>NonAdminForm-15570</CodeIssueTypeID>
+                    <CreatedDate>2016-11-18T11:39:25</CreatedDate>
+                    <ImportedCreatedDate>2016-11-18T11:39:25</ImportedCreatedDate>
+                    <InitiatedByMemberID>Delete Access Access</InitiatedByMemberID>
+                    <IsCritical>false</IsCritical>
+                    <IsPrivate>false</IsPrivate>
+                    <LastPageLayoutID>NonAdminForm</LastPageLayoutID>
+                    <ProjectEntityID>766927</ProjectEntityID>
+                    <Subject>11/18/2016</Subject>
+                </NonAdminForm15570>
+				<WorkFlow>
+                    <WorkFlowStep>
+                        <DaysUntilAlertAssignees>1</DaysUntilAlertAssignees>
+                        <DaysUntilWarnAssignees>1</DaysUntilWarnAssignees>
+                        <DueDateAssignees>2016-11-18</DueDateAssignees>
+                        <EMailAlertApprovers>false</EMailAlertApprovers>
+                        <EMailAlertAssignees>false</EMailAlertAssignees>
+                        <EnableForDashboard>false</EnableForDashboard>
+                        <EnableForEMail>false</EnableForEMail>
+                        <IsReadOnly>false</IsReadOnly>
+                        <PageLayoutAssigneesID>NonAdminForm</PageLayoutAssigneesID>
+                        <ProjectEntityID>766927</ProjectEntityID>
+                    </WorkFlowStep>
+                </WorkFlow>
+            </Project>
+        </Projects>
+    </Firm>
+</LxERP>

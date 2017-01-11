@@ -1,0 +1,32 @@
+<PotentialProjects>
+    <PotentialProject>
+          <PotentialProjectName>SiteForBudgetImport</PotentialProjectName>
+          <BudgetColumn>
+	          <BudgetColumnTypeID>BudgetCL1</BudgetColumnTypeID>
+	          <CodeBudgetColumnStatusID>Default Status</CodeBudgetColumnStatusID>
+	          <BudgetColumnItemValue>
+	              <BudgetColumnID>BudgetCL1 #01</BudgetColumnID>
+	             <BudgetLineItemID>1.2</BudgetLineItemID>
+	             <ItemValue>600.00000</ItemValue>
+	          </BudgetColumnItemValue>
+                  <BudgetColumnItemValue>
+                     <BudgetColumnID>BudgetCL1 #01</BudgetColumnID>
+	             <BudgetLineItemID>1.1</BudgetLineItemID>
+	             <ItemValue>400.00000</ItemValue>
+	          </BudgetColumnItemValue>
+		  <BudgetColumnItemValue>
+		     <BudgetColumnID>BudgetCL1 #01</BudgetColumnID>
+                     <BudgetLineItemID>2.1</BudgetLineItemID>
+                      <ItemValue>500.00000</ItemValue>
+                   </BudgetColumnItemValue>	          
+                 <BudgetColumnItemValue>
+		     <BudgetColumnID>BudgetCL1 #01</BudgetColumnID>
+                     <BudgetLineItemID>2.2</BudgetLineItemID>
+                      <ItemValue>700.00000</ItemValue>
+                   </BudgetColumnItemValue>  
+           </BudgetColumn>         
+  </PotentialProject>
+    </PotentialProjects> 
+    
+    
+    

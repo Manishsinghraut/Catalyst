@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <BudgetColumnTypes>
+            <BudgetColumnType>
+                <BudgetColumnTypeID>1890</BudgetColumnTypeID>
+                <AllowMultiSelect>false</AllowMultiSelect>
+                <AllowOneInstance>true</AllowOneInstance>
+                <AllowUIEditForBudgetColumn>false</AllowUIEditForBudgetColumn>
+                <BudgetColumnTypeName>BudgetTestCostColumn</BudgetColumnTypeName>
+                <CodeStatusSelectedID>Default Status</CodeStatusSelectedID>
+                <CodeStatusSelectedNameForCreate>Default Status</CodeStatusSelectedNameForCreate>
+				<IsBidTemplate>false</IsBidTemplate>
+                <IsForBidLeveling>false</IsForBidLeveling>
+                <IsForBidding>false</IsForBidding>
+                <IsValidForCapProgram>false</IsValidForCapProgram>
+                <IsValidForCapProject>false</IsValidForCapProject>
+                <IsValidForContract>false</IsValidForContract>
+                <IsValidForFacility>false</IsValidForFacility>
+                <IsValidForLocation>false</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>false</IsValidForParcel>
+                <IsValidForPortfolio>false</IsValidForPortfolio>
+                <IsValidForPotentialProject>false</IsValidForPotentialProject>
+                <IsValidForPrototype>false</IsValidForPrototype>
+            </BudgetColumnType>
+        </BudgetColumnTypes>
+    </Firm>
+</LxERP>

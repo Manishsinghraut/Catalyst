@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LxERP>
+    <Firm>
+        <BudgetTemplates>
+            <BudgetTemplate>
+                <IsValidForAssetContract>true</IsValidForAssetContract>
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID>WFBudget-15718</ProjectEntityID>
+                <TemplateName>WFBudget-15718</TemplateName>
+                <BudgetLineItem>
+                    <AlertEnabled>false</AlertEnabled>
+                    <BudgetLineItemName>Indoor</BudgetLineItemName>
+                    <IsGroup>true</IsGroup>
+                    <LineItemCode>1.0</LineItemCode>
+                    <OverrunPercent>100.00000</OverrunPercent>
+                    <ProjectEntityID>WFBudget-15718</ProjectEntityID>
+                    <BudgetLineItem>
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Dual boiler</BudgetLineItemName>
+                        <DefaultAmount>80.00000</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>1.3</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID>1.0</ParentBudgetLineItemID>
+                        <ProjectEntityID>WFBudget-15718</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem>
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Solenoid value</BudgetLineItemName>
+                        <DefaultAmount>50.00000</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>1.2</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID>1.0</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID>1.3</PreviousBudgetLineItemID>
+                        <ProjectEntityID>WFBudget-15718</ProjectEntityID>
+                    </BudgetLineItem>
+                    <BudgetLineItem>
+                        <AlertEnabled>false</AlertEnabled>
+                        <BudgetLineItemName>Steam wand</BudgetLineItemName>
+                        <DefaultAmount>10.00000</DefaultAmount>
+                        <IsGroup>false</IsGroup>
+                        <LineItemCode>1.1</LineItemCode>
+                        <OverrunPercent>100.00000</OverrunPercent>
+                        <ParentBudgetLineItemID>1.0</ParentBudgetLineItemID>
+                        <PreviousBudgetLineItemID>1.2</PreviousBudgetLineItemID>
+                        <ProjectEntityID>WFBudget-15718</ProjectEntityID>
+                    </BudgetLineItem>
+                </BudgetLineItem>
+            </BudgetTemplate>
+        </BudgetTemplates>
+    </Firm>
+</LxERP>

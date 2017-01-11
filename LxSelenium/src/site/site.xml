@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project name="${project.name}">
+    <version position="right"/>
+    <bannerLeft>
+        <name>IWMS WebUI BDD Functional Tests</name>
+        <src>images/lx-selenium.png</src>
+        <href>.</href>
+    </bannerLeft>
+
+    <body>
+        <menu ref="reports"/>
+
+        ${reports}
+
+        <menu name="IWMS Test Cases">
+            <item name="Introduction" href="index.html"/>
+            <item name="Datamart" href="datamart.html"/>
+        </menu>
+    </body>
+</project>

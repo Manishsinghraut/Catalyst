@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <TaskTemplates>
+            <TaskTemplate clientID="client-1559">
+                <IsValidForCapProgram>true</IsValidForCapProgram>
+                <IsValidForCapProject>true</IsValidForCapProject>
+                <IsValidForContract>true</IsValidForContract>
+                <IsValidForFacility>true</IsValidForFacility>
+                <IsValidForLocation>true</IsValidForLocation>
+                <IsValidForOpenProject>true</IsValidForOpenProject>
+                <IsValidForParcel>true</IsValidForParcel>
+                <IsValidForPortfolio>true</IsValidForPortfolio>
+                <IsValidForPotentialProject>true</IsValidForPotentialProject>
+                <IsValidForPrototype>true</IsValidForPrototype>
+                <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                <TemplateName>ScheduleTemplatewithPredecessor</TemplateName>
+                <MapClientSchedule clientID="client-551180">
+                    <LastReviewedDate>2015-12-07T12:49:52</LastReviewedDate>
+                    <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                    <Task clientID="client-2016323">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                        <TaskName>Predecessor Group</TaskName>
+                        <Task clientID="client-2016324">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-02</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-02</OriginalStartDate>
+                            <ParentTaskID clientID="client-2016323">Predecessor Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-02</ProjectedStartDate>
+                            <TaskName>Task A Predecessor</TaskName>
+                        </Task>
+                        <Task clientID="client-2016325">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-03</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-03</OriginalStartDate>
+                            <ParentTaskID clientID="client-2016323">Predecessor Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-03</ProjectedStartDate>
+                            <TaskName>Task B Predecessor</TaskName>
+                        </Task>
+                        <Task clientID="client-2016326">
+                            <ActualDuration>0</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-04</ActualStartDate>
+                            <CodeTaskStatusID>Canceled</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>0</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-04</OriginalStartDate>
+                            <ParentTaskID clientID="client-2016323">Predecessor Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                            <ProjectedDuration>0</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-04</ProjectedStartDate>
+                            <TaskName>Task C Predecessor</TaskName>
+                        </Task>
+                        <Task clientID="client-2016328">
+                            <ActualDuration>2</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-04</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>2</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-04</OriginalStartDate>
+                            <ParentTaskID clientID="client-2016323">Predecessor Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                            <ProjectedDuration>2</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-04</ProjectedStartDate>
+                            <TaskName>Task D Predecessor</TaskName>
+                        </Task>
+                    </Task>
+                    <Task clientID="client-2016329">
+                        <IsTaskGroup>true</IsTaskGroup>
+                        <OnCriticalPath>false</OnCriticalPath>
+                        <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                        <TaskName>Successor Group</TaskName>
+                        <Task clientID="client-2016330">
+                            <ActualDuration>4</ActualDuration>
+                            <ActualResourceUnits>0</ActualResourceUnits>
+                            <ActualStartDate>1970-01-07</ActualStartDate>
+                            <CodeTaskStatusID>Not begun</CodeTaskStatusID>
+                            <IsTaskGroup>false</IsTaskGroup>
+                            <OriginalDuration>4</OriginalDuration>
+                            <OriginalResourceUnits>0</OriginalResourceUnits>
+                            <OriginalStartDate>1970-01-07</OriginalStartDate>
+                            <ParentTaskID clientID="client-2016329">Successor Group</ParentTaskID>
+                            <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                            <ProjectedDuration>4</ProjectedDuration>
+                            <ProjectedResourceUnits>0</ProjectedResourceUnits>
+                            <ProjectedStartDate>1970-01-07</ProjectedStartDate>
+                            <TaskName>Task A Successor</TaskName>
+                            <TaskPredecessor clientID="client-324673">
+                                <ActualLeadLagDays>3</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>3</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-2016324">Task A Predecessor</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                                <ProjectedLeadLagDays>3</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-2016330">Task A Successor</SuccessorTaskID>
+                            </TaskPredecessor>
+                            <TaskPredecessor clientID="client-324674">
+                                <ActualLeadLagDays>-4</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-4</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-2016325">Task B Predecessor</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                                <ProjectedLeadLagDays>-4</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-2016330">Task A Successor</SuccessorTaskID>
+                            </TaskPredecessor>
+                            <TaskPredecessor clientID="client-324675">
+                                <ActualLeadLagDays>-1</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Finish-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>-1</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-2016326">Task C Predecessor</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                                <ProjectedLeadLagDays>-1</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-2016330">Task A Successor</SuccessorTaskID>
+                            </TaskPredecessor>
+                            <TaskPredecessor clientID="client-324676">
+                                <ActualLeadLagDays>3</ActualLeadLagDays>
+                                <CodeTaskLeadLagTypeID>Start-To-Start</CodeTaskLeadLagTypeID>
+                                <OriginalLeadLagDays>3</OriginalLeadLagDays>
+                                <PredecessorTaskID clientID="client-2016328">Task D Predecessor</PredecessorTaskID>
+                                <ProjectEntityID clientID="client-602464">ScheduleTemplatewithPredecessor</ProjectEntityID>
+                                <ProjectedLeadLagDays>3</ProjectedLeadLagDays>
+                                <SuccessorTaskID clientID="client-2016330">Task A Successor</SuccessorTaskID>
+                            </TaskPredecessor>
+                        </Task>
+                    </Task>
+                </MapClientSchedule>
+            </TaskTemplate>
+        </TaskTemplates>
+    </Firm>
+</LxERP>

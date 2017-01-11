@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LxERP>
+    <Firm>
+        <Programs>
+            <Program>
+                <DefaultWorkWeekends>false</DefaultWorkWeekends>
+                <ProgramName>Crash Schedule Portfolio</ProgramName>
+                <ProgramType>Portfolio</ProgramType>
+                <ProjectEntityID>Crash Schedule Portfolio</ProjectEntityID>
+                <StreetAddress1>12345</StreetAddress1>
+                <MapClientSchedule>
+                    <LastReviewedDate>2015-12-10T10:30:27</LastReviewedDate>
+                    <ProjectEntityID>Crash Schedule Portfolio</ProjectEntityID>
+                    <WorkHolidays>false</WorkHolidays>
+                    <WorkWeekends>false</WorkWeekends>
+                </MapClientSchedule>
+            </Program>
+        </Programs>
+    </Firm>
+</LxERP>
